@@ -13,7 +13,7 @@ See: https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-contai
 
 
 ## certbot 
-I use this to install certbot from letsencrypt on Debian with nginx
+I use this to install certbot from letsencrypt on Debian 9.3(stretch) with nginx
 ```mkdir -p /usr/bin/certbot
 cd /usr/bin/certbot
 sudo wget https://dl.eff.org/certbot-auto
