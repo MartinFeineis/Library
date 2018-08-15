@@ -3,6 +3,11 @@
 This command substitutes all colons in the PATH to newlines making the echo outpur easier to read
 ```echo $PATH | sed s/\:/\\n/g```
 
+Replace all http to https in a file
+```sed -i 's/http/https/g' /etc/apt/sources.list```
+-i for in-place change
+
+
 ## grep
 find something recusively **in** the files of a folder
 ```grep <path> -rne <pattern>```
