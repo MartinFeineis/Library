@@ -13,6 +13,7 @@ Remove-SSHSession -Index 0 -Verbose
 ```
 ## Installing the Linux Support thing for Windows
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
+It can be started by typing ```bash``` in Powershell
 ```
 Install Ubuntu WSLInvoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFileUbuntu.appx -UseBasicParsing
 Rename-Item Ubuntu.appx Ubuntu.zip
