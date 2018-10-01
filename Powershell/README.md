@@ -24,4 +24,11 @@ cd Ubuntu
 ```
 ## Find Files
 Finding Files and Displaying only the Filenpath and name one per Line
-```Get-ChildItem -Path *Filename* -Recurse | select FullName```
+```
+Get-ChildItem -Path *Filename* -Recurse | select FullName
+```
+## Compare aka diff two files
+It has to explicitly taken the content of the files. If just two filenames are given, those are compared without regard of their actual content.
+```
+Compare-Object $(Get-Content .\first.txt) $(Get-Content .\second.txt)
+```
