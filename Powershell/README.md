@@ -22,3 +22,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 cd Ubuntu
 .\ubuntu.exe
 ```
+## Find Files
+Finding Files and Displaying only the Filenpath and name one per Line
+```Get-ChildItem -Path *Filename* -Recurse | select FullName```
