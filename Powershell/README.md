@@ -32,3 +32,8 @@ It has to explicitly taken the content of the files. If just two filenames are g
 ```
 Compare-Object $(Get-Content .\first.txt) $(Get-Content .\second.txt)
 ```
+## Chocolatey
+Getting chocolatey up and running with Powershell V5
+```
+Find-Package -Provider chocolatey
+```
