@@ -42,3 +42,7 @@ Query for Computers with names like appsrv and display only the found names one 
 ```
 Get-ADComputer -Filter 'Name -like "appsrv*"' | select Name
 ```
+Get all Computer start contain xyz but do not start with abc
+```
+Get-ADComputer -Filter {(Name -like "*xyz*") -and  (Name -notlike "abc*")} | select Name
+```
