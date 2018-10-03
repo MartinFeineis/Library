@@ -37,3 +37,8 @@ Getting chocolatey up and running with Powershell V5
 ```
 Find-Package -Provider chocolatey
 ```
+## Active Directory 
+Query for Computers with names like appsrv and display only the found names one per line
+```
+Get-ADComputer -Filter 'Name -like "appsrv*"' | select Name
+```
