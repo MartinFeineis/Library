@@ -2,7 +2,7 @@
 ## Finding out which Linux Version running
 ```cat /etc/issues```
 ## chsh 
-For some reason when using chsh -s /bin/bash I had to restart my computer to take it affect
+For some reason when using ```chsh -s /bin/bash``` I had to restart my computer to take it affect. What nicely worked was ```sudo usermod -s /usr/bin/zsh```
 
 ## sed
 This command substitutes all colons in the PATH to newlines making the echo outpur easier to read
