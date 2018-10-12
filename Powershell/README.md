@@ -37,6 +37,10 @@ Getting chocolatey up and running with Powershell V5
 ```
 Find-Package -Provider chocolatey
 ```
+And Install it
+```
+Find-Package -Provider chocolatey -name openssl | Install-Package
+```
 ## Active Directory 
 Query for Computers with names like appsrv and display only the found names one per line
 ```
