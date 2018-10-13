@@ -12,10 +12,11 @@ Invoke-SSHCommand -SessionId 0 -Command "ls -lah"
 Remove-SSHSession -Index 0 -Verbose
 ```
 ## Installing the Linux Support thing for Windows
+Install Ubuntu WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
-It can be started by typing ```bash``` in Powershell
+It can be started by typing ```bash``` in Powershell 
 ```
-Install Ubuntu WSLInvoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFileUbuntu.appx -UseBasicParsing
+Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing
 Rename-Item Ubuntu.appx Ubuntu.zip
 Expand-Archive Ubuntu.zip Ubuntu
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
