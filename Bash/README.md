@@ -38,3 +38,8 @@ Turning off the screen on Linux Mint 18.2 Sonya
 sudo apt-get install vbetool
 sudo vbetool dpms off/on
 ``` 
+## Installing colorls
+```
+sudo apt-get install ruby2.3-dev
+sudo gem install colorls
+```
