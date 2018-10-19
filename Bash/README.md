@@ -31,6 +31,12 @@ sudo wget https://dl.eff.org/certbot-auto
 chmod +x certbot-auto
 ./certbot-auto --installer nginx
 ```
+Making it update every 2nd month and log into /var/log/certbot/certbot.log
+```
+mkdir /var/log/certbot
+crontab -e
+1 1 1 */2 * sh /usr/bin/certbot/certbot-auto renew >> /var/log/certbot/certbot.log 2>&1
+```
 ## turning off screen
 Turning off the screen on Linux Mint 18.2 Sonya 
 4.13.0-41-generic #46~16.04.1-Ubuntu
