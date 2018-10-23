@@ -1,6 +1,6 @@
 # Powershell snippets
 ## Shutdown the Computer
-```shutdown /s /t 0```
+```shutdown /s /t 0``` or the ```Stop-Computer``` Cmdlet works, too.
 ## Restart the Computer
 Restarts the Computer with Other(plenned) reason```shutdown /r /d p:0:0```
 ## SSH Sessions with Posh
