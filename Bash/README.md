@@ -13,7 +13,7 @@ Replace all http to https in a file
 -i for in-place change
 
 Append to a line
-```sed -i '\|^#AuthorizedKeysFile| s|$| /etc/ssh/authorized_keys/\%u|' sshd_config```
+```sed -i '\|^#AuthorizedKeysFile| s|$| /etc/ssh/authorized_keys/\%u|' sshd_config```  
 **-i** means do it in the file on the fly (Do it live)  
 **\|** means use | as a delimiter for sed, as we have / in the string we want to append  
 **^#Auth#** look for for the Line that starts with *#AuthorizedKeysFile* followed by a delimiter  
@@ -21,6 +21,7 @@ Append to a line
 **$** for matching the end of the line  
 **/etc/ssh** the string we want to append  
 **/\%u** an escaped %, as _%u_ is a variable for user interpreted by ssh  
+**sshd_config** the file we want to change  
 
 ## grep
 find something recusively **in** the files of a folder
