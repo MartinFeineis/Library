@@ -8,11 +8,11 @@ For some reason when using ```chsh -s /bin/bash``` I had to restart my computer 
 This command substitutes all colons in the PATH to newlines making the echo outpur easier to read
 ```echo $PATH | sed s/\:/\\n/g```
 
-Replace all http to https in a file
+### Replace all http to https in a file
 ```sed -i 's/http/https/g' /etc/apt/sources.list```
 -i for in-place change
 
-Append to a line
+### Append to a line
 ```sed -i '\|^#AuthorizedKeysFile| s|$| /etc/ssh/authorized_keys/\%u|' sshd_config```  
 **-i** means do it in the file on the fly (Do it live)  
 **\|** means use | as a delimiter for sed, as we have / in the string we want to append  
@@ -23,6 +23,9 @@ Append to a line
 **/\%u** an escaped %, as _%u_ is a variable for user interpreted by ssh  
 **sshd_config** the file we want to change  
 
+### Updating Value in a Yaml File
+```sed -i "s/key: .*/key: \"$B64\"/g" file.yaml```
+This updates the Value of __key__ with whatever is stored in the Variable __$B64__ 
 ## grep
 find something recusively **in** the files of a folder
 ```grep <path> -rne <pattern>```
