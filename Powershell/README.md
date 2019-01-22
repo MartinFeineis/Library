@@ -51,3 +51,15 @@ Get all Computer start contain xyz but do not start with abc
 ```
 Get-ADComputer -Filter {(Name -like "*xyz*") -and  (Name -notlike "abc*")} | select Name
 ```
+
+## Copy Files Remotely
+### Copy Files from a Remote Machine
+Copy Files from a to/from a remote Server by instatiating a new PSSession and then use the ```-ToSession/-FromSession``` Flag
+use the -Recurse Flag to copy more than one File. I did not try to copy it directly from the remote machine to the other remote machine. I assume this wouldn't work due to the second hop Problem.
+```
+$ASession = New-PSSession -ComputerName <Remote-Name> -Credential (Get-Credential)
+Copy-Item "E:\<path_name>*" -Destination "<local-path>" -Recurse -FromSession $ASession
+
+$BSession = New-PSSession -ComputerName <Remote-Name> -Credential (Get-Credential)
+Copy-Item "<local-path>\Test.z*" -Destination "<remote-path>" -Recurse -ToSession $BSession
+
