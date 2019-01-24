@@ -63,3 +63,9 @@ Copy-Item "E:\<path_name>*" -Destination "<local-path>" -Recurse -FromSession $A
 $BSession = New-PSSession -ComputerName <Remote-Name> -Credential (Get-Credential)
 Copy-Item "<local-path>\Test.z*" -Destination "<remote-path>" -Recurse -ToSession $BSession
 ```
+
+## Get all commands from Module
+```
+ (Get-Module (get-command -name <cmdlet>).source).ExportedCommands
+```
+This command gets the Module containing the <cmdlet> and then gets all the commands in that Module
