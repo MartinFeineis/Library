@@ -55,6 +55,11 @@ Get-ADComputer -Filter {(Name -like "*xyz*") -and  (Name -notlike "abc*")} | sel
 ### Get-ADUser
 Get all Groups a User is Member of and store them in a variable
 $GAwesome = (Get-ADPrincipalGroupMembership -Identity ((Get-ADUser -filter "Name -like 'Guy Awesome'").ObjectGUID)).Name
+### Add-ADGRoupMember
+To add a user to an Active Directory Group user as in the [Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/addsadministration/add-adgroupmember?view=win10-ps)
+```
+Add-ADGroupMember -Identity google -Members mfeineis
+```
 ## Copy Files Remotely
 ### Copy Files from a Remote Machine
 Copy Files from a to/from a remote Server by instatiating a new PSSession and then use the ```-ToSession/-FromSession``` Flag
