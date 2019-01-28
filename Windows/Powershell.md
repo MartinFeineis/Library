@@ -43,6 +43,7 @@ And Install it
 Find-Package -Provider chocolatey -name openssl | Install-Package
 ```
 ## Active Directory 
+### Get-ADComputer
 Query for Computers with names like appsrv and display only the found names one per line
 ```
 Get-ADComputer -Filter 'Name -like "appsrv*"' | select Name
@@ -51,7 +52,9 @@ Get all Computer start contain xyz but do not start with abc
 ```
 Get-ADComputer -Filter {(Name -like "*xyz*") -and  (Name -notlike "abc*")} | select Name
 ```
-
+### Get-ADUser
+Get all Groups a User is Member of and store them in a variable
+$GAwesome = (Get-ADPrincipalGroupMembership -Identity ((Get-ADUser -filter "Name -like 'Guy Awesome'").ObjectGUID)).Name
 ## Copy Files Remotely
 ### Copy Files from a Remote Machine
 Copy Files from a to/from a remote Server by instatiating a new PSSession and then use the ```-ToSession/-FromSession``` Flag
