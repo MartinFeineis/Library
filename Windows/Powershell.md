@@ -57,6 +57,10 @@ Get all Groups a User is Member of and store them in a variable
 ```
 $GAwesome = (Get-ADPrincipalGroupMembership -Identity ((Get-ADUser -filter "Name -like 'Guy Awesome'").ObjectGUID)).Name
 ```
+I had some problems using the Get-ADGRoupMember cmdlet with an ObjectGUID for the -Idetity Parameter. Working around that I could use the Get-ADGroup cmdlet in the following way.
+```
+(Get-ADGroup '534867fb-57b0-471f-85bf-b30a8900009a1' -Properties members).Members
+```
 ### Add-ADGRoupMember
 To add a user to an Active Directory Group user as in the [Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/addsadministration/add-adgroupmember?view=win10-ps)
 ```
