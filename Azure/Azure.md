@@ -13,3 +13,17 @@ curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list | sudo tee /et
 sudo apt-get update
 sudo apt-get install powershell -y
 ```
+
+## Azure ActiveDirectory
+### Creating a new User in AzureAD
+```
+Connect-AzureAD
+$PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+$PasswordProfile.Password = "<Password123>"
+New-AzureADUser -DisplayName "Honey" -UserPrincipalName "honey@martinandnga.com"  -PasswordProfile $PasswordProfile -AccountEnabled $true -MailNickName "Honey"
+```
+### Change a Users Password 
+```
+ Set-AzureADUserPassword -ObjectId (Get-AzureADUser -Filter "Displayname eq 'Honey'").ObjectId
+ ```
+## Creating a new Virtual Machine in Azure 

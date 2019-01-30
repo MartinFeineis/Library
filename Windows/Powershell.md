@@ -61,6 +61,19 @@ I had some problems using the Get-ADGRoupMember cmdlet with an ObjectGUID for th
 ```
 (Get-ADGroup '534867fb-57b0-471f-85bf-b30a8900009a1' -Properties members).Members
 ```
+Get everything about a User
+```
+Get-ADUser -Identity<Username> -Properties *
+```
+Getting a list of all locked out accounts
+```
+(Get-ADUser -Filter * -Properties lockedOut,GivenName | Where {$_.LockedOut -eq $True}).Name
+```
+
+### Getting all Users currently logged in to a machine/server
+```
+$ gwmi Win32_LoggedOnUser | select Antecedent
+```
 ### Add-ADGRoupMember
 To add a user to an Active Directory Group user as in the [Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/addsadministration/add-adgroupmember?view=win10-ps)
 ```
@@ -83,3 +96,11 @@ Copy-Item "<local-path>\Test.z*" -Destination "<remote-path>" -Recurse -ToSessio
  (Get-Module (get-command -name <cmdlet>).source).ExportedCommands
 ```
 This command gets the Module containing the <cmdlet> and then gets all the commands in that Module
+
+## Firewall Rules with Powershell
+```
+Get-NetFirewallRule
+Remove-NetFirewallRule
+New-NetFirewallRule -name "Allow inbound 8080" -DisplayName "Allow inbound 8080" -protocol tcp -Enabled true -RemoteAddress 123.456.789.012 -profile domain -action allow -remoteport 8080 -localport 8080
+```
+The _name_ parameter has to be unique to the Firewall Rule, the _DisplayName_ can be the same across several Firewall Rules, and therefore used to group Rules together.
