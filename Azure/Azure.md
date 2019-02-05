@@ -27,3 +27,14 @@ New-AzureADUser -DisplayName "Honey" -UserPrincipalName "honey@martinandnga.com"
  Set-AzureADUserPassword -ObjectId (Get-AzureADUser -Filter "Displayname eq 'Honey'").ObjectId
  ```
 ## Creating a new Virtual Machine in Azure 
+
+
+## Resource deployment
+```
+$resourceGroupName = "string"
+$deploymentName = "string"
+$location = "centralus"
+
+New-AzureRmResourceGroup -Name $resourceGroupName -Location $location
+New-AzureRmResourceGroupDeployment -Name $deploymentName -ResourceGroupName $resourceGroupName -TemplateFile "C:\Users\<path>\azuredeploy.json"
+```
