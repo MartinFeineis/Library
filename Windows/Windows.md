@@ -7,3 +7,10 @@ Get-Acl -Path "C:\Program Files" | Set-Acl -Path C:\NewProgs
 $env:Path += ";C\NewProgs"
 ```
 I recommend putting the last line in a startup script for powershell instead of permanently appending it to the path, this makes it easier keeping track of changes.
+After installing Powershell core I wanted to link its profile with my own profile, so I did this:
+```
+$p = Split-Path $PROFILE
+$l = Split-Path $PROFILE -Leaf
+New-Item -ItemType SymbolicLink -Path $p -Name $l -Value "C:\Users\me\<path>\MyFunctions.ps1"
+```
+The File MyFunctions.ps1 contains all the settings I want to have across my different powershells and therefore everything is available where I want to have it without duplication.
