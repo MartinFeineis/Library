@@ -69,7 +69,10 @@ Getting a list of all locked out accounts
 ```
 (Get-ADUser -Filter * -Properties lockedOut,GivenName | Where {$_.LockedOut -eq $True}).Name
 ```
-
+Get Alls Users in a company
+```
+Get-ADUser -Filter * -SearchBase "OU=<users>,OU=<company>,DC=<domain>,DC=com" | Measure-Object
+```
 ### Getting all Users currently logged in to a machine/server
 ```
 $ gwmi Win32_LoggedOnUser | select Antecedent
