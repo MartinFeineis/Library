@@ -11,7 +11,7 @@ preferably store it in ```/home/<user>/.ssh/<keyname>``` and append it into the 
 ```
 cat ~/.ssh/<keyname>.pub >> ~/.ssh/authorized_keys
 ```
-Update the sshd configuration to allow key based authorization. My preffered configuration checks the users .ssh directory for and authorized_keys File and also checks for a file named with the user in /etc/ssh. Depending on the Firewall settings I sometimes have to run sshd on a different port than 22
+Update the sshd configuration to allow key based authorization. My preffered configuration checks the users .ssh directory for and ```authorized_keys``` File and also checks for a file per user like ```/etc/ssh/authorized_keys/<user>``` Depending on the Firewall settings I sometimes have to run the openssh-server on a different port than 22
 ```
 Port <port_of_choice>
 PubkeyAuthentication yes
