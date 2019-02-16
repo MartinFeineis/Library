@@ -14,6 +14,8 @@ cat ~/.ssh/<keyname>.pub >> ~/.ssh/authorized_keys
 Update the sshd configuration to allow key based authorization. My preffered configuration checks the users .ssh directory for and authorized_keys File and also checks for a file named with the user in /etc/ssh. Depending on the Firewall settings I sometimes have to run sshd on a different port than 22
 ```
 Port <port_of_choice>
+PubkeyAuthentication yes
+PasswordAuthentication no
 AuthorizedKeysFile %h/.ssh/authorized_keys /etc/ssh/authorized_keys/%u
 ```
 Lastly copy the ```keyname``` file to the machine you want to use to connect from.
