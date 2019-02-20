@@ -32,3 +32,11 @@ See also
 [Debian-Installer 6.1. How the Installer Works](https://www.debian.org/releases/stable/amd64/ch06s01.html.en)  
 
 ## Installing Xen
+As described in
+[Xen Getting started](https://wiki.xenproject.org/wiki/Xen_Project_Beginners_Guide)
+```
+apt-get install xen-system-amd64 lvm2
+pvcreate /dev/sda7
+vgcreate vg0 /dev/sda7
+```
+`/dev/sda7` differs from the turorial due to my different partion tables
