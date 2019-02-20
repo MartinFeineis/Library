@@ -25,10 +25,10 @@ I used the debian-9.8.0-amd64-netinst.iso image. First I highlighted the _Instal
 
 ![Partioning Table](https://s3.amazonaws.com/ghoulmanorpublic/Partioning.jpg)
 
-To see the log output press `Ctrl+Alt+4` to switch back press `1` instead or use `2`or`3` to start a console terminal
-See also
-[Debian-Installer 5.1.7. The Boot Screen](https://www.debian.org/releases/stable/amd64/ch05s01.html.en#boot-screen)
-[Debian-Installer 5.3.2. Debian Installer Parameters](https://www.debian.org/releases/stable/amd64/ch05s03.html.en#ftn.idm1345)
-[Debian-Installer 6.1. How the Installer Works](https://www.debian.org/releases/stable/amd64/ch06s01.html.en)
+To see the log output press `Ctrl+Alt+4` to switch back press `1` instead or use `2`or`3` to start a console terminal  
+See also  
+[Debian-Installer 5.1.7. The Boot Screen](https://www.debian.org/releases/stable/amd64/ch05s01.html.en#boot-screen)  
+[Debian-Installer 5.3.2. Debian Installer Parameters](https://www.debian.org/releases/stable/amd64/ch05s03.html.en#ftn.idm1345)  
+[Debian-Installer 6.1. How the Installer Works](https://www.debian.org/releases/stable/amd64/ch06s01.html.en)  
 
 ## Installing Xen
