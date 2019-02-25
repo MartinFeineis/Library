@@ -1,7 +1,7 @@
 #useful awscli and other commands etc.
 
 # Find out who you are
-```aws sts get-caller-identity```
+`aws sts get-caller-identity`
 
 # Windows aws s3 cp
 Download several files from a list of Filenams through a For-Each Loop in Powershell
