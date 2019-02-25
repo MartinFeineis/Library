@@ -9,5 +9,5 @@
     
 ## Cloudproviders
 
-* [Amazon Webservices](AWS/AWs.md)
+* [Amazon Webservices](AWS/AWS.md)
 * [Azure](Azure/Azure.md)
