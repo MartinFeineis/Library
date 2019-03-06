@@ -114,7 +114,17 @@ Remove-NetFirewallRule
 New-NetFirewallRule -name "Allow inbound 8080" -DisplayName "Allow inbound 8080" -protocol tcp -Enabled true -RemoteAddress 123.456.789.012 -profile domain -action allow -remoteport 8080 -localport 8080
 ```
 The _name_ parameter has to be unique to the Firewall Rule, the _DisplayName_ can be the same across several Firewall Rules, and therefore used to group Rules together.
-
+### Connection Security Rules
+Connection Security Rules can be found at Control Panel > System and Security > Windows Defender Firewall > Advanced Settings > Connection Security Rules
+```
+New-NetIPsecRule -IPsecRuleName "Rule Name" -DisplayName "Rule Display Name" -Enabled True -LocalAddress <Ip-Address> -LocalPort <Ports> -Protocol TCP
+```
+Notes:
+* The IpSecRuleName must be unique
+* Ports can be
+** A Single Port e.g. 80
+** A range of Ports e.g. "80-443"
+** A list of Ports e.g. 80,443,8080
 ## Select-String
 Find in all Files starting with TMP the regex Pattern and print only the found Matches
 ```Select-String -Path "C:\<Path>\TMP*" -Pattern "regex" | ForEach-Object {$_.Matches[0].Value}```
