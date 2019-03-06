@@ -43,10 +43,12 @@ And Install it
 Find-Package -Provider chocolatey -name openssl | Install-Package
 ```
 ## Active Directory
-On a Windows 2016 Server the RSAT Tools need to be installed 
+On a Windows 2016 Server the RSAT Tools need to be installed, you can find it with the Powershell Commands below.
 ```
 Get-WindowsOptionalFeature -Online -FeatureName *RSAT*
 Enable-WindowsOptionalFeature -Online -FeatureName RSAT-ADDS-Tools-Feature -All
+Get-WindowsFeature RSAT*
+Install-WindowsFeature RSAT-AD-Powershell
 ```
 ### Get-ADComputer
 Query for Computers with names like appsrv and display only the found names one per line
