@@ -122,9 +122,9 @@ New-NetIPsecRule -IPsecRuleName "Rule Name" -DisplayName "Rule Display Name" -En
 Notes:
 * The IpSecRuleName must be unique
 * Ports can be
- * A Single Port e.g. 80
- * A range of Ports e.g. "80-443"
- * A list of Ports e.g. 80,443,8080
+    * A Single Port e.g. 80
+    * A range of Ports e.g. "80-443"
+    * A list of Ports e.g. 80,443,8080
 ## Select-String
 Find in all Files starting with TMP the regex Pattern and print only the found Matches
 ```Select-String -Path "C:\<Path>\TMP*" -Pattern "regex" | ForEach-Object {$_.Matches[0].Value}```
