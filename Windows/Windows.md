@@ -15,7 +15,7 @@ New-Item -ItemType SymbolicLink -Path $p -Name $l -Value "C:\Users\me\<path>\MyF
 ```
 The File MyFunctions.ps1 contains all the settings I want to have across my different powershells and therefore everything is available where I want to have it without duplication.
 ## Moving Windows on Windows 10
-A lot of times I work on several screens, and when detaching my Laptop from them not all Windows move properly over to the main display. You can move it over with the following for steps:
+A lot of times I work on several screens, and when detaching my Laptop from them not all Windows move properly over to the main display. You can move it over with the following for steps:    
 1. klicking on the Icon in the taskbar
 2. Pressing Alt+Space a the same time
 3. pressing M Button on the keyboard
