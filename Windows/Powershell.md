@@ -127,7 +127,7 @@ Notes:
     * A list of Ports e.g. 80,443,8080   
 
 ## Select-String
-Find in all Files starting with TMP the regex Pattern and print only the found Matches
+Find in all Files starting with TMP the regex Pattern and print only the found Matches. Searching for content within the matching Files.
 ```Select-String -Path "C:\<Path>\TMP*" -Pattern "regex" | ForEach-Object {$_.Matches[0].Value}```
 ## Windows Event Log
 ### All Sources
