@@ -7,18 +7,18 @@ Generate a new ssh key pair
 ```
 ssh-keygen -t rsa -b 2048 -C "comments etc"
 ```
-preferably store it in ```/home/<user>/.ssh/<keyname>``` and append it into the ```authorized_keys``` File
+preferably store it in `/home/<user>/.ssh/<keyname>` and append it into the `authorized_keys` File
 ```
 cat ~/.ssh/<keyname>.pub >> ~/.ssh/authorized_keys
 ```
-Update the sshd configuration to allow key based authorization. My preffered configuration checks the users .ssh directory for and ```authorized_keys``` File and also checks for a file per user like ```/etc/ssh/authorized_keys/<user>``` Depending on the Firewall settings I sometimes have to run the openssh-server on a different port than 22
+Update the sshd configuration to allow key based authorization. My preffered configuration checks the users .ssh directory for and `authorized_keys` File and also checks for a file per user like `/etc/ssh/authorized_keys/<user>` Depending on the Firewall settings I sometimes have to run the openssh-server on a different port than 22
 ```
 Port <port_of_choice>
 PubkeyAuthentication yes
 PasswordAuthentication no
 AuthorizedKeysFile %h/.ssh/authorized_keys /etc/ssh/authorized_keys/%u
 ```
-Lastly copy the ```keyname``` file to the machine you want to use to connect from.
+Lastly copy the `keyname` file to the machine you want to use to connect from.
 
 ## Setting up Debian
 I used the debian-9.8.0-amd64-netinst.iso image. First I highlighted the _Install_ option to avoid using the graphical installer. This is because I had issues in an earlier install when I was monitoring the log output and then switching back to the first console. Then I hit tab to add and additional boot parameter _netcfg/disable_autoconfig=true_. This was because when I used automated Network Configuration, it defaulted to IPv6 and then froze when it tried to copy the apt mirrors because it didn't fell back to IPv4. I also used the following Partioning Table setup.
