@@ -87,7 +87,7 @@ $ gwmi Win32_LoggedOnUser | select Antecedent
 ### Add-ADGRoupMember
 To add a user to an Active Directory Group user as in the [Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/addsadministration/add-adgroupmember?view=win10-ps)
 ```
-Add-ADGroupMember -Identity google -Members mfeineis
+Add-ADGroupMember -Identity anygroup -Members anyuser
 ```
 ## Copy Files Remotely
 ### Copy Files from a Remote Machine
