@@ -23,11 +23,15 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 cd Ubuntu
 .\ubuntu.exe
 ```
-## Find Files
+## File Actions
+### Find Files
 Finding Files and Displaying only the Filenpath and name one per Line
 ```
 Get-ChildItem -Path *Filename* -Recurse | select FullName
 ```
+### Search in Files
+Search for a string within a Folder and its subfolders
+`Get-ChildItem -Recurse | Get-Content -ErrorAction SilentlyContinue | Select-String -pattern "error" | Out-File Errors.log`
 ## Compare aka diff two files
 It has to explicitly taken the content of the files. If just two filenames are given, those are compared without regard of their actual content.
 ```
