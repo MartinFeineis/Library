@@ -31,8 +31,8 @@ Get-ChildItem -Path *Filename* -Recurse | select FullName
 ```
 ### Search in Files
 Search for a string within a Folder and its subfolders
-`Get-ChildItem -Recurse | Get-Content -ErrorAction SilentlyContinue | Select-String -pattern "error" | Out-File Errors.log`
-Create a range object and search through a filetree for a string that contains elements of that range
+`Get-ChildItem -Recurse | Get-Content -ErrorAction SilentlyContinue | Select-String -pattern "error" | Out-File Errors.log`  
+Create a range object and search through a filetree for a string that contains elements of that range  
 ```
 $a = 1..22
 $a | ForEach-Object { @{(Get-Content .\NoErrorFiles.log | Select-String ('5/' + $_ + '/19') | Measure-Object).Count = '5/'+$_+'/19'}}
