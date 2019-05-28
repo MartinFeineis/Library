@@ -43,6 +43,7 @@ It has to explicitly taken the content of the files. If just two filenames are g
 Compare-Object $(Get-Content .\first.txt) $(Get-Content .\second.txt)
 ```
 ### Compare Errors from to Error Log files
+The following creates a table named "TableName" and add the 3 columns Date,Error1 and Error2 to it. Then it populates the table with the findings of the Files.  
 ```
 $table = New-Object SYStem.Data.DataTable "TableName"
 
