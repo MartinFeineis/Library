@@ -42,6 +42,21 @@ It has to explicitly taken the content of the files. If just two filenames are g
 ```
 Compare-Object $(Get-Content .\first.txt) $(Get-Content .\second.txt)
 ```
+### Compare Errors from to Error Log files
+```
+$table = New-Object SYStem.Data.DataTable "TableName"
+
+$col1 = New-Object system.Data.DataColumn Date,([string])
+$col2 = New-Object system.Data.DataColumn Error1,([string])                                                                                                                                                                                                                                                                                                     
+$col3 = New-Object system.Data.DataColumn Error2,([string]) 
+ 
+$table.Columns.Add($col1)
+$table.Columns.Add($col2)
+$table.Columns.Add($col3)
+
+1..28 | ForEach-Object { $row=$table.NewRow(); $row.Date=('5/'+$_+'/19');  $row.Error1=(Get-Content .\Errorlogs1.log | Select-String ('5/' + $_ + '/19') | Measure-Object).Count; $row.Error2=(Get-Content .\Errorlogs2.log | Select-String ('5/' + $_ + '/19') | Measure-Object).Count;  $table.Rows.Add($row)}                                             
+
+```
 ## Chocolatey
 Getting chocolatey up and running with Powershell V5
 ```
