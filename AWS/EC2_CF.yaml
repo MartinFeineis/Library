@@ -4,13 +4,13 @@ Resources:
   MyEC2Instance: 
     Type: "AWS::EC2::Instance"
     Properties: 
-      ImageId: "ami-0dc82b70"
-      UserData: "IyEvYmluL3NoCmF3cyBzMyBjcCBzMzovL3B1bGxvdmEvdXNlcl9kYXRhLnNoIHVzZXJfZGF0YS5zaCAmJiBjaG1vZCAreCB1c2VyX2RhdGEuc2ggJiYgLi91c2VyX2RhdGEuc2g="
+      ImageId: "ami-ID"
+      UserData: "base-64 encoded Userdata"
       KeyName: "general"
       IamInstanceProfile: "ec2-instance-IAM-Role"
       InstanceType: "t1.micro"
       SecurityGroupIds: 
-        - sg-14de5c6f
+        - sg-xxxxx
       BlockDeviceMappings: 
         - DeviceName: "/dev/sdm"
           Ebs: 
@@ -23,10 +23,9 @@ Resources:
   myDNS:
     Type: AWS::Route53::RecordSet
     Properties:
-      HostedZoneId:  Z98GQ2HLBZ01D
-      Name: www.martinandnga.org
+      HostedZoneId:  Z98xxxxx
+      Name: www.DNS-Name.com
       Type: A
       TTL : '300'
       ResourceRecords: 
       - Fn::GetAtt: [ MyEC2Instance, PublicIp ]
-      #- 34.202.166.114
