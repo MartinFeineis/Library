@@ -48,7 +48,7 @@ The following creates a table named "TableName" and add the 3 columns Date,Error
 $table = New-Object SYStem.Data.DataTable "TableName"
 
 $col1 = New-Object system.Data.DataColumn Date,([string])
-$col2 = New-Object system.Data.DataColumn Error1,([string])                                                                                                                                                                                                                                                                                                     
+$col2 = New-Object system.Data.DataColumn Error1,([string])  
 $col3 = New-Object system.Data.DataColumn Error2,([string]) 
  
 $table.Columns.Add($col1)
