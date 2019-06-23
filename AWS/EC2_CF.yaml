@@ -5,7 +5,7 @@ Resources:
     Type: "AWS::EC2::Instance"
     Properties: 
       ImageId: "ami-ID"
-      UserData: "base-64 encoded Userdata"
+      UserData: "base-64EncodedUserdata="
       KeyName: "general"
       IamInstanceProfile: "ec2-instance-IAM-Role"
       InstanceType: "t1.micro"
