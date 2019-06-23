@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Ec2 block device mapping"
+Resources: 
+  MyEC2Instance: 
+    Type: "AWS::EC2::Instance"
+    Properties: 
+      ImageId: "ami-ID"
+      UserData: "base-64EncodedUserdata="
+      KeyName: "general"
+      IamInstanceProfile: "ec2-instance-IAM-Role"
+      InstanceType: "t1.micro"
+      SecurityGroupIds: 
+        - sg-xxxxx
+      BlockDeviceMappings: 
+        - DeviceName: "/dev/sdm"
+          Ebs: 
+            VolumeType: "io1"
+            Iops: "200"
+            DeleteOnTermination: "false"
+            VolumeSize: "20"
+        - DeviceName: "/dev/sdk"
+          NoDevice: {}
+  myDNS:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId:  Z98xxxxx
+      Name: www.DNS-Name.com
+      Type: A
+      TTL : '300'
+      ResourceRecords: 
+      - Fn::GetAtt: [ MyEC2Instance, PublicIp ]

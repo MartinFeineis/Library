@@ -12,3 +12,8 @@ foreach($line in Get-Content $filen){
     aws s3 cp s3://<S3-BUcket>/<path>/$line <local-path> $line --profile <aws-profile-name> 
 }
 ```
+
+# Cloudformation
+## Deploy an EC2 Instance
+The linked File deploys an EC2 Instance through Cloudformation
+[EC2.yaml](./EC2_CF.yaml)
