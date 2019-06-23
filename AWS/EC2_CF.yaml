@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Ec2 block device mapping"
+Resources: 
+  MyEC2Instance: 
+    Type: "AWS::EC2::Instance"
+    Properties: 
+      ImageId: "ami-0dc82b70"
+      UserData: "IyEvYmluL3NoCmF3cyBzMyBjcCBzMzovL3B1bGxvdmEvdXNlcl9kYXRhLnNoIHVzZXJfZGF0YS5zaCAmJiBjaG1vZCAreCB1c2VyX2RhdGEuc2ggJiYgLi91c2VyX2RhdGEuc2g="
+      KeyName: "general"
+      IamInstanceProfile: "ec2-instance-IAM-Role"
+      InstanceType: "t1.micro"
+      SecurityGroupIds: 
+        - sg-14de5c6f
+      BlockDeviceMappings: 
+        - DeviceName: "/dev/sdm"
+          Ebs: 
+            VolumeType: "io1"
+            Iops: "200"
+            DeleteOnTermination: "false"
+            VolumeSize: "20"
+        - DeviceName: "/dev/sdk"
+          NoDevice: {}
+  myDNS:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId:  Z98GQ2HLBZ01D
+      Name: www.martinandnga.org
+      Type: A
+      TTL : '300'
+      ResourceRecords: 
+      - Fn::GetAtt: [ MyEC2Instance, PublicIp ]
+      #- 34.202.166.114
