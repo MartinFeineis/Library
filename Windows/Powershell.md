@@ -108,6 +108,7 @@ Get-ADUser -Filter * -SearchBase "OU=<users>,OU=<company>,DC=<domain>,DC=com" | 
 ### Getting all Users currently logged in to a machine/server
 ```
 $ gwmi Win32_LoggedOnUser | select Antecedent
+query users
 ```
 ### Add-ADGRoupMember
 To add a user to an Active Directory Group user as in the [Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/addsadministration/add-adgroupmember?view=win10-ps)
