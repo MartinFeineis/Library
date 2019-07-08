@@ -40,3 +40,6 @@ pvcreate /dev/sda7
 vgcreate vg0 /dev/sda7
 ```
 `/dev/sda7` differs from the turorial due to my different partion tables
+
+## NFS Issues
+Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP.

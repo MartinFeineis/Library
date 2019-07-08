@@ -104,6 +104,7 @@ Getting a list of all locked out accounts
 Get Alls Users in a company
 ```
 Get-ADUser -Filter * -SearchBase "OU=<users>,OU=<company>,DC=<domain>,DC=com" | Measure-Object
+Get-ADUser -Filter * -SearchBase "OU=Users-Disabled,OU=Users,OU=<company>,DC=<domain>,DC=com" -Properties LastLogonDate | select Name,LastLogonDate | Sort-Object -Property LastLogonDate
 ```
 ### Getting all Users currently logged in to a machine/server
 ```
