@@ -13,4 +13,5 @@
 * [Azure](Azure/Azure.md)
 
 ## Tools
-* [Atom](atom/atom.md)
+* [Vim](vim/vim.md)
+* [Ansible](ansible/ansible.md)
