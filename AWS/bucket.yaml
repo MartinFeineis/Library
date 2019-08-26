@@ -3,4 +3,4 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       AccessControl: Private
-      BucketName: weddingpicsmartinandnga
+      BucketName: TestBucket1
