@@ -1,7 +1,7 @@
 # Cheatsheet to vim
 ## replace all empty lines
-`:g/^$/d` [regards to here](https://alvinalexander.com/linux-unix/vi-vim-delete-blank-lines-empty-lines)
-`:<range>s/<pattern>/replace`   
+`:g/^$/d` [regards to here](https://alvinalexander.com/linux-unix/vi-vim-delete-blank-lines-empty-lines)  
+`:<range>s/<pattern>/<replace>`   
 * `<range>` Range can be a linenumber `12` a range of linenumber `12,14` a range of marks `'a,'b` or the whole document `%`  
 * `<pattern>` The pattern to search for  
 * `<replace>` what to replace the pattern with  
