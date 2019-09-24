@@ -34,6 +34,9 @@ find something recusively **in** the files of a folder
 -r sets recursively
 See: https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
 
+## find
+Find files in a folder with excluding a path
+`find . -path ./exclude/path -prune -o -iname "*pattern*" -print`
 
 ## certbot
 I use this to install certbot from letsencrypt on Debian 9.3(stretch) with nginx
