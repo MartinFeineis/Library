@@ -43,3 +43,11 @@ vgcreate vg0 /dev/sda7
 
 ## NFS Issues
 Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP.
+
+## rsync
+Copying folders recursively with rsync  
+` rsync --recursive -v source/path destination/path`  
+
+## Mountpoint android phone  
+The phone is mounted to the Computer through `mtp` and the SD-Card is in the phone  
+`ls -lah /var/run/user/1000/gvfs/mtp:host=%5Busb%3A002%2C003%5D/SD\ card` 
