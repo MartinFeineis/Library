@@ -23,7 +23,7 @@ Resources:
   myDNS:
     Type: AWS::Route53::RecordSet
     Properties:
-      HostedZoneId:  Z98xxxxx
+      HostedZoneId:  Z98yxxxx
       Name: www.DNS-Name.com
       Type: A
       TTL : '300'
