@@ -8,3 +8,8 @@ The vault.yml file contains the encryption key for ansible to store in the vars.
 ansible all -i localhost, -m debug -a "msg={{ 'password-string' | password_hash('sha512', 'password-salt') }}"
 ansible-vault encrypt_string --vault-id .vault_pw.yml '$6$password-salt$jpassword-encrypted-string.' --name wolle_password_new >> path/to/vars.yml
 ```
+
+## Main Playbook
+This contains the configuration that I want to have the same overall machines. [playbook](./playbook.yml)  
+### configs  
+This folder contains playbooks that get included into the main playbook. The playbooks in `config` are host or program specific. Also there might be room for discussion if some aspects are in the right playbook or should even have their own playbook. User generation might be one of thie examples. [configs](./configs/)  

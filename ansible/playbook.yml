@@ -1,0 +1,207 @@
+---
+- import_playbook: configs/extensa.yml
+- import_playbook: configs/optiplex.yml
+- hosts: all
+  vars_files:
+  - files/vars.yml
+  remote_user: ansible
+  tasks: 
+  - name: Update and upgrade apt packages if older than 12h
+    become: yes
+    apt:
+      upgrade: yes
+      update_cache: yes
+      cache_valid_time: 43200 
+
+  - name: Install Software
+    become: yes
+    apt:
+      name: ['vim', 'git', 'zsh', 'ruby','mc', 'build-essential','cmake','python3-dev', 'inxi', 'python3-pip', 'python-pip']
+      state: latest
+
+  - name: Make sure we have a 'wheel' group
+    become: yes
+    group:
+      name: wheel
+      state: present
+
+  - name: Check for wolle user
+    stat: 
+      path: /home/wolle/
+    register: result
+
+  - name: adding wolle with adduser
+    become: yes
+    become_method: sudo
+    shell: adduser wolle --disabled-login --gecos ""
+    when: not result.stat.exists
+
+  - name: modify wolle to correct groups etc
+    become: yes
+    user:
+      name: wolle
+      group: wolle
+      shell: /bin/zsh
+      groups: wolle,adm,cdrom,sudo,dip,plugdev,lpadmin,sambashare,wheel
+      #create_home: yes
+      #skeleton: /etc/skel
+      password: "{{ wolle_password }}"
+  
+  - name: Allow 'wheel' group to have passwordless sudo
+    become: yes
+    lineinfile:
+      dest: /etc/sudoers
+      state: present
+      regexp: '^%wheel'
+      line: '%wheel ALL=(ALL) NOPASSWD: ALL'
+      validate: 'visudo -cf %s'
+  
+  - name: Add sudoers users to wheel group
+    become: yes
+    user: name=wolle groups=wheel append=yes state=present createhome=yes
+
+  - name: Set ssh key to login as wolle
+    become: yes
+    become_user: wolle
+    become_method: sudo
+    authorized_key:
+      user: wolle
+      state: present
+      key: "{{ wolle_key }}"
+
+  - name: Configure sshd PermitRootLogin
+    become: yes
+    lineinfile:     
+      path: "{{ sshdconfig }}"
+      regexp: "^PermitRootLogin"
+      line: "PermitRootLogin no"
+      state: present
+
+  - name: Configure sshd PasswordAuthentication
+    become: yes
+    lineinfile:
+      path: "{{ sshdconfig }}"
+      regexp: "^PasswordAuthentication"
+      line: "PasswordAuthentication no"
+      state: present
+
+  - name: Restart sshd
+    become: yes
+    service:
+      name: sshd
+      state: restarted
+  
+  - name: add wolle Hosts to ssh config
+    become: yes
+    become_user: wolle
+    become_method: sudo
+    blockinfile:
+      create: yes
+      path: /home/wolle/.ssh/config 
+      insertafter: EOF
+      block: |
+        Host github.com
+          IdentityFile /home/wolle/.ssh/github_rsa
+        Host wolle*
+          IdentityFile /home/wolle/.ssh/wollesshkey
+          User wolle
+
+  - name: Configure Vim
+    become: yes
+    include: configs/vim_config.yml
+
+  - name: oh-my-zsh install
+    become: yes
+    git:
+      repo: https://github.com/robbyrussell/oh-my-zsh.git 
+      dest: /home/wolle/.oh-my-zsh
+
+  - name: correct perms for .oh-my-zsh
+    become: yes
+    file:
+      dest: /home/wolle/.oh-my-zsh
+      owner: wolle
+      group: wolle
+      recurse: yes
+
+  - name: Print wollesshkey 
+    debug:
+      msg: "{{ wollesshkey }}"
+
+  - name: drop wolle private key
+    become: yes
+    become_user: wolle
+    become_method: sudo
+    blockinfile:
+      dest: /home/wolle/.ssh/wollesshkey
+      block: "{{ wollesshkey }}"
+      owner: wolle
+      group: wolle
+      mode: 0400
+      create: yes
+
+  - name: oh-my-zsh configuration
+    become: yes
+    blockinfile:
+      block: "{{ lookup('file', 'files/zshrc') }}"
+      dest: /home/wolle/.zshrc
+      owner: wolle
+      group: wolle
+      create: yes
+      mode: 0664
+
+  - name: drop encrypted public github ssh key
+    become: yes
+    become_method: sudo
+    become_user: wolle
+    copy:
+      src: files/gitkey
+      dest: /home/wolle/.ssh/github_rsa
+      owner: wolle
+      group: wolle
+      mode: 0400
+
+  - name: create aws directory
+    become: yes
+    become_user: wolle
+    become_method: sudo
+    file:
+      dest: /home/wolle/.aws
+      owner: wolle
+      group: wolle
+      mode: 0775
+      state: directory
+
+  - name: drop aws credentials
+    become: yes
+    blockinfile:
+      path: /home/wolle/.aws/credentials
+      block: |
+        [default]
+        aws_access_key_id = {{ aws_key }}
+        aws_secret_access_key = {{ aws_secret }}
+      owner: wolle
+      group: wolle
+      create: yes
+      mode: 0600
+      #  - name: Import Extensa Playbook
+
+  - name: drop aws config
+    become: yes
+    blockinfile:
+      path: /home/wolle/.aws/config
+      block: |
+        [default]
+        output = json
+        region = us-east-1
+      owner: wolle
+      group: wolle
+      create: yes
+      mode: 0600
+
+- import_playbook: configs/python.yml
+- import_playbook: configs/desktop.yml
+#- hosts: workstations
+  #- name: mount Nasghoul
+      #  - name: drop encrypted private github ssh key
+      #    become: yes

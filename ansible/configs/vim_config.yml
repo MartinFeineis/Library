@@ -1,0 +1,58 @@
+  - name: Setup Vim
+    block:
+    - name: drop vimrc file
+      become: yes
+      copy:
+        src: files/vimrc
+        dest: /home/wolle/.vimrc
+        owner: wolle
+        group: wolle
+        mode: 0664
+
+    - name: Creating pathogen directories
+      file:
+        path: "~/.vim/{{item}}"
+        state: directory
+        owner: wolle
+        group: wolle
+        mode: 0741
+      with_items: ["autoload", "bundle", "bundle/YouCompleteMe"]
+
+    - name: Downloading pathogen
+      get_url:
+        url: https://tpo.pe/pathogen.vim
+        dest: ~/.vim/autoload/pathogen.vim
+#      shell: curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+    - name: Install Vim Nerdtree
+      git: 
+        repo: https://github.com/scrooloose/nerdtree.git
+        dest: "{{ pathogen }}/nerdtree"
+
+    - name: Install Vim Terryma Multiple Cursor
+      git: 
+        repo: https://github.com/terryma/vim-multiple-cursors.git
+        dest: "{{ pathogen }}/terryma"
+
+    - name: Is YCM installed?
+      stat:
+        path: /home/wolle/.vim/bundle/YouCompleteMe/README.md
+      register: ycmrd
+
+    - name: Install YouCompleteMe (YCM)
+      git:
+        repo: https://github.com/Valloric/YouCompleteMe.git
+        dest: "{{ pathogen }}/YouCompleteMe"
+      when: ycmrd.stat.exists == False
+
+    - name: compile and configure YCM
+      shell: |
+        cd YouCompleteMe
+        git submodule update --init --recursive
+        python3 install.py
+      args:
+       chdir: "{{ pathogen }}/YouCompleteMe"
+      when: ycmrd.stat.exists == False
+    become: yes
+    become_user: wolle
+    become_method: sudo

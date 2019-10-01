@@ -1,0 +1,28 @@
+---
+- hosts: python
+  become: yes
+  vars_files:
+  - ../files/vars.yml
+  tasks:
+    - name: add python apt packages
+      apt:
+        name: ['python-setuptools', 'python3-pip', 'python-pip', 'python3', 'python3-setuptools']
+        state: latest
+
+    - name: Install Pip3 modules
+      become_user: wolle
+      pip:
+        executable: pip3
+        name: 
+          - setuptools
+          - wheel
+          - awscli
+        extra_args: --user --upgrade
+
+    - name: awscli to path
+      lineinfile:
+        path: /home/wolle/.zshrc
+        line: 'export PATH=/home/wolle/.local/bin:$PATH'
+        state: present
+        insertafter: EOF
+        create: yes

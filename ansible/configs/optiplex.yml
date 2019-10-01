@@ -1,0 +1,45 @@
+---
+- hosts: optiplex
+  become: yes
+  vars_files:
+  - ../files/vars.yml
+  tasks:
+    - name: add port
+      lineinfile:
+        path: "{{ sshdconfig }}" 
+        #regexp: "^Port 22" 
+        line: "Port 443"
+        insertafter: EOF
+        state: present
+
+    - name: restart sshd
+      service:
+        name: sshd
+        state: restarted
+
+        #    - name: ansible plugin zshrc
+        #      become_user: wolle
+        #      become_method: sudo
+        #      blockinfile:
+        #        path: /home/wolle/.zshrc
+        #        marker: "^plugins="
+        #        block: |
+        #           ansible
+        #        insertafter: "^plugins="
+        #        state: present
+
+    - name: docker run alias
+      become_user: wolle
+      become_method: sudo
+      lineinfile:
+        path: /home/wolle/.zshrc
+        line: alias dra="sudo docker run ansible:1.6"
+        insertafter: EOF
+
+#    - name: Unpack Scanner drivers
+#      unarchive: 
+#        src: imagescan-bundle-linuxmint-19-3.59.2.x64.deb.tar.gz
+#        dest: /var/tmp/
+#
+#   - name: Check if Drivers are already installed
+#          

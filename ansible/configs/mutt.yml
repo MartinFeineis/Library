@@ -1,0 +1,8 @@
+  - name: Install and configure mutt
+    become: yes
+    import_tasks: files/mutt.yml
+
+  - name: install powershell
+    become: yes
+    script: files/powershell.sh
+

@@ -1,0 +1,65 @@
+---
+- hosts: desktop
+  become: yes
+  vars_files:
+  - ../files/vars.yml
+  tasks:
+    - name: add GUI apt packages
+      apt:
+        name: ['thunderbird', 'keepass2', 'terminator', 'ruby-dev']
+        state: present
+
+    - name: Install colorls
+      register: llogs
+      #become: yes
+      #become_user: wolle
+      #become_method: sudo
+      gem:
+        name: colorls
+        state: present
+        user_install: no
+
+    - name: colorls Logs
+      debug: var=llogs
+
+    - name: more logs
+      debug: "msg=The colorls logs `{{ llogs }}`"
+
+#    - name: Link colorls
+#      become: yes
+#      become_user: wolle
+#      become_method: sudo
+#      file:
+#        src: /home/wolle/.gem/ruby/2.5.0/gems/colorls-1.2.0/exe/colorls
+#        dest: /usr/local/bin/colorls
+#        owner: root
+#        group: root
+#        mode: '0751'
+#        state: link
+#
+#    - name: Change ownership of colorls gem to wolle
+#      become: yes
+#      become_user: wolle
+#      become_method: sudo
+#      file:
+#        path: /home/wolle/.gem/ruby/2.5.0/gems/colorls-1.2.0/exe/colorls
+#        owner: wolle
+#        group: wolle
+
+    - name: Fonts Folder
+      file:
+        path: /home/wolle/.local/share/fonts
+        owner: wolle
+        group: wolle
+        mode: '0771'
+        state: directory
+
+    - name: Install Nerd Fonts
+      unarchive:
+        src: ../files/UbuntuMono.zip
+        dest: /home/wolle/.local/share/fonts/
+        owner: wolle
+        group: wolle
+
+    - name: Rebuild font cache
+      shell: fc-cache -f -v
