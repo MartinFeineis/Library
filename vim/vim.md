@@ -13,3 +13,6 @@ I use Pathgen for managing plugins
 Nerdtree allows you to have a folder pane to navigate files/folders.
 ## YouCompleteMe
 YCM offers autocomplete
+## Ranges
+Usefule Link [Ranges](https://vim.fandom.com/wiki/Ranges)  
+`$` goes to end of Line.  
