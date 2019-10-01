@@ -6,7 +6,7 @@ I used the following to encrypt and hash a password for a user that I need to lo
 The vault.yml file contains the encryption key for ansible to store in the vars.yml.
 ```
 ansible all -i localhost, -m debug -a "msg={{ 'password-string' | password_hash('sha512', 'password-salt') }}"
-ansible-vault encrypt_string --vault-id .vault_pw.yml '$6$password-salt$jpassword-encrypted-string.' --name wolle_password_new >> path/to/vars.yml
+ansible-vault encrypt_string --vault-id .vault_pw.yml '$6$password-salt$jpassword-encrypted-string.' --name password >> path/to/vars.yml
 ```
 
 ## Main Playbook
