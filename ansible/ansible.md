@@ -1,5 +1,6 @@
 # Ansible Playbooks etc.
 Shortly I will publish my playbooks here.
+Secrets, Keys and other sensitive information is stored in `files/var`. This is for obvious reasons not included in a public git repo. Additionally all Keys and secrets are encrypted using `ansible-vault`.
 
 ## encrypt and hash a passsword
 I used the following to encrypt and hash a password for a user that I need to log in to the Computer. It also gets stored in the vars.yml.
