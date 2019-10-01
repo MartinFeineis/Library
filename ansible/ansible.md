@@ -12,4 +12,4 @@ ansible-vault encrypt_string --vault-id .vault_pw.yml '$6$password-salt$jpasswor
 ## Main Playbook
 This contains the configuration that I want to have the same overall machines. [playbook](./playbook.yml)  
 ### configs  
-This folder contains playbooks that get included into the main playbook. The playbooks in `config` are host or program specific. Also there might be room for discussion if some aspects are in the right playbook or should even have their own playbook. User generation might be one of thie examples. [configs](./configs)  
+This folder contains playbooks that get included into the main playbook. The playbooks in `config` are host or program specific. Also there might be room for discussion if some aspects are in the right playbook or should even have their own playbook. User generation might be one of thie examples. [configs](https://github.com/MartinFeineis/Library/tree/master/ansible/configs)  
