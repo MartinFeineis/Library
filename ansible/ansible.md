@@ -9,7 +9,11 @@ The vault.yml file contains the encryption key for ansible to store in the vars.
 ansible all -i localhost, -m debug -a "msg={{ 'password-string' | password_hash('sha512', 'password-salt') }}"
 ansible-vault encrypt_string --vault-id .vault_pw.yml '$6$password-salt$jpassword-encrypted-string.' --name password >> path/to/vars.yml
 ```
-
+Getting the contents of a file into the vars file. This still needs some indentation and variable naming in the vars file.  
+```
+ansible-vault encrypt --vault-id .vault_pw.yml aws_rsa
+cat aws_rsa >> files/vars.yml
+```
 ## Main Playbook
 This contains the configuration that I want to have the same overall machines. [playbook](./playbook.yml)  
 ### configs  
