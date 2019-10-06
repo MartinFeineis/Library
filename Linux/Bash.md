@@ -38,6 +38,10 @@ See: https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-contai
 Find files in a folder with excluding a path
 `find . -path ./exclude/path -prune -o -iname "*pattern*" -print`
 
+## du
+Getting disk usage with excluding one or more pathes  
+`du --exclude=path1 --exclude=path2 --exclude=path3 -sh *`
+
 ## certbot
 I use this to install certbot from letsencrypt on Debian 9.3(stretch) with nginx
 ```
