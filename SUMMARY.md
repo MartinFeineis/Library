@@ -6,6 +6,7 @@
     * [Powershell](Windows/Powershell.md)
 * [Linux](Linux/Linux.md)
     * [Bash](Linux/Bash.md)
+    * [Kubernetes](Linux/Kubernetes.md)
 * [Android](Linux/Android.md)
 
 ## Cloudproviders
