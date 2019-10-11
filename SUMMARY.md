@@ -6,6 +6,7 @@
     * [Powershell](Windows/Powershell.md)
 * [Linux](Linux/Linux.md)
     * [Bash](Linux/Bash.md)
+* [Android](Linux/Android.md)
 
 ## Cloudproviders
 
@@ -15,4 +16,3 @@
 ## Tools
 * [Vim](vim/vim.md)
 * [Ansible](ansible/ansible.md)
-* [Kubernetes](Linux/Kubernetes.md)
