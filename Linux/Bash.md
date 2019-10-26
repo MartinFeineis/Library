@@ -76,5 +76,5 @@ Only blows your system without putting real stress on a server, but might get yo
 ## tmux
 Creating a new session `tmux new -s session-name`  
 Leaving/detaching from a session press`<prefix> :` and type `detach`  
-Listing existing sessions `tmux ls`
-Entering/attaching to an existing session `tmux attach -s session-name`  
+Listing existing sessions `tmux ls`  
+Entering/attaching to an existing session `tmux attach -s session-name/session-number`    
