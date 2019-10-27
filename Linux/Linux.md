@@ -59,3 +59,6 @@ wget https://launchpad.net/veracrypt/trunk/1.23/+download/veracrypt-1.23-setup.t
 tar -xf veracrypt-1.23-setup.tar.bz2
 sudo bash veracrypt-1.23-setup-gui-x641
 ```
+
+## Install deb package
+run `sudo dpkg -i <deb-File>.deb`
