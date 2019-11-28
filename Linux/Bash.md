@@ -69,3 +69,12 @@ sudo vbetool dpms off/on
 sudo apt-get install ruby2.3-dev
 sudo gem install colorls
 ```
+## Pseudo stresstest forkbomb
+`t(){for ((i=1; i<=100; i++ )) { (curl www.URL.com > /dev/null  ; echo $i );next} & ; t }`
+Only blows your system without putting real stress on a server, but might get you banned or blocked.
+
+## tmux
+Creating a new session `tmux new -s session-name`  
+Leaving/detaching from a session press`<prefix> :` and type `detach`  
+Listing existing sessions `tmux ls`  
+Entering/attaching to an existing session `tmux attach -s session-name/session-number`    

@@ -65,3 +65,5 @@ Install xbacklight and set screen brightness to 60%
 sudo apt-get install xbacklight
 xbacklight -get display 60
 ```
+## Install deb package
+run `sudo dpkg -i <deb-File>.deb`
