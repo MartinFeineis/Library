@@ -5,7 +5,7 @@ Here I will collect my general Tips on Linux`
 ## Setup ssh Key connectivity
 Generate a new ssh key pair
 ```
-ssh-keygen -t rsa -b 2048 -C "comments etc"
+ssh-keygen -t rsa -b 2048 -C "comments etc" -f ~/outfile
 ```
 preferably store it in `/home/<user>/.ssh/<keyname>` and append it into the `authorized_keys` File
 ```
