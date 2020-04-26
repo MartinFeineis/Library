@@ -1,0 +1,422 @@
+    1  vim
+    2  ll
+    3  ls -lah
+    4  ls -lah .vim
+    5  ls -lah .vim/bundle
+    6  ls -lah .vim/bundle/YouCompleteMe
+    7  sudo shutdown
+    8  sudo shutdown -c
+    9  mkdir projects
+   10  git clone git@github.com:MartinFeineis/Library.git
+   11  aws 
+   12  sudo poweroff
+   13  ssh wolle-Extensa
+   14  vim ~/.ssh/config
+   15  ls -lah /home
+   16  ls -lah /home/ansible
+   17  ls -lah /home/wolle
+   18  ls -lah /home/wolle/.ansible
+   19  ls -lah /home/wolle/.ansible/tmp
+   20  ls -lah .ssh
+   21  ls -lah .aws
+   22  ll
+   23  ls -lah
+   24  ls -lah .aws
+   25  ls -lah
+   26  sudo ls -lah .aws
+   27  ls -lah
+   28  ls -lah .aws
+   29  sudo ls -lah .aws
+   30  sudo vim /etc/ssh/sshd_config
+   31  sudo service sshd status
+   32  sudo vim /etc/ssh/sshd_config
+   33  sudo service sshd restart
+   34  sudo service sshd status
+   35  vim .ssh/config
+   36  sudo vim /etc/ssh/sshd_config
+   37  sudo service sshd restart
+   38  sudo vim /etc/ssh/sshd_config
+   39  sudo service sshd restart
+   40  sudo vim /etc/ssh/sshd_config
+   41  ll
+   42  gem list colorls
+   43  whereis colorls
+   44  ls -lah /usr/local/bin
+   45  echo $PATH
+   46  ls -lah /usr/local/
+   47  gem list colorls
+   48  ll
+   49  gem uninstall colorls
+   50  gem list colorls
+   51  ll
+   52  aws
+   53  ll
+   54  aws ec2 describe-instances
+   55  vim /etc/ssh/sshd_config 
+   56  exit
+   57  exit 
+   58  exit
+   59  df -h
+   60  lsblk
+   61  lvlist
+   62  lvdisplay
+   63  sudo lvdisplay
+   64  sudo pvdisplay
+   65  man pvcreate
+   66  lsblk
+   67  sudo pvcreate /dev/sdb
+   68  sudo pvdisplay
+   69  sudo vgdisplay
+   70  sudo vgcreate vg-01
+   71  sudo vgcreate vg-01 /dev/sdb
+   72  sudo vgdisplay
+   73  cat /etc/issue
+   74  echo /etc/lsb-release
+   75  cat /etc/lsb-release
+   76  uname -F
+   77  uname 
+   78  uname -a
+   79  man uname
+   80  uname -o
+   81  man uname
+   82  uname -r
+   83  man uname
+   84  uname -n
+   85  lsb_release
+   86  lsb_release -a
+   87  sudo mount -a
+   88  ls -lah /var/tmp
+   89  sudo poweroff
+   90  ls -lah .ssh
+   91  ssh -i .ssh/tollkey.pem wolle@wolle-Extensa
+   92  ls -lah .ssh
+   93  ssh wolle-Extensa
+   94  vim .ssh/wollesshkey
+   95  ssh -i .ssh/tollkey.pem wolle@wolle-Extensa
+   96  more ~/.ssh/wollesshkey
+   97  ssh wolle-Extensa
+   98  vim ~/.ssh/config
+   99  ssh wolle-Extensa -vvv
+  100  ssh wolle-Extensa
+  101  sse
+  102  ls /var/tmp
+  103  ll
+  104  ll /var/tmp
+  105  sse
+  106  vim ~/.ssh/wollesshkey
+  107  ssh -i .ssh/tollkey.pem wolle@wolle-Extensa
+  108  sse
+  109  grep -E --color 'vmx|svm' /proc/cpuinfo
+  110  $?
+  111  grep -E --color 'vmx|svm' /proc/cpuinfo
+  112  echo $?
+  113  sse
+  114  sudo apt linst installed | grep list
+  115  sudo apt list installed | grep list
+  116  sudo apt list installed
+  117  sudo apt list --installed | grep list
+  118  sudo apt list --installed | grep imagescan
+  119  echo $?
+  120  sudo apt list --installed | grep image
+  121  echo $?
+  122  sse
+  123  tmux
+  124  man fc-cache
+  125  sse
+  126  ls -lah .local/share/fonts
+  127  sudo apt-get update
+  128  deb https://download.virtualbox.org/virtualbox/debian bionic contrib
+  129  sudo apt-key add oracle_vbox_2016.asc
+  130  wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+  131  wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+  132  echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian bionic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+  133  sudo apt-get update
+  134  sudo apt update
+  135  sudo apt install linux-headers-$(uname -r) dkms
+  136  sudo apt-get install virtualbox-6.0
+  137  cd ~/
+  138  wget https://download.virtualbox.org/virtualbox/6.0.0/Oracle_VM_VirtualBox_Extension_Pack-6.0.0.vbox-extpack
+  139  history | tail 
+  140  sse
+  141  tail ~/.zshrc
+  142  vim ~/.zshrc
+  143  echo 'alias hi="history | grep"' >> .bashrc
+  144  vim bashrc
+  145  vim .bashrc
+  146  cd projects
+  147  ll
+  148  git clone git@github.com:MartinFeineis/Library.git
+  149  ll
+  150  cd Library
+  151  tree
+  152  sse
+  153  cd projects
+  154  ll
+  155  cd Library
+  156  ll
+  157  vim SUMMARY.md
+  158  git status
+  159  git add Linux/Kubernetes.md
+  160  git commit -am "Starting Kubernetes work"
+  161  git config --global user.email martifein@gmail.com
+  162  git config --global user.name "Martin Feineis"
+  163  git commit -am "Starting Kubernetes work"
+  164  git push
+  165  tree
+  166  cd /var/tmp
+  167  ll
+  168  cd imagescan-bundle-linuxmint-19-3.59.2.x64.deb
+  169  ll
+  170  vim README.rst
+  171  pwd
+  172  sudo apt list --installed | grep image
+  173  sudo apt list --installed | grep imagescan
+  174  vim ~/.zshrc
+  175  source ~/.zshrc
+  176  vim ~/.zshrc
+  177  source ~/.zshrc
+  178  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \\n  && chmod +x minikube
+  179  sudo mkdir -p /usr/local/bin/
+  180  sudo install minikube /usr/local/bin/
+  181  sudo mkdir -p /usr/local/bin/
+  182  ll
+  183  minikube -V
+  184  minikube status
+  185  cd projects
+  186  minikube status
+  187  git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/ansible
+  188  sse
+  189  ls -lah .ssh
+  190  tree
+  191  sse
+  192  cd projects
+  193  git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/ansible
+  194  ll ~/.ssh
+  195  sudo apt list --installed | grep imagescan
+  196  tmux
+  197  git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/ansible
+  198  sse
+  199  vbetool
+  200  ende
+  201  sudo docker
+  202  sudo apt-get install \\n    apt-transport-https \\n    ca-certificates \\n    curl \\n    gnupg-agent \\n    software-properties-common
+  203  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  204  sudo apt-get update
+  205  $(lsb_release -cs)
+  206  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu
+  207  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
+  208  hi add-apt
+  209  hi deb
+  210  echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" | sudo tee /etc/apt/sources.list.d/docker.list
+  211  sudo apt-get update
+  212  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  213  docker
+  214  docker run hello-world
+  215  sudo docker run hello-world
+  216  cd projects/ansible
+  217  sudo docker build --rm --no-cache -t ansible:2.6 .
+  218  tree
+  219  vim aws_rsa
+  220  cd .ssh
+  221  vim wordpee.pem
+  222  ll
+  223  chmod 400 wordpee.pem
+  224  ssh -i wordpee.pem bitnami@34.239.226.234
+  225  vim wordpee.pem
+  226  ssh -i wordpee.pem bitnami@34.239.226.234
+  227  ll
+  228  chmod 777 wordpee.pem
+  229  vim wordpee.pem
+  230  chmod 400 wordpee.pem
+  231  ssh -i wordpee.pem bitnami@34.239.226.234
+  232  cd ../projects
+  233  ll
+  234  mkdir flaskT
+  235  python -V
+  236  which python
+  237  which python3
+  238  python3 -V
+  239  vim ansible/configs/python.yml
+  240  ll ~
+  241  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+  242  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+  243  echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+  244  vim ~/.zshrc
+  245  vim ~/.zshenv
+  246  echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+  247  pyenv
+  248  cd projects/flaskT
+  249  pyenv versions
+  250  pyenv whence
+  251  pyenv local 3.6.8
+  252  pyenv install 3.6.8
+  253  ssh -i wordpee.pem ec2-user@www.404founders.com
+  254  ssh -i wordpee.pem admin@www.404founders.com
+  255  ssh -i ~/.ssh/wordpee.pem admin@www.404founders.com
+  256  cd ~/.ssh
+  257  ll
+  258  ssh -i wordpee.pem admin@www.404founders.com
+  259  ssh -i wordpee.pem ec2-user@www.404founders.com
+  260  ssh -i ~/.ssh/wordpee.pem ec2-user@www.404founders.com
+  261  nslookup beengaged.berkadia.com
+  262  pull_upgr 
+  263  ende
+  264  vbetool dpms on
+  265  sudo vbetool dpms on
+  266  ssg
+  267  sse
+  268  exit
+  269  ssg
+  270  sse
+  271  tmux
+  272  sudo vim /etc/fstab
+  273  sudo mount -a
+  274  mkdir nasghoul pubnas hb
+  275  sudo mount -a
+  276  sse
+  277  ll .tmux
+  278  ll .tmux.conf
+  279  ll .tmux
+  280  pwd
+  281  ll
+  282  ls -lah hb
+  283  sudo mount -a
+  284  hi list
+  285  sudo apt list --installed | grep imagescan
+  286  sudo apt list --installed | grep nfs
+  287  ip a
+  288  ll
+  289  cd ..
+  290  find . -iname "*tmux.conf"
+  291  sudo apt list --installed | grep nfs
+  292  find . -iname "*tmux.conf"
+  293  ll
+  294  find wolle -iname "*tmux.conf"
+  295  ll wolle
+  296  scp wolle-Extensa:~/.tmux.conf .
+  297  tmux
+  298  sudo apt-get install nfs-common
+  299  sudo mount -a
+  300  ls nasghoul
+  301  man vbetool
+  302  pdftk Documents/Scanned\ Document.pdf cat 1-endwest output output.pdf
+  303  sudo apt search pdfshuffler
+  304  df -h
+  305  lsblk
+  306  lvdisplay
+  307  sudo lvdisplay
+  308  sudo cgdisplay
+  309  sudo vgdisplay
+  310  ls Do
+  311  ls Documents
+  312  cd Documents
+  313  mv Scanned\ Document.pdf ~/nasghoul/Wolles/current/FSA_1.pdf
+  314  sudo apt-get install veracrypt
+  315  wget https://launchpad.net/veracrypt/trunk/1.23/+download/veracrypt-1.23-setup.tar.bz2
+  316  tar -xf veracrypt-1.23-setup.tar.bz2
+  317  ll
+  318  sudo bash veracrypt-1.23-setup-gui-x64
+  319  veracrypt
+  320  history | tail
+  321  cd projects/Library
+  322  vim Linux/Linux.md
+  323  gpp "Veracrypt"
+  324  git pull
+  325  gpp "Veracrypt"
+  326  git push
+  327  sudo pvdisplay
+  328  sudo lvdisplay
+  329  sudo vgdisplay
+  330  man lvcreate 
+  331  sudo vgdisplay
+  332  man lvdisplay
+  333  sudo lvdisplay
+  334  sudo vgdisplay
+  335  sudo lvcreate -l 100% -n data01 vg-01
+  336  sudo lvcreate -l 100%VG -n data01 vg-01
+  337  sudo lvdisplay
+  338  mkfs.ext4 /dev/vg-01/data01
+  339  sudo mkfs.ext4 /dev/vg-01/data01
+  340  mkdir /data
+  341  mkdir data
+  342  sudo mount /dev/vg-01/data01 data
+  343  cd data
+  344  ll
+  345  cd 
+  346  cd data
+  347  ll
+  348  lsd .
+  349  ll -d .
+  350  cd ..
+  351  lsd data
+  352  ls -lah data*
+  353  ls -lah data/
+  354  ls -lahd
+  355  ls -lah
+  356  ls -lah d*
+  357  ll
+  358  chown wolle:wolle data
+  359  sudo chown wolle:wolle data
+  360  cd data
+  361  ll
+  362  cd Documents
+  363  ll
+  364  du -sh *
+  365  du -sh .
+  366  cd data
+  367  ll
+  368  kpl Barclay
+  369  sudo apt search keepass-cli
+  370  sudo apt search keepassxc-cli
+  371  sudo apt search keepassxc
+  372  sudo apt install keepassxc
+  373  kpl Barclay
+  374  kps /Homebanking/Barclay\ Deutschland
+  375  cd data
+  376  ls -lah
+  377  rsync *.iso ~/nasghoul/Wolles/Programme -rvah
+  378  ls -lah ~/nasghoul/Wolles/Programme/*.iso
+  379  ls -lah ~/nasghoul/Wolles/Programme/
+  380  cd ~
+  381  ll
+  382  ll projects
+  383  cd data
+  384  ll
+  385  ll projects/flaskT
+  386  cd projects/flaskT
+  387  ls -lah
+  388  cd ..
+  389  rm -d flaskT
+  390  cd ..
+  391  cd projects/ansible
+  392  git status
+  393  cd ../Library
+  394  git status
+  395  cd ..
+  396  rm -rf projects
+  397  mkdir projects
+  398  mn ln
+  399  man ln
+  400  ln -s data/projects projects
+  401  cd projects
+  402  pwd
+  403  cd ..
+  404  ls -lah projects
+  405  vim /etc/hosts
+  406  sudo vim /etc/hosts
+  407  wget beengaged.berkadia.com
+  408  vim index.html
+  409  nslookup beengaged.berkadia.com
+  410  sudo vim /etc/hosts
+  411  nslookup beengaged.berkadia.com
+  412  wget beengaged.berkadia.com
+  413  vim index.html
+  414  wget https://beengaged.berkadia.com
+  415  cd projects
+  416  ll
+  417  git clone git@github.com:MartinFeineis/Library.git
+  418  hi lv
+  419  history
+  420  vim ~/.zshrc
+  421  vim ~/.bashrc
+  422  q
