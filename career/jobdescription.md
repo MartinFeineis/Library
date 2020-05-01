@@ -16,3 +16,10 @@ expertise and career pathes they are following, we try to get a general understa
 other fields as well.
 
 ## Tech Stack
+We are using
+* Linux (Debian and Mint)
+* Python
+* Django
+  * Django Rest Framework
+  * uwsgi
+* nginx
