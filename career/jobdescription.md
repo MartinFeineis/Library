@@ -18,8 +18,10 @@ other fields as well.
 ## Tech Stack
 We are using
 * Linux (Debian and Mint)
+* Kubernetes
 * Python
 * Django
   * Django Rest Framework
   * uwsgi
 * nginx
+* AWS, Linode
