@@ -5,7 +5,7 @@ Here I will collect my general Tips on Linux`
 ## Setup ssh Key connectivity
 Generate a new ssh key pair
 ```
-ssh-keygen -t rsa -b 2048 -C "comments etc"
+ssh-keygen -t rsa -b 2048 -C "comments etc" -f ~/outfile
 ```
 preferably store it in `/home/<user>/.ssh/<keyname>` and append it into the `authorized_keys` File
 ```
@@ -67,3 +67,23 @@ xbacklight -get display 60
 ```
 ## Install deb package
 run `sudo dpkg -i <deb-File>.deb`
+
+## Printing from the commandline
+```
+~/Documents pyenv 🐍 system 
+➜ lpstat -p -d
+printer HP_LaserJet_M15w_0725E9_ is idle.  enabled since Sun 22 Dec 2019 09:37:15 AM EST
+printer HP_LaserJet_M15w_0725E9_@NPI0725E9.local is idle.  enabled since Sun 22 Dec 2019 09:39:27 AM EST
+no system default destination
+
+~/Documents pyenv 🐍 system 
+➜ lpoptions -d HP_LaserJet_M15w_0725E9_
+device-uri=ipps://HP%20LaserJet%20M15w%20(0725E9)._ipps._tcp.local/ printer-info='HP LaserJet M15w (0725E9)' printer-location printer-make-and-model='HP HP LaserJet M14-M17' printer-type=16781316
+
+~/Documents pyenv 🐍 system 
+➜ lp D\&B-E-card.pdf                   
+request id is HP_LaserJet_M15w_0725E9_-2 (1 file(s))
+
+~/Documents pyenv 🐍 system 
+➜ 
+```

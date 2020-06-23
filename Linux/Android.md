@@ -3,7 +3,8 @@
 Press `Volume Down + Home + PowerOn` to get into download mode and install LineageOS or any applicable Operating System.
 
 ## Recovery Mode
-Press `Volume Up + Home + PowerOn` to get into TWRP after it got installed
+Press `Volume Up + Home + PowerOn` to get into TWRP after it got installed. If I do it correctly I see this red message in the upper left corner of the screen __RECOVERY IS NOT SEANDROID ENFORCING__ together with the Samsung Galaxy 10 Screen
+
 
 ## Sideloading Lineage
 Installing lineageOS after building 

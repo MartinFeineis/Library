@@ -15,13 +15,18 @@ Remove-SSHSession -Index 0 -Verbose
 Install Ubuntu WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 It can be started by typing ```bash``` in Powershell 
+Run this, and only this as Administrator/root
 ```
-Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+Run the following as regular User so you don't need to be Administrator to use wsl
+this installs Ubuntu 18-04
+```
+Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseBasicParsing
 Rename-Item Ubuntu.appx Ubuntu.zip
 Expand-Archive Ubuntu.zip Ubuntu
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 cd Ubuntu
-.\ubuntu.exe
+.\ubuntu1804.exe
 ```
 ## File Actions
 ### Find Files
