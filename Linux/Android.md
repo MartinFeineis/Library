@@ -14,3 +14,7 @@ List devices
 ## Installing TWRP
 Using fastboot to install twrp
 `fastboot flash recovery twrp.apk`
+
+## Fix Setup Wizard
+The Last step I did that fixed the issue was moving the LineageOSSetupWizard
+to the sdcard. Maybe there was a conflict with the GoogleSetupWizard.
