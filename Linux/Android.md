@@ -17,5 +17,16 @@ Using fastboot to install twrp
 `fastboot flash recovery twrp.apk`
 
 ## Fix Setup Wizard
-The Last step I did that fixed the issue was moving the LineageOSSetupWizard
+The Last step I did that fixed the issue was moving the LineageSetupWizard
 to the sdcard. Maybe there was a conflict with the GoogleSetupWizard.
+Boot into Recovery Mode, mount the system volume and mov the Directory
+```
+mount /system
+mv /system/priv-app/LineageSetupWizard /sdcard/
+```
+### Additional Steps
+I also tried to add all the permissions from the [perms][perms.txt] File.
+I then looped over that file and applied all permissions through adb.
+```
+while read in; do adb shell pm grant com.google.android.setupwizard "$in"; done < perms.txt
+```
