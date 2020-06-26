@@ -53,13 +53,16 @@ persist.service.adb.enable=1
 ```
 ### build.prop
 
+## Rooting
+Here I had to install SuperSu _not_ addonsu package, this confused me a little
 ## Links
 This proved to actually be the solution by choosing the right setup Wizard. Which
 I did wrong in earlier tries.
-[Error looping, “Unfortunately, Setup Wizard has stopped.”](https://android.stackexchange.com/questions/143360/error-looping-unfortunately-setup-wizard-has-stopped)
+[Error looping, “Unfortunately, Setup Wizard has stopped.”](https://android.stackexchange.com/questions/143360/error-looping-unfortunately-setup-wizard-has-stopped)  
 I could not found the xml described but it pointed me the right direction.
-[Bypassing Lineage Setup Wizard](https://forum.xda-developers.com/lineage/general/solution-bypassing-lineage-setup-wizard-t3833237)
+[Bypassing Lineage Setup Wizard](https://forum.xda-developers.com/lineage/general/solution-bypassing-lineage-setup-wizard-t3833237)  
 This helped understanding the __adb__ and __adbd__ Deamon a little better.
-[Is there a way for me to run Adb shell as root without typing in 'su'?](https://android.stackexchange.com/questions/5884/is-there-a-way-for-me-to-run-adb-shell-as-root-without-typing-in-su)
+[Is there a way for me to run Adb shell as root without typing in 'su'?](https://android.stackexchange.com/questions/5884/is-there-a-way-for-me-to-run-adb-shell-as-root-without-typing-in-su)  
 This helped with understanding the adb config files better
-[Obtaining root by modifying default.prop?](https://android.stackexchange.com/questions/28653/obtaining-root-by-modifying-default-propro-secure)
+[Obtaining root by modifying default.prop?](https://android.stackexchange.com/questions/28653/obtaining-root-by-modifying-default-propro-secure)  
+
