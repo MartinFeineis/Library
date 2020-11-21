@@ -1,0 +1,89 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# Autostart tmux
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    tmux attach -t default || tmux new -s default
+fi
+# Path to your oh-my-zsh installation.
+export ZSH="/home/wolle/.oh-my-zsh"
+export TERM="xterm-256color"
+source /home/wolle/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
+SPACESHIP_PROMPT_ORDER=(
+host
+dir
+git
+exec_time
+jobs
+venv
+pyenv
+aws
+line_sep
+char
+)
+SPACESHIP_PROMPT_ADD_NEWLINE=true
+SPACESHIP_HOST_COLOR=red
+SPACESHIP_VENV_PREFIX="venv "
+SPACESHIP_PYENV_PREFIX="pyenv "
+plugins=(
+  git
+  tmux
+  zsh-autosuggestions
+)
+
+source $ZSH/oh-my-zsh.sh
+
+alias lc="colorls"
+alias ssf="ssh -i ~/.ssh/ansible ansible@www.404founders.com"
+alias ssr="ssh wolleberry"
+alias ssy="ssh wolle-sys76"
+alias sse="ssh wolle-Extensa"
+alias sso="ssh wolle-Optiplex"
+alias ssv="ssh -i ~/.ssh/wollesshkey wolle@local.villapenguin.net -p 443"
+alias pull_upgr="sudo apt-get update -y ; sudo apt-get upgrade -y ; sudo poweroff"
+alias ldir="ls -ad */"
+alias hi="history | grep"
+alias lsd="ls -d */"
+alias ll="lc -Al"
+alias kpl="keepassxc-cli locate ~/nasghoul/Wolles/current/wolle-passwords.kdbx"
+alias kps="keepassxc-cli show ~/nasghoul/Wolles/current/wolle-passwords.kdbx"
+alias kpa="keepassxc-cli add ~/nasghoul/Wolles/current/wolle-passwords.kdbx"
+alias kpe="keepassxc-cli edit ~/nasghoul/Wolles/current/wolle-passwords.kdbx"
+
+#if [ -z $TMUX ]; then; tmux; fi
+#source ~/nasghoul/Wolles/current/.zshrc
+alias ende="sudo vbetool dpms off && logout"
+function gpp () {
+   git commit -am$1 && git push
+   }
+
+alias dra="sudo docker run ansible:latest"
+export PATH=/home/wolle/.local/bin:$PATH
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+alias dra="sudo docker run ansible:latest"
+cl () { cd $1 ; ls }
+alias nasmnt="sudo mount nasghoul:/volume1/pullovas /home/wolle/nasghoul"
+alias hbmnt="sudo mount nasghoul:/volume1/hb /home/wolle/hb"
+alias pubmnt="sudo mount nasghoul:/volume1/public /home/wolle/pubnas"
+alias nonasfind="find ~ -type d \( -path ~/nasghoul -o -path ~/hb -o -path ~/pubnas \) -prune -o -iname $1  -print"
+alias ipa="ip a | grep inet ; echo $HOST"
+
+#scp wolle-Extensa:/home/wolle/nasghoul/Wolles/current/wolle-passwords.kdbx /home/wolle/Documents/wolle-passwords.kdbx
+email () { NXTWRKSP=`expr $(i3-msg -t get_workspaces | jq -r 'map(.num)|last') + 1`
+    #echo $NXTWRKSP
+    i3-msg workspace $NXTWRKSP:Email; exec /usr/bin/thunderbird &
+}
+
+social () {
+    NXTWRKSP=`expr $(i3-msg -t get_workspaces | jq -r 'map(.num)|last') + 1`
+    i3-msg workspace $NXTWRKSP:Social; exec /usr/bin/discord  
+    i3-msg workspace $NXTWRKSP:Social; exec /usr/bin/slack ; layout tabbed 
+}

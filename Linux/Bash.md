@@ -64,11 +64,32 @@ Turning off the screen on Linux Mint 18.2 Sonya
 sudo apt-get install vbetool
 sudo vbetool dpms off/on
 ```
-## Installing colorls
+## CommandLine Tools
+### Installing colorls
 ```
 sudo apt-get install ruby2.3-dev
 sudo gem install colorls
 ```
+### Install bat
+Bat is more eye-friendly cat alternative, on [Github](https://github.com/sharkdp/bat). 
+Replace the release number down there with the latest from the
+Release Page [Release](https://github.com/sharkdp/bat/releases/).
+```
+wget https://github.com/sharkdp/bat/releases/download/v0.16.0/bat_0.16.0_amd64.deb
+sudo dpkg -i bat_0.16.0_amd64.deb
+```
+### fuzzyfind
+On [fzf](https://github.com/junegunn/fzf)
+```
+sudo apt-get install fzf
+```
+### autojump
+On [autojump](https://github.com/wting/autojump). Autojump needs to be sourced.
+```
+sudo apt install autojump
+echo "source /usr/share/autojump/autojump.sh" >> ~/.zshrc
+```
+
 ## Pseudo stresstest forkbomb
 `t(){for ((i=1; i<=100; i++ )) { (curl www.URL.com > /dev/null  ; echo $i );next} & ; t }`
 Only blows your system without putting real stress on a server, but might get you banned or blocked.
