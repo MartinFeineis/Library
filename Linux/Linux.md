@@ -67,7 +67,9 @@ xbacklight -get display 60
 ```
 ## Install deb package
 run `sudo dpkg -i <deb-File>.deb`
-
+### Check installed Ubuntu Version
+For linux mint check `/etc/upstream-release/lsb-release`
+On Pop_OS! check `/etc/os-release`
 ## Printing from the commandline
 ```
 ~/Documents pyenv 🐍 system 
