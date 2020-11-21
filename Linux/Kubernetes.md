@@ -14,3 +14,14 @@ sudo apt-get install virtualbox-6.0
 cd ~/
 wget https://download.virtualbox.org/virtualbox/6.0.0/Oracle_VM_VirtualBox_Extension_Pack-6.0.0.vbox-extpack
 ```
+
+## AWS Kubernetes EKS
+The first command creates a new context entry in `~/.kube/config` the second command displays
+the available contexts, then the third command changes the contexts to the one provided context-name
+from the output of the second command. The fourth command displays the now active context.
+```
+aws eks --region us-east-1 update-kubeconfig --name $(StackName)
+kubectl config get-contexts
+kubectl config use-context __Name from get-contexts__
+kubectl config current-context
+```
