@@ -23,12 +23,10 @@ systemctl status <services>
 more than just one service `systemctl status ssh sshd`).
 
 ---
-
 __services vs. systemctl__  
 `systemctl` is the newer way to check for serivces, it also
 allows to check on several services with just one comman.
-`service status sshd` prints the same output.
-
+`service status sshd` prints the same output.  
 ---
 
 ## SSH
