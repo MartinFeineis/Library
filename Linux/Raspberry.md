@@ -21,6 +21,7 @@ systemctl status <services>
 ```
 (e.g. `systemctl status sshd` or to check on
 more than just one service `systemctl status ssh sshd`).
+
 ---
 #### services vs. systemctl
 `systemctl` is the newer way to check for serivces, it also
