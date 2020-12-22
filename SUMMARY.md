@@ -7,6 +7,7 @@
 * [Linux](Linux/Linux.md)
     * [Bash](Linux/Bash.md)
     * [Kubernetes](Linux/Kubernetes.md)
+    * [Raspberry](Linux/Raspberry.md)
 * [Android](Linux/Android.md)
 
 ## Cloudproviders
