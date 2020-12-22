@@ -15,4 +15,16 @@ raspberryPis.
 This section teaches the concepts about services 
 and how to connect to your raspberryPi through ssh.
 First we ensure that the ssh Deamon and ssh client 
-are installed
+are installed. This is done like this:
+```
+systemctl status <services>
+```
+(e.g. `systemctl status sshd` or to check on
+more than just one service `systemctl status ssh sshd`).
+___
+#### services vs. systemctl
+`systemctl` is the newer way to check for serivces, it also
+allows to check on several services with just one comman.
+`service status sshd` prints the same output.
+
+___
