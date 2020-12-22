@@ -6,12 +6,12 @@ setup but instead rely on terminal ssh connections to play
 around. Software installation comes therefor after
 setting up ssh.
 
-# Installing Raspbian
+## Installing Raspbian
 Raspbian is the Debian based Linux distribution for
 raspberryPis. 
 
 
-# Services
+## Services
 This section teaches the concepts about services 
 and how to connect to your raspberryPi through ssh.
 First we ensure that the ssh Deamon and ssh client 
@@ -24,7 +24,7 @@ more than just one service `systemctl status ssh sshd`).
 
 ---
 
-#### services vs. systemctl
+__services vs. systemctl__  
 `systemctl` is the newer way to check for serivces, it also
 allows to check on several services with just one comman.
 `service status sshd` prints the same output.
