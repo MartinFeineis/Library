@@ -19,6 +19,7 @@ PasswordAuthentication no
 AuthorizedKeysFile %h/.ssh/authorized_keys /etc/ssh/authorized_keys/%u
 ```
 Lastly copy the __private__ `keyname` file to the machine you want to use to connect from.
+__The private keyfile is the key to access your host use caution and encryption when to save or share it.__
 ```
 scp ~/.ssh/keyname user@host:~/.ssh/
 ```
