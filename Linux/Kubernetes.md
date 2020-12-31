@@ -25,3 +25,17 @@ kubectl config get-contexts
 kubectl config use-context __Name from get-contexts__
 kubectl config current-context
 ```
+
+## Kubernetes Objects
+### Deployment
+Deployments create Pods from Images.
+### Services
+Services are used to expose Deployments internally or publicly
+#### NodePort
+Nodeports are used to expose a Service on a Node outside to local Kubernetes cluster.
+This can be used for Development on Minikube.
+#### ClusterIP
+Cluster IP Services are used for Deployments that need to talk to other Services inside Kubernetes but not the outside world
+#### Loadbalancer
+Loadbalancer Services are only available on supported Cloud Service Provicers. A Loadbalancer Service creates an object in the Cloud
+e.g. an AWS Loadbalancer to expose a Kubernetes Deployment publicly through AWS Route53.
