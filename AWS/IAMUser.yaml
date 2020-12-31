@@ -4,7 +4,7 @@ Resources:
   IAMTest1:
     Type: "AWS::IAM::User"
     Properties:
-      UserName: "ansible"
+      UserName: "terraform"
       Policies: 
        - PolicyName: "ansibleAccess"
          PolicyDocument:

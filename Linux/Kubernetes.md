@@ -29,6 +29,24 @@ kubectl config current-context
 ## Kubernetes Objects
 ### Deployment
 Deployments create Pods from Images.
+Create Deployments from deployment yaml files, like
+```
+kubectl create -f deployment.yaml
+```
+To allow images being pulled from AWS ECR in minikube
+```
+minikube addons configure registry-creds
+minikube addons enable registry-creds
+```
+The creds have to be referenced in the yaml like this:
+```
+imagePullSecrets:
+  - name: awsecr-cred
+containers:
+    image: 703292127192.dkr.ecr.us-east-1.amazonaws.com/flaskpy:latest
+    ports:
+```
+Next services
 ### Services
 Services are used to expose Deployments internally or publicly
 #### NodePort
