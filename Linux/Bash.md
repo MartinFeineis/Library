@@ -37,7 +37,8 @@ See: https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-contai
 ## find
 Find files in a folder with excluding a path
 `find . -path ./exclude/path -prune -o -iname "*pattern*" -print`
-
+Find all files ending in .md and find the lines that contain django in those files.
+`find . -type f -name "*.md" -exec grep "{}" -re django  \;`
 ## du
 Getting disk usage with excluding one or more pathes  
 `du --exclude=path1 --exclude=path2 --exclude=path3 -sh *`
