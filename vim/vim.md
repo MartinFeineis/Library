@@ -6,6 +6,9 @@
 * `<pattern>` The pattern to search for  
 * `<replace>` what to replace the pattern with  
 Example comment lines 15 to 25 `:15,25s/^/#`  
+## insert file at current position
+`:r <path/to/file>`
+
 # Plugins
 ## Pathogen
 I use Pathgen for managing plugins
