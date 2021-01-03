@@ -18,4 +18,4 @@
 ## Tools
 * [Vim](vim/vim.md)
 * [Ansible](ansible/ansible.md)
-* [Django](django/django.md)
+* [Django](Django/django.md)

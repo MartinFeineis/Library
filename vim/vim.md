@@ -19,5 +19,26 @@ YCM offers autocomplete
 ## Ranges
 Usefule Link [Ranges](https://vim.fandom.com/wiki/Ranges)  
 `$` goes to end of Line.  
-## RegEx
+## switch case
+__upper case__ press `gU<motion>` to change the letter under the cursor to 
+__lower case__ press `gu<motion>` to change the letter under the cursor to 
+## ranges
+usefule link [ranges](https://vim.fandom.com/wiki/ranges)  
+`$` goes to end of line.  
+
+## regex
 [regex](http://www.vimregex.com/)  
+
+# plugins
+## pathogen
+i use pathgen for managing plugins
+## nerdtree
+nerdtree allows you to have a folder pane to navigate files/folders.
+`?` to see help menu
+`r` to refresh view, for example after deleting some file
+`I` to see hidden files and folders
+## youcompleteme
+ycm offers autocomplete
+## [SURROUND.VIM](https://vimawesome.com/plugin/surround-vim)
+A plugin to change the brackets or other characters around text. Useful 
+for html for example
