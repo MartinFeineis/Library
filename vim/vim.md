@@ -37,8 +37,11 @@ nerdtree allows you to have a folder pane to navigate files/folders.
 `?` to see help menu
 `r` to refresh view, for example after deleting some file
 `I` to see hidden files and folders
-## youcompleteme
+## [youcompleteme](https://github.com/ycm-core/YouCompleteMe)
 ycm offers autocomplete
 ## [SURROUND.VIM](https://vimawesome.com/plugin/surround-vim)
 A plugin to change the brackets or other characters around text. Useful 
 for html for example
+
+## [Emmet](https://github.com/mattn/emmet-vim/)
+A plugin for html autocompletion
