@@ -32,3 +32,13 @@ aws cloudformation describe-stack-events --stack-name userStack
 ## Deleting a Stack
 To delete a Stack with `stackName` run  
 `aws cloudformation delete-stack --stack-name userStack`  
+
+## cloudfront
+Create a list of all cloudfront distributions
+```
+aws cloudfront list-distributions | jq -c '."DistributionList"."Items"[] | {"Id" : ."Id"} '
+```
+Explanation: 
+`.` takes all elemens
+`{"Id" : ."Id"}` creates an object with the Key "Id" and the value of `Id` from the List it gets passed
+`jq -c`: Does not print a new Line after every Element 
