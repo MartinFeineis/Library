@@ -42,3 +42,8 @@ Explanation:
 `.` takes all elemens
 `{"Id" : ."Id"}` creates an object with the Key "Id" and the value of `Id` from the List it gets passed
 `jq -c`: Does not print a new Line after every Element 
+##Cloudwatch
+List all metrics where the Namespace contains __Usage__
+```
+aws cloudwatch list-metrics | jq '."Metrics"[] | select(."Namespace" | contains("Usage"))'
+```
