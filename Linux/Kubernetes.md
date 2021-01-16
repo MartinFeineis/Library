@@ -34,6 +34,7 @@ Create Deployments from deployment yaml files, like
 kubectl create -f deployment.yaml
 ```
 To allow images being pulled from AWS ECR in minikube
+[docs](https://minikube.sigs.k8s.io/docs/tutorials/configuring_creds_for_aws_ecr/)
 ```
 minikube addons configure registry-creds
 minikube addons enable registry-creds
