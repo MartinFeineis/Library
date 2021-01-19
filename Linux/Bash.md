@@ -45,7 +45,11 @@ Find all Files in current directory where the filesize is bigger the 50Kb and co
 ```
 for filename in * ; do size=`wc -l "$filename" | awk '{ print $1 }'` &&  if [ "$size" -gt 50 ]; then cp "$filename" anotherdir; fi;  done
 ```
-## rename 
+## rename
+Remove `string` from the beginning of all files in the current directory using `rename`
+```
+rename 's/string//;' 
+```
 
 ## du
 Getting disk usage with excluding one or more pathes  
