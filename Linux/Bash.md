@@ -40,6 +40,11 @@ Find files in a folder with excluding a path
 Find all files ending in .md and find the lines that contain django in those files.
 `find . -type f -name "*.md" -exec grep "{}" -re django  \;`
 
+## for loop
+Find all Files in current directory where the filesize is bigger the 50Kb and copy them into another directory
+```
+for filename in * ; do size=`wc -l "$filename" | awk '{ print $1 }'` &&  if [ "$size" -gt 50 ]; then cp "$filename" anotherdir; fi;  done
+```
 ## rename 
 
 ## du
