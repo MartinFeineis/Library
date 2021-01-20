@@ -44,7 +44,7 @@ The creds have to be referenced in the yaml like this:
 imagePullSecrets:
   - name: awsecr-cred
 containers:
-    image: 703292127192.dkr.ecr.us-east-1.amazonaws.com/flaskpy:latest
+    image: 123456789123.dkr.ecr.us-east-1.amazonaws.com/flaskpy:latest
     ports:
 ```
 Next services
