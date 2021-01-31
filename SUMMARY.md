@@ -16,6 +16,9 @@
 * [Azure](Azure/Azure.md)
 
 ## Tools
-* [Vim](vim/vim.md)
-* [Ansible](ansible/ansible.md)
-* [Django](Django/django.md)
+* [Vim](Vim/Vim.md)
+* [Ansible](Ansible/Ansible.md)
+
+## Languages
+* [Django](Django/Django.md)
+* [Python](Python/Python.md)
