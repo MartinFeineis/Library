@@ -19,8 +19,8 @@ variable "gs_url" {
 
 provider "aws" {
   region  = "us-east-1"
-  access_key = "AKIAJLDISYORBBRBSOUA"
-  secret_key = "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"
+  access_key = "expired"
+  secret_key = "doesn'twork/XIPj00U"
 }
 
 resource "aws_vpc" "gs-vpc" {
