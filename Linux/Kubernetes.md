@@ -25,6 +25,15 @@ kubectl config get-contexts
 kubectl config use-context __Name from get-contexts__
 kubectl config current-context
 ```
+Alternatively a less manual approach. (Ust the `-r` flag in `jq` to get the string without quotes)
+Make sure to use the aws profile/IAM User that created the cluster or assign the create-cluster 
+privileges to your user.
+```
+FIRSTCLUSTER=$(aws eks list-clusters | jq -r '."clusters"[]') 
+aws eks --region us-east-1 update-kubeconfig --name $FIRSTCLUSTER
+THISCONTEXT=${/kubectl config get-contexts | grep \* | awk '{ print $2 }'}
+kubectl config use-context $THISCONTEXT
+```
 
 ## Kubernetes Objects
 ### Deployment
