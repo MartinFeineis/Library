@@ -20,7 +20,7 @@ Run this, and only this as Administrator/root
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 Run the following as regular User so you don't need to be Administrator to use wsl
-this installs Ubuntu 18-04
+this installs Ubuntu 18-04. Look here for current supported distros and manual download Links [wsl](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
 ```
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseBasicParsing
 Rename-Item Ubuntu.appx Ubuntu.zip
