@@ -1,7 +1,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/wolle/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export TERM="xterm-256color"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
@@ -37,7 +37,6 @@ autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
 
 alias lc="colorls"
-alias ssf="ssh -i ~/.ssh/ansible ansible@www.404founders.com"
 alias ssr="ssh wolleberry"
 alias ssy="ssh wolle-sys76"
 alias sse="ssh wolle-Extensa"
@@ -54,7 +53,6 @@ alias kpa="keepassxc-cli add ~/nasghoul/Wolles/current/wolle-passwords.kdbx"
 alias kpe="keepassxc-cli edit ~/nasghoul/Wolles/current/wolle-passwords.kdbx"
 
 #if [ -z $TMUX ]; then; tmux; fi
-#source ~/nasghoul/Wolles/current/.zshrc
 alias ende="sudo vbetool dpms off && logout"
 function gpp () {
    git commit -am$1 && git push
