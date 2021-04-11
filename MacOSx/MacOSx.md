@@ -8,5 +8,21 @@ Install zsh tmux and vim
 brew install cmake python3 zsh vim tmux
 chsh -s /usr/local/bin/zsh
 ```
-in zshrc alias vim --> /usr/bin/local/vim
 
+# Install spaceship theme
+also zsh-completions
+```
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
+brew install zsh-completions
+```
+
+# Install vundle
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+compile ycm
+```
+cd ~/.vim/bundle/youcompleteme
+./install.sh
+```
