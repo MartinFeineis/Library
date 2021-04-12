@@ -26,3 +26,10 @@ compile ycm
 cd ~/.vim/bundle/youcompleteme
 ./install.sh
 ```
+
+# Install colorls
+add alias to `.zshrc`
+```
+gem install colorls --user-install
+alias colorls="$HOME/.gem/ruby/2.6.0/bin/colorls"
+```
