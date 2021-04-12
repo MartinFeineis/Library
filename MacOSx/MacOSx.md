@@ -33,3 +33,9 @@ add alias to `.zshrc`
 gem install colorls --user-install
 alias colorls="$HOME/.gem/ruby/2.6.0/bin/colorls"
 ```
+
+# Install NerdFonts
+```
+brew tap homebrew/cask-fonts
+brew install --cask font-ubuntu-nerd-font
+```
