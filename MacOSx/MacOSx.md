@@ -39,3 +39,8 @@ alias colorls="$HOME/.gem/ruby/2.6.0/bin/colorls"
 brew tap homebrew/cask-fonts
 brew install --cask font-ubuntu-nerd-font
 ```
+
+## Do no write DSStore Files
+```
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+```
