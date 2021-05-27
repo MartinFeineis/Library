@@ -55,9 +55,9 @@ Find all Files in current directory where the filesize is bigger the 50Kb and co
 ```
 for filename in * ; do size=`wc -l "$filename" | awk '{ print $1 }'` &&  if [ "$size" -gt 50 ]; then cp "$filename" anotherdir; fi;  done
 ```
-Create 10 folders with the number and _stringname_ as the folder name
+Create 10 folders with the number and __\_stringname__ as the folder name
 ```
-for item in {1..44} ; do mkdir ${item}_scp ; done
+for item in {1..10} ; do mkdir ${item}_stringname ; done
 ```
 ## rename
 Remove `string` from the beginning of all files in the current directory using `rename`
