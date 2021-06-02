@@ -9,6 +9,8 @@
     * [Kubernetes](Linux/Kubernetes.md)
     * [Raspberry](Linux/Raspberry.md)
 * [Android](Linux/Android.md)
+* [MacOSX](MacOSx/MacOSx.md)
+
 
 ## Cloudproviders
 
@@ -22,3 +24,4 @@
 ## Languages
 * [Django](Django/Django.md)
 * [Python](Python/Python.md)
+* [SQL/Postgres](SQL/Postgres.md)
