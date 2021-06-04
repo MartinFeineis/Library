@@ -12,6 +12,10 @@ or
 ```
 < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c20
 ```
+On Mac prepend it with `LC_CTYPE=C`, like
+```
+< /dev/urandom | LC_CTYPE=C tr -dc _A-Z-a-z-0-9 | head -c24
+```
 
 ## Setup ssh Key connectivity
 Generate a new ssh key pair
