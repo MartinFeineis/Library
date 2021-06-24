@@ -44,3 +44,12 @@ brew install --cask font-ubuntu-nerd-font
 ```
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 ```
+### Install some Programs
+KeespassXC, Slack, Zoom and Google-Chrome
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install --cask google-chrome
+brew install --cask keepassxc
+brew install --cask slack
+brew install --cask zoom
+```
