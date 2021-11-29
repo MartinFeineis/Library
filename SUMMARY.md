@@ -25,3 +25,6 @@
 * [Django](Django/Django.md)
 * [Python](Python/Python.md)
 * [SQL/Postgres](SQL/Postgres.md)
+
+## Books
+* [Kanban](Books/Kanban.md)
