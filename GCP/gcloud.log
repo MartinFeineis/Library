@@ -1,0 +1,65 @@
+cd projects/gcloudKube
+gcloud
+gcloud 
+gcloud -q compute addresses delete kubernetes-the-hard-way \\n  --region $(gcloud config get-value compute/region)\n
+gcloud -q compute firewall-rules delete \\n  kubernetes-the-hard-way-allow-nginx-service \\n  kubernetes-the-hard-way-allow-internal \\n  kubernetes-the-hard-way-allow-external \\n  kubernetes-the-hard-way-allow-health-check\n
+gcloud -q compute instances delete \\n  controller-0 controller-1 controller-2 \\n  worker-0 worker-1 worker-2 \\n  --zone $(gcloud config get-value compute/zone)\n
+gcloud alpha functions add-iam-policy-binding HelloHTTP --region=us-central1 --member=allUsers --role=roles/cloudfunctions.invoker
+gcloud auth application-default login
+gcloud auth list
+gcloud auth login
+gcloud components update
+gcloud compute regions list
+gcloud compute ssh worker-1\n\n\n
+gcloud config configurations activate personal
+gcloud config configurations create contino
+gcloud config configurations create personal
+gcloud config configurations list
+gcloud config list --all
+gcloud config set account martifein@gmail.com
+gcloud config set account martin.feineis@contino.io
+gcloud config set compute/region us-central1
+gcloud config set compute/region us-central1-a
+gcloud config set compute/region us-east4
+gcloud config set compute/zone us-central1-a
+gcloud config set compute/zone us-east4-c
+gcloud config set core/account martifein@gmail.com
+gcloud config set project contini-9ddfb4c420a56311
+gcloud config set project my-project-1549060401755
+gcloud functions delete HelloHTTP
+gcloud functions deploy HelloHTTP --runtime go116 --trigger-http --allow-unauthenticated
+gcloud functions describe HelloHTTP
+gcloud functions describe function-test
+gcloud gcloud config set compute/region us-east4
+gcloud projects 
+gcloud projects --help
+gcloud projects enable --help
+gcloud projects list
+gcloud services --help
+gcloud services enable --help
+gcloud services enable apigateway.googleapis.com\ngcloud services enable servicemanagement.googleapis.com\ngcloud services enable servicecontrol.googleapis.com
+gcloud services enable cloudfunctions.functions.setIamPolicy
+gcloud services enable cloudfunctions.functions.setIamPolicy\
+gcloud services enable cloudresourcemanager.googleapis.com
+gcloud services enable serviceusage.googleapis.com
+gcloud services list
+gcloud services list --available
+gcloud services list --enabled
+gcloud version
+hi gcloud
+hi gcloud | cut -c -8
+hi gcloud | cut -c 0:6
+hi gcloud | cut -c 8-
+hi gcloud | cut -c 8- | sort
+hi gcloud | cut -c 8- | sort | uniq
+hi gcloud | cut -c 8- | uniq
+hi gcloud | cut -cf 0:6
+hi gcloud | cut -d 6
+hi gcloud | cut -d 6man cut
+hi gcloud | sort
+hi gcloud | sort  |uniq
+hi gcloud | sort | uniq
+hi gcloud | uniq
+hi gcloud | unique
+{\n  gcloud -q compute forwarding-rules delete kubernetes-forwarding-rule \\n    --region $(gcloud config get-value compute/region)\n\n  gcloud -q compute target-pools delete kubernetes-target-pool\n\n  gcloud -q compute http-health-checks delete kubernetes\n\n  gcloud -q compute addresses delete kubernetes-the-hard-way\n}\n
+{\n  gcloud -q compute routes delete \\n    kubernetes-route-10-200-0-0-24 \\n    kubernetes-route-10-200-1-0-24 \\n    kubernetes-route-10-200-2-0-24\n\n  gcloud -q compute networks subnets delete kubernetes\n\n  gcloud -q compute networks delete kubernetes-the-hard-way\n}\n

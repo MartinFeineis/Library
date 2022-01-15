@@ -16,6 +16,7 @@
 
 * [Amazon Webservices](AWS/AWS.md)
 * [Azure](Azure/Azure.md)
+* [GCP](GCP/gcp.md)
 
 ## Tools
 * [Vim](Vim/Vim.md)
