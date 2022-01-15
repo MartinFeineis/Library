@@ -1,7 +1,11 @@
 # Setting up MacOsX
-install homebrew
+install homebrew and some other programs (KeespassXC, Slack, Zoom and Google-Chrome)
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install --cask google-chrome
+brew install --cask keepassxc
+brew install --cask slack
+brew install --cask zoom
 ```
 Install zsh tmux and vim
 ```
