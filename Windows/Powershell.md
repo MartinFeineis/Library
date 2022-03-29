@@ -111,6 +111,12 @@ Get Alls Users in a company
 Get-ADUser -Filter * -SearchBase "OU=<users>,OU=<company>,DC=<domain>,DC=com" | Measure-Object
 Get-ADUser -Filter * -SearchBase "OU=Users-Disabled,OU=Users,OU=<company>,DC=<domain>,DC=com" -Properties LastLogonDate | select Name,LastLogonDate | Sort-Object -Property LastLogonDate
 ```
+
+#### Adsisearcher
+When the `RSAT-AD-Powershell` module is not available `adsisearcher` can help.
+```
+(([adsisearcher]"samaccountname=ME988789").FindAll() | select -ExpandProperty properties).memberof | sort
+```
 ### Getting all Users currently logged in to a machine/server
 ```
 $ gwmi Win32_LoggedOnUser | select Antecedent
