@@ -25,6 +25,8 @@
 ## Languages
 * [Django](Django/Django.md)
 * [Python](Python/Python.md)
+    * [Powerball](Python/greenphire_Assessment/README.md)
+    * [Powerball](Python/webscraper/README.md)
 * [SQL/Postgres](SQL/Postgres.md)
 
 ## Books
