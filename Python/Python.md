@@ -60,3 +60,10 @@ this_string = "Hello World. I am {1} and {0} years alive.".format(age, Name)
 This puts `Name` in `{1}` because it is the second positional argument 
 (0-based indexing) and `age` in `{0}`.
 
+## IF-Else Oneliner
+
+```
+this_dict['key'] = other_dict['key'] if other_dict['key'] else this_dict['key']
+```
+Read `this_dict['key']` is `other_dict['key']` if that key exists (evalutes to `true`)
+otherwise keep the origial value.
