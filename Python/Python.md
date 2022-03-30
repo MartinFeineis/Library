@@ -17,7 +17,6 @@ if __name__ == '__main__':
     main()
 ```
 
-
 ## Beautiful Soup
 Use beautiful soup for scraping and manipulating html content
 ```
@@ -45,3 +44,19 @@ def read_cli_arguments():
 
 `argv` is a dictionary like `{'file' : 'CliArgument'}. 
 `args` is the Namespace for all Cli Arguments.
+
+## String Formatting
+Filling `{}` with the variable `Name'
+```
+Name = "Jacen Solo"
+this_string = "Hello World I am {}".format(Name)
+```
+More complex solution by definen the positional arguments of the format function
+```
+age = 32
+Name = "Nom Anor"
+this_string = "Hello World. I am {1} and {0} years alive.".format(age, Name)
+```
+This puts `Name` in `{1}` because it is the second positional argument 
+(0-based indexing) and `age` in `{0}`.
+
