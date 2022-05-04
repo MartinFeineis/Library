@@ -184,3 +184,5 @@ $SourceNames
 ```
 
 The _[void]_ prevents `$SourceNames` from containing the index numbers of its content.
+## PSReadline
+Using PSReadline for better (bash-like) history. (Docs)[https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.2]
