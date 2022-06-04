@@ -45,3 +45,10 @@ for html for example
 
 ## [Emmet](https://github.com/mattn/emmet-vim/)
 A plugin for html autocompletion
+Open or create a New File:
+
+`vim index.html`
+Type ("_" is the cursor position):
+
+html:5_
+Then type <c-y>, (Ctrly,), and you should see:
