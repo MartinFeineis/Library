@@ -1,6 +1,11 @@
 # Linux Tips
 
 Here I will collect my general Tips on Linux`
+## Directories and permissions
+place additional package managers and executables in
+```
+~/.local/
+```
 
 ## Generate Random strings
 thanks to [How-to-Geek](https://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/)

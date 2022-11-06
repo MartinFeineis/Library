@@ -25,7 +25,10 @@
 ## Languages
 * [Django](Django/Django.md)
 * [Python](Python/Python.md)
+    * [Powerball](Python/powerball/README.md)
+    * [Websraper](Python/webscraper/README.md)
 * [SQL/Postgres](SQL/Postgres.md)
 
 ## Books
 * [Kanban](Books/Kanban.md)
+* [I'll get you](Books/IchKriegDich.md)

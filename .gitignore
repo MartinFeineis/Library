@@ -1,4 +1,7 @@
 *.swp
+*.zip
+*.terraform.lock.hcl
+GCP/gcpterraform/personalKeys.json*
 
 # Local .terraform directories
 **/.terraform/*
