@@ -23,6 +23,11 @@ On Mac prepend it with `LC_CTYPE=C`, like
 ```
 
 ## Setup ssh Key connectivity
+Install openssh_server
+```
+sudo apt install openssh-server
+sudo systemctl is-enabled ssh
+```
 Generate a new ssh key pair
 ```
 ssh-keygen -t rsa -b 2048 -C "comments etc" -f ~/outfile -N ""
