@@ -150,5 +150,15 @@ gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loo
 gpg --list-keys
 gpg --armor --export KEYID1234567890ABCDEF
 ```
-
+Configuring git to use the key for signing
+```
+git config --global user.signingkey KEYID1234567890ABCDEF
+```
 Config File `~/.gitconfig'
+```[user]
+	email = my-email@gmail.com
+	name = Martin Feineis
+	signingkey = KEYID1234567890ABCDEF
+[commit]
+	gpgsign = true
+```
