@@ -140,7 +140,6 @@ sudo gpg --list-keys
 sudo gpg --no-default-keyring --keyring /usr/share/keyrings/rob-savoury.gpg --keyserver keyserver.ubuntu.com --recv-keys E996735927E427A733BB653E374C7797FB006459
 echo 'deb [signed-by=/usr/share/keyrings/rob-savoury.gpg] https://ppa.launchpadcontent.net/savoury1/ffmpeg4/ubuntu jammy main' | sudo tee -a /etc/apt/sources.list.d/ffmpeg-4-rob-savoury.list
 sudo apt update && sudo apt upgrade
-```
 sudo apt install ffmpeg
 ```
 ## Git stuff
@@ -153,9 +152,9 @@ gpg --armor --export KEYID1234567890ABCDEF
 Configuring git to use the key for signing
 ```
 git config --global user.signingkey KEYID1234567890ABCDEF
-```
 Config File `~/.gitconfig'
-```[user]
+```
+[user]
 	email = my-email@gmail.com
 	name = Martin Feineis
 	signingkey = KEYID1234567890ABCDEF
