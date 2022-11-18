@@ -71,7 +71,7 @@ Make sure the `/etc/exports` file on the nfs server has the right ip addresses. 
 
 ## rsync
 Copying folders recursively with rsync  
-` rsync --recursive -v source/path destination/path`  
+` rsync --recursive --progress -v source/path destination/path`  
 
 ## Mountpoint android phone  
 The phone is mounted to the Computer through `mtp` and the SD-Card is in the phone  
