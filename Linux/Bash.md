@@ -144,4 +144,11 @@ sudo apt update && sudo apt upgrade
 sudo apt install ffmpeg
 ```
 ## Git stuff
+Create new GPG key without gui prompts
+```
+gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
+gpg --list-keys
+gpg --armor --export KEYID1234567890ABCDEF
+```
+
 Config File `~/.gitconfig'
