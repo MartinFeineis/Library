@@ -152,7 +152,8 @@ gpg --armor --export KEYID1234567890ABCDEF
 Configuring git to use the key for signing
 ```
 git config --global user.signingkey KEYID1234567890ABCDEF
-Config File `~/.gitconfig'
+```
+Config File at `~/.gitconfig'
 ```
 [user]
 	email = my-email@gmail.com
