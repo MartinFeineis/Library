@@ -130,3 +130,18 @@ Creating a new session `tmux new -s session-name`
 Leaving/detaching from a session press`<prefix> :` and type `detach`  
 Listing existing sessions `tmux ls`  
 Entering/attaching to an existing session `tmux attach -s session-name/session-number`    
+
+## Install ffmpeg
+Install for Linux Mint 21 thanks to (Syeda Wardah Batool)[https://linuxhint.com/install-ffmpeg-linux-mint-21/]
+```
+sudo apt install dirmngr ca-certificates software-properties-common gnupg gnupg2 apt-transport-https
+sudo gpg --no-default-keyring --keyring /usr/share/keyrings/rob-savoury.gpg --keyserver keyserver.ubuntu.com --recv-keys E996735927E427A733BB653E374C7797FB006459
+sudo gpg --list-keys
+sudo gpg --no-default-keyring --keyring /usr/share/keyrings/rob-savoury.gpg --keyserver keyserver.ubuntu.com --recv-keys E996735927E427A733BB653E374C7797FB006459
+echo 'deb [signed-by=/usr/share/keyrings/rob-savoury.gpg] https://ppa.launchpadcontent.net/savoury1/ffmpeg4/ubuntu jammy main' | sudo tee -a /etc/apt/sources.list.d/ffmpeg-4-rob-savoury.list
+sudo apt update && sudo apt upgrade
+```
+sudo apt install ffmpeg
+```
+## Git stuff
+Config File `~/.gitconfig'
