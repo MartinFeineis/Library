@@ -162,3 +162,30 @@ Config File at `~/.gitconfig'
 [commit]
 	gpgsign = true
 ```
+# DVDs
+backing up DVDs with `makemkv`, following guide (here)[https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224]
+```
+
+sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev qtbase5-dev zlib1g-dev
+```
+Install makemkv-oss package:
+```
+cd makemkv-oss-1.17.2/
+./configure
+make
+sudo make install
+```
+Install makemkv binaries
+```
+cd ../makemkv-bin-1.17.2/
+make
+sudo make install
+```
+# CDs
+Backing up CDs with (abcde)[https://abcde.einval.com/wiki/].
+abcde stores the output in `Unknown_Artist-Unknown_Album/` directory
+`lame` is needed for mp3 encoding and `eye3` is used for metadata tags.
+```
+sudo apt-get install abcde eyed3 lame 
+abcde -o mp3
+```
