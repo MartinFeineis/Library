@@ -125,7 +125,22 @@ t(){for ((i=1; i<=100; i++ )) { (curl www.URL.com > /dev/null  ; echo $i );next}
 ```
 Only blows your system without putting real stress on a server, but might get you banned or blocked.
 
-## tmux
+# ZSH
+## Oh-my-zsh
+Documentation is (here)[https://github.com/ohmyzsh/ohmyzsh]
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+## Oh-my-zsh Plugins
+### Syntax highlighting
+More (here)[https://github.com/zsh-users/zsh-syntax-highlighting]
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+### Auto Sugges
+
+# Tmux
 Creating a new session `tmux new -s session-name`  
 Leaving/detaching from a session press`<prefix> :` and type `detach`  
 Listing existing sessions `tmux ls`  
