@@ -137,6 +137,14 @@ More [here](https://github.com/zsh-users/zsh-syntax-highlighting)
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+## Colorls
+Install buildtools, buildessentials, ruby and then a too complicated bash expression that should work independent of ruby version (famous last words).
+```
+sudo apt-get install build-essential bison openssl libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev ncurses-dev automake libtool
+sudo apt install ruby ruby-dev gcc make
+gem install colorls --user-install
+alias colorls="`gem env | grep "USER INSTALLATION DIRECTORY" | awk '{ print $5 }'`/bin/colorls"
+```
 
 ### Auto Sugges
 
