@@ -73,6 +73,11 @@ vgcreate vg0 /dev/sda7
 
 ## NFS Issues
 Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP.
+Install __nfs-common__ to mount nfs
+```
+sudo apt-get install nfs-common
+```
+
 
 ## rsync
 Copying folders recursively with rsync  

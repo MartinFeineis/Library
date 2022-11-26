@@ -38,7 +38,7 @@ find something recusively **in** the files of a folder
 -n shows line number
 -e defines the pattern to look for
 -r sets recursively
-See: https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
+See [here](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux)
 
 ## find
 Find files in a folder with excluding a path
@@ -127,13 +127,13 @@ Only blows your system without putting real stress on a server, but might get yo
 
 # ZSH
 ## Oh-my-zsh
-Documentation is (here)[https://github.com/ohmyzsh/ohmyzsh]
+Documentation is [here](https://github.com/ohmyzsh/ohmyzsh)
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 ## Oh-my-zsh Plugins
 ### Syntax highlighting
-More (here)[https://github.com/zsh-users/zsh-syntax-highlighting]
+More [here](https://github.com/zsh-users/zsh-syntax-highlighting)
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
@@ -178,6 +178,7 @@ Config File at `~/.gitconfig'
 	gpgsign = true
 ```
 # DVDs
+Since I don't do this frequently using a GUI is fine for me.
 backing up DVDs with `makemkv`, following guide (here)[https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224]
 ```
 
@@ -204,3 +205,4 @@ abcde stores the output in `Unknown_Artist-Unknown_Album/` directory
 sudo apt-get install abcde eyed3 lame 
 abcde -o mp3
 ```
+Tags can be edited with Rhytmbox in GUI
