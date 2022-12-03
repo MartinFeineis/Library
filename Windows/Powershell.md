@@ -39,6 +39,21 @@ Search for a string within a Folder and its subfolders
 ```
 Get-ChildItem -Recurse | Get-Content -ErrorAction SilentlyContinue | Select-String -pattern "error" | Out-File Errors.log
 ```  
+Recurse through a directory structure and search each files for `pattern` then store each match in a hash-table/dictionary with
+the Filename as key and a number per match.
+```
+$w = @{}
+foreach( $file in Get-ChildItem -Recurse ){
+    $ma = Get-Content -Path $file -ErrorAction SilentlyContinue | Select-String -pattern "pattern"
+    $ma
+    $i = 0
+    foreach ( $match in $ma ){
+        $i += 1
+        $file.Name + "_" + $i
+        $w.Add( $file.Name + "_" + $i, $match )
+    }
+}
+```
 Create a range object and search through a filetree for a string that contains elements of that range  
 ```
 $a = 1..22
