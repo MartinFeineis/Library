@@ -5,4 +5,6 @@ __p021__ "Asking people to change their behaviour creates fear and lowers self-e
 __p024__ Development tools like Software Product Lines / Software Factories reduce defects.  
 __p027__ Longer average lead times result from greater amounts of work-in-progress. Shorter iterations and less WIP increase Quality.  
 __p029__ "craftsmanship snobbery"; "Trust = social capital"; "Trust is event driven and small, frequent gestures or events enhance trust more than larger gestures made only occasionally."  
-__0pxx__  
+__p032__ "Maturity: build high quality code, then reduce work in progress" 
+__p039__ Why is estimation done, and who is doing it?
+__p040__ State chart

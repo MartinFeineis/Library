@@ -2,9 +2,10 @@
 
 Here I will collect my general Tips on Linux`
 ## Directories and permissions
-place additional package managers and executables in
+place additional package managers and executables in and config files.
 ```
 ~/.local/
+~/.config/
 ```
 
 ## Generate Random strings
@@ -73,6 +74,11 @@ vgcreate vg0 /dev/sda7
 
 ## NFS Issues
 Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP.
+Install __nfs-common__ to mount nfs
+```
+sudo apt-get install nfs-common
+```
+
 
 ## rsync
 Copying folders recursively with rsync  
@@ -83,7 +89,7 @@ The phone is mounted to the Computer through `mtp` and the SD-Card is in the pho
 `ls -lah /var/run/user/1000/gvfs/mtp:host=%5Busb%3A002%2C003%5D/SD\ card` 
 
 ## Install Veracrypt  
-This downloads Veracrypt from (Vercrypt.fr)[https://www.veracrypt.fr/en/Downloads.html] Version 1.23 the latest as of October 2019, unpacks it and installs it. Careful there is some user input neccessary.  
+This downloads Veracrypt from [Vercrypt.fr](https://www.veracrypt.fr/en/Downloads.html) Version 1.23 the latest as of October 2019, unpacks it and installs it. Careful there is some user input neccessary.  
 ```
 wget https://launchpad.net/veracrypt/trunk/1.23/+download/veracrypt-1.23-setup.tar.bz2
 tar -xf veracrypt-1.23-setup.tar.bz2

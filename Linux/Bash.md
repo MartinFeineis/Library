@@ -38,7 +38,7 @@ find something recusively **in** the files of a folder
 -n shows line number
 -e defines the pattern to look for
 -r sets recursively
-See: https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
+See [here](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux)
 
 ## find
 Find files in a folder with excluding a path
@@ -125,7 +125,30 @@ t(){for ((i=1; i<=100; i++ )) { (curl www.URL.com > /dev/null  ; echo $i );next}
 ```
 Only blows your system without putting real stress on a server, but might get you banned or blocked.
 
-## tmux
+# ZSH
+## Oh-my-zsh
+Documentation is [here](https://github.com/ohmyzsh/ohmyzsh)
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+## Oh-my-zsh Plugins
+### Syntax highlighting
+More [here](https://github.com/zsh-users/zsh-syntax-highlighting)
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+## Colorls
+Install buildtools, buildessentials, ruby and then a too complicated bash expression that should work independent of ruby version (famous last words).
+```
+sudo apt-get install build-essential bison openssl libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev ncurses-dev automake libtool
+sudo apt install ruby ruby-dev gcc make
+gem install colorls --user-install
+alias colorls="`gem env | grep "USER INSTALLATION DIRECTORY" | awk '{ print $5 }'`/bin/colorls"
+```
+
+### Auto Sugges
+
+# Tmux
 Creating a new session `tmux new -s session-name`  
 Leaving/detaching from a session press`<prefix> :` and type `detach`  
 Listing existing sessions `tmux ls`  
@@ -163,6 +186,7 @@ Config File at `~/.gitconfig'
 	gpgsign = true
 ```
 # DVDs
+Since I don't do this frequently using a GUI is fine for me.
 backing up DVDs with `makemkv`, following guide (here)[https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224]
 ```
 
@@ -189,3 +213,4 @@ abcde stores the output in `Unknown_Artist-Unknown_Album/` directory
 sudo apt-get install abcde eyed3 lame 
 abcde -o mp3
 ```
+Tags can be edited with Rhytmbox in GUI
