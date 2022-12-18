@@ -14,5 +14,5 @@ emotional connection. Source: [Nachrichtenpsychologie 1](https://psycharchives.o
 __p050__ share value and belief system, find or establish commonalities, share
 personal information
 __p090__ become interessting for the other person, so they initiate contact
-__p098__ demonstrate high self value then 
+__p098__ demonstrate high self value then share recognition
 __p105__ change conversation topics frequently
