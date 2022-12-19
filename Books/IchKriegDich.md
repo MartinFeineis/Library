@@ -16,3 +16,9 @@ personal information
 __p090__ become interessting for the other person, so they initiate contact  
 __p098__ demonstrate high self value then share recognition  
 __p105__ change conversation topics frequently  
+## Twelfth Mission (p113 - p121)
+__p114__ Leave the conversation on the high point. This way you have something to pick up on next time  
+## Thirdteenth Mission (p122 - p130)
+__p133__ trust means keeping promises  
+__p138__ building insider jokes/rituals etc. create intimacy 
+__p152__ start with smalltalk (only 2-3 questions) then go to more personal topics  
