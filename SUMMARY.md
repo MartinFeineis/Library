@@ -23,10 +23,11 @@
 * [Ansible](Ansible/Ansible.md)
 
 ## Languages
-* [Django](Django/Django.md)
 * [Python](Python/Python.md)
+    * [Django](Django/Django.md)
     * [Powerball](Python/powerball/README.md)
     * [Websraper](Python/webscraper/README.md)
+* [Golang](Golang/Golang.md)
 * [SQL/Postgres](SQL/Postgres.md)
 
 ## Books
