@@ -22,3 +22,5 @@ __p114__ Leave the conversation on the high point. This way you have something t
 __p133__ trust means keeping promises  
 __p138__ building insider jokes/rituals etc. create intimacy  
 __p152__ start with smalltalk (only 2-3 questions) then go to more personal topics  
+## Seventeenth Mission (p157 - 160)
+__p158__ Establish many events on many different locations. This creates the impression of a long time. 
