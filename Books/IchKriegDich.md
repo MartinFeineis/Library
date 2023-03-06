@@ -24,3 +24,11 @@ __p138__ building insider jokes/rituals etc. create intimacy
 __p152__ start with smalltalk (only 2-3 questions) then go to more personal topics  
 ## Seventeenth Mission (p157 - 160)
 __p158__ Establish many events on many different locations. This creates the impression of a long time. 
+## Twentyfifth Mission (p211 - p212)
+Use informal, personal language to create closeness (Du rather than Sie). If this is not accepted do it in your mind to adjust your language.
+## Twentyforth Mission (p200 - p210)
+__p201__ People want to be understood. Understanding does not mean aggreeing. Find aspect that you can aggree to without problems.
+## Twentysixth Mission (p213 - p220)
+__p215__ Create a positive atmosphere, ensure the other person laughed, smiled or chuggled with you before asking a favour
+## Twentyseventh Mission (p221 - p229)
+
