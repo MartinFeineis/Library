@@ -20,5 +20,6 @@ type Starship struct {
 `Starship` is the name of the struct similiar to a class in object oriented programming languages
 ## Interfaces
 
-## Methos Sets
+## Method Sets
 
+[Error Handling](https://earthly.dev/blog/golang-errors/)
