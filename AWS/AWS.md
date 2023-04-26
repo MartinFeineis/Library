@@ -16,7 +16,22 @@ foreach($line in Get-Content $filen){
 # Cloudformation
 ## Deploy an EC2 Instance
 The linked File deploys an EC2 Instance through Cloudformation
-[EC2.yaml](./EC2_CF.yaml)
+[EC2.yaml](./EC2_CF.yaml). Content for base64 raw UserData File:
+```
+aws s3 cp s3://bucket/script.sh . && chmod +x script.sh && ./script.sh -w 0
+```
+Deployment Script
+```bash
+#!/bin/sh
+if [ "$1" = -d ]
+then
+	aws cloudformation delete-stack --stack-name ec2-test-stack
+else
+	B64=$(base64 b64_content | paste -s -d='')
+	sed -i "s/UserData: .*/UserData: \"$B64\"/g" cf_ans.yaml
+	aws cloudformation deploy --template-file cf_ans.yaml --stack-name ec2-test-stack
+fi
+```
 
 ## Lambda  
 
