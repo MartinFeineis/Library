@@ -20,6 +20,8 @@ The linked File deploys an EC2 Instance through Cloudformation
 ```
 aws s3 cp s3://bucket/script.sh . && chmod +x script.sh && ./script.sh -w 0
 ```
+Put this in a file called `b64_content`. The Deployment script will base64 encode it and 
+put replace the `UserData` in the cloudformation script with it using `sed`
 Deployment Script
 ```bash
 #!/bin/sh
