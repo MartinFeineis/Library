@@ -28,3 +28,7 @@ In Powershell 5 on HP Laptops
 $s = Get-WmiObject -class hp_biossettinginterface -Namespace "root\hp\instrumentedbios"
 $s.SetBIOSSetting('Virtualization Technology (VTx)','Enable')
 ```
+In Powershell 7
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
