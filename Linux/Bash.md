@@ -166,14 +166,23 @@ sudo apt update && sudo apt upgrade
 sudo apt install ffmpeg
 ```
 ## Git stuff
+With ssh key add 
+```
+Host github.com
+  IdentityFile ~/.ss/githubkey
+```
+So that the ssh key gets used when cloning repositories.
 Create new GPG key without gui prompts
 ```
 gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
 gpg --list-keys
 gpg --armor --export KEYID1234567890ABCDEF
 ```
+Add the exported Key in Github under `Settings` > `SSH and GPG Keys` at `New GPG Key` 
 Configuring git to use the key for signing
 ```
+git config --global user.email "me@email.com"
+git config --global user.name "Martin Feineis"
 git config --global user.signingkey KEYID1234567890ABCDEF
 ```
 Config File at `~/.gitconfig'
