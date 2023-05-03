@@ -81,13 +81,13 @@ Make sure the `/etc/exports` file on the nfs server has the right ip addresses. 
 |* Squash: | Map all users to admin |
 |* Asynchronous: | No |
 |* Non-privileged port: | Denied |
-|* Cros-mount: | Allowed 
+|* Cross-mount: | Allowed 
 
 Install __nfs-common__ to mount nfs 
 ```
 sudo apt-get install nfs-common
 ```
-In `/etc/fstab` mount it with
+In `/etc/fstab` mount it with, make sure to ues __tabs__ for separation (no spaces!)
 ```
 192.168.1.152:/volume1/pullovas /home/wolle/nasghoul    nfs     defaults        0       0
 ```
