@@ -81,7 +81,7 @@ Make sure the `/etc/exports` file on the nfs server has the right ip addresses. 
 |* Squash: | Map all users to admin |
 |* Asynchronous: | No |
 |* Non-privileged port: | Denied |
-|* Cros-mount: | Allowed |
+|* Cros-mount: | Allowed 
 
 Install __nfs-common__ to mount nfs 
 ```
