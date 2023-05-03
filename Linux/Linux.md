@@ -73,12 +73,23 @@ vgcreate vg0 /dev/sda7
 `/dev/sda7` differs from the turorial due to my different partion tables
 
 ## NFS Issues
-Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP.
-Install __nfs-common__ to mount nfs
+Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP. The shared folder on the NasDrive needs to have nfs Permissions:
+|Setting | Value |
+|--------|-------|
+|* Client: |  10.0.0.* |
+|* Privilege: | Read/Write |
+|* Squash: | Map all users to admin |
+|* Asynchronous: | No |
+|* Non-privileged port: | Denied |
+|* Cros-mount: | Allowed |
+Install __nfs-common__ to mount nfs 
 ```
 sudo apt-get install nfs-common
 ```
-
+In `/etc/fstab` mount it with
+```
+192.168.1.152:/volume1/pullovas /home/wolle/nasghoul    nfs     defaults        0       0
+```
 
 ## rsync
 Copying folders recursively with rsync  
