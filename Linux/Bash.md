@@ -172,7 +172,7 @@ Host github.com
   IdentityFile ~/.ss/githubkey
 ```
 So that the ssh key gets used when cloning repositories.
-Create new GPG key without gui prompts
+Create new GPG key without gui prompts, see also (Docs)[https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key]
 ```
 gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
 gpg --list-keys
