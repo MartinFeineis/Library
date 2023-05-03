@@ -184,6 +184,7 @@ Configuring git to use the key for signing
 git config --global user.email "me@email.com"
 git config --global user.name "Martin Feineis"
 git config --global user.signingkey KEYID1234567890ABCDEF
+git config --global commit.gpgsign true
 ```
 Config File at `~/.gitconfig'
 ```
