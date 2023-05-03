@@ -82,6 +82,7 @@ Make sure the `/etc/exports` file on the nfs server has the right ip addresses. 
 |* Asynchronous: | No |
 |* Non-privileged port: | Denied |
 |* Cros-mount: | Allowed |
+
 Install __nfs-common__ to mount nfs 
 ```
 sudo apt-get install nfs-common
