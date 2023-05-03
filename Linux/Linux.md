@@ -61,6 +61,10 @@ See also
 [Debian-Installer 5.1.7. The Boot Screen](https://www.debian.org/releases/stable/amd64/ch05s01.html.en#boot-screen)  
 [Debian-Installer 5.3.2. Debian Installer Parameters](https://www.debian.org/releases/stable/amd64/ch05s03.html.en#ftn.idm1345)  
 [Debian-Installer 6.1. How the Installer Works](https://www.debian.org/releases/stable/amd64/ch06s01.html.en)  
+## LVM
+LVM stands for __Logical Volume Management__ and is used to create, display and manage __Physical Volumes(pv)__,
+__Volume Groups (vg)__, and __Logical Volumes (lv)__ 
+
 
 ## Installing Xen
 As described in
