@@ -71,6 +71,11 @@ pvcreate /dev/sda7
 vgcreate vg0 /dev/sda7
 ```
 `/dev/sda7` differs from the turorial due to my different partion tables
+I re-installed Linux-Mint on a setup with existing LVM settings. I mounted a data volume in `/etc/fstab` with 
+`lvdisplay` revealed the `$__LV Path__` as `/dev/vg-01/data01`
+```
+/dev/vg-01/data01       /data   ext4    defaults        0       0
+```
 
 ## NFS Issues
 Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP. The shared folder on the NasDrive needs to have nfs Permissions:
