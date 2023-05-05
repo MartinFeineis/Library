@@ -1,31 +1,72 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: "Ec2 block device mapping"
+Description: "Ec2 with Ubuntu for Dev Work"
+
+Parameters:
+  TeamName:
+    Type: String
+    Description: Capability Stream within BCBSA
+    Default: CDE
+  VPCID:
+    Type: String
+    Description: VPC to deploy J2 Resources into
+    Default: vpc-0d209c90c9c090588
+
 Resources: 
   MyEC2Instance: 
     Type: "AWS::EC2::Instance"
     Properties: 
-      ImageId: "ami-ID"
-      UserData: "base-64EncodedUserdata="
+      ImageId: "ami-0a8ae702db8fbf3eb"
+      #UserData: "base-64EncodedUserdata="
       KeyName: "general"
       IamInstanceProfile: "ec2-instance-IAM-Role"
       InstanceType: "t1.micro"
       SecurityGroupIds: 
-        - sg-xxxxx
+        - !Ref DevSecGroup
       BlockDeviceMappings: 
-        - DeviceName: "/dev/sdm"
+        - DeviceName: "/dev/sdb"
           Ebs: 
             VolumeType: "io1"
             Iops: "200"
             DeleteOnTermination: "false"
-            VolumeSize: "20"
-        - DeviceName: "/dev/sdk"
-          NoDevice: {}
-  myDNS:
-    Type: AWS::Route53::RecordSet
+            VolumeSize: "50"
+
+  SSHPemKey:
+    Type: AWS::EC2::KeyPair
+    Properties: 
+      KeyName: DevEc2KeyMartin
+      PublicKeyMaterial: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDv57rxl2lq+3nSyfeAtn51oh7m+sT4hfjiv/GauS4NgbEyC0twWqya8+cDwQNZL2O2sSsRZs7elJo8b4ut5I/f/Zqu6OAymItMPS8hVUVhDyJddIKFseZVuTBkkzZpuvFHk0WThKivjjP74yAmUsM04rIQ4P7XfBJsKXc4Flh10N+xNp298A/CgSRcKbAT5Y+O6C7LwcQsS3Owzkcq8k892nDED+J8isHtp1vdf8F9nPvQru5C2omlMpI7Ryuapq5G00dz4FPbjCEYFSKQlwW6QRXC8wR/uSjFdqjeY9g8euGaH56rwFbxoP/fR+Uhs4pEyeFJUoVro1vvM0xnOPl J2 Dev Key"
+
+  # DevVPC:
+  #   Type: AWS::EC2::VPC
+  #   Properties:
+  #     CidrBlock: 10.0.0.0/16
+  #     EnableDnsSupport: 'true'
+  #     EnableDnsHostnames: 'true'
+  #     Tags:
+  #     - Key: stack
+  #       Value: production
+
+  DevSecGroup:
+    Type: AWS::EC2::SecurityGroup
     Properties:
-      HostedZoneId:  Z98yxxxx
-      Name: www.DNS-Name.com
-      Type: A
-      TTL : '300'
-      ResourceRecords: 
-      - Fn::GetAtt: [ MyEC2Instance, PublicIp ]
+      GroupDescription: Allow http to client host
+      #VpcId: Ref: DevVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+      SecurityGroupEgress:
+        - IpProtocol: tcp
+          FromPort: 44
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+  # myDNS:
+  #   Type: AWS::Route53::RecordSet
+  #   Properties:
+  #     HostedZoneId:  Z98yxxxx
+  #     Name: www.DNS-Name.com
+  #     Type: A
+  #     TTL : '300'
+  #     ResourceRecords: 
+  #     - Fn::GetAtt: [ MyEC2Instance, PublicIp ]

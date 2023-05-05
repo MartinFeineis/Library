@@ -31,7 +31,7 @@ sudo systemctl is-enabled ssh
 ```
 Generate a new ssh key pair
 ```
-ssh-keygen -t rsa -b 2048 -C "comments etc" -f ~/outfile -N ""
+ssh-keygen -t rsa -b 2048 -C "comments etc" -f ~/.ssh/outfile -N ""
 ssh-add ~/outfile
 ```
 preferably store it in `/home/<user>/.ssh/<keyname>` and append it into the `authorized_keys` File. Use the `-N ""` to avoid being prompted for a passphrase if desired.
