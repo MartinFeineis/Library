@@ -30,6 +30,9 @@ Resources:
             Iops: "200"
             DeleteOnTermination: "false"
             VolumeSize: "50"
+      Tags:
+        - Key: Name
+          Value: UbuntuDev
 
   SSHPemKey:
     Type: AWS::EC2::KeyPair
@@ -43,6 +46,22 @@ Resources:
       CidrBlock: 10.0.0.0/16
       EnableDnsSupport: 'true'
       EnableDnsHostnames: 'true'
+      Tags:
+      - Key: Name
+        Value: Ec2DevVPC
+  
+  IGDevEC2:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+      - Key: Name
+        Value: IGDevEc2
+
+  IGVPCAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties: 
+      InternetGatewayId: !Ref IGDevEC2
+      VpcId: !Ref DevVPC
 
   DevSubnet:
     Type: AWS::EC2::Subnet
@@ -50,6 +69,27 @@ Resources:
       VpcId: !Ref DevVPC
       CidrBlock: 10.0.0.0/24
       AvailabilityZone: "us-east-1a"
+
+  DevEC2RouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref DevVPC
+      Tags:
+      - Key: Name
+        Value: DevEC2RouteTable
+
+  SubnetRouteAssoc:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties: 
+      RouteTableId: !Ref DevEC2RouteTable
+      SubnetId: !Ref DevSubnet
+
+  RouteEC2Dev:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId: !Ref DevEC2RouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref IGDevEC2
 
   DevSecGroup:
     Type: AWS::EC2::SecurityGroup
@@ -75,3 +115,9 @@ Resources:
   #     TTL : '300'
   #     ResourceRecords: 
   #     - Fn::GetAtt: [ MyEC2Instance, PublicIp ]
+Outputs:
+  DNSEc2:
+    Description: The ID of the VPC
+    Value: !GetAtt MyEC2Instance.PublicDnsName
+    # Export:
+    #   Name: !Sub "${AWS::StackName}-VPCID"
