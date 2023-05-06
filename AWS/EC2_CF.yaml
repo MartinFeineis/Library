@@ -2,14 +2,10 @@ AWSTemplateFormatVersion: "2010-09-09"
 Description: "Ec2 with Ubuntu for Dev Work"
 
 Parameters:
-  TeamName:
-    Type: String
-    Description: Capability Stream within BCBSA
-    Default: CDE
   VPCID:
     Type: String
-    Description: VPC to deploy J2 Resources into
-    Default: vpc-0d209c90c9c090588
+    Description: VPC to deploy to
+    Default: vpc-98h887666
 
 Resources: 
   MyEC2Instance: 
