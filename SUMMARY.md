@@ -10,6 +10,7 @@
     * [Raspberry](Linux/Raspberry.md)
 * [Android](Linux/Android.md)
 * [MacOSX](MacOSx/MacOSx.md)
+* [OSSetup](OSSetup/Custom.md)
 
 
 ## Cloudproviders
