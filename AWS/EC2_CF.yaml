@@ -15,13 +15,18 @@ Resources:
   MyEC2Instance: 
     Type: "AWS::EC2::Instance"
     Properties: 
-      ImageId: "ami-0a8ae702db8fbf3eb"
+      ImageId: "ami-0305d0b03812a425e"
       #UserData: "base-64EncodedUserdata="
-      KeyName: "general"
-      IamInstanceProfile: "ec2-instance-IAM-Role"
+      KeyName: !Ref SSHPemKey
+      #IamInstanceProfile: "ec2-instance-IAM-Role"
       InstanceType: "t1.micro"
-      SecurityGroupIds: 
-        - !Ref DevSecGroup
+      NetworkInterfaces:
+        - DeviceIndex: 0
+          AssociatePublicIpAddress: true
+          DeleteOnTermination: true
+          SubnetId: !Ref DevSubnet
+          GroupSet: 
+            - !Ref DevSecGroup
       BlockDeviceMappings: 
         - DeviceName: "/dev/sdb"
           Ebs: 
@@ -34,23 +39,27 @@ Resources:
     Type: AWS::EC2::KeyPair
     Properties: 
       KeyName: DevEc2KeyMartin
-      PublicKeyMaterial: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDv57rxl2lq+3nSyfeAtn51oh7m+sT4hfjiv/GauS4NgbEyC0twWqya8+cDwQNZL2O2sSsRZs7elJo8b4ut5I/f/Zqu6OAymItMPS8hVUVhDyJddIKFseZVuTBkkzZpuvFHk0WThKivjjP74yAmUsM04rIQ4P7XfBJsKXc4Flh10N+xNp298A/CgSRcKbAT5Y+O6C7LwcQsS3Owzkcq8k892nDED+J8isHtp1vdf8F9nPvQru5C2omlMpI7Ryuapq5G00dz4FPbjCEYFSKQlwW6QRXC8wR/uSjFdqjeY9g8euGaH56rwFbxoP/fR+Uhs4pEyeFJUoVro1vvM0xnOPl J2 Dev Key"
+      PublicKeyMaterial: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpp6KdrXO4HqnQQsPbYGgB8XTNzFnCkKkzf44VO2nkwVhoXJm1cntauE9S2BBAVdZ4/+KFrAQ/II6/zK0XQf3TA5fZvP0KY4zcHjgjDjV6uY43IIWk3zEwSUg9WFbMDjUCNIjj2qNeULfL6Z7r0AMPY5FJ7nFwO2woQlEz0UMLiH+qPlMPIi8tDphLnmtyQ2NVobasc/m8nvIjNx68IgyYUaKsMYD7sSVWXc0sOh08ctSIKSJBxnvMp9Kt0XsXFnjxRUDH3IL3hVJgvnSDEK6AyVwUpVem/mo+772zTwa2vUIdVhN2DGEz15wOrb4xNG8UD1QS+YGE1GLVE3QiEqoj CogAWS"
 
-  # DevVPC:
-  #   Type: AWS::EC2::VPC
-  #   Properties:
-  #     CidrBlock: 10.0.0.0/16
-  #     EnableDnsSupport: 'true'
-  #     EnableDnsHostnames: 'true'
-  #     Tags:
-  #     - Key: stack
-  #       Value: production
+  DevVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsSupport: 'true'
+      EnableDnsHostnames: 'true'
+
+  DevSubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref DevVPC
+      CidrBlock: 10.0.0.0/24
+      AvailabilityZone: "us-east-1a"
 
   DevSecGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: Allow http to client host
-      #VpcId: Ref: DevVPC
+      VpcId: !Ref DevVPC
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 22
