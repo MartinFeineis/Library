@@ -16,7 +16,11 @@
 add aliases to mount nfs fileshares
 
 ## Install Colorls
-
+```
+sudo apt-get install -y build-essential
+gem install --user-install colorls
+/home/wolle/.local/share/gem/ruby/3.0.0/bin/
+```
 ## Install keepass
 
 ## Install Nerdfonts
