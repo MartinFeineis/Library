@@ -37,8 +37,8 @@ Resources:
   SSHPemKey:
     Type: AWS::EC2::KeyPair
     Properties: 
-      KeyName: DevEc2KeyMartin
-      PublicKeyMaterial: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpp6KdrXO4HqnQQsPbYGgB8XTNzFnCkKkzf44VO2nkwVhoXJm1cntauE9S2BBAVdZ4/+KFrAQ/II6/zK0XQf3TA5fZvP0KY4zcHjgjDjV6uY43IIWk3zEwSUg9WFbMDjUCNIjj2qNeULfL6Z7r0AMPY5FJ7nFwO2woQlEz0UMLiH+qPlMPIi8tDphLnmtyQ2NVobasc/m8nvIjNx68IgyYUaKsMYD7sSVWXc0sOh08ctSIKSJBxnvMp9Kt0XsXFnjxRUDH3IL3hVJgvnSDEK6AyVwUpVem/mo+772zTwa2vUIdVhN2DGEz15wOrb4xNG8UD1QS+YGE1GLVE3QiEqoj CogAWS"
+      KeyName: ec2dev
+      PublicKeyMaterial: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIG0qd7QyaxT66vpHmGzxUHVzTOFxI3WtaUb5GAKGzPU3n0WxlrSl/OX/N62UGKugVM4TD7jZKHOlCw1satq0xnN5oav/OE2CsjHqjRuHKNHURPHb8MownTrcTps9qaPsnBckoDEqW3BwdU9ha3uTw4Q08yEO1iXfeVn1PTkiinFiOo31kK0uA6iuBPkkqpPxe5/oRtO5NHlWaj0zdCuStXsqSxSDAjiWqdeHhce+1B4KBJE7FWJAC7O7qAQsxfQkXZ6Lk8RpW6isdQFw5JVri6AuZD/+qJfFUEbh+CUF1z4N9/Gyl1cfI2P07FZ/QXalRDVUZObeZ3mEk/VmSU6Jd ec2@dev"
 
   DevVPC:
     Type: AWS::EC2::VPC
@@ -101,10 +101,22 @@ Resources:
           FromPort: 22
           ToPort: 22
           CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: udp
+          FromPort: 53
+          ToPort: 53
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: udp
+          FromPort: 53
+          ToPort: 2253
+          CidrIp: 0.0.0.0/0
       SecurityGroupEgress:
         - IpProtocol: tcp
-          FromPort: 44
-          ToPort: 80
+          FromPort: 0
+          ToPort: 65535
           CidrIp: 0.0.0.0/0
   # myDNS:
   #   Type: AWS::Route53::RecordSet
