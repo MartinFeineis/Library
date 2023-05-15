@@ -11,11 +11,12 @@ Resources:
   MyEC2Instance: 
     Type: "AWS::EC2::Instance"
     Properties: 
-      ImageId: "ami-0305d0b03812a425e"
+      #ImageId: "ami-0305d0b03812a425e" #Ubuntu 23.04
+      ImageId: "ami-007855ac798b5175e"
       #UserData: "base-64EncodedUserdata="
       KeyName: !Ref SSHPemKey
-      #IamInstanceProfile: "ec2-instance-IAM-Role"
-      InstanceType: "t1.micro"
+      IamInstanceProfile: !Ref SSMProfileRole
+      InstanceType: "t2.medium"
       NetworkInterfaces:
         - DeviceIndex: 0
           AssociatePublicIpAddress: true
@@ -26,10 +27,9 @@ Resources:
       BlockDeviceMappings: 
         - DeviceName: "/dev/sdb"
           Ebs: 
-            VolumeType: "io1"
-            Iops: "200"
-            DeleteOnTermination: "false"
-            VolumeSize: "50"
+            VolumeType: "gp3"
+            DeleteOnTermination: "true"
+            VolumeSize: "5"
       Tags:
         - Key: Name
           Value: UbuntuDev
@@ -117,7 +117,40 @@ Resources:
         - IpProtocol: tcp
           FromPort: 0
           ToPort: 65535
+
           CidrIp: 0.0.0.0/0
+
+  SSMProfileRole:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Path: /
+      Roles:
+        - !Ref MySSMRole
+
+  MySSMRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - ec2.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: SSMPermissions
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ssm:*
+                  - ssmmessages:*
+                  - ec2messages:*
+                Resource: "*"
   # myDNS:
   #   Type: AWS::Route53::RecordSet
   #   Properties:
