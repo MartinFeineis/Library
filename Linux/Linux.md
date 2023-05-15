@@ -1,4 +1,10 @@
 # Linux Tips
+## Finding out which Linux Version running
+```sh
+cat /etc/issues #Linux Mint Version and name
+cat /etc/os-release  #more information and Ubuntu Build
+hostnamectl #Contains hostname and computerinfo
+```
 
 Here I will collect my general Tips on Linux`
 ## Directories and permissions
