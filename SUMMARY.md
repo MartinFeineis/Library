@@ -32,6 +32,7 @@
 
 ## WebDevelopment
 * [WebDev](WebDev/WebDev.md)
+    * [GithubPages](WebDev/GithubPages.md)
 
 ## Books
 * [Kanban](Books/Kanban.md)
