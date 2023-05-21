@@ -23,9 +23,14 @@ A lot of times I work on several screens, and when detaching my Laptop from them
 4. using arrow keys (left or right) to move the window into the current Desktop  
 ```
 ## Enable Virtualization
+In Powershell 5 on HP Laptops
 ```
 $s = Get-WmiObject -class hp_biossettinginterface -Namespace "root\hp\instrumentedbios"
 $s.SetBIOSSetting('Virtualization Technology (VTx)','Enable')
+```
+In an elevated Powershell 7
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 ## GPG for Git
 Install [GPG4win](https://www.gnupg.org/download/)

@@ -10,7 +10,7 @@
     * [Raspberry](Linux/Raspberry.md)
 * [Android](Linux/Android.md)
 * [MacOSX](MacOSx/MacOSx.md)
-
+* [OSSetup](OSSetup/Custom.md)
 
 ## Cloudproviders
 
@@ -29,6 +29,9 @@
     * [Websraper](Python/webscraper/README.md)
 * [Golang](Golang/Golang.md)
 * [SQL/Postgres](SQL/Postgres.md)
+
+## WebDevelopment
+* [WebDev](WebDev/WebDev.md)
 
 ## Books
 * [Kanban](Books/Kanban.md)

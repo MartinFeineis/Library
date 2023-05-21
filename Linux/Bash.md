@@ -126,16 +126,34 @@ t(){for ((i=1; i<=100; i++ )) { (curl www.URL.com > /dev/null  ; echo $i );next}
 Only blows your system without putting real stress on a server, but might get you banned or blocked.
 
 # ZSH
+Install, verify `zsh` location and change it to default shell
+```
+sudo apt-get install zsh
+whereis zsh
+chsh -s /usr/bin/zsh wolle
+```
 ## Oh-my-zsh
-Documentation is [here](https://github.com/ohmyzsh/ohmyzsh)
+Documentation is [here](https://github.com/ohmyzsh/ohmyzsh)  
+Install `Oh-my-zsh` first because it comes with its own `.zshrc` file
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-## Oh-my-zsh Plugins
 ### Syntax highlighting
 More [here](https://github.com/zsh-users/zsh-syntax-highlighting)
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+### Spaceship prompt
+To make things look nice, more info [here](https://github.com/spaceship-prompt/spaceship-prompt)
+```
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+```
+### Zsh Completions
+more info [here](https://github.com/zsh-users/zsh-completions)
+```
+  git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 ```
 ## Colorls
 Install buildtools, buildessentials, ruby and then a too complicated bash expression that should work independent of ruby version (famous last words).
@@ -166,15 +184,26 @@ sudo apt update && sudo apt upgrade
 sudo apt install ffmpeg
 ```
 ## Git stuff
-Create new GPG key without gui prompts
+### git 
+With ssh key add 
+```
+Host github.com
+  IdentityFile ~/.ss/githubkey
+```
+So that the ssh key gets used when cloning repositories.
+Create new GPG key without gui prompts, see also (Docs)[https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key]
 ```
 gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
 gpg --list-keys
 gpg --armor --export KEYID1234567890ABCDEF
 ```
+Add the exported Key in Github under `Settings` > `SSH and GPG Keys` at `New GPG Key` 
 Configuring git to use the key for signing
 ```
+git config --global user.email "me@email.com"
+git config --global user.name "Martin Feineis"
 git config --global user.signingkey KEYID1234567890ABCDEF
+git config --global commit.gpgsign true
 ```
 Config File at `~/.gitconfig'
 ```
@@ -184,6 +213,16 @@ Config File at `~/.gitconfig'
 	signingkey = KEYID1234567890ABCDEF
 [commit]
 	gpgsign = true
+```
+### gh cli
+Installation, also see [installation](https://github.com/cli/cli#linux--bsd)
+more documentation, [here](https://cli.github.com/)
+```
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+```
+list repos
+```
+gh repo list
 ```
 # DVDs
 Since I don't do this frequently using a GUI is fine for me.

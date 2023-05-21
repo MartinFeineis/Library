@@ -1,4 +1,10 @@
 # Linux Tips
+## Finding out which Linux Version running
+```sh
+cat /etc/issues #Linux Mint Version and name
+cat /etc/os-release  #more information and Ubuntu Build
+hostnamectl #Contains hostname and computerinfo
+```
 
 Here I will collect my general Tips on Linux`
 ## Directories and permissions
@@ -31,7 +37,7 @@ sudo systemctl is-enabled ssh
 ```
 Generate a new ssh key pair
 ```
-ssh-keygen -t rsa -b 2048 -C "comments etc" -f ~/outfile -N ""
+ssh-keygen -t rsa -b 2048 -C "comments etc" -f ~/.ssh/outfile -N ""
 ssh-add ~/outfile
 ```
 preferably store it in `/home/<user>/.ssh/<keyname>` and append it into the `authorized_keys` File. Use the `-N ""` to avoid being prompted for a passphrase if desired.
@@ -61,6 +67,10 @@ See also
 [Debian-Installer 5.1.7. The Boot Screen](https://www.debian.org/releases/stable/amd64/ch05s01.html.en#boot-screen)  
 [Debian-Installer 5.3.2. Debian Installer Parameters](https://www.debian.org/releases/stable/amd64/ch05s03.html.en#ftn.idm1345)  
 [Debian-Installer 6.1. How the Installer Works](https://www.debian.org/releases/stable/amd64/ch06s01.html.en)  
+## LVM
+LVM stands for __Logical Volume Management__ and is used to create, display and manage __Physical Volumes(pv)__,
+__Volume Groups (vg)__, and __Logical Volumes (lv)__ 
+
 
 ## Installing Xen
 As described in
@@ -71,14 +81,31 @@ pvcreate /dev/sda7
 vgcreate vg0 /dev/sda7
 ```
 `/dev/sda7` differs from the turorial due to my different partion tables
+I re-installed Linux-Mint on a setup with existing LVM settings. I mounted a data volume in `/etc/fstab` with 
+`lvdisplay` revealed the `$` __LV Path__ as `/dev/vg-01/data01`
+```
+/dev/vg-01/data01       /data   ext4    defaults        0       0
+```
 
 ## NFS Issues
-Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP.
-Install __nfs-common__ to mount nfs
+Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP. The shared folder on the NasDrive needs to have nfs Permissions:
+|Setting | Value |
+|--------|-------|
+|* Client: |  10.0.0.* |
+|* Privilege: | Read/Write |
+|* Squash: | Map all users to admin |
+|* Asynchronous: | No |
+|* Non-privileged port: | Denied |
+|* Cross-mount: | Allowed 
+
+Install __nfs-common__ to mount nfs 
 ```
 sudo apt-get install nfs-common
 ```
-
+In `/etc/fstab` mount it with, make sure to ues __tabs__ for separation (no spaces!)
+```
+192.168.1.152:/volume1/pullovas /home/wolle/nasghoul    nfs     defaults        0       0
+```
 
 ## rsync
 Copying folders recursively with rsync  

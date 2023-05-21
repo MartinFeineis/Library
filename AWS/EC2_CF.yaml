@@ -1,31 +1,168 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: "Ec2 block device mapping"
+Description: "Ec2 with Ubuntu for Dev Work"
+
+Parameters:
+  VPCID:
+    Type: String
+    Description: VPC to deploy to
+    Default: vpc-98h887666
+
 Resources: 
   MyEC2Instance: 
     Type: "AWS::EC2::Instance"
     Properties: 
-      ImageId: "ami-ID"
-      UserData: "base-64EncodedUserdata="
-      KeyName: "general"
-      IamInstanceProfile: "ec2-instance-IAM-Role"
-      InstanceType: "t1.micro"
-      SecurityGroupIds: 
-        - sg-xxxxx
+      #ImageId: "ami-0305d0b03812a425e" #Ubuntu 23.04
+      ImageId: "ami-007855ac798b5175e"
+      #UserData: "base-64EncodedUserdata="
+      KeyName: !Ref SSHPemKey
+      IamInstanceProfile: !Ref SSMProfileRole
+      InstanceType: "t2.medium"
+      NetworkInterfaces:
+        - DeviceIndex: 0
+          AssociatePublicIpAddress: true
+          DeleteOnTermination: true
+          SubnetId: !Ref DevSubnet
+          GroupSet: 
+            - !Ref DevSecGroup
       BlockDeviceMappings: 
-        - DeviceName: "/dev/sdm"
+        - DeviceName: "/dev/sdb"
           Ebs: 
-            VolumeType: "io1"
-            Iops: "200"
-            DeleteOnTermination: "false"
-            VolumeSize: "20"
-        - DeviceName: "/dev/sdk"
-          NoDevice: {}
-  myDNS:
-    Type: AWS::Route53::RecordSet
+            VolumeType: "gp3"
+            DeleteOnTermination: "true"
+            VolumeSize: "5"
+      Tags:
+        - Key: Name
+          Value: UbuntuDev
+
+  SSHPemKey:
+    Type: AWS::EC2::KeyPair
+    Properties: 
+      KeyName: ec2dev
+      PublicKeyMaterial: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIG0qd7QyaxT66vpHmGzxUHVzTOFxI3WtaUb5GAKGzPU3n0WxlrSl/OX/N62UGKugVM4TD7jZKHOlCw1satq0xnN5oav/OE2CsjHqjRuHKNHURPHb8MownTrcTps9qaPsnBckoDEqW3BwdU9ha3uTw4Q08yEO1iXfeVn1PTkiinFiOo31kK0uA6iuBPkkqpPxe5/oRtO5NHlWaj0zdCuStXsqSxSDAjiWqdeHhce+1B4KBJE7FWJAC7O7qAQsxfQkXZ6Lk8RpW6isdQFw5JVri6AuZD/+qJfFUEbh+CUF1z4N9/Gyl1cfI2P07FZ/QXalRDVUZObeZ3mEk/VmSU6Jd ec2@dev"
+
+  DevVPC:
+    Type: AWS::EC2::VPC
     Properties:
-      HostedZoneId:  Z98yxxxx
-      Name: www.DNS-Name.com
-      Type: A
-      TTL : '300'
-      ResourceRecords: 
-      - Fn::GetAtt: [ MyEC2Instance, PublicIp ]
+      CidrBlock: 10.0.0.0/16
+      EnableDnsSupport: 'true'
+      EnableDnsHostnames: 'true'
+      Tags:
+      - Key: Name
+        Value: Ec2DevVPC
+  
+  IGDevEC2:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+      - Key: Name
+        Value: IGDevEc2
+
+  IGVPCAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties: 
+      InternetGatewayId: !Ref IGDevEC2
+      VpcId: !Ref DevVPC
+
+  DevSubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref DevVPC
+      CidrBlock: 10.0.0.0/24
+      AvailabilityZone: "us-east-1a"
+
+  DevEC2RouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref DevVPC
+      Tags:
+      - Key: Name
+        Value: DevEC2RouteTable
+
+  SubnetRouteAssoc:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties: 
+      RouteTableId: !Ref DevEC2RouteTable
+      SubnetId: !Ref DevSubnet
+
+  RouteEC2Dev:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId: !Ref DevEC2RouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref IGDevEC2
+
+  DevSecGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Allow http to client host
+      VpcId: !Ref DevVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: udp
+          FromPort: 53
+          ToPort: 53
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: udp
+          FromPort: 53
+          ToPort: 2253
+          CidrIp: 0.0.0.0/0
+      SecurityGroupEgress:
+        - IpProtocol: tcp
+          FromPort: 0
+          ToPort: 65535
+
+          CidrIp: 0.0.0.0/0
+
+  SSMProfileRole:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Path: /
+      Roles:
+        - !Ref MySSMRole
+
+  MySSMRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - ec2.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: SSMPermissions
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ssm:*
+                  - ssmmessages:*
+                  - ec2messages:*
+                Resource: "*"
+  # myDNS:
+  #   Type: AWS::Route53::RecordSet
+  #   Properties:
+  #     HostedZoneId:  Z98yxxxx
+  #     Name: www.DNS-Name.com
+  #     Type: A
+  #     TTL : '300'
+  #     ResourceRecords: 
+  #     - Fn::GetAtt: [ MyEC2Instance, PublicIp ]
+Outputs:
+  DNSEc2:
+    Description: The ID of the VPC
+    Value: !GetAtt MyEC2Instance.PublicDnsName
+    # Export:
+    #   Name: !Sub "${AWS::StackName}-VPCID"
