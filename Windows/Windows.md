@@ -27,3 +27,15 @@ A lot of times I work on several screens, and when detaching my Laptop from them
 $s = Get-WmiObject -class hp_biossettinginterface -Namespace "root\hp\instrumentedbios"
 $s.SetBIOSSetting('Virtualization Technology (VTx)','Enable')
 ```
+## GPG for Git
+Install [GPG4win](https://www.gnupg.org/download/)
+```
+gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
+gpg --list-keys
+gpg --armor --export ABDCDEFHEXKEYID
+git config --global user.signingkey D7412BCE5B0E2BEBB290D56005264B3CF6CE5B45
+git config --global user.email "martifein@gmail.com"
+git config --global user.name "Martin Feineis"
+git config --global commit.gpgsign true
+git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
+```
