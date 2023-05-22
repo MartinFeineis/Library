@@ -150,10 +150,15 @@ To make things look nice, more info [here](https://github.com/spaceship-prompt/s
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
-### Zsh Completions
+### ZSH Completions
 more info [here](https://github.com/zsh-users/zsh-completions)
 ```
   git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+```
+### ZSH autosuggestions
+See Documentation [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 ## Colorls
 Install buildtools, buildessentials, ruby and then a too complicated bash expression that should work independent of ruby version (famous last words).

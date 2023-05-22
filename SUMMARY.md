@@ -21,6 +21,7 @@
 ## Tools
 * [Vim](Vim/Vim.md)
 * [Ansible](Ansible/Ansible.md)
+* [Terraform](Terraform/Terraform.md)
 
 ## Languages
 * [Python](Python/Python.md)
