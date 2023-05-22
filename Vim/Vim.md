@@ -12,10 +12,6 @@ Example comment lines 15 to 25 `:15,25s/^/#`
 # Plugins
 ## Pathogen
 I use Pathgen for managing plugins
-## Nerdtree
-Nerdtree allows you to have a folder pane to navigate files/folders.
-## YouCompleteMe
-YCM offers autocomplete
 ## Ranges
 Usefule Link [Ranges](https://vim.fandom.com/wiki/Ranges)  
 `$` goes to end of Line.  
@@ -30,9 +26,9 @@ usefule link [ranges](https://vim.fandom.com/wiki/ranges)
 [regex](http://www.vimregex.com/)  
 
 # plugins
-## pathogen
+## Pathogen
 i use pathgen for managing plugins
-## nerdtree
+## Nerdtree
 nerdtree allows you to have a folder pane to navigate files/folders.
 `?` to see help menu
 `r` to refresh view, for example after deleting some file
