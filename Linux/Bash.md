@@ -231,7 +231,7 @@ gh repo list
 ```
 # DVDs
 Since I don't do this frequently using a GUI is fine for me.
-backing up DVDs with `makemkv`, following guide (here)[https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224]
+backing up DVDs with `makemkv`, following guide [here]([https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224)
 ```
 
 sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev qtbase5-dev zlib1g-dev
@@ -250,7 +250,7 @@ make
 sudo make install
 ```
 # CDs
-Backing up CDs with (abcde)[https://abcde.einval.com/wiki/].
+Backing up CDs with [abcde](https://abcde.einval.com/wiki/).
 abcde stores the output in `Unknown_Artist-Unknown_Album/` directory
 `lame` is needed for mp3 encoding and `eye3` is used for metadata tags.
 ```
