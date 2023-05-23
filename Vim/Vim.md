@@ -9,9 +9,6 @@ Example comment lines 15 to 25 `:15,25s/^/#`
 ## insert file at current position
 `:r <path/to/file>`
 
-# Plugins
-## Pathogen
-I use Pathgen for managing plugins
 ## Ranges
 Usefule Link [Ranges](https://vim.fandom.com/wiki/Ranges)  
 `$` goes to end of Line.  
@@ -25,9 +22,12 @@ usefule link [ranges](https://vim.fandom.com/wiki/ranges)
 ## regex
 [regex](http://www.vimregex.com/)  
 
-# plugins
-## Pathogen
-i use pathgen for managing plugins
+# Plugins
+## Vundle
+I use vundle for managing plugins, [here](https://github.com/VundleVim/Vundle.vim)
+```
+ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
 ## Nerdtree
 nerdtree allows you to have a folder pane to navigate files/folders.
 `?` to see help menu
