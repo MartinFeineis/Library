@@ -8,6 +8,8 @@
 Example comment lines 15 to 25 `:15,25s/^/#`  
 ## insert file at current position
 `:r <path/to/file>`
+insert lines _9_  _19_ from file `myfile`
+`:r! sed -n 9,19p /path/to/myfile`
 
 ## Ranges
 Usefule Link [Ranges](https://vim.fandom.com/wiki/Ranges)  
