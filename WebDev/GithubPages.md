@@ -25,7 +25,7 @@ during building
 
 ## removed practices
 I stopped using push-dir and do my git management my own way.
-~~~install `npm install --save-dev push-dir`
+~~~install `npm install --save-dev push-dir`  
 in package.json in the scripts section add a deploy item:
 ```
 "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
