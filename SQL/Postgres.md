@@ -13,3 +13,11 @@ pg_catalog.text)
 FROM pg_catalog.pg_user u
 ORDER BY 1;
 ```
+
+
+This has to go into a Postgres Section
+```
+SELECT relname, A.attname FROM pg_class C, pg_namespace N, pg_attribute A, 
+pg_type T WHERE (C.relkind=`r') AND (N.old=C.relnamespace) AND 
+(A.attrelid=C.old) AND (A.atttypid=T.old) AND (A.attnum>0) AND (NOT A.attisdropped) AND (N.nspname ILIKE `public');
+```
