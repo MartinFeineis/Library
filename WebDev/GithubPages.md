@@ -21,10 +21,13 @@ In your `package.json` add
 # Jeykyll
 From [her](https://alex-alekseichuk.github.io/2020/06/10/nojekyll-file-to-host-nuxt-on-github/) place a file
 name `.nojeykyll` in the root of the repository to avoid the `_nuxt` folder getting lost 
-during building
+during building  
+
+## removed practices
 I stopped using push-dir and do my git management my own way.
-~~install `npm install --save-dev push-dir` ~~
+~~~install `npm install --save-dev push-dir`
 in package.json in the scripts section add a deploy item:
 ```
 "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
 ```
+~~~
