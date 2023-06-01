@@ -20,6 +20,7 @@ __lower case__ press `gu<motion>` to change the letter under the cursor to
 ## ranges
 usefule link [ranges](https://vim.fandom.com/wiki/ranges)  
 `$` goes to end of line.  
+`0` goes to the beginning of line (`^` seems to do the same)
 
 ## regex
 [regex](http://www.vimregex.com/)  
