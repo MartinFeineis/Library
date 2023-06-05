@@ -29,7 +29,7 @@ On Mac prepend it with `LC_CTYPE=C`, like
 < /dev/urandom | LC_CTYPE=C tr -dc _A-Z-a-z-0-9 | head -c24
 ```
 
-## Setup ssh Key connectivity
+##Setup ssh Key connectivity
 Install openssh_server
 ```
 sudo apt install openssh-server
