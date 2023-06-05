@@ -1,7 +1,7 @@
 # Git Stuff
 
 ## Configure ssh for github
-To generate ssh keys see here (Linux)[../Linux/Bash.md##setup-ssh-key-connectivity] or (Windows)[]
+To generate ssh keys see here [Linux](../Linux/Bash.md##setup-ssh-key-connectivity) or [Windows]()
 With ssh key add. Works only for github, when you need to access github enterprise servers this needs adjustment.
 ```
 Host github.com
@@ -15,7 +15,7 @@ Host git-codecommit.*.amazonaws.com
   IdentityFile ~/.ssh/privateKey
 ```
 So that the ssh key gets used when cloning repositories.
-Create new GPG key without gui prompts, see also (Docs)[https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key]
+Create new GPG key without gui prompts, see also [Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
 ```
 gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
 gpg --list-keys
