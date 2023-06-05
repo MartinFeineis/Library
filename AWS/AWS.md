@@ -65,10 +65,4 @@ List all metrics where the Namespace contains __Usage__
 aws cloudwatch list-metrics | jq '."Metrics"[] | select(."Namespace" | contains("Usage"))'
 ```
 
-## CodeCommit
-ssh config for AWS code commit
-```
-Host git-codecommit.*.amazonaws.com
-  User ABCEDEUserKey
-  IdentityFile ~/.ssh/privateKey
-```
+

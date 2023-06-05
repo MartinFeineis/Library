@@ -106,6 +106,7 @@ Release Page [Release](https://github.com/sharkdp/bat/releases/).
 ```
 wget https://github.com/sharkdp/bat/releases/download/v0.16.0/bat_0.16.0_amd64.deb
 sudo dpkg -i bat_0.16.0_amd64.deb
+echo "alias b=`which batcat`" >> ~/.zshrc
 ```
 ### fuzzyfind
 On [fzf](https://github.com/junegunn/fzf)
@@ -188,47 +189,7 @@ echo 'deb [signed-by=/usr/share/keyrings/rob-savoury.gpg] https://ppa.launchpadc
 sudo apt update && sudo apt upgrade
 sudo apt install ffmpeg
 ```
-## Git stuff
-### git 
-With ssh key add 
-```
-Host github.com
-  IdentityFile ~/.ss/githubkey
-```
-So that the ssh key gets used when cloning repositories.
-Create new GPG key without gui prompts, see also (Docs)[https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key]
-```
-gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
-gpg --list-keys
-gpg --armor --export KEYID1234567890ABCDEF
-```
-Add the exported Key in Github under `Settings` > `SSH and GPG Keys` at `New GPG Key` 
-Configuring git to use the key for signing
-```
-git config --global user.email "me@email.com"
-git config --global user.name "Martin Feineis"
-git config --global user.signingkey KEYID1234567890ABCDEF
-git config --global commit.gpgsign true
-```
-Config File at `~/.gitconfig'
-```
-[user]
-	email = my-email@gmail.com
-	name = Martin Feineis
-	signingkey = KEYID1234567890ABCDEF
-[commit]
-	gpgsign = true
-```
-### gh cli
-Installation, also see [installation](https://github.com/cli/cli#linux--bsd)
-more documentation, [here](https://cli.github.com/)
-```
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
-```
-list repos
-```
-gh repo list
-```
+
 # DVDs
 Since I don't do this frequently using a GUI is fine for me.
 backing up DVDs with `makemkv`, following guide [here]([https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224)
