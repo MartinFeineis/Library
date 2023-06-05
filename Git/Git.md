@@ -1,7 +1,7 @@
 # Git Stuff
 
 ## Configure ssh for github
-To generate ssh keys see here [Linux](../Linux/Bash.md##setup-ssh-key-connectivity) or [Windows]()
+To generate ssh keys see here [Linux](../Linux/Linux.md##setup-ssh-key-connectivity) or [Windows]()
 With ssh key add. Works only for github, when you need to access github enterprise servers this needs adjustment.
 ```
 Host github.com
