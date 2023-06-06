@@ -16,7 +16,7 @@ the second installs `node` version `v16.13.2` replace it with the version you wa
 the third install the latest `long-term-support`ed version
 
 ## npm
-[npm](https://www.npmjs.com/) is a package manager for node modules/packages it comes with `node.js`. I know if the `npm` version can be specified with `nvm`.
+[npm](https://www.npmjs.com/) is a package manager for node modules/packages it comes with `node.js`. I do not know if the `npm` version can be specified with `nvm`.
 
 ### NPX
 `npx` is a package runner. [docs](https://docs.npmjs.com/cli/v7/commands/npx)
