@@ -38,3 +38,27 @@ Install with:
 ```bash
 npx nuxi@latest init hello-world
 ```
+### Using bootstrap
+```
+npm install bootstrap
+```
+put this in `nuxt.config.ts`
+```js
+// https://v3.nuxtjs.org/api/configuration/nuxt.config
+export default defineNuxtConfig({
+  devtools: { enabled: true },
+  css: [
+    'bootstrap/dist/css/bootstrap.min.css'
+  ],
+  script: [
+    {
+      src: 'bootstrap/dist/js/bootstrap.bundle.min.js'
+    }
+  ],
+  vite: {
+    define: {
+      "process.env.DEBUG": false,
+    },
+  },
+});
+```
