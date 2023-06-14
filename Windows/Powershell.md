@@ -28,6 +28,15 @@ Expand-Archive Ubuntu.zip Ubuntu
 cd Ubuntu
 .\ubuntu1804.exe
 ```
+If WSL is already installed or to install any distro run
+```pwsh
+wsl --install Ubuntu-22.04
+```
+to reinstall a distribution run:
+```pwsh
+wsl --unregister Ubuntu-22.04
+
+```
 ## File Actions
 ### Find Files
 Finding Files and Displaying only the Filenpath and name one per Line
