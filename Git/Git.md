@@ -7,6 +7,11 @@ With ssh key add. Works only for github, when you need to access github enterpri
 Host github.com
   IdentityFile ~/.ssh/githubkey
 ```
+## Tagging
+```
+git tag v1.0
+git push --tags
+```
 ### CodeCommit
 ssh config for AWS code commit
 ```
@@ -57,3 +62,5 @@ git reset --hard origin/master
 git commit -am "rewriting history"
 git push --force origin HEAD:master
 ```
+
+
