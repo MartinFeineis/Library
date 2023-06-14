@@ -4,6 +4,7 @@
 
 * [Windows](Windows/Windows.md)
     * [Powershell](Windows/Powershell.md)
+    * [WSL](Windows/WSL.md)
 * [Linux](Linux/Linux.md)
     * [Bash](Linux/Bash.md)
     * [Kubernetes](Linux/Kubernetes.md)
