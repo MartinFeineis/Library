@@ -9,6 +9,7 @@
     * [Bash](Linux/Bash.md)
     * [Kubernetes](Linux/Kubernetes.md)
     * [Raspberry](Linux/Raspberry.md)
+    * [Hardware](Linux/Hardware.md)
 * [Android](Linux/Android.md)
 * [MacOSX](MacOSx/MacOSx.md)
 * [OSSetup](OSSetup/Custom.md)
