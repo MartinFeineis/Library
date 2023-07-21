@@ -15,3 +15,8 @@ Scan for available Wifi Networks with
 ```
 nmcli d wifi list
 ```
+Connect and disconnect to Wifi Network, `wlp61s0` is the device name
+```
+nmcli d disconnect wlp61s0
+nmcli d connect wlp61s0   
+```
