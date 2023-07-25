@@ -32,6 +32,8 @@ In an elevated Powershell 7
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
+## ssh on Windows
+For some reason private ssh keys need to have an empty new Line at the end of the file
 ## GPG for Git
 Install [GPG4win](https://www.gnupg.org/download/)
 ```
