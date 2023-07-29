@@ -1,4 +1,18 @@
 # Powershell snippets
+
+## Profiles
+Directory that contains Profiles
+```
+Get-ChildItem  ~\Documents\WindowsPowershell\
+```
+Possible output for Terminal, ISE and VS Code
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/29/2023  11:08 AM            172 Microsoft.PowerShellISE_profile.ps1
+-a----         7/29/2023  11:12 AM           1170 Microsoft.PowerShell_profile.ps1
+-a----         7/29/2023  11:08 AM            158 Microsoft.VSCode_profile.ps1
+```
 ## Shutdown the Computer
 ```shutdown /s /t 0``` or the ```Stop-Computer``` Cmdlet works, too.
 ## Restart the Computer
