@@ -65,7 +65,7 @@ Get-ChildItem -Path *Filename* -Recurse | select FullName
 Search for a string within a Folder and its subfolders
 ```powershell
 Get-ChildItem -Recurse | Get-Content -ErrorAction SilentlyContinue | Select-String -pattern "error" | Out-File Errors.log
-```  
+```powershell 
 Recurse through a directory structure and search each files for `pattern` then store each match in a hash-table/dictionary with
 the Filename as key and a number per match.
 ```powershell
