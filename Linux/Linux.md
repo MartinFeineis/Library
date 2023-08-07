@@ -115,13 +115,6 @@ Copying folders recursively with rsync
 The phone is mounted to the Computer through `mtp` and the SD-Card is in the phone  
 `ls -lah /var/run/user/1000/gvfs/mtp:host=%5Busb%3A002%2C003%5D/SD\ card` 
 
-## Install Veracrypt  
-This downloads Veracrypt from [Vercrypt.fr](https://www.veracrypt.fr/en/Downloads.html) Version 1.23 the latest as of October 2019, unpacks it and installs it. Careful there is some user input neccessary.  
-```
-wget https://launchpad.net/veracrypt/trunk/1.23/+download/veracrypt-1.23-setup.tar.bz2
-tar -xf veracrypt-1.23-setup.tar.bz2
-sudo bash veracrypt-1.23-setup-gui-x641
-```
 ## Change screen brightness
 Install xbacklight and set screen brightness to 60%
 ```
@@ -151,4 +144,11 @@ request id is HP_LaserJet_M15w_0725E9_-2 (1 file(s))
 
 ~/Documents pyenv 🐍 system 
 ➜ 
+```
+## Firewall
+Use `ufw` to allow firewall request for port and protocol.
+```
+sudo ufw allow 53
+sudo ufw allow 53/tcp
+sudo ufw allow 53/udp
 ```

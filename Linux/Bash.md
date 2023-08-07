@@ -134,8 +134,7 @@ whereis zsh
 chsh -s /usr/bin/zsh wolle
 ```
 ## Oh-my-zsh
-Documentation is [here](https://github.com/ohmyzsh/ohmyzsh)  
-Install `Oh-my-zsh` first because it comes with its own `.zshrc` file
+Documentation is [here](https://github.com/ohmyzsh/ohmyzsh) Install `Oh-my-zsh` first because it comes with its own `.zshrc` file
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -173,10 +172,10 @@ alias colorls="`gem env | grep "USER INSTALLATION DIRECTORY" | awk '{ print $5 }
 ### Auto Sugges
 
 # Tmux
-Creating a new session `tmux new -s session-name`  
-Leaving/detaching from a session press`<prefix> :` and type `detach`  
-Listing existing sessions `tmux ls`  
-Entering/attaching to an existing session `tmux attach -s session-name/session-number`    
+Creating a new session `tmux new -s session-name`
+Leaving/detaching from a session press`<prefix> :` and type `detach`
+Listing existing sessions `tmux ls`
+Entering/attaching to an existing session `tmux attach -s session-name/session-number`
 
 ## Install ffmpeg
 Install for Linux Mint 21 thanks to (Syeda Wardah Batool)[https://linuxhint.com/install-ffmpeg-linux-mint-21/]
@@ -231,4 +230,11 @@ MYGROUP="$USER"
 sudo usermod -a -G $MYGROUP plex
 systemctl status plexmediaserver.service
 systemctl restart plexmediaserver.service
+```
+## Veracrypt  
+This downloads Veracrypt from [Vercrypt.fr](https://www.veracrypt.fr/en/Downloads.html) Version 1.23 the latest as of October 2019, unpacks it and installs it. Careful there is some user input neccessary.  
+```
+wget https://launchpad.net/veracrypt/trunk/1.23/+download/veracrypt-1.23-setup.tar.bz2
+tar -xf veracrypt-1.23-setup.tar.bz2
+sudo bash veracrypt-1.23-setup-gui-x641
 ```
