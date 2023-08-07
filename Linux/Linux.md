@@ -9,7 +9,7 @@ hostnamectl #Contains hostname and computerinfo
 Here I will collect my general Tips on Linux`
 ## Directories and permissions
 place additional package managers and executables in and config files.
-```
+```bash
 ~/.local/
 ~/.config/
 ```
@@ -17,15 +17,15 @@ place additional package managers and executables in and config files.
 ## Generate Random strings
 thanks to [How-to-Geek](https://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/)
 Generating 20 character long random strings.
-```
+```bash
 openssl rand -base64 20
 ```
 or
-```
+```sh
 < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c20
 ```
 On Mac prepend it with `LC_CTYPE=C`, like
-```
+```bash
 < /dev/urandom | LC_CTYPE=C tr -dc _A-Z-a-z-0-9 | head -c24
 ```
 
