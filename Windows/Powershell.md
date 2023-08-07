@@ -24,7 +24,7 @@ $PROFILE | Select-Object CurrentUserCurrentHost
 Restarts the Computer with Other(plenned) reason```shutdown /r /d p:0:0```
 ## SSH Sessions with Posh
 This starts a new SSH Session through Powershell to a linux computer
-```
+```powershell
 New-SSHSession -Computername <IP or DNS> -Port 443 -KeyFile C:\path\to\key\file -Credential <username>
 Get-SSHSession
 Invoke-SSHCommand -SessionId 0 -Command "ls -lah"
@@ -35,12 +35,12 @@ Install Ubuntu WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 It can be started by typing ```bash``` in Powershell 
 Run this, and only this as Administrator/root
-```
+```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 Run the following as regular User so you don't need to be Administrator to use wsl
 this installs Ubuntu 18-04. Look here for current supported distros and manual download Links [wsl](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
-```
+```powershell
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseBasicParsing
 Rename-Item Ubuntu.appx Ubuntu.zip
 Expand-Archive Ubuntu.zip Ubuntu
@@ -59,7 +59,7 @@ wsl --unregister Ubuntu-22.04
 ## File Actions
 ### Find Files
 Finding Files and Displaying only the Filenpath and name one per Line
-```
+```posh
 Get-ChildItem -Path *Filename* -Recurse | select FullName
 ```
 ### Search in Files
