@@ -13,6 +13,11 @@ Mode                 LastWriteTime         Length Name
 -a----         7/29/2023  11:12 AM           1170 Microsoft.PowerShell_profile.ps1
 -a----         7/29/2023  11:08 AM            158 Microsoft.VSCode_profile.ps1
 ```
+Find all profiles or currently used Profile with:
+```powershell
+$PROFILE | Select-Object *
+$PROFILE | Select-Object CurrentUserCurrentHost
+```
 ## Shutdown the Computer
 ```shutdown /s /t 0``` or the ```Stop-Computer``` Cmdlet works, too.
 ## Restart the Computer
