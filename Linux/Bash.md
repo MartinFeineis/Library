@@ -219,3 +219,16 @@ sudo apt-get install abcde eyed3 lame
 abcde -o mp3
 ```
 Tags can be edited with Rhytmbox in GUI
+
+##Plex
+Plex could not read from a NAS NFS that I mounted on my home directory. I had to add the 
+`plex` user to my usergroup ro fix it.
+```
+systemctl status plexmediaserver.service
+groups
+groups plex
+MYGROUP="$USER"
+sudo usermod -a -G $MYGROUP plex
+systemctl status plexmediaserver.service
+systemctl restart plexmediaserver.service
+```
