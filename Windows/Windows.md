@@ -1,14 +1,15 @@
 # Library for using Windows
 ## Creating a Programs Folder
 I created a new Folder called NewProgs in C:\ with the same permissions (ACLs) as _Progam Files_ where I store all my installed programs to keep track of them more easy and being able to find them easy when being logged in as a different user.
-```
-New-Item -ItemType Directory -Path C:\NewProgs
-Get-Acl -Path "C:\Program Files" | Set-Acl -Path C:\NewProgs
-$env:Path += ";C\NewProgs"
+```powershell
+$progPath = "C:\mybins"
+New-Item -ItemType Directory -Path $proPath
+Get-Acl -Path "C:\Program Files" | Set-Acl -Path $progPath
+$env:Path += ";$progPath"
 ```
 I recommend putting the last line in a startup script for powershell instead of permanently appending it to the path, this makes it easier keeping track of changes.
 After installing Powershell core I wanted to link its profile with my own profile, so I did this:
-```
+```powershell
 $p = Split-Path $PROFILE
 $l = Split-Path $PROFILE -Leaf
 New-Item -ItemType SymbolicLink -Path $p -Name $l -Value "C:\Users\me\<path>\MyFunctions.ps1"
@@ -24,19 +25,19 @@ A lot of times I work on several screens, and when detaching my Laptop from them
 ```
 ## Enable Virtualization
 In Powershell 5 on HP Laptops
-```
+```powershell
 $s = Get-WmiObject -class hp_biossettinginterface -Namespace "root\hp\instrumentedbios"
 $s.SetBIOSSetting('Virtualization Technology (VTx)','Enable')
 ```
 In an elevated Powershell 7
-```
+```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 ## ssh on Windows
 For some reason private ssh keys need to have an empty new Line at the end of the file
 ## GPG for Git
 Install [GPG4win](https://www.gnupg.org/download/)
-```
+```sh
 gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
 gpg --list-keys
 gpg --armor --export ABDCDEFHEXKEYID

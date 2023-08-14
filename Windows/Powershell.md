@@ -2,7 +2,7 @@
 
 ## Profiles
 Directory that contains Profiles
-```
+```powershell
 Get-ChildItem  ~\Documents\WindowsPowershell\
 ```
 Possible output for Terminal, ISE and VS Code
