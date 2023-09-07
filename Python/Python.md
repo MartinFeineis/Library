@@ -32,9 +32,22 @@ For example
 ➜ python3 -c "import datetime; print('It is: ',datetime.datetime.now())"
 It is:  2022-03-29 13:37:50.057810
 ```
+## Help Function
+adding an explantion string to a function can be used by the `help()` function 
+to give explanation into what it is doing.
+```python
+def adder(x,y):
+    """
+    adds to numbers x and y and returns the sum
+    """
+    return x+y
+
+help(adder)
+```
+
 ## CLI Arguments
 Use the `argparse` Library to read cli arguments.
-```
+```python
 import argparse
 
 def read_cli_arguments():
