@@ -44,6 +44,51 @@ def adder(x,y):
 
 help(adder)
 ```
+for a class this looks like:
+```python
+class person():
+    """
+    A new person is born
+    """
+    def __init__ (self, name):
+        """
+        Give the person a name
+        """
+        self.name = name
+```
+and the output from interactive session is:
+```python
+PS C:\Users\920280\OneDrive - Cognizant\Documents> python.exe -i person.py
+>>> help(person)
+Help on class person in module __main__:
+
+class person(builtins.object)
+ |  person(name)
+ |  
+ |  A new person is born
+ |  
+ |  Methods defined here:
+ |  
+ |  __init__(self, name)
+ |      Give the person a name
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+>>> help(person.__init__) 
+Help on function __init__ in module __main__:
+
+__init__(self, name)
+    Give the person a name
+
+>>> 
+```
 
 ## CLI Arguments
 Use the `argparse` Library to read cli arguments.
