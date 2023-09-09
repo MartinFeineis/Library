@@ -52,22 +52,27 @@ From ChatGPT
 * WindowsCapability deals with the installation and removal of specific Windows apps and features, often associated with Microsoft's built-in software.
 
 * WindowsOptionalFeature deals with enabling or disabling optional system features and functionalities that may be hardware or software-related, but not part of the core Windows OS.
-WindowsCapability CmdLets:
+### WindowsCapabilities:
+#### WindowsCapability CmdLets:
+A List of all Windows Capability Commands
 ```powershell
-PS C:\Users\Wolle> get-command -name *capability*
+PS C:\Users\Wolle> get-command -module dism -name "*capability*"
 
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------
-Function        Find-RoleCapability                                2.2.5      PowerShellGet
-Function        Find-RoleCapability                                1.0.0.1    PowerShellGet
-Cmdlet          Add-WindowsCapability                              3.0        Dism
-Cmdlet          Export-WindowsCapabilitySource                     3.0        Dism
-Cmdlet          Get-PSSessionCapability                            7.3.6.500  Microsoft.PowerShell.Core
-Cmdlet          Get-WindowsCapability                              3.0        Dism
-Cmdlet          New-PSRoleCapabilityFile                           7.3.6.500  Microsoft.PowerShell.Core
-Cmdlet          Remove-WindowsCapability                           3.0        Dism
+Cmdlet          Add-WindowsCapability                              3.0        dism
+Cmdlet          Export-WindowsCapabilitySource                     3.0        dism
+Cmdlet          Get-WindowsCapability                              3.0        dism
+Cmdlet          Remove-WindowsCapability                           3.0        dism
 ```
-WindowsOptionalFeature Cmdlets:
+Find and Enable Windows Capability, (e.g. Display Projection app)
+```powershell
+Get-WindowsCapability -Online -Name "*display*"
+Add-WindowsCapability -Online -Name "App.WirelessDisplay.Connect~~~~0.0.1.0"
+```
+### WindowsOptionalFeature
+#### WindowsOptionalFeature Cmdlets:
+A list of all Windows Optional Feature Commands
 ```powershell
 PS C:\Users\Wolle> get-command -name *optionalfeature*
 
