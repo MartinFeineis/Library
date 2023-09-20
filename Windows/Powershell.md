@@ -30,6 +30,11 @@ Get-SSHSession
 Invoke-SSHCommand -SessionId 0 -Command "ls -lah"
 Remove-SSHSession -Index 0 -Verbose
 ```
+### ssh keys
+Windows/powershell does not interpret `~` use `$HOME` instead and backward slashes
+```powershell
+ssh-keygen -t rsa -b 2048 -C "comments" -f $HOME\.ssh\keyname -N ""
+```
 ## Installing the Linux Support thing for Windows
 Install Ubuntu WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
