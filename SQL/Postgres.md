@@ -1,7 +1,14 @@
 # SQL with Postgres
+## Installing postgres
+```sh
+sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql
+```
 
 ## Find all Users and there rights/roles
-```
+```sql
 SELECT u.usename AS "Role name",
   CASE WHEN u.usesuper AND u.usecreatedb THEN CAST('superuser, create
 database' AS pg_catalog.text)
