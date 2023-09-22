@@ -6,7 +6,7 @@ It will serve the `index.html` in the root of the repository
 
 create a new nuxt project
 in project/nuxt.config.ts add a target and router:
-```
+```js
 export default defineNuxtConfig({
     target: 'static',
     router: {
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 })
 ```
 In your `package.json` add 
-```
+```js
 "generate": "nuxt generate && cp -r /workspaces/MartinFeineis.github.io/hmy-page/.output/public/* /workspaces/MartinFeineis.github.io/",
 ```
 # Jeykyll
@@ -27,6 +27,6 @@ during building
 I stopped using push-dir and do my git management my own way.
 ~~install npm install --save-dev push-dir
 in package.json in the scripts section add a deploy item:~~
-```
+```bash
 "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
 ```

@@ -19,9 +19,16 @@ $PROFILE | Select-Object *
 $PROFILE | Select-Object CurrentUserCurrentHost
 ```
 ## Shutdown the Computer
-```shutdown /s /t 0``` or the ```Stop-Computer``` Cmdlet works, too.
+use shutdown or stop-computer
+```powershell
+shutdown /s /t 0
+Stop-Computer
+```
 ## Restart the Computer
-Restarts the Computer with Other(plenned) reason```shutdown /r /d p:0:0```
+Restarts the Computer with Other(plenned) reason
+```powershell
+shutdown /r /d p:0:0
+```
 ## SSH Sessions with Posh
 This starts a new SSH Session through Powershell to a linux computer
 ```powershell
@@ -30,10 +37,16 @@ Get-SSHSession
 Invoke-SSHCommand -SessionId 0 -Command "ls -lah"
 Remove-SSHSession -Index 0 -Verbose
 ```
+### ssh keys
+Windows/powershell does not interpret `~` use `$HOME` instead and backward slashes
+```powershell
+ssh-keygen -t rsa -b 2048 -C "comments" -f $HOME\.ssh\keyname -N ""
+```
 ## Installing the Linux Support thing for Windows
 Install Ubuntu WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
-It can be started by typing ```bash``` in Powershell 
+It can be started by typing 
+`bash` in Powershell 
 Run this, and only this as Administrator/root
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux

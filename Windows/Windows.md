@@ -47,3 +47,39 @@ git config --global user.name "Martin Feineis"
 git config --global commit.gpgsign true
 git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
 ```
+## WindowsOptionalFeature and WindowsCapabilities
+From ChatGPT
+* WindowsCapability deals with the installation and removal of specific Windows apps and features, often associated with Microsoft's built-in software.
+
+* WindowsOptionalFeature deals with enabling or disabling optional system features and functionalities that may be hardware or software-related, but not part of the core Windows OS.
+### WindowsCapabilities:
+#### WindowsCapability CmdLets:
+A List of all Windows Capability Commands
+```powershell
+PS C:\Users\Wolle> get-command -module dism -name "*capability*"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-WindowsCapability                              3.0        dism
+Cmdlet          Export-WindowsCapabilitySource                     3.0        dism
+Cmdlet          Get-WindowsCapability                              3.0        dism
+Cmdlet          Remove-WindowsCapability                           3.0        dism
+```
+Find and Enable Windows Capability, (e.g. Display Projection app)
+```powershell
+Get-WindowsCapability -Online -Name "*display*"
+Add-WindowsCapability -Online -Name "App.WirelessDisplay.Connect~~~~0.0.1.0"
+```
+### WindowsOptionalFeature
+#### WindowsOptionalFeature Cmdlets:
+A list of all Windows Optional Feature Commands
+```powershell
+PS C:\Users\Wolle> get-command -name *optionalfeature*
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Disable-WindowsOptionalFeature                     3.0        Dism
+Cmdlet          Enable-WindowsOptionalFeature                      3.0        Dism
+Cmdlet          Get-WindowsOptionalFeature                         3.0        Dism
+Application     OptionalFeatures.exe
+```
