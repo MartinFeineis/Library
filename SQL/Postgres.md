@@ -6,6 +6,14 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 sudo apt-get update
 sudo apt-get -y install postgresql
 ```
+check if server is running
+```sh
+systemctl status postgresql
+```
+## First Steps
+create a user
+
+
 
 ## Find all Users and there rights/roles
 ```sql
