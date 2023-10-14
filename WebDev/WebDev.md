@@ -38,6 +38,14 @@ Install with:
 ```bash
 npx nuxi@latest init hello-world
 ```
+Then use the github cli tool to create and sync the repository
+```
+gh repo create -s=. --public --remote=upstream
+git remote add origin git@github.com:MartinFeineis/page-collection.git
+git branch -M main
+git push -u origin main
+```
+the `gh` command creates a repo with the source (`s`) at the current directory and then makes it publich and pushes it onto github.
 ### Using bootstrap
 I want to use the cdn for bootstrap so I put the `app` part in `nuxt.config.ts`
 ```js
