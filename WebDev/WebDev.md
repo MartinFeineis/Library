@@ -39,7 +39,7 @@ Install with:
 npx nuxi@latest init hello-world
 ```
 Then use the github cli tool to create and sync the repository
-```
+```bash
 gh repo create -s=. --public --remote=upstream
 git remote add origin git@github.com:MartinFeineis/page-collection.git
 git branch -M main
