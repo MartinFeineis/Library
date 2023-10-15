@@ -1,10 +1,14 @@
 # Python
 code snippets and stuff for Python
 ## Programm Setup
+Install pyenv and set it to the version you want to use
 Install virtualenv, using pyenv is not necessary but I like it to keep my python versions managed.
 Install `python3.10-venv` if an error message tells to.
 ```
-apt install python3.10-venv
+curl https://pyenv.run | bash
+pyenv install 3.11
+pyenv local 3.11
+apt install python3.10-venv #might not be needed with pyenv
 pyenv local 3.9.0
 python -m venv
 ```
