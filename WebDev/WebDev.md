@@ -36,16 +36,12 @@ vue --version
 [nuxt](https://nuxt.com/) is a framework for `vue.js` apps, that adds server-side rendering. Drastically increases SEO capability of the Website, as server side rendering returns the whole page to the Search Engine.
 Install with: 
 ```bash
-npx nuxi@latest init hello-world
+npx nuxi@latest init <project>
 ```
+## Directories
+### Root level directoruis
+* `components`: create Vue components in here starting with uppercase letters. Use them with `<Componen />
 Then use the github cli tool to create and sync the repository
-```bash
-gh repo create -s=. --public --remote=upstream
-git remote add origin git@github.com:MartinFeineis/page-collection.git
-git branch -M main
-git push -u origin main
-```
-the `gh` command creates a repo with the source (`s`) at the current directory and then makes it publich and pushes it onto github.
 ### Using bootstrap
 I want to use the cdn for bootstrap so I put the `app` part in `nuxt.config.ts`
 ```js
