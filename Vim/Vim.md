@@ -51,3 +51,8 @@ Type ("_" is the cursor position):
 
 html:5_
 Then type <c-y>, (Ctrly,), and you should see:
+
+# Styling
+## Theme
+Put new themes into `~/.vim/colors` and then pick them with `:colo <theme>`
+`elflord` theme looks nice Latitude 5520 Laptop in Windows Terminal

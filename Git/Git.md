@@ -53,6 +53,14 @@ list repos
 ```
 gh repo list
 ```
+Create a public repository and set it up to sync with git in the current directory
+```bash
+gh repo create -s=. --public --remote=upstream
+git remote add origin git@github.com:<owner>/<project>.git
+git branch -M main
+git push -u origin main
+```
+the `gh` command creates a repo with the source (`s`) at the current directory, makes it public and pushes it to github.
 ## Rewriting history
 Checkout the commit you want keep, if you want to wipe everythin checkout the
 initial commit. Then reset the HEAD to this commit and force push it. 
