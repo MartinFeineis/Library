@@ -83,3 +83,6 @@ Cmdlet          Enable-WindowsOptionalFeature                      3.0        Di
 Cmdlet          Get-WindowsOptionalFeature                         3.0        Dism
 Application     OptionalFeatures.exe
 ```
+### Windows Terminal application
+
+See Documentation:[doc]](https://aka.ms/terminal-documentation), [schema[(https://aka.ms/terminal-profiles-schema)
