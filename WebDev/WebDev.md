@@ -31,7 +31,6 @@ vue create hello-world -d
 vue --version
 ```
 
-
 ## Nuxt
 [nuxt](https://nuxt.com/) is a framework for `vue.js` apps, that adds server-side rendering. Drastically increases SEO capability of the Website, as server side rendering returns the whole page to the Search Engine.
 Install with: 

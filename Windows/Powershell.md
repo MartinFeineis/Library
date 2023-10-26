@@ -62,7 +62,7 @@ cd Ubuntu
 ```
 If WSL is already installed or to install any distro run
 ```powershell
-wsl --install Ubuntu-22.04
+wsl --install -d Ubuntu-22.04
 ```
 to reinstall a distribution run:
 ```powershell
