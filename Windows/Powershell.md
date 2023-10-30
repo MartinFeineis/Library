@@ -39,6 +39,7 @@ Remove-SSHSession -Index 0 -Verbose
 ```
 ### ssh keys
 Windows/powershell does not interpret `~` use `$HOME` instead and backward slashes
+For some reason private ssh keys need to have an empty new Line at the end of the file
 ```powershell
 ssh-keygen -t rsa -b 2048 -C "comments" -f $HOME\.ssh\keyname -N ""
 ```
