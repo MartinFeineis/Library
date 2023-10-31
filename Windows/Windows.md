@@ -83,4 +83,4 @@ Application     OptionalFeatures.exe
 ```
 ### Windows Terminal application
 
-See Documentation:[doc]](https://aka.ms/terminal-documentation), [schema[(https://aka.ms/terminal-profiles-schema)
+See Documentation:[doc](https://aka.ms/terminal-documentation), [schema](https://aka.ms/terminal-profiles-schema)
