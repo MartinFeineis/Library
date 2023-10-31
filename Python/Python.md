@@ -131,3 +131,16 @@ this_dict['key'] = other_dict['key'] if other_dict['key'] else this_dict['key']
 ```
 Read `this_dict['key']` is `other_dict['key']` if that key exists (evalutes to `true`)
 otherwise keep the origial value.
+
+###Logging
+the logger object takes several arguments, the first on is the message that needs to be one string. Not like the 
+[print](https://docs.python.org/3/library/functions.html?highlight=print#print) function that automatically concatenates its arguments to a string
+```python
+import logging
+LOGGING_LEVEL = os.environ["LOGGING_LEVEL"]
+
+logging.basicConfig()
+logger = logging.getLogger(__name__)
+logger.setLevel(LOGGING_LEVEL)
+logger.info('This will get logged'+' this')
+```
