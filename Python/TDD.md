@@ -1,5 +1,9 @@
 # Unit testing in Python
 ## pytest
+### doctests
+doctests executes test in the docstring of a function
+###
+ToDo: doctests, pytest.ini, markers
 
 
 ## unittest
