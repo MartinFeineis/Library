@@ -11,7 +11,17 @@ check if server is running
 systemctl status postgresql
 ```
 ## First Steps
-create a user
+Log into the database with `sudo -u postgres psql`
+create new table and user for that table
+```
+CREATE TABLE table_data (
+  first_column VARCHAR(255) NOT NULL,
+  some_number INT,
+  second_column VARCHAR(255) NOT NULL,
+  a_boolean BOOLEAN DEFAULT FALSE
+);
+CREATE USER table_user WITH PASSWORD 'user-password';
+```
 
 
 
