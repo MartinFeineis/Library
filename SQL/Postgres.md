@@ -22,6 +22,15 @@ CREATE TABLE table_data (
 );
 CREATE USER table_user WITH PASSWORD 'user-password';
 ```
+## Network access
+in `/etc/postgresql/14/main/postgresql.conf` add the * so postgres listens on all IPs.
+```
+listen_addresses = '*'
+```
+and in `/etc/postgresql/14/main/pg_hba.conf` add this line add the permissions that users can access the database from any IP
+```
+host    all             all             0.0.0.0/0               md5
+```
 
 
 
