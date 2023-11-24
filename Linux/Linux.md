@@ -91,12 +91,12 @@ I re-installed Linux-Mint on a setup with existing LVM settings. I mounted a dat
 Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP. The shared folder on the NasDrive needs to have nfs Permissions:
 |Setting | Value |
 |--------|-------|
-|* Client: |  10.0.0.* |
-|* Privilege: | Read/Write |
-|* Squash: | Map all users to admin |
-|* Asynchronous: | No |
-|* Non-privileged port: | Denied |
-|* Cross-mount: | Allowed 
+| * Client: |  10.0.0.\* |
+| * Privilege: | Read/Write |
+| * Squash: | Map all users to admin |
+| * Asynchronous: | No |
+| * Non-privileged port: | Denied |
+| * Cross-mount: | Allowed |
 
 Install __nfs-common__ to mount nfs 
 ```
