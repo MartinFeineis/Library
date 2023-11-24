@@ -99,14 +99,23 @@ Make sure the `/etc/exports` file on the nfs server has the right ip addresses. 
 | * Cross-mount: | Allowed |
 
 Install __nfs-common__ to mount nfs 
-```
+```sh
 sudo apt-get install nfs-common
 ```
 In `/etc/fstab` mount it with, make sure to ues __tabs__ for separation (no spaces!)
-```
+```sh
 192.168.1.152:/volume1/pullovas /home/wolle/nasghoul    nfs     defaults        0       0
 ```
-
+## Mount Usb stick
+Find device location with `fdisk` and look for the flash drive, use the `exfat-fuse` if the stick is _exfat_ formatted. To find
+out about the filsystem run `blkid`, then make the mount point and mount the drive.
+```sh
+sudo fdisk -l
+sudo apt install exfat-fuse 
+sudo blkid 
+sudo mkdir /media/<user>/usbreb 
+sudo mount /dev/sdc1 /media/<user>/usbreb -o uid=1000
+```
 ## rsync
 Copying folders recursively with rsync  
 ` rsync --recursive --progress -v source/path destination/path`  
