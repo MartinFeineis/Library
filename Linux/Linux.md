@@ -31,21 +31,21 @@ On Mac prepend it with `LC_CTYPE=C`, like
 
 ## Setup ssh Key connectivity
 Install openssh_server
-```
+```sh
 sudo apt install openssh-server
 sudo systemctl is-enabled ssh
 ```
 Generate a new ssh key pair
-```
+```sh
 ssh-keygen -t rsa -b 2048 -C "comments etc" -f ~/.ssh/outfile -N ""
 ssh-add ~/outfile
 ```
 preferably store it in `/home/<user>/.ssh/<keyname>` and append it into the `authorized_keys` File. Use the `-N ""` to avoid being prompted for a passphrase if desired.
-```
+```sh
 cat ~/.ssh/<keyname>.pub >> ~/.ssh/authorized_keys
 ```
 Update the sshd configuration to allow key based authorization. My preffered configuration checks the users .ssh directory for and `authorized_keys` File and also checks for a file per user like `/etc/ssh/authorized_keys/<user>` Depending on the Firewall settings I sometimes have to run the openssh-server on a different port than 22
-```
+```sh
 Port <port_of_choice>
 PubkeyAuthentication yes
 PasswordAuthentication no
@@ -53,7 +53,7 @@ AuthorizedKeysFile %h/.ssh/authorized_keys /etc/ssh/authorized_keys/%u
 ```
 Lastly copy the __private__ `keyname` file to the machine you want to use to connect from.
 __The private keyfile is the key to access your host use caution and encryption when to save or share it.__
-```
+```sh
 scp ~/.ssh/keyname user@host:~/.ssh/
 ```
 
@@ -75,7 +75,7 @@ __Volume Groups (vg)__, and __Logical Volumes (lv)__
 ## Installing Xen
 As described in
 [Xen Getting started](https://wiki.xenproject.org/wiki/Xen_Project_Beginners_Guide)
-```
+```sh
 apt-get install xen-system-amd64 lvm2
 pvcreate /dev/sda7
 vgcreate vg0 /dev/sda7
@@ -83,7 +83,7 @@ vgcreate vg0 /dev/sda7
 `/dev/sda7` differs from the turorial due to my different partion tables
 I re-installed Linux-Mint on a setup with existing LVM settings. I mounted a data volume in `/etc/fstab` with 
 `lvdisplay` revealed the `$` __LV Path__ as `/dev/vg-01/data01`
-```
+```sh
 /dev/vg-01/data01       /data   ext4    defaults        0       0
 ```
 
