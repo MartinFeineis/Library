@@ -70,7 +70,7 @@ to reinstall a distribution run:
 wsl --unregister Ubuntu-22.04
 ```
 ## File Actions
-### Find Files
+### Find, seek and destroy
 Finding Files and Displaying only the Filenpath and name one per Line
 ```powershell
 Get-ChildItem -Path *Filename* -Recurse | select FullName
@@ -80,6 +80,12 @@ Search for a string within a Folder and its subfolders
 ```powershell
 Get-ChildItem -Recurse | Get-Content -ErrorAction SilentlyContinue | Select-String -pattern "error" | Out-File Errors.log
 ``` 
+### Delete 
+Delete a folder that is not empty
+```powershell
+Remove-Item -Force -Recurse '<path with spaces>\'
+ri -Force -Recurse C:\Users\<user>\<path>
+```
 Recurse through a directory structure and search each files for `pattern` then store each match in a hash-table/dictionary with
 the Filename as key and a number per match.
 ```powershell
