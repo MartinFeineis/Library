@@ -13,6 +13,7 @@
 * [Android](Linux/Android.md)
 * [MacOSX](MacOSx/MacOSx.md)
 * [OSSetup](OSSetup/Custom.md)
+    * [WinInstallers](OSSetup/WinInstalls.md)
 * [Seurity](OSSetup/Security.md)
 
 ## Cloudproviders

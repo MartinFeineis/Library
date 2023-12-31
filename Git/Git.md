@@ -1,5 +1,5 @@
 # Git Stuff
-
+# Linux
 ## Configure ssh for github
 To generate ssh keys see here [Linux](../Linux/Linux.md##setup-ssh-key-connectivity) or [Windows]()
 With ssh key add. Works only for github, when you need to access github enterprise servers this needs adjustment.
@@ -70,5 +70,31 @@ git reset --hard origin/master
 git commit -am "rewriting history"
 git push --force origin HEAD:master
 ```
-
-
+# Windows
+## Install git
+```powershell
+Invoke-WebRequest -Uri "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe" -OutFile "~\Downloads\git.exe"
+.\Downloads\git.exe
+```
+## Generate SSH Key 
+The `-N` flag needs to be double quoted in Powershell
+```powershell
+ssh-keygen -t rsa -b 2048 -C "HoneyLapGitHub" -f $HOME\.ssh\github -N '""'
+```
+## GPG for Git
+```powershell
+Invoke-WebRequest -Uri "https://files.gpg4win.org/gpg4win-4.2.0.exe" -OutFile "~\Downloads\gpg4win.exe"
+   6 .\Downloads\gpg4win.exe
+```
+## GPG for Git
+Install [GPG4win](https://www.gnupg.org/download/)
+```sh
+gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
+gpg --list-keys
+gpg --armor --export ABDCDEFHEXKEYID
+git config --global user.signingkey D7412BCE5B0E2BEBB290D56005264B3CF6CE5B45
+git config --global user.email "martifein@gmail.com"
+git config --global user.name "Martin Feineis"
+git config --global commit.gpgsign true
+git config --global gpg.program (get-command -name gpg).Source
+```

@@ -33,18 +33,6 @@ In an elevated Powershell 7
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-## GPG for Git
-Install [GPG4win](https://www.gnupg.org/download/)
-```sh
-gpg --default-new-key-algo rsa4096 --gen-key --passphrase '' --pinentry-mode=loopback
-gpg --list-keys
-gpg --armor --export ABDCDEFHEXKEYID
-git config --global user.signingkey D7412BCE5B0E2BEBB290D56005264B3CF6CE5B45
-git config --global user.email "martifein@gmail.com"
-git config --global user.name "Martin Feineis"
-git config --global commit.gpgsign true
-git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
-```
 ## WindowsOptionalFeature and WindowsCapabilities
 From ChatGPT
 * WindowsCapability deals with the installation and removal of specific Windows apps and features, often associated with Microsoft's built-in software.
