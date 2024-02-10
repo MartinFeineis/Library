@@ -20,6 +20,11 @@ the third install the latest `long-term-support`ed version
 
 ### NPX
 `npx` is a package runner. [docs](https://docs.npmjs.com/cli/v7/commands/npx)
+Create nuxt project in existing git repo:
+```
+npx nuxi@latest init ./ --force
+```
+
 
 ## Vue
 [vue](https://vuejs.org/) is a javascript framework for building mostly single page apps (SPAs). The whole page is downloaded with a basically empty `index.html` file that then gets populated on the client with the `vue.js` library. This is good for portals, webshops or applications that don't need to be searchable with search engines. The drawback is, everything gets downloaded at once, if it is not cached. 
