@@ -101,6 +101,11 @@ foreach( $file in Get-ChildItem -Recurse ){
     }
 }
 ```
+### Path actions
+print PATH one entry per line
+```powershell
+($env:PATH).split(";")
+```
 Create a range object and search through a filetree for a string that contains elements of that range  
 ```powershell
 $a = 1..22
