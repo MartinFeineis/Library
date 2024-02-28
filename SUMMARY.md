@@ -39,6 +39,8 @@
 ## WebDevelopment
 * [WebDev](WebDev/WebDev.md)
     * [GithubPages](WebDev/GithubPages.md)
+    * [Hugo](WebDev/Hugo.md)
+    * [Nuxt & Vue](WebDev/NuxtVue.md)
 
 ## Books
 * [Kanban](Books/Kanban.md)

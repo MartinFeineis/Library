@@ -1,0 +1,48 @@
+{
+  "Version": "2012-10-17",
+  "Id": "default",
+  "Statement": [
+      {
+          "Sid": "WriteLogs",
+          "Effect": "Allow",
+          "Action": [
+          	"logs:CreateLogStream",
+			"logs:CreateLogGroup",
+ 			"logs:PutLogEvents"
+			],
+			"Resource": "arn:aws:logs:us-east-1:*"
+},
+{
+		"Sid":"WriteMessage",
+		"Effect": "Allow",
+		"Action": [
+			"dynamodb:PutItem",
+			"dynamodb:Update",
+			"dynamodb:BatchWrite"
+			],
+          "Resource":  "arn:aws:dynamodb:*"
+},
+{
+		"Sid":"UseEfs",
+		"Effect": "Allow",
+		"Action": [
+			"ec2:DescribeSecurityGroups",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeVpcs",
+            "elasticfilesystem:ClientMount",
+			"elasticfilesystem:ClientWrite"
+			],
+          "Resource":  "*"
+      },
+{
+		"Sid":"SendToSQS",
+		"Effect": "Allow",
+		"Action": [
+                "sqs:GetQueueUrl",
+                "sqs:ListQueues",
+                "sqs:SendMessage"
+			],
+          "Resource":  "*"
+      }
+   ]
+}
