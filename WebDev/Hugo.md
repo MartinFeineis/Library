@@ -5,3 +5,5 @@ initialize new website into existing git repo
 mkdir myDir
 hugo new site myDir --force -f toml
 ```
+## Index Page
+Overwrite theme index page with `layout/index.html`
