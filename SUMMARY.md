@@ -32,7 +32,7 @@ http://optiplex:9889/?token=cdb8e039e4d7aacb5995443ad0aec2598b4320bb02df6021# Su
 * [Python](Python/Python.md)
     * [TDD](Python/TDD.md)
     * [Powerball](Python/powerball/README.md)
-    * [Websraper](Python/webscraper/README.md)
+    * [Webscraper](Python/webscraper/README.md)
     * [Notebook](Python/test.ipynb)
     * [player](Python/player.py)
 * [Golang](Golang/Golang.md)
