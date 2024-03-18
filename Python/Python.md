@@ -144,3 +144,4 @@ logger = logging.getLogger(__name__)
 logger.setLevel(LOGGING_LEVEL)
 logger.info('This will get logged'+' this')
 ```
+[Jupyter Notebook](test.ipynb)
