@@ -20,3 +20,7 @@ Connect and disconnect to Wifi Network, `wlp61s0` is the device name
 nmcli d disconnect wlp61s0
 nmcli d connect wlp61s0   
 ```
+Using `nmap` to find IP Addresses and hostnames in local network using Router DNS
+```bash
+nmap -sn 192.168.1.1-254 --dns-server 192.168.1.1 | grep Nmap | awk '{ print $5 " " $6}'
+```

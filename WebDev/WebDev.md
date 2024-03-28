@@ -2,8 +2,11 @@
 
 ## NVM 
 [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md) is a node.js version manager like `pyenv`.
-Install `nvm` and use it to install `node.js` and `npm`.
-
+Install `nvm` and use it to install `node.js` and `npm`. 
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+```
+Or look [here](https://github.com/nvm-sh/nvm/tree/v0.39.7?tab=readme-ov-file#installing-and-updating)
 ## Node.js
 Install with one like the three below
 ```bash
