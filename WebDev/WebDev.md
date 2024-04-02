@@ -59,3 +59,9 @@ npx nuxi@latest init ./ --force
     <button type="button" onclick="uploadMessage()">Submit</button>
   </form>
 ```
+
+## Sign On, Authentication and Authorization
+### Google Sign On 
+On the Google [Credential Page](https://console.cloud.google.com/apis/credentials?project=<PROJECT-ID>) (Replace Project ID in Link)
+Create a OAuth Consent Screen
+then you can create Credentials and download a JSON object with the Client ID
