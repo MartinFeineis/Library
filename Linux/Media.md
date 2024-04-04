@@ -13,7 +13,7 @@ sudo apt install ffmpeg
 
 # DVDs
 Since I don't do this frequently using a GUI is fine for me.
-backing up DVDs with `makemkv`, following guide [here]([https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224)
+backing up DVDs with `makemkv`, following guide [here](https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224)
 ```
 
 sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev qtbase5-dev zlib1g-dev
