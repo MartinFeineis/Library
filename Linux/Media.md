@@ -1,4 +1,4 @@
-
+# Optical Mediums
 ## Install ffmpeg
 Install for Linux Mint 21 thanks to [Syeda Wardah Batool](https://linuxhint.com/install-ffmpeg-linux-mint-21/)
 ```

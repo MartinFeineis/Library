@@ -9,6 +9,7 @@ http://optiplex:9889/?token=cdb8e039e4d7aacb5995443ad0aec2598b4320bb02df6021# Su
     * [Bash](Linux/Bash.md)
     * [Kubernetes](Linux/Kubernetes.md)
     * [Raspberry](Linux/Raspberry.md)
+    * [Media](Linux/Media.md)
     * [Hardware](Linux/Hardware.md)
 * [Android](Linux/Android.md)
 * [MacOSX](MacOSx/MacOSx.md)
