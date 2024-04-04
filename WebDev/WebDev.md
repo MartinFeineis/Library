@@ -65,3 +65,5 @@ npx nuxi@latest init ./ --force
 On the Google [Credential Page](https://console.cloud.google.com/apis/credentials?project=<PROJECT-ID>) (Replace Project ID in Link)
 Create a OAuth Consent Screen
 then you can create Credentials and download a JSON object with the Client ID
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
