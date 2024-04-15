@@ -133,8 +133,30 @@ xbacklight -get display 60
 ## Install deb package
 run `sudo dpkg -i <deb-File>.deb`
 ### Check installed Ubuntu Version
-For linux mint check `/etc/upstream-release/lsb-release`  
-On Pop_OS! check `/etc/os-release`
+For Linux Mint
+```bash
+optiplex in Library on  master [$!]
+➜ cat /etc/upstream-release/lsb-release
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=22.04
+DISTRIB_CODENAME=jammy
+DISTRIB_DESCRIPTION="Ubuntu Jammy Jellyfish"
+
+optiplex in Library on  master [$!]
+➜ cat /usr/lib/os-release
+NAME="Linux Mint"
+VERSION="21.1 (Vera)"
+ID=linuxmint
+ID_LIKE="ubuntu debian"
+PRETTY_NAME="Linux Mint 21.1"
+VERSION_ID="21.1"
+HOME_URL="https://www.linuxmint.com/"
+SUPPORT_URL="https://forums.linuxmint.com/"
+BUG_REPORT_URL="http://linuxmint-troubleshooting-guide.readthedocs.io/en/latest/"
+PRIVACY_POLICY_URL="https://www.linuxmint.com/"
+VERSION_CODENAME=vera
+UBUNTU_CODENAME=jammy
+```
 ## Printing from the commandline
 ```
 ~/Documents pyenv 🐍 system 
