@@ -11,6 +11,10 @@ sudo apt update && sudo apt upgrade
 sudo apt install ffmpeg
 ```
 ### DVDs
+mount a dvd 
+```bash
+sudo mount /dev/sr0 /media/dvdrom
+```
 Since I don't do this frequently using a GUI is fine for me.
 backing up DVDs with `makemkv`, following guide [here](https://forum.makemkv.com/forum/viewtopic.php?f=3&t=224)
 ```bash
@@ -59,7 +63,7 @@ makemkv
 Backing up CDs with [abcde](https://abcde.einval.com/wiki/).
 abcde stores the output in `Unknown_Artist-Unknown_Album/` directory
 `lame` is needed for mp3 encoding and `eye3` is used for metadata tags.
-```
+```sh
 sudo apt-get install abcde eyed3 lame 
 abcde -o mp3
 ```
@@ -68,7 +72,7 @@ Tags can be edited with Rhytmbox in GUI
 ##Plex
 Plex could not read from a NAS NFS that I mounted on my home directory. I had to add the 
 `plex` user to my usergroup ro fix it.
-```
+```sh
 systemctl status plexmediaserver.service
 groups
 groups plex
