@@ -69,7 +69,7 @@ abcde -o mp3
 ```
 Tags can be edited with Rhytmbox in GUI
 
-##Plex  
+## Plex  
 Plex could not read from a NAS NFS that I mounted on my home directory. I had to add the 
 `plex` user to my usergroup ro fix it.
 ```sh
