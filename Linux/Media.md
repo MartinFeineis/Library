@@ -59,6 +59,10 @@ cd ../makemkv-bin-1.17.6
 make\nsudo make install
 makemkv
 ```
+Copy DVDs
+```sh
+makemkvcon mkv disc:0 all /path/to/folder
+```
 # CDs
 Backing up CDs with [abcde](https://abcde.einval.com/wiki/).
 abcde stores the output in `Unknown_Artist-Unknown_Album/` directory
