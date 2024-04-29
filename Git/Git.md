@@ -44,6 +44,7 @@ Config File at `~/.gitconfig'
 	gpgsign = true
 ```
 ### gh cli
+[Command reference](https://cli.github.com/manual/gh)
 Installation, also see [installation](https://github.com/cli/cli#linux--bsd)
 more documentation, [here](https://cli.github.com/)
 ```
