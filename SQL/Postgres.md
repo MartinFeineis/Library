@@ -24,6 +24,27 @@ or password prompt
 ```bash
 psql -h $POSTGRES_HOST -U $POSTGRES_USER -d $POSTGRES_DATABASE
 ```
+
+## Insert Data
+create Table
+```sql
+CREATE TABLE sw_comics (
+  Band smallint NOT NULL,
+  Title VARCHAR(255),
+  Notes VARCHAR(255),
+  Owned BOOLEAN DEFAULT FALSE,
+  Wishlist BOOLEAN DEFAULT FALSE
+);
+```
+Insert into table (no space between table name and columns)
+```sql
+INSERT INTO sw_comics(Band, Title, Notes, Owned, Wishlist)
+VALUES
+  ('10', 'Dark Times - Blutige Ernte', 'Checkout Kurosawas \"Yojimbo - Der Leibwaechter\" and \"Dir verborgene Festung\"', 'true', 'false'),
+  ('28', 'Blutsband II: Boba Fett ist tot', 'kein toller Zeichenstil', 'true','false'),
+  ('35', 'Crimson Empire II - Das Blutsgericht', 'Nom Anor tritt auf, schoener Zeichenstil','true','false');
+```
+
 create new table and user for that table
 ```sql
 CREATE TABLE table_data (
