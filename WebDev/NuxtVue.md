@@ -40,3 +40,20 @@ npm init vue@latest
 vue create hello-world -d
 vue --version
 ```
+### Component
+A new component with css, javascript and html template
+```vue
+<script>
+    console.log("Hello JS World!")
+</script>
+<style>
+    h1 {
+        background-color: #9932CC;
+    }
+</style>
+<template>
+    <div>
+        <h1>Hello New Component</h1>
+    </div>
+</template>
+```
