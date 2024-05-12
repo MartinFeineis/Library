@@ -12,6 +12,10 @@ systemctl status postgresql
 ```
 ## First Steps
 Log into the database with `sudo -u postgres psql`
+Log into a remote database with password
+```
+
+```
 create new table and user for that table
 ```
 CREATE TABLE table_data (
