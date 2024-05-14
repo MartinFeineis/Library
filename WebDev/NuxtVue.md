@@ -43,6 +43,11 @@ vue --version
 ### Component
 A new component with css, javascript and html template
 ```vue
+<template>
+    <div>
+        <h1>Hello New Component</h1>
+    </div>
+</template>
 <script>
     console.log("Hello JS World!")
 </script>
@@ -51,9 +56,4 @@ A new component with css, javascript and html template
         background-color: #9932CC;
     }
 </style>
-<template>
-    <div>
-        <h1>Hello New Component</h1>
-    </div>
-</template>
 ```
