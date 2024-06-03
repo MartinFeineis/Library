@@ -1,11 +1,16 @@
 # Linux Tips
 ## Finding out which Linux Version running
 ```sh
-cat /etc/issues #Linux Mint Version and name
-cat /etc/os-release  #more information and Ubuntu Build
-hostnamectl #Contains hostname and computerinfo
+cat /etc/issues
+cat /etc/os-release  
+hostnamectl
+cat /etc/upstream-release/lsb-release
+lsb_release -id
 ```
-
+* `/etc/issues`: Linux Mint 21.1 Vera \n \l
+* `/etc/os-release`: more mint details
+* `/etc/upstream-release/lsb-release`: Ubuntu info
+* `lsb-release`: Mint info
 Here I will collect my general Tips on Linux`
 ## Directories and permissions
 place additional package managers and executables in and config files.
