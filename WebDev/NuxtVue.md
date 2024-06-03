@@ -57,3 +57,20 @@ A new component with css, javascript and html template
     }
 </style>
 ```
+### Api 
+The `server/` directory is used to register APIs [link](https://nuxt.com/docs/guide/directory-structure/server)
+```
+import { createPool, sql } from '@vercel/postgres'
+
+export default defineEventHandler(async () => {
+  const db = createPool()
+  try {
+    const { rows: comics } = await db.query('SELECT * FROM sw_comics')
+    return {
+      comics: comics,
+    }
+  } catch (error) {
+      throw error
+  }
+})
+```
