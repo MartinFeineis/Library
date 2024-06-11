@@ -16,7 +16,7 @@ Resources:
       #UserData: "base-64EncodedUserdata="
       KeyName: !Ref SSHPemKey
       IamInstanceProfile: !Ref SSMProfileRole
-      InstanceType: "t2.medium"
+      InstanceType: "t4g.xlarge"
       NetworkInterfaces:
         - DeviceIndex: 0
           AssociatePublicIpAddress: true
