@@ -174,7 +174,7 @@ Get-ADUser -Identity<Username> -Properties *
 Getting a list of all locked out accounts
 ```powershell
 (Get-ADUser -Filter * -Properties lockedOut,GivenName | Where {$_.LockedOut -eq $True}).Name
-```powershell
+```
 Get Alls Users in a company
 ```powershell
 Get-ADUser -Filter * -SearchBase "OU=<users>,OU=<company>,DC=<domain>,DC=com" | Measure-Object
@@ -198,7 +198,7 @@ Add-ADGroupMember -Identity anygroup -Members anyuser
 ```
 ## Copy Files Remotely
 ### Copy Files from a Remote Machine
-Copy Files from a to/from a remote Server by instatiating a new PSSession and then use the ```-ToSession/-FromSession``` Flag
+Copy Files from a to/from a remote Server by instatiating a new PSSession and then use the `-ToSession/-FromSession` Flag
 use the -Recurse Flag to copy more than one File. I did not try to copy it directly from the remote machine to the other remote machine. I assume this wouldn't work due to the second hop Problem.
 ```powershell
 $ASession = New-PSSession -ComputerName <Remote-Name> -Credential (Get-Credential)
