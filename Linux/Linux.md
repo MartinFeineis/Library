@@ -17,7 +17,7 @@ place additional package managers and executables in and config files.
 ~/.local/
 ~/.config/
 ```
-Path with each entry in new line as alias `ep`
+Pretty Printing Path with each entry in new line as alias `ep`
 ```
 alias ep='echo $PATH | tr ":" "\n"'
 ```
