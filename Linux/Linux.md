@@ -17,6 +17,10 @@ place additional package managers and executables in and config files.
 ~/.local/
 ~/.config/
 ```
+Path with each entry in new line as alias `ep`
+```
+alias ep='echo $PATH | tr ":" "\n"'
+```
 
 ## Generate Random strings
 thanks to [How-to-Geek](https://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/)
