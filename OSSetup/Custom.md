@@ -45,7 +45,8 @@ Release Page [Release](https://github.com/sharkdp/bat/releases/).
 BATCAT_VERSION=0.24.0
 wget https://github.com/sharkdp/bat/releases/download/v"${BATCAT_VERSION}"/bat_"${BATCAT_VERSION}"_amd64.deb -O batcat.deb
 sudo dpkg -i batcat.deb
-echo "alias b=`which batcat`" >> ~/.zshrc
+echo "alias b=`which bat`" >> ~/.zshrc
+#echo "alias b=`which batcat`" >> ~/.zshrc
 ```
 ### fuzzyfind
 On [fzf](https://github.com/junegunn/fzf)
