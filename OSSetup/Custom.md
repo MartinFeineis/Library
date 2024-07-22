@@ -43,8 +43,8 @@ Replace the release number down there with the latest from the
 Release Page [Release](https://github.com/sharkdp/bat/releases/).
 ```
 BATCAT_VERSION=0.24.0
-wget https://github.com/sharkdp/bat/releases/download/v${BATCAT_VERSION}/bat_${BATCAT_VERSION}_amd64.deb
-sudo dpkg -i bat_${BATCAT_VERSION}_amd64.deb
+wget https://github.com/sharkdp/bat/releases/download/v"${BATCAT_VERSION}"/bat_"${BATCAT_VERSION}"_amd64.deb -O batcat.deb
+sudo dpkg -i batcat.deb
 echo "alias b=`which batcat`" >> ~/.zshrc
 ```
 ### fuzzyfind
