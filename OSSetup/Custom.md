@@ -44,7 +44,6 @@ Release Page [Release](https://github.com/sharkdp/bat/releases/).
 ```
 BATCAT_VERSION=0.24.0
 wget https://github.com/sharkdp/bat/releases/download/v${BATCAT_VERSION}/bat_${BATCAT_VERSION}_amd64.deb
-wget https://github.com/sharkdp/bat/releases/download/v0.16.0/bat_0.16.0_amd64.deb
 sudo dpkg -i bat_${BATCAT_VERSION}_amd64.deb
 echo "alias b=`which batcat`" >> ~/.zshrc
 ```
