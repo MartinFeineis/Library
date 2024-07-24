@@ -24,6 +24,13 @@ echo "$PATH=$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin/" >> ~/.zshrc
 ```
 
 ## Install Nerdfonts
+check [here](https://www.nerdfonts.com/font-downloads) 
+```bash
+curl https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/UbuntuMono.zip -o /tmp/UbuntuMono.zip
+[ ! -d "~/.local/share/fonts" ] && mkdir -p ~/.local/share/fonts
+unzip /tmp/UbuntuMono.zip -d ~/.local/share/fonts 
+fc-cache -f -v
+```
 
 ## Install AWS-CLI
 ```
