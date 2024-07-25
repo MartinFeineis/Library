@@ -31,7 +31,7 @@ I use vundle for managing plugins, [here](https://github.com/VundleVim/Vundle.vi
 ```
  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-## Nerdtree
+## [Nerdtree](https://github.com/preservim/nerdtree)
 nerdtree allows you to have a folder pane to navigate files/folders.
 `?` to see help menu
 `r` to refresh view, for example after deleting some file
