@@ -55,11 +55,14 @@ sudo dpkg -i batcat.deb
 echo "alias b=`which bat`" >> ~/.zshrc
 #echo "alias b=`which batcat`" >> ~/.zshrc
 ```
-~~### fuzzyfind
+
+<strike>
+
+### fuzzyfind
 On [fzf](https://github.com/junegunn/fzf)
-```bash
-sudo apt-get install fzf
-```~~
+
+</strike>
+
 ### autojump
 On [autojump](https://github.com/wting/autojump). Autojump needs to be sourced.
 ```bash
