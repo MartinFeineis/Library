@@ -26,4 +26,5 @@ nmap -sn 192.168.1.1-254 --dns-server 192.168.1.1 | grep Nmap | awk '{ print $5 
 ```
 ## Fios Router
 blocking IPs on Fios Router
+
 ![here](https://media.404founders.com/NetworkProtectionFiosRouterEdited.png)
