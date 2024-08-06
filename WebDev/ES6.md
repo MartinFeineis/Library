@@ -1,4 +1,11 @@
-## Filter Helper
+# Javascript on ES6
+Udemy course [ES6 Javascript Development from scratch. Get practice with live examples and learn exactly where to apply ES6 features.](https://www.udemy.com/course/javascript-es6-tutorial)
+## Array Helpers
+
+### For Each
+
+### Map Helper
+### Filter Helper
 ```
 function reject(array, iteratorFunction) {
     console.log(iteratorFunction)
@@ -11,7 +18,7 @@ function reject(array, iteratorFunction) {
 }
 ```
 
-## Find Helper
+### Find Helper
 ```
 var ladders = [
   { id: 1, height: 20 },
@@ -35,6 +42,13 @@ function balancedParens(prev, parStr) {
 
 }
 
+
+### Every and Some Helper
+Every returns a boolean for every element evaluated and compared with AND
+Some returns a boolean comparing every element with OR
+
+
+### Reduce Helper
 <!-- parStr.reduce((prev, paStr) => {
     if ( paStr.toArray().filter(char) ={ return char === "\(")} ){
         prev += 1
