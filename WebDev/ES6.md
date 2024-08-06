@@ -5,7 +5,9 @@ Udemy course [ES6 Javascript Development from scratch. Get practice with live ex
 ### For Each
 
 ### Map Helper
+![Map-Helper](https://media.404founders.com/Map-Helper.png)
 ### Filter Helper
+![Filter-Helper](https://media.404founders.com/Filter-Helper.png)
 ```
 function reject(array, iteratorFunction) {
     console.log(iteratorFunction)
@@ -19,7 +21,7 @@ function reject(array, iteratorFunction) {
 ```
 
 ### Find Helper
-
+![Find-Helper](https://media.404founders.com/Find-Helper.png)
 ```
 var ladders = [
   { id: 1, height: 20 },
@@ -46,7 +48,9 @@ function balancedParens(prev, parStr) {
 
 ### Every and Some Helper
 Every returns a boolean for every element evaluated and compared with AND
+![Every-Helper](https://media.404founders.com/Every-Helper.png)
 Some returns a boolean comparing every element with OR
+![Some-Helper](https://media.404founders.com/Some-Helper.png)
 
 
 ### Reduce Helper
