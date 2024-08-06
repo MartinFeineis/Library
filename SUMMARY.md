@@ -42,9 +42,10 @@ http://optiplex:9889/?token=cdb8e039e4d7aacb5995443ad0aec2598b4320bb02df6021# Su
 
 ## WebDevelopment
 * [WebDev](WebDev/WebDev.md)
-    * [GithubPages](WebDev/GithubPages.md)
-    * [Hugo](WebDev/Hugo.md)
-    * [Nuxt & Vue](WebDev/NuxtVue.md)
+* [GithubPages](WebDev/GithubPages.md)
+* [Hugo](WebDev/Hugo.md)
+* [Nuxt & Vue](WebDev/NuxtVue.md)
+* [Javascript ES6](WebDev/ES6.md)
 
 ## Books
 * [Kanban](Books/Kanban.md)
