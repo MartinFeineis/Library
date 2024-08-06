@@ -19,6 +19,7 @@ function reject(array, iteratorFunction) {
 ```
 
 ### Find Helper
+
 ```
 var ladders = [
   { id: 1, height: 20 },
