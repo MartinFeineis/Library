@@ -47,13 +47,13 @@ function balancedParens(prev, parStr) {
 
 
 ### Every and Some Helper
-Every returns a boolean for every element evaluated and compared with AND
+Every returns a boolean for every element evaluated and compared with AND  
 
-![Every-Helper](https://media.404founders.com/Every-Helper.png)
+![Every-Helper](https://media.404founders.com/Every-Helper.png "Every Helper")  
 
-Some returns a boolean comparing every element with OR
+Some returns a boolean comparing every element with OR  
 
-![Some-Helper](https://media.404founders.com/Some-Helper.png)
+![Some-Helper](https://media.404founders.com/Some-Helper.png "Some Helper")  
 
 
 ### Reduce Helper
