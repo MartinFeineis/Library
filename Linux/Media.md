@@ -126,3 +126,17 @@ sudo systemctl
 sudo systemctl status agar-io.service
 sudo systemctl start agar-io.service
 ```
+Not sure if updating `manifest.yml` file does anything
+```
+---
+applications:
+- name: agar-clone
+  memory: 4096M
+  disk_quota: 4G
+  buildpack: nodejs_buildpack
+  host: agar-clone
+  domain: mybluemix.net
+  timeout: 180
+  env:
+    NPM_CONFIG_PRODUCTION: false
+```
