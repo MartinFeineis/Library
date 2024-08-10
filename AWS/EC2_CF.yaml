@@ -11,8 +11,8 @@ Resources:
   MyEC2Instance: 
     Type: "AWS::EC2::Instance"
     Properties: 
-      #ImageId: "ami-0305d0b03812a425e" #Ubuntu 23.04
-      ImageId: "ami-007855ac798b5175e"
+      ImageId: "ami-0c14ff330901e49ff" #Ubuntu 24.04
+      #ImageId: "ami-007855ac798b5175e"
       #UserData: "base-64EncodedUserdata="
       KeyName: !Ref SSHPemKey
       IamInstanceProfile: !Ref SSMProfileRole

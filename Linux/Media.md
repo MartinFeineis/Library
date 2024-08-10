@@ -85,3 +85,44 @@ sudo usermod -a -G $MYGROUP plex
 systemctl status plexmediaserver.service
 systemctl restart plexmediaserver.service
 ```
+## Games
+### Agar.IO
+I used [this](https://github.com/owenashurst/agar.io-clone) clone to run on a server.
+Running setup
+```sh
+git clone https://github.com/huytd/agar.io-clone.git
+cd agar.io-clone
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+nvm install --lts
+source ~/.bashrc 
+npm install
+npm run start
+```
+Clones repo, install npm and runs the server on port `3000`
+Create a systemd file `/etc/systemd/system/agar-io.service`
+```sh
+[Unit]
+Description=Agar.io Node.js Application
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/agar.io-clone
+ExecStart=/home/ubuntu/.nvm/versions/node/v20.16.0/bin/node ./bin/server/server.js
+Restart=on-failure
+RestartSec=10
+User=ubuntu
+Group=ubuntu
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
+```
+Reload systemd after changes to service file and run service
+```sh
+systemctl daemon-reload
+sudo systemctl 
+sudo systemctl status agar-io.service
+sudo systemctl start agar-io.service
+```
