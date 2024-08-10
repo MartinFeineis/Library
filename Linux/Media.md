@@ -100,7 +100,7 @@ npm run start
 ```
 Clones repo, install npm and runs the server on port `3000`
 Create a systemd file `/etc/systemd/system/agar-io.service`
-```sh
+```make
 [Unit]
 Description=Agar.io Node.js Application
 After=network.target
@@ -127,7 +127,7 @@ sudo systemctl status agar-io.service
 sudo systemctl start agar-io.service
 ```
 Not sure if updating `manifest.yml` file does anything
-```
+```yaml
 ---
 applications:
 - name: agar-clone
