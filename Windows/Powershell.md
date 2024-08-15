@@ -101,6 +101,14 @@ foreach( $file in Get-ChildItem -Recurse ){
     }
 }
 ```
+### String Actions
+Base64 en- and decoding
+```powershell
+[System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("https://lib.rjo.me"))
+aHR0cHM6Ly9saWIucmpvLm1l
+[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("aHR0cHM6Ly9saWIucmpvLm1l"))
+https://lib.rjo.me
+```
 ### Path actions
 print PATH one entry per line
 ```powershell
