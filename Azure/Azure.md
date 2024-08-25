@@ -1,4 +1,5 @@
 # Azure for Powershell
+[portal](https://portal.azure.com)
 ## Install Azure Module on Windows Server 2016
 ```
 Install-PackageProvider -Name NuGet
@@ -15,6 +16,9 @@ sudo apt-get install powershell -y
 ```
 
 ## Azure ActiveDirectory
+[admin](https://admin.microsoft.com)  
+[entraId](https://entra.microsoft.com)  
+
 ### Creating a new User in AzureAD
 ```
 Connect-AzureAD
@@ -38,3 +42,4 @@ $location = "centralus"
 New-AzureRmResourceGroup -Name $resourceGroupName -Location $location
 New-AzureRmResourceGroupDeployment -Name $deploymentName -ResourceGroupName $resourceGroupName -TemplateFile "C:\Users\<path>\azuredeploy.json"
 ```
+
