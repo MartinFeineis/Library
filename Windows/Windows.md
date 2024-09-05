@@ -33,6 +33,11 @@ In an elevated Powershell 7
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
+## Enable RDP
+```powershell
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name fDenyTSConnections -value 0
+Enable-NetFirewallRule -DisplayGroup 'Remote Desktop'
+```
 ## WindowsOptionalFeature and WindowsCapabilities
 From ChatGPT
 * WindowsCapability deals with the installation and removal of specific Windows apps and features, often associated with Microsoft's built-in software.

@@ -43,3 +43,20 @@ New-AzureRmResourceGroup -Name $resourceGroupName -Location $location
 New-AzureRmResourceGroupDeployment -Name $deploymentName -ResourceGroupName $resourceGroupName -TemplateFile "C:\Users\<path>\azuredeploy.json"
 ```
 
+## Getting Started
+Create __Resources Group__
+create __Vnet__ (Firewall Manager costs 20$/day)
+Create __HostPool__ Domain to join choose __entraID__
+Free trial can't request quota increase!
+Application Groups host Desktops and other Applications
+VMs in Session host need to be assigned to users
+Create Workspace in AVD Dashboard
+1. Host Pool
+2. Session Hosts (VMs etc)
+3. Create EntraID Users
+    3.1 give "Desktop Virtualization User" to user in "Azure role assignments" 
+    3.2 Admin???
+4. Assign Sessions to User in Host Pool
+5. Create Workspace in AVD
+
+[RDP Properties](https://learn.microsoft.com/en-us/azure/virtual-desktop/customize-rdp-properties?tabs=portal)
