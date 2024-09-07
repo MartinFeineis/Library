@@ -73,3 +73,16 @@ drivestoredirect:s:*;audiomode:i:0;videoplaybackmode:i:1;redirectclipboard:i:1;r
 Host Pool -> Access control (IAM)
 
 My Vdi Role Assignment == Desktop Virtualization User
+
+Azure Virtual Desktop | Host pools
+   * 2 Total machines, it can connect to
+Session Host 1 is assinged to myVdi user
+
+#### Application Group
+Application Group is Desktop 
+has User assigned to it 
+has SessioNDesktop in Application
+
+
+#### Workspace 
+contains Application Group Desktop
