@@ -1,5 +1,6 @@
 ## Nuxt
 [nuxt](https://nuxt.com/) is a framework for `vue.js` apps, that adds server-side rendering. Drastically increases SEO capability of the Website, as server side rendering returns the whole page to the Search Engine.
+[directory structure](https://nuxt.com/docs/guide/directory-structure/nuxt)
 Install with: 
 ```bash
 npx nuxi@latest init <project>
