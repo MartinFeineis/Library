@@ -14,7 +14,6 @@ curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list | sudo tee /et
 sudo apt-get update
 sudo apt-get install powershell -y
 ```
-
 ## Azure ActiveDirectory
 [admin](https://admin.microsoft.com)  
 [entraId](https://entra.microsoft.com)  
@@ -45,6 +44,22 @@ New-AzureRmResourceGroupDeployment -Name $deploymentName -ResourceGroupName $res
 or
 ```
 az group create --name $resourceGroupName --location $region  --subscription $subscriptionId
+```
+Create and verify Storage Account
+```bash
+az account show --query [name,id]
+$resourceGroupName="mfe-avd-smb"
+$storageAccountName="mfe-avd-smb-sa"
+$region="eastus"
+az storage account create --resource-group $resourceGroupName --name $storageAccountName --kind StorageV2 --sku Standard_ZRS --output none
+az storage account list --resource-group $resourceGroupName
+```
+
+Create and verify SMB Fileshare
+```bash
+$shareName="mfesmbshare
+az storage share-rm create --resource-group $resourceGroupName --storage-account $storageAccountName --name $shareName --access-tier "TransactionOptimized" --quota 1024 --output none
+az storage share list --account-name $storageAccountName
 ```
 
 ## Getting Started
