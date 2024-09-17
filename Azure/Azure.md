@@ -42,6 +42,10 @@ $location = "centralus"
 New-AzureRmResourceGroup -Name $resourceGroupName -Location $location
 New-AzureRmResourceGroupDeployment -Name $deploymentName -ResourceGroupName $resourceGroupName -TemplateFile "C:\Users\<path>\azuredeploy.json"
 ```
+or
+```
+az group create --name $resourceGroupName --location $region  --subscription $subscriptionId
+```
 
 ## Getting Started
 Create __Resources Group__
