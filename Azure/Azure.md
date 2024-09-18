@@ -48,8 +48,7 @@ az group create --name $resourceGroupName --location $region  --subscription $su
 Create and verify Storage Account
 ```bash
 az account show --query [name,id]
-$resourceGroupName="mfe-avd-smb"
-$storageAccountName="mfe-avd-smb-sa"
+$storageAccountName="string"
 $region="eastus"
 az storage account create --resource-group $resourceGroupName --name $storageAccountName --kind StorageV2 --sku Standard_ZRS --output none
 az storage account list --resource-group $resourceGroupName
