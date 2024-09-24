@@ -78,3 +78,4 @@ export default defineEventHandler(async () => {
 ## Links
 [composables,plugins,stores, etc.](https://bigmachine.io/frontend/what-should-be-a-plugin-vs-a-composable-vs-a-store-in-nuxt/)
 [AI Links](https://www.reddit.com/r/OpenAI/comments/12jyes5/what_are_good_techniques_for_feeding_extremely/)
+[async/await](https://javascript.info/async-await)
