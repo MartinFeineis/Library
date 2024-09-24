@@ -75,3 +75,5 @@ export default defineEventHandler(async () => {
   }
 })
 ```
+## Links
+[composables,plugins,stores, etc.](https://bigmachine.io/frontend/what-should-be-a-plugin-vs-a-composable-vs-a-store-in-nuxt/)
