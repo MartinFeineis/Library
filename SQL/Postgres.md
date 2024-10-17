@@ -25,6 +25,9 @@ or password prompt
 psql -h $POSTGRES_HOST -U $POSTGRES_USER -d $POSTGRES_DATABASE
 ```
 
+## Postgres shorts
+List all tables `\dt`
+List all users `\du`
 ## Insert Data
 create Table
 ```sql
