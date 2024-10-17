@@ -26,8 +26,9 @@ psql -h $POSTGRES_HOST -U $POSTGRES_USER -d $POSTGRES_DATABASE
 ```
 
 ## Postgres shorts
+
 List all tables `\dt`
-List all users `\du`
+List all [users](https://www.postgresql.org/docs/17/app-psql.html#APP-PSQL-META-COMMAND-DU) `\duS+`
 ## Insert Data
 create Table
 ```sql
