@@ -43,6 +43,14 @@ For some reason private ssh keys need to have an empty new Line at the end of th
 ```powershell
 ssh-keygen -t rsa -b 2048 -C "comments" -f $HOME\.ssh\keyname -N ""
 ```
+#### Permissions
+If permissions on the ssh key file are not right:
+```powershell
+$path = "$HOME\.ssh\keyname"
+icacls $path /inheritance:r          # Remove inherited permissions
+icacls $path /grant:r "$($env:USERNAME):(F)" # Give full access to current user only
+icacls $path /remove:g "BUILTIN\Users" # Remove access for 'BUILTIN\Users' group
+```
 ## Installing the Linux Support thing for Windows
 Install Ubuntu WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
