@@ -39,7 +39,8 @@ http://optiplex:9889/?token=cdb8e039e4d7aacb5995443ad0aec2598b4320bb02df6021# Su
     * [Notebook](Python/test.ipynb)
     * [player](Python/player.py)
 * [Golang](Golang/Golang.md)
-* [SQL/Postgres](SQL/Postgres.md)
+* [Data/Postgres](Data/Postgres.md)
+* [Data/Postgres](Data/SQL.md)
 
 ## WebDevelopment
 * [WebDev](WebDev/WebDev.md)
