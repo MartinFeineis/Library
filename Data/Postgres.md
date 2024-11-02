@@ -26,39 +26,10 @@ psql -h $POSTGRES_HOST -U $POSTGRES_USER -d $POSTGRES_DATABASE
 ```
 
 ## Postgres shorts
-
 List all tables `\dt`
 List all [users](https://www.postgresql.org/docs/17/app-psql.html#APP-PSQL-META-COMMAND-DU) `\duS+`
-## Insert Data
-create Table
-```sql
-CREATE TABLE sw_comics (
-  Band smallint NOT NULL,
-  Title VARCHAR(255),
-  Notes VARCHAR(255),
-  Owned BOOLEAN DEFAULT FALSE,
-  Wishlist BOOLEAN DEFAULT FALSE
-);
-```
-Insert into table (no space between table name and columns)
-```sql
-INSERT INTO sw_comics(Band, Title, Notes, Owned, Wishlist)
-VALUES
-  ('10', 'Dark Times - Blutige Ernte', 'Checkout Kurosawas \"Yojimbo - Der Leibwaechter\" and \"Dir verborgene Festung\"', 'true', 'false'),
-  ('28', 'Blutsband II: Boba Fett ist tot', 'kein toller Zeichenstil', 'true','false'),
-  ('35', 'Crimson Empire II - Das Blutsgericht', 'Nom Anor tritt auf, schoener Zeichenstil','true','false');
-```
+See info for table `\d tablename`
 
-create new table and user for that table
-```sql
-CREATE TABLE table_data (
-  first_column VARCHAR(255) NOT NULL,
-  some_number INT,
-  second_column VARCHAR(255) NOT NULL,
-  a_boolean BOOLEAN DEFAULT FALSE
-);
-CREATE USER table_user WITH PASSWORD 'user-password';
-```
 ## Network access
 in `/etc/postgresql/14/main/postgresql.conf` add the * so postgres listens on all IPs.
 ```bash
