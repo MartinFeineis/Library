@@ -7,6 +7,23 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON tablename TO app_user;
 GRANT USAGE, SELECT ON SEQUENCE tablename_id_seq TO app_user;
 GRANT UPDATE ON SEQUENCE tablename_id_seq TO app_user;
 ```
+## Find all Users and there rights/roles
+```sql
+SELECT u.usename AS "Role name",
+  CASE WHEN u.usesuper AND u.usecreatedb THEN CAST('superuser, create
+database' AS pg_catalog.text)
+       WHEN u.usesuper THEN CAST('superuser' AS pg_catalog.text)
+       WHEN u.usecreatedb THEN CAST('create database' AS
+pg_catalog.text)
+       ELSE CAST('' AS pg_catalog.text)
+  END AS "Attributes"
+FROM pg_catalog.pg_user u
+ORDER BY 1;
+```
+access right
+```sql
+SELECT privilege_type FROM information_schema.table_privileges WHERE table_name = 'file_info';
+```
 
 ## Insert Data
 create Table
