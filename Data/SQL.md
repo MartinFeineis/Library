@@ -1,4 +1,13 @@
 # SQL Statements
+## Creating a user
+Create a user a give access to `tablename`
+```sql
+CREATE USER app_user WITH PASSWORD 'password';
+GRANT SELECT, INSERT, UPDATE, DELETE ON tablename TO app_user;
+GRANT USAGE, SELECT ON SEQUENCE tablename_id_seq TO app_user;
+GRANT UPDATE ON SEQUENCE tablename_id_seq TO app_user;
+```
+
 ## Insert Data
 create Table
 ```sql
