@@ -18,3 +18,10 @@ gcloud config configurations activate personal
 gcloud config set compute/region us-central1
 gcloud config set compute/region us-central1-a
 ```
+
+## Serving Content from bucket
+1. Create bucket
+2. Create CDN
+    2.1 Create new backend bucket that connects to bucket from 1.
+    2.2 Create new loadbalancer
+3. Creat Url Map for Load balancer
