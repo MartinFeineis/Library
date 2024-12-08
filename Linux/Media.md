@@ -20,19 +20,19 @@ backing up DVDs with `makemkv`, following guide [here](https://forum.makemkv.com
 ```bash
 sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev qtbase5-dev zlib1g-dev
 ```
-Install makemkv-oss package:
+
+## Handbrake-CLI
+Install dependecies and Handbrkake with CLI:
 ```bash
-cd makemkv-oss-1.17.2/
-./configure
-make
-sudo make install
+sudo apt-get install libavcodec-extra libdvd-pkg regionset
+sudo dpkg-reconfigure 
+sudo apt install handbrake handbrake-cli
 ```
-Install makemkv binaries
-```bash
-cd ../makemkv-bin-1.17.2/
-make
-sudo make install
+run handbrake-cli
 ```
+HandBrakeCLI -i /media/dvdrom -o /data/Movies/my_dvd_backup.mp4 --preset="Fast 1080p30"
+```
+
 ## MakeMkv
 The below commands combine the ones from above as well. __Build-tools__ and __ffmpeg__ need to be available for __makemkv__ to be installed.
 ```bash
@@ -56,7 +56,8 @@ make
 sudo make install
 
 cd ../makemkv-bin-1.17.6
-make\nsudo make install
+make
+sudo make install
 makemkv
 ```
 Copy DVDs
