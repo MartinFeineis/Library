@@ -10,7 +10,7 @@ echo 'deb [signed-by=/usr/share/keyrings/rob-savoury.gpg] https://ppa.launchpadc
 sudo apt update && sudo apt upgrade
 sudo apt install ffmpeg
 ```
-### DVDs
+## DVDs
 mount a dvd 
 ```bash
 sudo mount /dev/sr0 /media/dvdrom
@@ -21,7 +21,7 @@ backing up DVDs with `makemkv`, following guide [here](https://forum.makemkv.com
 sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev qtbase5-dev zlib1g-dev
 ```
 
-## Handbrake-CLI
+### Handbrake-CLI
 Install dependecies and Handbrkake with CLI:
 ```bash
 sudo apt-get install libavcodec-extra libdvd-pkg regionset
@@ -33,7 +33,7 @@ run handbrake-cli
 HandBrakeCLI -i /media/dvdrom -o /data/Movies/my_dvd_backup.mp4 --preset="Fast 1080p30"
 ```
 
-## MakeMkv
+### MakeMkv
 The below commands combine the ones from above as well. __Build-tools__ and __ffmpeg__ need to be available for __makemkv__ to be installed.
 ```bash
 sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev qtbase5-dev zlib1g-dev
@@ -64,7 +64,7 @@ Copy DVDs
 ```sh
 makemkvcon mkv disc:0 all /path/to/folder
 ```
-# CDs
+## CDs
 Backing up CDs with [abcde](https://abcde.einval.com/wiki/).
 abcde stores the output in `Unknown_Artist-Unknown_Album/` directory
 `lame` is needed for mp3 encoding and `eye3` is used for metadata tags.
