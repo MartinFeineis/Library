@@ -5,7 +5,7 @@ http://optiplex:9889/?token=cdb8e039e4d7aacb5995443ad0aec2598b4320bb02df6021# Su
 * [Windows](Windows/Windows.md)
     * [Powershell](Windows/Powershell.md)
     * [WSL](Windows/WSL.md)
-    * [Games](Windows/Gaming.md)
+    * [Media](Windows/Media.md)
     * [Security](Windows/Security.md)
 * [Linux](Linux/Linux.md)
     * [Bash](Linux/Bash.md)
