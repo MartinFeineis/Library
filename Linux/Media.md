@@ -1,6 +1,7 @@
 # Optical Mediums
 ### Install ffmpeg
 Install for Linux Mint 21 thanks to [Syeda Wardah Batool](https://linuxhint.com/install-ffmpeg-linux-mint-21/)
+[docs](https://www.ffmpeg.org/)
 ```bash
 sudo apt install dirmngr ca-certificates software-properties-common gnupg gnupg2 apt-transport-https
 sudo gpg --no-default-keyring --keyring /usr/share/keyrings/rob-savoury.gpg --keyserver keyserver.ubuntu.com --recv-keys E996735927E427A733BB653E374C7797FB006459
