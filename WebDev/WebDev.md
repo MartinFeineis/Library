@@ -65,8 +65,10 @@ npx nuxi@latest init ./ --force
 On the Google [Credential Page](https://console.cloud.google.com/apis/credentials?project=<PROJECT-ID>) (Replace Project ID in Link)
 Create a OAuth Consent Screen
 then you can create Credentials and download a JSON object with the Client ID
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
 
 #### O-Auth Consent screen
 The __consent screen__ shows which permissions the user is giving to the app (e.g. location, drive access, etc.). Default contains [docs](https://console.cloud.google.com/apis/credentials/consent) Default contains (I think) (E-mail, Name and some meta data).
