@@ -72,9 +72,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 #### O-Auth Consent screen
 The __consent screen__ shows which permissions the user is giving to the app (e.g. location, drive access, etc.). Default contains [docs](https://console.cloud.google.com/apis/credentials/consent) Default contains (I think) (E-mail, Name and some meta data).
-![Consent screen](https://media.404founders.com/lib/google_consent_screen.png)
+![Consent screen](https://media.404founders.com/lib/google_consent_screen.png)  
 ![O-auth Creds](https://media.404founders.com/lib/google_sso_creds.png)
 
 #### Supabase
-![Supabase provider](https://media.404founders.com/lib/supabase_google_provider.png)
+![Supabase provider](https://media.404founders.com/lib/supabase_google_provider.png)  
 ![Supabase Url config](https://media.404founders.com/lib/supabase_url_config.png)
