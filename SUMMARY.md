@@ -54,4 +54,4 @@ http://optiplex:9889/?token=cdb8e039e4d7aacb5995443ad0aec2598b4320bb02df6021# Su
 * [Kanban](Books/Kanban.md)
 * [I'll get you](Books/IchKriegDich.md)
 * [ProjectManagment](Books/ProjectManagment.md)
-* [StarWars](Books/SW.md)
+* [StarWars](https://media.404founders.com/SWhtmls/starwars.html)
