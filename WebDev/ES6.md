@@ -57,6 +57,7 @@ Some returns a boolean comparing every element with OR
 
 
 ### Reduce Helper
+```js
 <!-- parStr.reduce((prev, paStr) => {
     if ( paStr.toArray().filter(char) ={ return char === "\(")} ){
         prev += 1
@@ -66,3 +67,5 @@ Some returns a boolean comparing every element with OR
     return prev
 
 }, 0) -->
+```
+### Rest and Spread Helper
