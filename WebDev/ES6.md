@@ -69,3 +69,12 @@ Some returns a boolean comparing every element with OR
 }, 0) -->
 ```
 ### Rest and Spread Helper
+The rest operator takes any arguments given to a function and store them in a array 
+```js
+function rester (...rest) {
+    return `DataType ${typeof(rest)} first ${rest[0]} last ${rest.pop()}`
+}
+rester("a",1,"b",2) //'DataType object first a last 2'
+```
+
+### Destructuring
