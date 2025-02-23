@@ -69,12 +69,21 @@ Some returns a boolean comparing every element with OR
 }, 0) -->
 ```
 ### Rest and Spread Helper
-The rest operator takes any arguments given to a function and store them in a array 
+The rest takes any arguments given to a function and store them in a array, it is invoked with `...`
 ```js
 function rester (...rest) {
     return `DataType ${typeof(rest)} first ${rest[0]} last ${rest.pop()}`
 }
 rester("a",1,"b",2) //'DataType object first a last 2'
+```
+The Spread helper is very similar to the rest helper and returns the flattened array
+```js
+colors = ["black","red", "gold"];
+hex_codes = ["#000000","#FF0000","#FFD700"];
+mix = [...colors, ...hexcodes]
+Uncaught ReferenceError: hexcodes is not defined
+mix = [...colors, ...hex_codes]
+// [ 'black', 'red', 'gold', '#000000', '#FF00000', '#FFD700' ]
 ```
 
 ### Destructuring
