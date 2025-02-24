@@ -57,6 +57,7 @@ Some returns a boolean comparing every element with OR
 
 
 ### Reduce Helper
+The reduce helper runs a callback function on each element of an array passing in the previous value as an argument ot the next run. An initial value can be provide [see](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 ```js
 <!-- parStr.reduce((prev, paStr) => {
     if ( paStr.toArray().filter(char) ={ return char === "\(")} ){
@@ -87,3 +88,9 @@ mix = [...colors, ...hex_codes]
 ```
 
 ### Destructuring
+Destructuring limits writing code by intrinsically accessing the desired element
+```js
+const snubs = [ 'X-Wing', 'TIE-Fighter', 'X-95'];
+const [ x ] = snubs;
+console.log(x) // X-Wing
+```
