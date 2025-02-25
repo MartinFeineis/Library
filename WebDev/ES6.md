@@ -88,9 +88,10 @@ mix = [...colors, ...hex_codes]
 ```
 
 ### Destructuring
-Destructuring limits writing code by intrinsically accessing the desired element
+see [MSDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) Destructuring limits writing code by intrinsically accessing the desired element
 ```js
 const snubs = [ 'X-Wing', 'TIE-Fighter', 'X-95'];
 const [ x ] = snubs;
 console.log(x) // X-Wing
 ```
+
