@@ -94,4 +94,5 @@ const snubs = [ 'X-Wing', 'TIE-Fighter', 'X-95'];
 const [ x ] = snubs;
 console.log(x) // X-Wing
 ```
-
+### Classes
+[MSDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
