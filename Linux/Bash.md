@@ -6,12 +6,12 @@ For some reason when using `chsh -s /bin/bash` I had to restart my computer to t
 
 ## sed
 This command substitutes all colons in the PATH to newlines making the echo outpur easier to read
-```
+```sh
 echo $PATH | sed s/\:/\\n/g
 ```
 
 ### Replace all http to https in a file
-```
+```sh
 sed -i 's/http/https/g' /etc/apt/sources.list
 ```
 `-i` for in-place change
@@ -28,7 +28,7 @@ sed -i 's/http/https/g' /etc/apt/sources.list
 **sshd_config** the file we want to change  
 
 ### Updating Value in a Yaml File
-```
+```sh
 sed -i "s/key: .*/key: \"$B64\"/g" file.yaml
 ```
 This updates the Value of __key__ with whatever is stored in the Variable __$B64__
@@ -42,39 +42,43 @@ See [here](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-
 
 ## find
 Find files in a folder with excluding a path
-```
+```sh
 find . -path ./exclude/path -prune -o -iname "*pattern*" -print
 ```
 Find all files ending in .md and find the lines that contain django in those files.
-```
+```sh
 find . -type f -name "*.md" -exec grep "{}" -re django  \;
 ```
 
 ## for loop
 Find all Files in current directory where the filesize is bigger the 50Kb and copy them into another directory
-```
+```sh
 for filename in * ; do size=`wc -l "$filename" | awk '{ print $1 }'` &&  if [ "$size" -gt 50 ]; then cp "$filename" anotherdir; fi;  done
 ```
 Create 10 folders with the number and __\_stringname__ as the folder name and do something with all results from find.
-```
+```sh
 for item in {1..10} ; do mkdir ${item}_stringname ; done
 for i in $(find . -iname "*.tf"); do file $i && grep $i -e "ecr" ; done
 ```
 ## rename
 Remove `string` from the beginning of all files in the current directory using `rename`
-```
+```sh
 rename 's/string//;' 
 ```
-
+use rename for my kindle exports 
+```sh
+rename 's/[()]//g' *
+rename 's/ /_/g' * 
+```
 ## du
 Getting disk usage with excluding one or more pathes  
-```
+```sh
 du --exclude=path1 --exclude=path2 --exclude=path3 -sh *
 ```
 
 ## certbot
 I use this to install certbot from letsencrypt on Debian 9.3(stretch) with nginx
-```
+```sh
 mkdir -p /usr/bin/certbot
 cd /usr/bin/certbot
 sudo wget https://dl.eff.org/certbot-auto
@@ -96,7 +100,7 @@ sudo vbetool dpms off/on
 ```
 ## CommandLine Tools
 ### Installing colorls
-```
+```sh
 sudo apt-get install ruby2.3-dev
 sudo gem install colorls
 ```
@@ -104,25 +108,25 @@ sudo gem install colorls
 Bat is more eye-friendly cat alternative, on [Github](https://github.com/sharkdp/bat). 
 Replace the release number down there with the latest from the
 Release Page [Release](https://github.com/sharkdp/bat/releases/).
-```
+```sh
 wget https://github.com/sharkdp/bat/releases/download/v0.16.0/bat_0.16.0_amd64.deb
 sudo dpkg -i bat_0.16.0_amd64.deb
 echo "alias b=`which batcat`" >> ~/.zshrc
 ```
 ### fuzzyfind
 On [fzf](https://github.com/junegunn/fzf)
-```
+```sh
 sudo apt-get install fzf
 ```
 ### autojump
 On [autojump](https://github.com/wting/autojump). Autojump needs to be sourced.
-```
+```sh
 sudo apt install autojump
 echo "source /usr/share/autojump/autojump.sh" >> ~/.zshrc
 ```
 
 ## Pseudo stresstest forkbomb
-```
+```sh
 t(){for ((i=1; i<=100; i++ )) { (curl www.URL.com > /dev/null  ; echo $i );next} & ; t }
 ```
 Only blows your system without putting real stress on a server, but might get you banned or blocked.
