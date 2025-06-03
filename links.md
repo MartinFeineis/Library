@@ -8,4 +8,5 @@ Feel free to browse...
 * [Star Wars Notes](https://media.404founders.com/SWhtmls/starwars.html)
 * [Star Wars Timeline](https://media.404founders.com/SWhtmls/timeline.html)
 * [resume](https://martin.rjo.me)
-* [404Founders](https://www.404founders.com/)
+* [404Founders](https://www.404founders.com)
+* [Vue/Nuxt playground](https://pages.rjo.me)
