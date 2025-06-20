@@ -10,3 +10,4 @@ Feel free to browse...
 * [resume](https://martin.rjo.me)
 * [404Founders](https://www.404founders.com)
 * [Vue/Nuxt playground](https://pages.rjo.me)
+* [flexible Notes](notes.md)
