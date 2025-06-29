@@ -11,6 +11,7 @@
     * [Raspberry](Linux/Raspberry.md)
     * [Media](Linux/Media.md)
     * [Hardware](Linux/Hardware.md)
+    * [Mint](Linux/Linux-Mint-Tipps.md)
 * [Android](Linux/Android.md)
 * [MacOSX](MacOSx/MacOSx.md)
 * [OSSetup](OSSetup/Custom.md)
