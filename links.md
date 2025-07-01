@@ -10,5 +10,6 @@ Feel free to browse...
 * [resume](https://martin.rjo.me)
 * [404Founders](https://www.404founders.com)
 * [Vue/Nuxt playground](https://pages.rjo.me)
+* [slides](https://slides.rjo.me)
 * [flexible Notes](notes.md)
 * [Colors in Terminal](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
