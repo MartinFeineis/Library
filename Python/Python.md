@@ -147,7 +147,7 @@ logger.info('This will get logged'+' this')
 [Jupyter Notebook](test.ipynb)
 
 ## Decorators
-
+Decorators can only be applied to functions and classes [see](https://codezup.com/practical-guide-to-python-decorators/)
 ```python
 def outer(func):
     def wrapperFunc():
