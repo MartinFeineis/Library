@@ -25,7 +25,8 @@
 * [GCP](GCP/gcp.md)
 
 ## Tools
-* [Vim](Vim/Vim.md)
+* [Editors](Vim/Vim.md)
+    * [Neo-Vim](Vim/NeoVim.md)
 * [Git](Git/Git.md)
     * [GitHub](Git/GitHub.md)
 * [Ansible](Ansible/Ansible.md)
