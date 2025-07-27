@@ -49,9 +49,20 @@ Open or create a New File:
 `vim index.html`
 Type ("_" is the cursor position):
 
-html:5_
-Then type <c-y>, (Ctrly,), and you should see:
+`html:5_`
+Then type <c-y>, (__Ctrl__ then __y__ then __,__)  and you should see:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
 
+</body>
+</html>
+```
 # Styling
 ## Theme
 Put new themes into `~/.vim/colors` and then pick them with `:colo <theme>`
