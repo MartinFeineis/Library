@@ -13,3 +13,4 @@ Feel free to browse...
 * [slides](https://slides.rjo.me)
 * [flexible Notes](notes.md)
 * [Colors in Terminal](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+* [contact form](https://media.404founders.com/contact-form.html)
