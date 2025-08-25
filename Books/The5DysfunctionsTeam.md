@@ -17,3 +17,18 @@ __p103__ "Every great movie has conflict."
 
 # Chapter "Tha talk"
 there should have been more 1-on-1 conversations with Mickey before her "resignation"
+
+# Pyramid
+```
+---
+config:
+      theme: redux
+---
+flowchart TD
+        A["Inattention to results"]@{ shape: tri }
+        A --> B[/"Avoidance of accountability"\]
+        B --> C[/"Lack   of    commitment"\]
+        C --> D[/"Fear of conflict"\]
+        D --> E[/"    Absences of Trust     "\]
+
+``
