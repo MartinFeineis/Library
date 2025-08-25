@@ -19,7 +19,7 @@ __p103__ "Every great movie has conflict."
 there should have been more 1-on-1 conversations with Mickey before her "resignation"
 
 # Pyramid
-```
+```mermaid
 ---
 config:
       theme: redux
