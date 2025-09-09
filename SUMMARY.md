@@ -59,5 +59,6 @@
 * [Teaching](Books/Teaching.md)
 * [Links](links.md)
 * [The Five Dysfunctions of a Team](Books/The5DysfunctionsTeam.md)
+* [Sun Tzu - The Art of War](SunTzu-TheArtOfWar.md)
 
 ## [flexible Notes](notes.md)
