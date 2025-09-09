@@ -21,8 +21,13 @@
 ## VIII - Variation in Tactics
 * 12. There are five dangerous faults which may affect a general:
     * (1) Recklessness, which leads to destruction;
-    * (2) Cowardic, which leads to capture
+    * (2) Cowardic, which leads to capture;
+    * (3) a hasty temper, which can be provoked by insult;
+    * (4) a delicacy of honor which is sensitive to shame;
+    * (5) over-solicitude for his men, which can expose him to worry and trouble.
 ## IX - The Army on the March
+* 36. Too frequent reward signify that the enemy is at the end of his resources; too many punishments betray a condition of dire distress.
+* 37. To begin by bluster, but afterwards to take fright at the enemy's numbers, shows a supreme lack of intelligence.
 ## X - Terrain
 ## XI - The Nine Situations
 ## XII - The Attack by Fire
