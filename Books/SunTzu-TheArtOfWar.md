@@ -19,6 +19,9 @@
 * 15. In war, practice dissimulation, and you will succeed.
 * 36. When you surround an army, leave an outlet free. Do not press a desperate foe too hard. (See desperate situations)
 ## VIII - Variation in Tactics
+* 12. There are five dangerous faults which may affect a general:
+    * (1) Recklessness, which leads to destruction;
+    * (2) Cowardic, which leads to capture
 ## IX - The Army on the March
 ## X - Terrain
 ## XI - The Nine Situations
