@@ -7,8 +7,12 @@
 * 1. Sun Tzu said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers.
 * 8. There are not more than five primary colors (blue, yellow, red, white and black), yet in combination they can produce more hues than can ever been seen.
 * 13. The quality of a decision is like the well-timed swoop of a falcon which enables it to strike and destroy its victim.
-* 14. Therefore the good fighter
+* 14. Therefore the good fighter will be terrible in his onset, and prompt in his decision.
+* 15. Energy may be likened to the bending of a crossbow; decision, to the releasing of a trigger.
 ## VI - Weak Points and Strong
+* 2. Therefore the clever combatant imposes his will on the enemy, but does not allow the enemy's will to be imposed on him.
+* 6. An army may march great distances without distress, if it marches through country where the enemy is not.
+* 7. You can be sure of succeeding in your attacks if you only attack places which are undefended. You can ensure the safety of your defense if you only hold positions that cannot be attacked.
 ## VII - Maneuvering
 ## VIII - Variation in Tactics
 ## IX - The Army on the March
