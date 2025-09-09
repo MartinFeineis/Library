@@ -13,7 +13,11 @@
 * 2. Therefore the clever combatant imposes his will on the enemy, but does not allow the enemy's will to be imposed on him.
 * 6. An army may march great distances without distress, if it marches through country where the enemy is not.
 * 7. You can be sure of succeeding in your attacks if you only attack places which are undefended. You can ensure the safety of your defense if you only hold positions that cannot be attacked.
+* 17. For should the enemy strengthen his van, he will weaken his rear; should he stregthen his rear, he will weaken his van; should he strengthen his left, he will weaken his right; should he strengthen his right he will weaken his left. If he sends reinforcements everywhere, he will everywhere be weak.
+* 19. Knowing the place and the time of the coming battle, we may concentrate from the greatest distances in order to fight.
 ## VII - Maneuvering
+* 15. In war, practice dissimulation, and you will succeed.
+* 36. When you surround an army, leave an outlet free. Do not press a desperate foe too hard. (See desperate situations)
 ## VIII - Variation in Tactics
 ## IX - The Army on the March
 ## X - Terrain
