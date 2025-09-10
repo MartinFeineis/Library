@@ -31,5 +31,10 @@
 * 43 Therefore soldiers must be treated in the first instance with humanity, but kept under control by means of iron discipline. This is a certain road to victory.
 ## X - Terrain
 ## XI - The Nine Situations
+* 10 Ground from which we can only be saved from destruction by fighting without delay, is desperate ground.
+* 24 Soldiers when in desperate straits lose the sense of fear. If there is no place of refuge, they will stand firm. If they are in hostile country, they will show a stubborn front. If there is no help for it, they will fight hard. [See  Francisco Pizarro](https://www.projekt-gutenberg.org/schurig/pizarro/chap06.html).
+* 25 Thus, without waiting to be marshaled, the soldiers will be constantly on the [qui vive](https://www.merriam-webster.com/dictionary/qui%20vive); without waiting to be asked, they will do your will; without restrictions, they will be faithful; without giving orders, they can be trusted.
+* 35 It is the business of a general to be quiet and thus ensure secrecy; upright and just, and thus maintain order.
+* 36 He must be able to mystify his officers and men by false reports and appearances, and thus keep them in total ignorance.
 ## XII - The Attack by Fire
 ## XIII - The Use of Spies
