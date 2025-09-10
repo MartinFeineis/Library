@@ -26,9 +26,9 @@
     * (4) a delicacy of honor which is sensitive to shame;
     * (5) over-solicitude for his men, which can expose him to worry and trouble.
 ## IX - The Army on the March
-36. Too frequent reward signify that the enemy is at the end of his resources; too many punishments betray a condition of dire distress.
-37. To begin by bluster, but afterwards to take fright at the enemy's numbers, shows a supreme lack of intelligence.
-43. Therefore soldiers must be treated in the first instance with humanity, but kept under control by means of iron discipline. This is a certain road to victory.
+36 Too frequent reward signify that the enemy is at the end of his resources; too many punishments betray a condition of dire distress.
+37 To begin by bluster, but afterwards to take fright at the enemy's numbers, shows a supreme lack of intelligence.
+43 Therefore soldiers must be treated in the first instance with humanity, but kept under control by means of iron discipline. This is a certain road to victory.
 ## X - Terrain
 ## XI - The Nine Situations
 ## XII - The Attack by Fire
