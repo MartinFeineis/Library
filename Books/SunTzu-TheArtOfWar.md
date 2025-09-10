@@ -39,5 +39,10 @@
 * 43 When you leave your own country behind, and take your army across neighborhood territory, you find yourself on critical ground. When there are means of communication on all four sides, the ground is one of intersecting highways.
 * 44 When you penetrate deeply into a country, it is serious ground. When you penetrate but a little way, it is i[facile](https://www.dict.cc/?s=facile) ground.
 * 45 When you have the enemy's strongholds on your rear, and narrow passes in front, it is hemmed-in ground. When there is no place of refuge at all, it is desperate ground.
+* 56 Bestow rewards without regard to rule, issue orders without regard to previous arrangements; and you will be able to handle your whole army as though you had to do with a single man.
+* 57 Confront your soldiers with the deed itself; never let them know your design. When the outlook is bright, bring it before their eyes; but tell them nothing when the situation is gloomy.
 ## XII - The Attack by Fire
+* 17 Move not unless you see an advantage; use not your troops unless there is something to be gained; fight not unless the position is critical.
+* 18 No ruler should put troops into the field merely to gratify his own _spleen_; no general should fight a battle simply out of _pique_.
 ## XIII - The Use of Spies
+* 15 Spies cannot be usefully employed without a certain intuitive [sagacity](https://www.dict.cc/?s=sagacity).
