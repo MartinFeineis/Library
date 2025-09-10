@@ -36,5 +36,8 @@
 * 25 Thus, without waiting to be marshaled, the soldiers will be constantly on the [qui vive](https://www.merriam-webster.com/dictionary/qui%20vive); without waiting to be asked, they will do your will; without restrictions, they will be faithful; without giving orders, they can be trusted.
 * 35 It is the business of a general to be quiet and thus ensure secrecy; upright and just, and thus maintain order.
 * 36 He must be able to mystify his officers and men by false reports and appearances, and thus keep them in total ignorance.
+* 43 When you leave your own country behind, and take your army across neighborhood territory, you find yourself on critical ground. When there are means of communication on all four sides, the ground is one of intersecting highways.
+* 44 When you penetrate deeply into a country, it is serious ground. When you penetrate but a little way, it is i[facile](https://www.dict.cc/?s=facile) ground.
+* 45 When you have the enemy's strongholds on your rear, and narrow passes in front, it is hemmed-in ground. When there is no place of refuge at all, it is desperate ground.
 ## XII - The Attack by Fire
 ## XIII - The Use of Spies
