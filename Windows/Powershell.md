@@ -19,13 +19,17 @@ $PROFILE | Select-Object *
 $PROFILE | Select-Object CurrentUserCurrentHost
 ```
 ## Shutdown the Computer
-use shutdown or stop-computer
+use shutdown or stop-computer 
+* `/s` flag for shutting down 
+* `/t` flag delays shutdown for xx seconds _(3600s = 1h, 14400s = 4h)_
+* `/a` flag aborts a shutdown _(also seems to work for forced updates and maintenance)_
 ```powershell
-shutdown /s /t 0
+shutdown /s /t <seconds>
 Stop-Computer
+shutdown /a
 ```
 ## Restart the Computer
-Restarts the Computer with Other(plenned) reason
+Restarts the Computer with Other(planned) reason
 ```powershell
 shutdown /r /d p:0:0
 ```
