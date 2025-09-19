@@ -158,3 +158,7 @@ Add caddy user to user group so it can access files in user directories.
 ```sh
 sudo usermod -aG $USER caddy
 ```
+I store my `Caddyfile` at my projects location, so I create a symlink to not have to manage files in system directories
+```s
+sudo ln -s ~/projects/Sandbox/Caddyfile /etc/caddy/Caddyfile
+```
