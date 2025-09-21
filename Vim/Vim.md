@@ -22,6 +22,12 @@ usefule link [ranges](https://vim.fandom.com/wiki/ranges)
 `$` goes to end of line.  
 `0` goes to the beginning of line (`^` seems to do the same)
 
+## Insert on multiple Lines
+Enter visual mode Ctrl-V,
+move to mark the needed lines (h,j,k,l)
+Hit <Shift>-I for insert mode,
+type text and hit <Esc>
+
 ## regex
 [regex](http://www.vimregex.com/)  
 
