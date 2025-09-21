@@ -23,10 +23,17 @@ usefule link [ranges](https://vim.fandom.com/wiki/ranges)
 `0` goes to the beginning of line (`^` seems to do the same)
 
 ## Insert on multiple Lines
-Enter visual mode Ctrl-V,
+Enter visual mode <Ctrl>-v,
 move to mark the needed lines (h,j,k,l)
 Hit <Shift>-I for insert mode,
 type text and hit <Esc>
+
+## Increment numbers
+Enter visual mode <Ctrl>-v
+mark the numbers to be icremented (there need to be integers, it does not fill
+whitespace. Use multiline insert first if needed.)
+then type `g` and <Ctrl>-a
+type `:h v_g` to see help entry
 
 ## regex
 [regex](http://www.vimregex.com/)  
