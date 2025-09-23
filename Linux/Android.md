@@ -52,7 +52,6 @@ ro.secure=0
 persist.service.adb.enable=1
 ```
 ### build.prop
-
 ## Rooting
 Here I had to install SuperSu _not_ addonsu package, this confused me a little
 ## Links
@@ -66,3 +65,6 @@ This helped understanding the __adb__ and __adbd__ Deamon a little better.
 This helped with understanding the adb config files better
 [Obtaining root by modifying default.prop?](https://android.stackexchange.com/questions/28653/obtaining-root-by-modifying-default-propro-secure)  
 
+## Samsung Galaxy S9
+### Screenshot
+Press `Volume down` and `Power` (button on opposite side) at the same time
