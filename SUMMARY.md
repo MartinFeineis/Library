@@ -60,5 +60,6 @@
 * [Links](links.md)
 * [The Five Dysfunctions of a Team](Books/The5DysfunctionsTeam.md)
 * [Sun Tzu - The Art of War](Books/SunTzu-TheArtOfWar.md)
+* [12 Rules for Life](Books/12RulesForLife.md)
 
 ## [flexible Notes](notes.md)
