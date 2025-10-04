@@ -1,5 +1,9 @@
 # Javascript on ES6
 Udemy course [ES6 Javascript Development from scratch. Get practice with live examples and learn exactly where to apply ES6 features.](https://www.udemy.com/course/javascript-es6-tutorial)
+## Variable declaration
+`let`: ES6 compliant non-constant
+`const`: ES6 compliant constant
+`var`: pre ES6, still valid
 ## Array Helpers
 
 ### For Each
