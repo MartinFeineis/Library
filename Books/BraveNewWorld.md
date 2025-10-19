@@ -4,6 +4,10 @@
 |------|---------|--------|
 |__p013__|attainment|Leistung|
 
+|__p123__|exultant|jubelnd, frohlockend|
+|__p125__|tauter|gespannter, straffer|
+|__p128__|prone|liegend|
+|__p128__|supine|träge|
 |__p135__|derisively|spöttisch, verächtlich|
 |__p141__|agitated astonishment|beunruhigte Verwunderung|
 |__p142__|solecism|Fauxpas, Ungeschicklichkeit, Schnitzer|
@@ -19,9 +23,11 @@
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
 
-
+* __p128__: Big Henry had just sung eleven.
+* __p130__: old-fashioned -- no television laid on in the bedrooms, no scent organ, only the most putrid synthetic music
+* __p134__: tremoloing falsettos: type of singing
 * __p135__: "Yes, I know," said Bernard derisively. "'Even Epsilons are useful'! So am I. And damned well wish I weren't!" Lenina was shocked by his blasphemy.
-* __p136__: He laughed, "Yes, 'Everybody's happy nowadays.' We begin giving children that at five. But wouldn't you like to be free to be happy in some other way, Lenina? In your own way, for example; not in everybody else's way."
+* __p136__: He laughed, "Yes, 'Everybody's happy nowadays.' We begin giving the children that at five. But wouldn't you like to be free to be happy in some other way, Lenina? In your own way, for example; not in everybody else's way."
 * __p138__: "A little jolt, and they were off."
 * __139__: "Never put off till to-morrow the fun you can have today." - Lenina
 * __145__: For Bernard left the room with a swagger, exulting, as he banged the door behind him, in the thought that he stood alone, embattled against the order of things; elated by the intoxicating consciousness of his individual significance and imprtance.
