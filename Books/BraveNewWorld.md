@@ -4,6 +4,7 @@
 |------|---------|--------|
 |__p013__|attainment|Leistung|
 
+|__p105__|waylaid|aufgelauert|
 |__p107__|plaintive|wehleidig, schwermütig|
 |__p109__|uprush|a sudden increase|
 |__p110__|lowing|Muhen, Geblöke|
@@ -34,6 +35,7 @@
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
 
+* __p106__: A physical shortcoming could produce a kind of mental excess. The process, it seemed, was reversible. Mental excess could produce, for its own purposes, the voluntary blindness and deafness of deliberate solitude, the artificial impotence of asceticism.
 * __p115__: It was a night almost without clouds, moonless and starry; but of this on the whole depressing fact Lenina and Henry were fortunately unaware.
 * __p117__: Malthusian Blues: refers to the feelings of despair or pessimism stemming from [Thomas Malthus's theories](https://en.wikipedia.org/wiki/Malthusianism)
 * __p121__: near-wind and superstring: type of intrument
