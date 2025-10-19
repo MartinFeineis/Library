@@ -4,6 +4,8 @@
 |------|---------|--------|
 |__p013__|attainment|Leistung|
 
+|__p099__|contemptuous|verächtlich, herablassend|
+|__p103__|lustrous|glänzend, schimmernd|
 |__p105__|waylaid|aufgelauert|
 |__p107__|plaintive|wehleidig, schwermütig|
 |__p109__|uprush|a sudden increase|
@@ -35,6 +37,8 @@
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
 
+* __p101__: A chronic fear of being slighted made him avoid his equals - Bernard
+* __p103__: In a forcible emphatic way, he was handsome and looked, as his secretary was never tired of repeating, every centimetre an Alpha-Plus. - Helmholtz Watson
 * __p106__: A physical shortcoming could produce a kind of mental excess. The process, it seemed, was reversible. Mental excess could produce, for its own purposes, the voluntary blindness and deafness of deliberate solitude, the artificial impotence of asceticism.
 * __p115__: It was a night almost without clouds, moonless and starry; but of this on the whole depressing fact Lenina and Henry were fortunately unaware.
 * __p117__: Malthusian Blues: refers to the feelings of despair or pessimism stemming from [Thomas Malthus's theories](https://en.wikipedia.org/wiki/Malthusianism)
