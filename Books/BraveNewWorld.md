@@ -4,6 +4,17 @@
 |------|---------|--------|
 |__p013__|attainment|Leistung|
 
+|__p107__|plaintive|wehleidig, schwermütig|
+|__p109__|uprush|a sudden increase|
+|__p110__|lowing|Muhen, Geblöke|
+|__p111__|pullulation|Knospung|
+|__p116__|deturgescence|abschwellen (bio.), hier: nachlassen|
+|__p116__|diminuendo|abnehmend|
+|__p120__|atonement|Wiedergutmachung, Sühne, Versöhnung|
+|__p121__|indefatigable|unermüdlich, rastlos|
+|__p122__|plangently|widerhallend|
+|__p122__|yearning|sesehnsüchtig, verlangend|
+|__p112__|stanza|Balladenstrophe|
 |__p123__|exultant|jubelnd, frohlockend|
 |__p125__|tauter|gespannter, straffer|
 |__p128__|prone|liegend|
@@ -23,6 +34,9 @@
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
 
+* __p115__: It was a night almost without clouds, moonless and starry; but of this on the whole depressing fact Lenina and Henry were fortunately unaware.
+* __p117__: Malthusian Blues: refers to the feelings of despair or pessimism stemming from [Thomas Malthus's theories](https://en.wikipedia.org/wiki/Malthusianism)
+* __p121__: near-wind and superstring: type of intrument
 * __p128__: Big Henry had just sung eleven.
 * __p130__: old-fashioned -- no television laid on in the bedrooms, no scent organ, only the most putrid synthetic music
 * __p134__: tremoloing falsettos: type of singing
