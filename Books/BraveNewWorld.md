@@ -4,11 +4,10 @@
 |------|---------|--------|
 |__p013__|attainment|Leistung|
 
-|__p09
-|__p09
-|__p09
-|__p09
-|__p081__|
+|__p069__|untended|ungepflegt, vernachlässigt, unbehütet|
+|__p070__|coaxing|schmeichelnd|
+|__p071__|sententiously|salbungsvoll, geschwollen, kurz und prägnant|
+|__p074__|mutton|Hammelfleisch|
 |__p082__|black-patent bandolier|schwarz leder Schulterband (Handtasche)|
 |__p088__|crevice|Spalte, Kluft|
 |__p093__|rapturously|begeistert, entzückt, hingerissen|
@@ -50,7 +49,10 @@
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
 
-* __p077__: $Ch_8C_6H_2(NO_2)8 + HG(CNO)_2$ = well, what?
+* __p074__: "I once had to wait nearly four weeks before a girl I wanted would let me have her."
+* __p076__: "Or the Caste System." ... "As though men were more than physico-chemically equal."
+* __p077__: "Phosgene, chloropicrin, ethyl iodoacetate, diphenylcyanarsine, trichlormethyl, chloroformate, dichlorethyl sulphide. Not to mention hydrocyanic acid."
+* __p077__: $Ch_3C_6H_2(NO_2)3 + HG(CNO)_2$ = well, what? - Trinitrotoluene (T.N.T.) and Mercury Fulminate two explosives
 * __p080__: "Then came the famous British Museum Massacre. Two thousand culture fans gassed with [dichlorethylsulphide](https://en.wikipedia.org/wiki/Mustard_gas)"
 * __p086__: "One cubic centimetrecures ten gloomy sentiments", siad the Assistan Predestinator citing a piece of homely hypnopædic wisdom. - on Soma 
 * __p092__: The liftman was a small simian creature, dressed in the black tunic of an Epsilon-Minus Semi-Moron.
