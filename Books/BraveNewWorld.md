@@ -3,6 +3,20 @@
 | Page | english | german |
 |------|---------|--------|
 |__p013__|attainment|Leistung|
+
+|__p09
+|__p09
+|__p09
+|__p09
+|__p081__|
+|__p082__|black-patent bandolier|schwarz leder Schulterband (Handtasche)|
+|__p088__|crevice|Spalte, Kluft|
+|__p093__|rapturously|begeistert, entzückt, hingerissen|
+|__p094__|vivaciously|lebhaft|
+|__p094__|cordiality|Herzlichkeit, Gemütlichkeit|
+|__p096__|stag-beetle|Hirschkäfer|
+|__p096__|cockchafer|Maikäfer|
+|__p097__|incandescence|Glühen, Leuchten|
 |__p099__|contemptuous|verächtlich, herablassend|
 |__p103__|lustrous|glänzend, schimmernd|
 |__p105__|waylaid|aufgelauert|
@@ -36,6 +50,11 @@
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
 
+* __p077__: $Ch_8C_6H_2(NO_2)8 + HG(CNO)_2$ = well, what?
+* __p080__: "Then came the famous British Museum Massacre. Two thousand culture fans gassed with [dichlorethylsulphide](https://en.wikipedia.org/wiki/Mustard_gas)"
+* __p086__: "One cubic centimetrecures ten gloomy sentiments", siad the Assistan Predestinator citing a piece of homely hypnopædic wisdom. - on Soma 
+* __p092__: The liftman was a small simian creature, dressed in the black tunic of an Epsilon-Minus Semi-Moron.
+* __p097__: [Riemann-surface tennis](https://prezi.com/dkdxkn4jmusq/riemann-surface-tennis/)
 * __p101__: A chronic fear of being slighted made him avoid his equals - Bernard
 * __p103__: In a forcible emphatic way, he was handsome and looked, as his secretary was never tired of repeating, every centimetre an Alpha-Plus. - Helmholtz Watson
 * __p106__: A physical shortcoming could produce a kind of mental excess. The process, it seemed, was reversible. Mental excess could produce, for its own purposes, the voluntary blindness and deafness of deliberate solitude, the artificial impotence of asceticism.

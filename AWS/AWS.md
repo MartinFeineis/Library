@@ -41,7 +41,19 @@ fi
 The file IAMUser.yaml creates a IAM User with admin privileges and programmatic access but no Login Access to the Managment Console. I use this user to deploy to my Laptops through ansible to have awscli Access without configuration overhead.  
 [IAMUser.yaml](./IAMUser.yaml)
 To deploy the user to the StackName `userStack` run, and use the describe-stack `describe-stack-events` command to recieve the `access-key` and `secret-access-key`
+
+## Cloudformation
+Need to validate these commands when I get a chance
 ```
+aws cloudformation create-stack --stack-name ec2dev --template-file file://EC2_CF.yaml
+aws cloudformation describe-stack-events --stack-name ec2dev
+aws cloudformation list-stacks
+aws cloudformation update-stack --template-body file://terraform-backend-cf.yaml --stack-name udemy-backend-tf --capabilities CAPABILITY_NAMED_IAM
+aws cloudformation update-stack --template-file terraform-backend-cf.yaml --stack-name udemy-backend-tf --capabilities CAPABILITY_NAMED_IAM
+aws cloudformation validate-template help
+aws cloudformation validate-template --template-body backend.yaml
+aws cloudformation validate-template --template-body file://backend.yaml
+aws cloudformation delete-stack --stack-name ec2dev
 aws cloudformation deploy --template-file IAMUser.yaml --stack-name userStack --capabilities CAPABILITY_NAMED_IAM
 aws cloudformation describe-stack-events --stack-name userStack
 ```
