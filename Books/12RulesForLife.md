@@ -14,7 +14,10 @@ __p0292__: "The infant is dependent on his parents for almost everything he need
 ## Chapter 3
 
 
-## Chatper 4
+## Chapter 4
 ### The Point of Our Eyes (or, Take Stock)
 Audiobook: ~3:58:00
 __p093__
+
+## Chapter 7
+Kain and Abel: Kain makes bad half-hearted sacrifuces that get rejected. Similar if you do things only half-assed they do not work out.
