@@ -3,7 +3,6 @@
 | Page | english | german |
 |------|---------|--------|
 |__p013__|attainment|Leistung|
-
 |__p099__|contemptuous|verächtlich, herablassend|
 |__p103__|lustrous|glänzend, schimmernd|
 |__p105__|waylaid|aufgelauert|
