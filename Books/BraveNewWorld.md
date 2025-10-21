@@ -3,7 +3,16 @@
 | Page | english | german |
 |------|---------|--------|
 |__p013__|attainment|Leistung|
-
+|__p016__|fretsawyers|
+|__p023__|peritoneum|[Bauchfell anat.](https://en.wikipedia.org/wiki/Peritoneum)|
+|__p026__|lupus|[ autoimmune disease](https://en.wikipedia.org/wiki/Lupus)|
+|__p027__|duly|ordnungsgemäß, ordentlich|
+|__p028__|freemartins|[infertile cow](https://en.wikipedia.org/wiki/Freemartin)|
+|__p032__|wedded|vermählt, heiratete|
+|__p042__|officiously|aufdringlich, übereifrig|
+|__p042__|smut|beschmutzen, berußen|
+|__p047__|indefatigably|rastlos, unermüdlich
+|__p047__|sibilant|zischend, scharf|
 |__p057__|effusive|überschwänglich, schwärmerisch, übermäßig|
 |__p062__|chypre|Zypern Parfüms|
 |__p062__|squalid|verkommen, verwahrlost|
@@ -53,7 +62,11 @@
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
 
-* __P053__: "strange to think that even in Our Ford's day most games were played without more apparatus than a ball or two and a few sticks and perhaps a bit of netting."
+* __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
+* __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
+* __p040__: What man has joined, nature is powerless to put [asunder](https://www.dict.cc/?s=asunder).
+* __p049__: Roses and electric shocks, the khaki of Deltas and a whiff os asfœtida -- wedded indissolubly before the child can speak. But wordless conditioning is crude and wholesale; cannot bring home the finer distinctions, cannot inculate the more complex courses of behaviour. For that there must be words, but words without reason. In brief, sleep teaching or, hypnopædia.
+* __p053__: "strange to think that even in Our Ford's day most games were played without more apparatus than a ball or two and a few sticks and perhaps a bit of netting."
 * __P053__: In a little grassy bay between tall clumps of Mediterranean heather, two children, a little boy of about seven and a little girl who might have been a year older, were playing, very gravely and with all the focussed attention of scientists intent on a labour of discovery, a rudimentary ☆☆☆☆☆ game. "Charming, charming!" the D.H.C. repeated sentimentally.
 * __p054__: "It's just that this little boy seems rather reluctant to join in the ordinary ☆☆☆☆☆ play."
 * __p057__: His fordship Mustapha Mond
