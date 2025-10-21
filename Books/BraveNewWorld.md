@@ -3,7 +3,6 @@
 | Page | english | german |
 |------|---------|--------|
 |__p013__|attainment|Leistung|
-|__p016__|fretsawyers|
 |__p023__|peritoneum|[Bauchfell anat.](https://en.wikipedia.org/wiki/Peritoneum)|
 |__p026__|lupus|[ autoimmune disease](https://en.wikipedia.org/wiki/Lupus)|
 |__p027__|duly|ordnungsgemäß, ordentlich|
@@ -13,6 +12,8 @@
 |__p042__|smut|beschmutzen, berußen|
 |__p047__|indefatigably|rastlos, unermüdlich
 |__p047__|sibilant|zischend, scharf|
+|__p052__|boskage|Gebüsch|
+|__p052__|soliloquized|führte Selbstgespräche|
 |__p057__|effusive|überschwänglich, schwärmerisch, übermäßig|
 |__p062__|chypre|Zypern Parfüms|
 |__p062__|squalid|verkommen, verwahrlost|
