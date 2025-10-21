@@ -3,6 +3,8 @@
 | Page | english | german |
 |------|---------|--------|
 |__p013__|attainment|Leistung|
+
+|__p057__|effusive|überschwänglich, schwärmerisch, übermäßig|
 |__p062__|chypre|Zypern Parfüms|
 |__p062__|squalid|verkommen, verwahrlost|
 |__p065__|incomgrous|unpassend, unvereinbar|
@@ -51,7 +53,9 @@
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
 
-* __p060__: Mustapha Mond leaned forward, shook a finger at them. "Just try to realize it," he said, and his voice sent a strange thrill quivering along their diaphragms. "Try to realize what it was like to have a [viviparous(https://www.dict.cc/?s=viviparous)] mother." That smutty word again. But none of them dreamed, this time, of smiling. "Try to imagine what 'living with one's family' meant." They tried; but obviously without the smallest success. "And do know what a 'home' was?" They shook their heads.
+* __p054__: "It's just that this little seems rather reluctant to join in the ordinary erotic play."
+* __p057__: His fordship Mustapha Mond
+* __p060__: Mustapha Mond leaned forward, shook a finger at them. "Just try to realize it," he said, and his voice sent a strange thrill quivering along their diaphragms. "Try to realize what it was like to have a [viviparous](https://www.dict.cc/?s=viviparous) mother." That smutty word again. But none of them dreamed, this time, of smiling. "Try to imagine what 'living with one's family' meant." They tried; but obviously without the smallest success. "And do know what a 'home' was?" They shook their heads.
 * __p068__: "Their world didn't allow them to take things easily, didn't allow them to be sane, virtuous, happy." - The Controller
 * __p069__: "Stability", said the Controller, "stability. No civilization without social stability. No social stability without individual stability." His voice was a trumpet.
 * __p074__: "I once had to wait nearly four weeks before a girl I wanted would let me have her."
