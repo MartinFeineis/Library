@@ -62,6 +62,14 @@
 |__p159__|gunwale|Schandeck|
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
+|__p162__|gleamed|glänzte|
+|__p163__|ophthalmia|[Augen Entzündung](https://en.wikipedia.org/wiki/Ophthalmia)|
+|__p165__|goitre|Kropf|
+|__p167__|innocuous|harmlos|
+|__p167__|tramped|stampfte|
+|__p169__|inexorably|unaufhaltsam, erbarmungslos, unerbittlich|
+|__p170__|pueblo|indianische Siedlung|
+|__p170__|plaited|geflochten, gezopft|
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
 * __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
@@ -102,3 +110,4 @@
 * __p154__: Five minutes later roots and fruits were abolished; the flower of the present rosily blossomed - _Bernard after consuming some_
 * __p155__: "drawn down by whiff of carrion"
 * __p155__: "Taos and Tesuque; over Nambe and Picuris and Pojoaque, over Sia and Cochiti, over Laguna and Acoma and the Enchanted Mesa, over Zuñi and Cibola and Ojo Caliente"
+* __p166__: Then again the drums; and once more the men's deep savage affirmation of their manhood.
