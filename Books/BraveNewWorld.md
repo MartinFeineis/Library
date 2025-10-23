@@ -70,6 +70,10 @@
 |__p169__|inexorably|unaufhaltsam, erbarmungslos, unerbittlich|
 |__p170__|pueblo|indianische Siedlung|
 |__p170__|plaited|geflochten, gezopft|
+|__p171__|begat|
+|__p174__|incredulously|ungläubig, skeptisch, zweifelnd|
+|__p176__|mescal|
+|__p176__|peyotl|
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
 * __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
@@ -111,3 +115,5 @@
 * __p155__: "drawn down by whiff of carrion"
 * __p155__: "Taos and Tesuque; over Nambe and Picuris and Pojoaque, over Sia and Cochiti, over Laguna and Acoma and the Enchanted Mesa, over Zuñi and Cibola and Ojo Caliente"
 * __p166__: Then again the drums; and once more the men's deep savage affirmation of their manhood.
+* __p171__: The multitudinous seas incarnadine - [from Shakespearse Macbeth](https://www.folger.edu/explore/shakespeares-works/macbeth/read/2/2/?q=The%20multitudinous%20seas%20incarnadine#line-2.2.74)
+* __p172__: Pookong [allusions to Puukon, a Native American war god](https://www.sparknotes.com/lit/bravenew/allusions/)
