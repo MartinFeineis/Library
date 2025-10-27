@@ -79,8 +79,11 @@
 |__p185__|dreadful|furchtbar,entsetzlich|
 |__p189__|jolly|fröhlich, vergnügt|
 |__p189__|Malpais|Kraterlandschaft|
-
-
+|__p195__|lecherous|lüstern, geil, wollüstig|
+|__p195__|landless|landlos, grundbesitzlos|
+|__p195__|plaits|Strangzahl(Strang)|
+|__p196__|giddy|schwindlig, oberflächlich, leichtfertig|
+|__p196__|incestuous|inzestuös, blutschänderisch|
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
 * __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
@@ -127,4 +130,12 @@
 * __p176__: Malthusian Drill: act of contraception; see __p117__ Malthusianism
 * __p177__: [Stoke Poges](https://en.wikipedia.org/wiki/Stoke_Poges), location in Buckinghamshire
 * __p189__: [Awonawilona](https://en.wikipedia.org/wiki/Awonawilona)
-* __p189__: Ahaiyuta and Marsailema, the twins of War and Chance; of Jesus and Pookong; of Mary and Etsanatlehi, the woman who makes herself young again ... and our Lady of Acoma
+* __p189__: [Ahaiyuta](https://en.wikipedia.org/wiki/Ahayuta) and Marsailema, the twins of War and Chance; of Jesus and Pookong; of Mary and Etsanatlehi, the woman who makes herself young again ... and our Lady of Acoma
+* __p193__: "The seed of men and all creatures, the seed of the sund and the seed of earth and the seed of the sky -- Awonawilona made them out of the Fog on Increase. Now the world has four wombs; and he laid seeds in the lowest of the lowest of the four wombs. And gradually the seeds began to grow ..."
+* __p194__: 
+> Nay, but to live  
+> In the rank sweat of an enseamed bed,
+> Stew'd in corruption, honeying and makin love
+> Over the nasty sty ...
+* __p194__: "kiathla tsilu silokwe silokwe. Kiai silu silu, tsithl" [Hemlock of the, Tall kind, tall kind, tall kind, Sprout up hemlock, hemlock,     Chit! Chit!"](https://sacred-texts.com/nam/zuni/zft/zft03.htm)
+
