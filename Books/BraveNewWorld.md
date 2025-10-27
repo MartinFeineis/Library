@@ -72,8 +72,15 @@
 |__p170__|plaited|geflochten, gezopft|
 |__p171__|begat|
 |__p174__|incredulously|ungläubig, skeptisch, zweifelnd|
-|__p176__|mescal|
+|__p176__|mescal|[mexikanische Spirituose](https://de.wikipedia.org/wiki/Mezcal) mit typischerweise 40-Vol.%|
 |__p176__|peyotl|
+|__p178__|untainted|makellos, einwandfrei, unverdorben|
+|__p185__|gourd|Kalebasse, Kürbisflasche|
+|__p185__|dreadful|furchtbar,entsetzlich|
+|__p189__|jolly|fröhlich, vergnügt|
+|__p189__|Malpais|Kraterlandschaft|
+
+
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
 * __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
@@ -117,3 +124,7 @@
 * __p166__: Then again the drums; and once more the men's deep savage affirmation of their manhood.
 * __p171__: The multitudinous seas incarnadine - [from Shakespearse Macbeth](https://www.folger.edu/explore/shakespeares-works/macbeth/read/2/2/?q=The%20multitudinous%20seas%20incarnadine#line-2.2.74)
 * __p172__: Pookong [allusions to Puukon, a Native American war god](https://www.sparknotes.com/lit/bravenew/allusions/)
+* __p176__: Malthusian Drill: act of contraception; see __p117__ Malthusianism
+* __p177__: [Stoke Poges](https://en.wikipedia.org/wiki/Stoke_Poges), location in Buckinghamshire
+* __p189__: [Awonawilona](https://en.wikipedia.org/wiki/Awonawilona)
+* __p189__: Ahaiyuta and Marsailema, the twins of War and Chance; of Jesus and Pookong; of Mary and Etsanatlehi, the woman who makes herself young again ... and our Lady of Acoma
