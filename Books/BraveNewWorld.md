@@ -108,6 +108,24 @@
 |__p212__|vestal|jungfräulich|
 |__p214__|gorged|sich übergessen, voll fressen|
 |__p215__|recapitulate|rekapitulieren, zusammenfassen|
+|__p217__|veneer|übertünchen, verblenden|
+|__p217__|jaunty|fröhlich, keck, munter|
+|__p217__|portentously|bedeutungsschwer, unheilvoll|
+|__p218__|ignominy|Schande, Schmach, Niederträchtigkeit|
+|__p218__|forthwith|unverzüglich, umgehend, sofort|
+|__p219__|coquettishly|kokett|
+|__p219__|voluptuous|erotisch, üppig, verlockend, wollüstig|
+|__p219__|undulation|Wellenbewegung, Schwingung|
+|__p219__|haunches|Hüften, Gesäß|
+|__p219__|indignantly|empört, ungehalten, entrüstet|
+|__p220__|petrified|gelähmt, versteinert|
+|__p220__|trembled|erzittert|
+|__p220__|agonized|gequält|
+|__p220__|grimace|Grimasse, Fratze|
+|__p220__|titter|kichern|
+|__p220__|irrepressibly|unbändig, unbezähmbar|
+|__p221__|smutty|schmutzig, zotig|
+|__p222__|peal|Geläut, Dröhnen|
 
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -165,4 +183,4 @@
 * __p194__: "kiathla tsilu silokwe silokwe. Kiai silu silu, tsithl" [Hemlock of the, Tall kind, tall kind, tall kind, Sprout up hemlock, hemlock,     Chit! Chit!"](https://sacred-texts.com/nam/zuni/zft/zft03.htm)
 * __p200__: [Antelope Kiva](https://digitalcollections.nypl.org/items/4d92fbe0-c6d9-012f-21f2-58d385a7bc34?canvasIndex=0) the underground caves in the savage village
 * __p216__: "His intellectual eminence carries with it a corresponding moral responsibilities. The greater a man's talents, the greater his power to lead astray. It is better that one should suffer than that many should be corrupted. Consider the matter dispassionately, Mr. Foster, and you will see tha no offence is so heinous as unorthodoxy of behaviour. Murder kills only the individual -- and, after all, what is an individual?"
-
+* __p221__: The word (for "father" was not so much obscene as -- with its connotation of something at one remove from the loathsomeness and moral obliquity of child-bearing -- merely gross, a scatological rather tha a pornographic impropriety)
