@@ -84,6 +84,18 @@
 |__p195__|plaits|Strangzahl(Strang)|
 |__p196__|giddy|schwindlig, oberflächlich, leichtfertig|
 |__p196__|incestuous|inzestuös, blutschänderisch|
+|__p200__|borne|getragen, ertragen, ausgestanden|
+|__p202__|plaintive|wehleidig, schwermütig, traurig|
+|__p203__|puckered|gerunzelt, hervortretend, höckerig|
+|__p204__|pitiful|bemitleidenswert, erbärmlich, kläglich|
+|__p204__|profoundly|zutiefst, ungemein|
+|__p204__|squeamish|zimperlich, empfindlich|
+|__p204__|cordiality|Herzlichkeit, Gemütlichkeit|
+|__p205__|beauteous|schön|
+|__p205__|viscose|Viskose, Glanzstoff|
+|__p205__|lustrous|glänzend, schimmernd, leuchtend|
+|__p206__|pensive|nachdenklich, besinnlich, versonnen|
+
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
 * __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
@@ -116,8 +128,8 @@
 * __p135__: "Yes, I know," said Bernard derisively. "'Even Epsilons are useful'! So am I. And damned well wish I weren't!" Lenina was shocked by his blasphemy.
 * __p136__: He laughed, "Yes, 'Everybody's happy nowadays.' We begin giving the children that at five. But wouldn't you like to be free to be happy in some other way, Lenina? In your own way, for example; not in everybody else's way."
 * __p138__: "A little jolt, and they were off."
-* __139__: "Never put off till to-morrow the fun you can have today." - Lenina
-* __145__: For Bernard left the room with a swagger, exulting, as he banged the door behind him, in the thought that he stood alone, embattled against the order of things; elated by the intoxicating consciousness of his individual significance and imprtance.
+* __p139__: "Never put off till to-morrow the fun you can have today." - Lenina
+* __p145__: For Bernard left the room with a swagger, exulting, as he banged the door behind him, in the thought that he stood alone, embattled against the order of things; elated by the intoxicating consciousness of his individual significance and imprtance.
 * __p147__: hot contraceptives: warme Empfängnisverhütungsmittel
 * __p149__: brachycephalic Alpha-Minus: kurzköpfiger Aplha Minus
 * __p152__: Athapascan ; [Nothern american languages](https://en.wikipedia.org/wiki/Athabaskan_languages)
@@ -138,4 +150,5 @@
 > Stew'd in corruption, honeying and makin love
 > Over the nasty sty ...
 * __p194__: "kiathla tsilu silokwe silokwe. Kiai silu silu, tsithl" [Hemlock of the, Tall kind, tall kind, tall kind, Sprout up hemlock, hemlock,     Chit! Chit!"](https://sacred-texts.com/nam/zuni/zft/zft03.htm)
+* __p200__: [Antelope Kiva](https://digitalcollections.nypl.org/items/4d92fbe0-c6d9-012f-21f2-58d385a7bc34?canvasIndex=0) the underground caves in the savage village
 
