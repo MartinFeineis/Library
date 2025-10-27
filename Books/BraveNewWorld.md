@@ -1,5 +1,9 @@
 # Aldous Huxley - Brave New World
 
+## Dramatis personae:
+* Bernard Marx, protagonist
+
+## Vocabulary
 | Page | english | german |
 |------|---------|--------|
 |__p013__|attainment|Leistung|
@@ -95,6 +99,15 @@
 |__p205__|viscose|Viskose, Glanzstoff|
 |__p205__|lustrous|glänzend, schimmernd, leuchtend|
 |__p206__|pensive|nachdenklich, besinnlich, versonnen|
+|__p207__|octoroon|A person having white ancestors except for one black great-grandparent, Someone having one-eighth black ancestry|
+|__p208__|deferential|respektvoll, ehrerbietig, rücksichtsvoll|
+|__p210__|velveteen|Baumwollsamt, Rippensamt|
+|__p210__|zippicamiknicks|Bluse, Hose?|
+|__p211__|gait|Gang, Gangart|
+|__p212__|destestable|abscheulich, widerwärtig|
+|__p212__|vestal|jungfräulich|
+|__p214__|gorged|sich übergessen, voll fressen|
+|__p215__|recapitulate|rekapitulieren, zusammenfassen|
 
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -151,4 +164,5 @@
 > Over the nasty sty ...
 * __p194__: "kiathla tsilu silokwe silokwe. Kiai silu silu, tsithl" [Hemlock of the, Tall kind, tall kind, tall kind, Sprout up hemlock, hemlock,     Chit! Chit!"](https://sacred-texts.com/nam/zuni/zft/zft03.htm)
 * __p200__: [Antelope Kiva](https://digitalcollections.nypl.org/items/4d92fbe0-c6d9-012f-21f2-58d385a7bc34?canvasIndex=0) the underground caves in the savage village
+* __p216__: "His intellectual eminence carries with it a corresponding moral responsibilities. The greater a man's talents, the greater his power to lead astray. It is better that one should suffer than that many should be corrupted. Consider the matter dispassionately, Mr. Foster, and you will see tha no offence is so heinous as unorthodoxy of behaviour. Murder kills only the individual -- and, after all, what is an individual?"
 
