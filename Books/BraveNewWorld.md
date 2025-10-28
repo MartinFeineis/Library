@@ -126,7 +126,11 @@
 |__p220__|irrepressibly|unbändig, unbezähmbar|
 |__p221__|smutty|schmutzig, zotig|
 |__p222__|peal|Geläut, Dröhnen|
-
+|__p224__|quaint|reizend, urig, wunderlich, goldig|
+|__p225__|clamoured|schrie, zeterte|
+|__p225__|demurred|zögerte, eingewandt|
+|__p227__|Thenceforward|von da an, seit jener Zeit|
+|__p227__|patchouli tap|Indischer Patschuli (Zapf-)Hahn|
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
 * __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
@@ -184,3 +188,4 @@
 * __p200__: [Antelope Kiva](https://digitalcollections.nypl.org/items/4d92fbe0-c6d9-012f-21f2-58d385a7bc34?canvasIndex=0) the underground caves in the savage village
 * __p216__: "His intellectual eminence carries with it a corresponding moral responsibilities. The greater a man's talents, the greater his power to lead astray. It is better that one should suffer than that many should be corrupted. Consider the matter dispassionately, Mr. Foster, and you will see tha no offence is so heinous as unorthodoxy of behaviour. Murder kills only the individual -- and, after all, what is an individual?"
 * __p221__: The word (for "father" was not so much obscene as -- with its connotation of something at one remove from the loathsomeness and moral obliquity of child-bearing -- merely gross, a scatological rather tha a pornographic impropriety)
+* __p227__: "... where the music of the radio was a labyrinth of sonorous colours, a sliding, palpitating labyrinth, that led (by what beautifully inevitable windings) to a bright centre of absolute conviction; where the dancing images of the television box were the performers in some indescribably delicious all-singing feely; where the dripping patchouli was more than a scent -- was the sun, was a million sexophones, was Popé making love, only much more so, incomparably more, and without end."
