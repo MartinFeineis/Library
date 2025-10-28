@@ -144,6 +144,13 @@
 |__p235__|apprehensively|bedenklich, besorgt, ängstlich, begreifend|
 |__p239__|vitrified|verglast (Vitrine)|
 |__p242__|Deauville|[Ort in Frankreich](https://de.wikipedia.org/wiki/Deauville)|
+|__p243__|arpeggios|[gebrochener Akkord](https://de.wikipedia.org/wiki/Arpeggio)|
+|__p243__|tarragon|Estragon, Bertramkraut|
+|__p243__|ambergris|Ambra, grauer Amber|
+|__p243__|hyper-violin|sci-fi violin|
+|__p243__|super-cello|sci-fi cello|
+|__p243__|oboe-surrogate|sci-fi oboe|
+|__p243__|languor|Verträumtheit, Apathie, Schläfrigkeit|
 
 
 ## Quotes
