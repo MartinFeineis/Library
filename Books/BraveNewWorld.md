@@ -134,7 +134,19 @@
 |__p228__|gibes|verhöhnt, verspottet|
 |__p228__|cadged|geschnorrt, schnorrte|
 |__p228__|abjectly|unterwürfig, erbärmlich, demütig|
+|__p230__|carping|nörgelnd, tadelsüchtig|
+|__p230__|elation|Euphorie,	Hochgefühl, Freude, Stolz|
+|__p231__|Dravidian|drawidisch, [indisch](https://de.wikipedia.org/wiki/Dravidische_Sprachen)|
+|__p231__|mirth|Heiterkeit, Fröhlichkeit, Freude, Frohsinn|
+|__p233__|prognathous|vorspringendes Kinn, vorstehender Kiefer|
+|__p234__|laurels|Lorbeeren, Lauraceen|
+|__p235__|Provost|Vorsteher, Hochschulleiter, Universitätsverwaltungsdirektor, Militärpolizist|
+|__p235__|apprehensively|bedenklich, besorgt, ängstlich, begreifend|
+|__p239__|vitrified|verglast (Vitrine)|
+|__p242__|Deauville|[Ort in Frankreich](https://de.wikipedia.org/wiki/Deauville)|
 
+
+## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
 * __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
 * __p040__: What man has joined, nature is powerless to put [asunder](https://www.dict.cc/?s=asunder).
