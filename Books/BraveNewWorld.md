@@ -131,6 +131,9 @@
 |__p225__|demurred|zögerte, eingewandt|
 |__p227__|Thenceforward|von da an, seit jener Zeit|
 |__p227__|patchouli tap|Indischer Patschuli (Zapf-)Hahn|
+|__p228__|gibes|verhöhnt, verspottet|
+|__p228__|cadged|geschnorrt, schnorrte|
+|__p228__|abjectly|unterwürfig, erbärmlich, demütig|
 
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
 * __p030__: "The lower the caste," said Mr. Foster, "the shorter the oxygen." The first organ affected was the brain. After that the skeleton. At seventy per cent of normal oxygen you got dwarfs. At less than seventy eyeless monsters. "Who are no use at all," concluded Mr. Foster.
@@ -181,8 +184,8 @@
 * __p193__: "The seed of men and all creatures, the seed of the sund and the seed of earth and the seed of the sky -- Awonawilona made them out of the Fog on Increase. Now the world has four wombs; and he laid seeds in the lowest of the lowest of the four wombs. And gradually the seeds began to grow ..."
 * __p194__: 
 > Nay, but to live  
-> In the rank sweat of an enseamed bed,
-> Stew'd in corruption, honeying and makin love
+> In the rank sweat of an enseamed bed,  
+> Stew'd in corruption, honeying and makin love  
 > Over the nasty sty ...
 * __p194__: "kiathla tsilu silokwe silokwe. Kiai silu silu, tsithl" [Hemlock of the, Tall kind, tall kind, tall kind, Sprout up hemlock, hemlock,     Chit! Chit!"](https://sacred-texts.com/nam/zuni/zft/zft03.htm)
 * __p200__: [Antelope Kiva](https://digitalcollections.nypl.org/items/4d92fbe0-c6d9-012f-21f2-58d385a7bc34?canvasIndex=0) the underground caves in the savage village
