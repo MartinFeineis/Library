@@ -151,6 +151,19 @@
 |__p243__|super-cello|sci-fi cello|
 |__p243__|oboe-surrogate|sci-fi oboe|
 |__p243__|languor|Verträumtheit, Apathie, Schläfrigkeit|
+|__p245__|erogenous|erogen, [erogenes Zone](https://de.wikipedia.org/wiki/Erogene_Zone)| 
+|__p245__|Alhambra|[Alhambra Spanien](https://de.wikipedia.org/wiki/Alhambra)|
+|__p247__|indignantly|empört, ungehalten, entrüstet|
+|__p247__|ignoble|unehrenhaft, unedel, unwürdig, schändlich, gemein|
+|__p249__|foreshortened|zeichnete perspektivisch, (verkürzt)|
+|__p253__|unsavoury|geschmacklos, widerlich, unappetitlich|
+|__p256__|scathing|verletzend, beleidigend, vernichtend|
+|__p256__|unwonted|ungewohnt|
+|__p256__|exultation|Jubel, Hochgefühl|
+|__p257__|sepulchral|düster, Grab-|
+|__p259__|admissible|zulässig, erlaubt|
+|__p262__|discomfited|verwirrt, besiegt|
+|__p262__|magnanimity|Großzügigkeit, Großmut, Edelmut|
 
 
 ## Quotes
@@ -211,3 +224,5 @@
 * __p216__: "His intellectual eminence carries with it a corresponding moral responsibilities. The greater a man's talents, the greater his power to lead astray. It is better that one should suffer than that many should be corrupted. Consider the matter dispassionately, Mr. Foster, and you will see tha no offence is so heinous as unorthodoxy of behaviour. Murder kills only the individual -- and, after all, what is an individual?"
 * __p221__: The word (for "father" was not so much obscene as -- with its connotation of something at one remove from the loathsomeness and moral obliquity of child-bearing -- merely gross, a scatological rather tha a pornographic impropriety)
 * __p227__: "... where the music of the radio was a labyrinth of sonorous colours, a sliding, palpitating labyrinth, that led (by what beautifully inevitable windings) to a bright centre of absolute conviction; where the dancing images of the television box were the performers in some indescribably delicious all-singing feely; where the dripping patchouli was more than a scent -- was the sun, was a million sexophones, was Popé making love, only much more so, incomparably more, and without end."
+* __p253__: "Ai yaa tákwa!" It was only in Zuñi that the Savage could adequately express what he felt about the Arch-Community-Songster. "Háni!" he added as an after-thought; and then (with what derisive ferocity!): "Sons éso tse-ná."
+* __p262__: One of the principal functions of a friend is to suffer (in a milder and symbolic form) the punishments that we should like, but are unable to inflict upon our enemies.
