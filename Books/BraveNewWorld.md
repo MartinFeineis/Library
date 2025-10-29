@@ -174,6 +174,14 @@
 |__p272__|pallor|Blässe|
 |__p272__|trifle|Kleinigkeit, Bagatelle|
 |__p272__|adage|Sprichwort, Spruch|
+|__p273__|Mwanza-Mwanza|[Mwanza in Tansania](https://en.wikipedia.org/wiki/Mwanza)|
+|__p273__|trypanosomiasis|[(Afrikanische) Schlafkrankheit](https://de.wikipedia.org/wiki/Afrikanische_Trypanosomiasis)|
+|__p275__|rakishly|salopp, verwegen|
+|__p276__|reverently|ehrfürchtig, ehrfurchtsvoll|
+|__p276__|peerless|einzigartig, unvergleichlich, beispiellos|
+|__p277__|oaf|Ochse, Dummkopf|
+|__p278__|baseness|Gemeinheit, Niedertracht, Falschheit|
+|__p278__|exasperated|verzweifelt, verärgert, gereizt|
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -235,3 +243,5 @@
 * __p227__: "... where the music of the radio was a labyrinth of sonorous colours, a sliding, palpitating labyrinth, that led (by what beautifully inevitable windings) to a bright centre of absolute conviction; where the dancing images of the television box were the performers in some indescribably delicious all-singing feely; where the dripping patchouli was more than a scent -- was the sun, was a million sexophones, was Popé making love, only much more so, incomparably more, and without end."
 * __p253__: "Ai yaa tákwa!" It was only in Zuñi that the Savage could adequately express what he felt about the Arch-Community-Songster. "Háni!" he added as an after-thought; and then (with what derisive ferocity!): "Sons éso tse-ná."
 * __p262__: One of the principal functions of a friend is to suffer (in a milder and symbolic form) the punishments that we should like, but are unable to inflict upon our enemies.
+* __p273__: V.P.S. treatment -- Violent Passion Surrogate
+* __p275__: Y.W.F.A.
