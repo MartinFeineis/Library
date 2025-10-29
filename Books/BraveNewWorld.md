@@ -164,7 +164,16 @@
 |__p259__|admissible|zulässig, erlaubt|
 |__p262__|discomfited|verwirrt, besiegt|
 |__p262__|magnanimity|Großzügigkeit, Großmut, Edelmut|
-
+|__p266__|odious|abscheulich, abstoßend, widerlich|
+|__p267__|defilement|Besudelung, Verunreinigung, Schändung|
+|__p269__|guffawing|laut lachend|
+|__p269__|quenchlessly|unauslöschbar, unlöschlich|
+|__p270__|mollified|besänftigt|
+|__p270__|excruciating|qualvoll, unerträglich, entsetzlich|
+|__p272__|weariness|Müdigkeit, Überdruss, Abspannung|
+|__p272__|pallor|Blässe|
+|__p272__|trifle|Kleinigkeit, Bagatelle|
+|__p272__|adage|Sprichwort, Spruch|
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
