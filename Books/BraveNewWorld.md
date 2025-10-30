@@ -202,6 +202,21 @@
 |__p293__|draught|Luftzug, Schluck|
 |__p293__|verbena|Eisenkraut, Verbena|
 |__p294__|interminable|endlos, langwierig|
+|__p295__|puggishly|mopsisch (wie der Hund)
+|__p295__|taut|gespannt, straff|
+|__p295__|sexagenarians|sechzigjährig, Sechziger|
+|__p296__|flaccid|schlaff, erschlafft, welk, lasch|
+|__p296__|truculently|aufsässig, trotzig, grob|
+|__p297__|obstinately|stur|
+|__p298__|strenuous|anstrengend, strapaziös, unermüdlich|
+|__p299__|pailful|ein Eimervoll|
+|__p299__|ordure|Kot, Schmutz|
+|__p300__|reproach|vorwerfen, tadeln|
+
+
+
+
+
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -267,3 +282,4 @@
 * __p275__: Y.W.F.A.
 * __p283__: Impudent strumpet -- schamlose Hure
 * __p293__: Super-Vox-Wurlitzeriana
+* __p298__: The exercise of authority restored her confidence, made her feel better.
