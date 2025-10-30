@@ -199,9 +199,9 @@
 |__p290__|gaily|fröhlich, heiter|
 |__p290__|Slough|Tümpel, Kruste, Schlammloch, Dreckloch|
 |__p290__|moribund|todgeweiht, sterbend|
-|__p293__|draught|
-|__p293__|verbena|
-|__p294__|interminable|
+|__p293__|draught|Luftzug, Schluck|
+|__p293__|verbena|Eisenkraut, Verbena|
+|__p294__|interminable|endlos, langwierig|
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
