@@ -199,6 +199,9 @@
 |__p290__|gaily|fröhlich, heiter|
 |__p290__|Slough|Tümpel, Kruste, Schlammloch, Dreckloch|
 |__p290__|moribund|todgeweiht, sterbend|
+|__p293__|draught|
+|__p293__|verbena|
+|__p294__|interminable|
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -263,3 +266,4 @@
 * __p273__: V.P.S. treatment -- Violent Passion Surrogate
 * __p275__: Y.W.F.A.
 * __p283__: Impudent strumpet -- schamlose Hure
+* __p293__: Super-Vox-Wurlitzeriana
