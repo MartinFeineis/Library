@@ -214,10 +214,11 @@
 |__p300__|reproach|vorwerfen, tadeln|
 |__p301__|irresolute|unentschieden, unschlüssig|
 |__p304__|dolychocephalic|langhälsig|
-|__p305__|repentance|
-|__p305__|vestibule|
-
-
+|__p305__|repentance|Reue, Buße, Umkehr|
+|__p305__|vestibule|Vorraum, Diele, Vorhof|
+|__p306__|peremptorily|entschieden, bestimmt|
+|__p306__|derision|Spott, Hohn, Verhöhnung|
+|__p306__|squalor|Elend, Vernachlässigung, Dreck, Ärmlichkeit|
 
 
 ## Quotes
