@@ -230,6 +230,8 @@
 |__p316__|inquisitiveness|Neugier, Wissbegierde|
 |__p318__|(with) impunity|Straflosigkeit, straffrei|
 |__p319__|parenthetically|beiläufig|
+|__p322__|picturesqueness|Malerhaftigkeit|
+|__p322__|gesticulating|gestikulierend|
 
 
 
@@ -306,4 +308,6 @@
 Chapter 16 Lots of good quotes and explanations from Mustapha Mond
 * __p319__: "But the new ones are so stupid and horrible. Those plays ,where there's nothing but helicopters flying about them and you feel the people kissing."
 * __p320__: You can't make flivvers without steel -- and you can't make tragedies without social instability. The world's stabel now. People are happy; they get what they want, and they never want what they can't get.
+* __p322__: "But that's the price we have to pay for stability. You've got to choose between happiness and what people used to call high art. We've sacrificed the high art. We have the feelis and the scent organ instead."
+* __p322__: "It all seems to me so quite horrible"  " of course it does. Actual happiness always looks pretty squalid in comparison with the overcompensations for misery. And, of course, stability isn't nearly so spectacular as instability."
 * __p326__: "The experiment was tried. The whole of Ireland was put on a four-hour day. What was the result? Unrest and a large increase in the consumption of soma." - Mustapha Mond
