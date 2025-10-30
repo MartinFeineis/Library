@@ -219,6 +219,8 @@
 |__p306__|peremptorily|entschieden, bestimmt|
 |__p306__|derision|Spott, Hohn, Verhöhnung|
 |__p306__|squalor|Elend, Vernachlässigung, Dreck, Ärmlichkeit|
+|__p307__|jostled|angerempelt, rempelte an|
+|__p308__|propitiatingly|versöhnend, günstig stimmend|
 
 
 ## Quotes
