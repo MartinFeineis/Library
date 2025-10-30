@@ -212,8 +212,10 @@
 |__p299__|pailful|ein Eimervoll|
 |__p299__|ordure|Kot, Schmutz|
 |__p300__|reproach|vorwerfen, tadeln|
-
-
+|__p301__|irresolute|unentschieden, unschlüssig|
+|__p304__|dolychocephalic|langhälsig|
+|__p305__|repentance|
+|__p305__|vestibule|
 
 
 
@@ -283,3 +285,6 @@
 * __p283__: Impudent strumpet -- schamlose Hure
 * __p293__: Super-Vox-Wurlitzeriana
 * __p298__: The exercise of authority restored her confidence, made her feel better.
+
+Chapter 16 Lots of good quotes and explanations from Mustapha Mond
+* __p326__: "The experiment was tried. The whole of Ireland was put on a four-hour day. What was the result? Unrest and a large increase in the consumption of soma." - Mustapha Mond
