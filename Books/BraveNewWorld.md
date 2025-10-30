@@ -232,7 +232,11 @@
 |__p319__|parenthetically|beiläufig|
 |__p322__|picturesqueness|Malerhaftigkeit|
 |__p322__|gesticulating|gestikulierend|
-
+|__p326__|morsel|Häppchen, Bissen|
+|__p327__|chary|vorsichtig, zurückhaltend|
+|__p328__|scullion|Küchenjunge, Küchenhilfe|
+|__p328__|illicit|illegal, gesetzwidrig, unerlaubt, verboten|
+|__p329__|paroxysm|Anfall, Krampf|
 
 
 ## Quotes
@@ -310,4 +314,5 @@ Chapter 16 Lots of good quotes and explanations from Mustapha Mond
 * __p320__: You can't make flivvers without steel -- and you can't make tragedies without social instability. The world's stabel now. People are happy; they get what they want, and they never want what they can't get.
 * __p322__: "But that's the price we have to pay for stability. You've got to choose between happiness and what people used to call high art. We've sacrificed the high art. We have the feelis and the scent organ instead."
 * __p322__: "It all seems to me so quite horrible"  " of course it does. Actual happiness always looks pretty squalid in comparison with the overcompensations for misery. And, of course, stability isn't nearly so spectacular as instability."
+* __p325__: "The optimum population," said Mustapha Mond, "is modelled on the iceberg -- eight-ninths below the water line, one-ninth above." "And they're happy below the water line?" "Happier than above it ..."
 * __p326__: "The experiment was tried. The whole of Ireland was put on a four-hour day. What was the result? Unrest and a large increase in the consumption of soma." - Mustapha Mond
