@@ -221,7 +221,13 @@
 |__p306__|squalor|Elend, Vernachlässigung, Dreck, Ärmlichkeit|
 |__p307__|jostled|angerempelt, rempelte an|
 |__p308__|propitiatingly|versöhnend, günstig stimmend|
-
+|__p310__|ardour|Begeisterung, Leidenschaft, Inbrunst|
+|__p310__|mewling|wimmernd, quäkend, maunzend|
+|__p313__|heap|Haufen, Menge|
+|__p314__|menacingly|drohend|
+|__p316__|deprecating|ablehnend, abwehrend|
+|__p316__|wrath|Zorn, Wut|
+|__p316__|inquisitiveness|Neugier, Wissbegierde|
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -288,6 +294,9 @@
 * __p283__: Impudent strumpet -- schamlose Hure
 * __p293__: Super-Vox-Wurlitzeriana
 * __p298__: The exercise of authority restored her confidence, made her feel better.
+* __p309__: nip across to Biarritz in Helmholtz's four-seater sporticopter
+* __p310__: The insults bounced off their carapace of thick stupidity
+* __p311__: "Ford helps those who help themselves."
 
 Chapter 16 Lots of good quotes and explanations from Mustapha Mond
 * __p326__: "The experiment was tried. The whole of Ireland was put on a four-hour day. What was the result? Unrest and a large increase in the consumption of soma." - Mustapha Mond
