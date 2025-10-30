@@ -182,6 +182,23 @@
 |__p277__|oaf|Ochse, Dummkopf|
 |__p278__|baseness|Gemeinheit, Niedertracht, Falschheit|
 |__p278__|exasperated|verzweifelt, verärgert, gereizt|
+|__p279__|doth|tut (shakespearean "does")|
+|__p281__|stereoscopic|stereoskopisch|
+|__p281__|blackamoor|Mohr (person)|
+|__p281__|reproachful|vorwurfsvoll, tadelnd|
+|__p281__|apprehensively|
+|__p282__|abstemious|bedenklich, ängstlich, begreifend|
+|__p283__|inexplicable|unerklärlich, unfassbar|
+|__p283__|Aghast|entsetzt, fassungslos|
+|__p284__|pearly|himmlisch, perlenartig|
+|__p285__|ingratiating|schmeichlerisch, schöntuerisch, beliebt machend|
+|__p286__|gruffly|schroff, grob, barsch|
+|__p288__|parleying|verhandelnd|
+|__p288__|usurp|ergreifen, verdrängen|
+|__p290__|primrose|Primel, Schlüsselblume|
+|__p290__|gaily|fröhlich, heiter|
+|__p290__|Slough|Tümpel, Kruste, Schlammloch, Dreckloch|
+|__p290__|moribund|todgeweiht, sterbend|
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -245,3 +262,4 @@
 * __p262__: One of the principal functions of a friend is to suffer (in a milder and symbolic form) the punishments that we should like, but are unable to inflict upon our enemies.
 * __p273__: V.P.S. treatment -- Violent Passion Surrogate
 * __p275__: Y.W.F.A.
+* __p283__: Impudent strumpet -- schamlose Hure
