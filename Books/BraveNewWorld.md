@@ -1,5 +1,5 @@
 # Aldous Huxley - Brave New World
-
+[Entire Book](https://www.huxley.net/bnw/seventeen.html)
 ## Dramatis personae:
 * Bernard Marx, protagonist
 * Cardinal Newman p336
@@ -249,6 +249,9 @@
 |__p344__|neurasthenia|Nervenschwäche, Neurasthenie|
 |__p345__|allegiance|Loyalität, Treuepflicht|
 |__p345__|ought|sollte, müsste|
+|__p345__|reconcile|schlichten, etw. abstimmen|
+|__p346__|derisive|höhnisch, spöttisch, hämisch|
+|__p350__|wickedness|Boshaftigkeit, Verruchtheit, Frevel|
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -332,6 +335,10 @@ Chapter 16 Lots of good quotes and explanations from Mustapha Mond
 * __p342__: Centrifugal Bumble-puppy
 * __p343__: Self-indulgence up to the very limits imposed by hygiene and economics. Otherwise the wheels stop turning.
 * __p344__: "civilization has absolutely no need for nobility or heroism. These things are symptoms of political inefficiency."
+* __p345__: Christianity without tears -- that's what _soma_ is
+* __p345__: Girl of Mátaski
+* __p364__: "Kohakwa iyathtokyai"
 
 ## Locations
 * __p333__: [Marquesas](https://de.wikipedia.org/wiki/Marquesas)
+* __p352__: Guildford, Godalming, Milford, Witley, Haslemere, Petersfield, Portsmouth, Worplesden, Tongham, Puttenham, Elstead, Grayshott, Selborne, Bordon, Farnham, Hindhead
