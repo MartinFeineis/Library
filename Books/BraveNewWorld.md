@@ -2,6 +2,8 @@
 
 ## Dramatis personae:
 * Bernard Marx, protagonist
+* Cardinal Newman p336
+* Maine de Biran, Philosopher, p336
 
 ## Vocabulary
 | Page | english | german |
@@ -62,7 +64,7 @@
 |__p146__|affliction|Krankheit, Leiden, Gebrechen|
 |__p150__|serenely|gleichmütig, gelassen|
 |__p159__|sullenly|mürrisch|
-|__p159__|precipice|steiler Abhang|
+|__p159__|precipice|steiler Abhang, Abgrund, Felshang|
 |__p159__|gunwale|Schandeck|
 |__p161__|indignant incredulity|ungehaltene Ungläubigkeit|
 |__p162__|tremulous|zitternd|
@@ -237,7 +239,16 @@
 |__p328__|scullion|Küchenjunge, Küchenhilfe|
 |__p328__|illicit|illegal, gesetzwidrig, unerlaubt, verboten|
 |__p329__|paroxysm|Anfall, Krampf|
-
+|__p331__|sedulously|fleißig, eifrig, unermüdlich|
+|__p335__|avowed|ausgesprochen, bekennend, erklärt|
+|__p337__|irksomeness|Ärgerlichkeit, Verdrießlichkeit|
+|__p337__|listlessness|Lustlosigkeit, Teilnahmslosigkeit, Schlappheit|
+|__p338__|whereupon|woraufhin, worauf, wonach|
+|__p342__|prizer|Preiskämpfer|
+|__p344__|chastity|Keuschheit, Reinheit, Unbeflecktheit|
+|__p344__|neurasthenia|Nervenschwäche, Neurasthenie|
+|__p345__|allegiance|Loyalität, Treuepflicht|
+|__p345__|ought|sollte, müsste|
 
 ## Quotes
 * __p015__: Not philsosphers but [fretsawyers](https://en.wikipedia.org/wiki/Fretsaw) and stamp collectors compose the backbone of society.
@@ -316,3 +327,11 @@ Chapter 16 Lots of good quotes and explanations from Mustapha Mond
 * __p322__: "It all seems to me so quite horrible"  " of course it does. Actual happiness always looks pretty squalid in comparison with the overcompensations for misery. And, of course, stability isn't nearly so spectacular as instability."
 * __p325__: "The optimum population," said Mustapha Mond, "is modelled on the iceberg -- eight-ninths below the water line, one-ninth above." "And they're happy below the water line?" "Happier than above it ..."
 * __p326__: "The experiment was tried. The whole of Ireland was put on a four-hour day. What was the result? Unrest and a large increase in the consumption of soma." - Mustapha Mond
+* __p341__: [King Lear](https://en.wikipedia.org/wiki/King_Lear): a tragedy written by William Shakespeare in late 1605 or early 1606
+* __p342__: Electro-magnetic Golf
+* __p342__: Centrifugal Bumble-puppy
+* __p343__: Self-indulgence up to the very limits imposed by hygiene and economics. Otherwise the wheels stop turning.
+* __p344__: "civilization has absolutely no need for nobility or heroism. These things are symptoms of political inefficiency."
+
+## Locations
+* __p333__: [Marquesas](https://de.wikipedia.org/wiki/Marquesas)
