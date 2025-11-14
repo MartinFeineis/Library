@@ -39,3 +39,23 @@ provider "aws" {
 
 Lambda Function attached to VPC and efs storage with VPC Endpoints for SQS and DynamoDB
 [Module](https://github.com/MartinFeineis/ApiGateway/tree/14768330530eb79e63e4345c37790922068f991f/lambda_send_msg)
+
+# Subfolder formatter
+run `terraform fmt` in all subfolder aka modules
+```sh
+#!/bin/bash
+
+# Get the current directory
+current_dir=$(pwd)
+
+# Get a list of all subfolders, excluding hidden folders
+subfolders=$(find . -type d ! -path "*/.*")
+
+# For each subfolder, run terraform fmt
+for subfolder in $subfolders; do
+  echo "Running terraform fmt on $subfolder"
+  cd $subfolder
+  terraform fmt
+  cd $current_dir
+done
+```
