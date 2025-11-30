@@ -1,3 +1,5 @@
+https://www.reddit.com/r/ollama/comments/1bh3fv9/external_drive/
+
 ```shell
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"

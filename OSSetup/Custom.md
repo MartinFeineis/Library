@@ -121,3 +121,10 @@ alias colorls="`gem env | grep "USER INSTALLATION DIRECTORY" | awk '{ print $5 }
 
 ### Auto Sugges
 
+## [Superfile](https://superfile.dev/)
+A terminal based file Explorer including picture preview
+Needs Nerdfonts, install with `bash` and `curl`
+```sh
+bash -c "$(curl -sLo- https://superfile.dev/install.sh)"
+spf
+```
