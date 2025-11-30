@@ -12,6 +12,7 @@
     * [Media](Linux/Media.md)
     * [Hardware](Linux/Hardware.md)
     * [Mint](Linux/Linux-Mint-Tipps.md)
+    * [Funnies](Linux/Funnies.md)
 * [Android](Linux/Android.md)
 * [MacOSX](MacOSx/MacOSx.md)
 * [OSSetup](OSSetup/Custom.md)
