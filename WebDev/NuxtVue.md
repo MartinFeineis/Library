@@ -79,3 +79,7 @@ export default defineEventHandler(async () => {
 [composables,plugins,stores, etc.](https://bigmachine.io/frontend/what-should-be-a-plugin-vs-a-composable-vs-a-store-in-nuxt/)
 [AI Links](https://www.reddit.com/r/OpenAI/comments/12jyes5/what_are_good_techniques_for_feeding_extremely/)
 [async/await](https://javascript.info/async-await)
+
+## [Vite](https://www.geeksforgeeks.org/javascript/getting-started-with-vite/)
+
+## [Nitro](https://nuxt.com/docs/3.x/api/kit/nitro)

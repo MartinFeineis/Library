@@ -30,3 +30,4 @@ sudo chmod 0755 /usr/local/bin/asciiquarium
 ```sh
 sudo apt install funny-manpages
 ```
+## BSD Games
