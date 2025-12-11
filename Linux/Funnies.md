@@ -6,16 +6,22 @@ sl
 ## Fortune and Cowsay
 ```sh
 sudo apt-get install fortune cowsay
-➜ fortune | cowsay
- ______________________________________
-/ You have an unusual equipment for    \
-\ success. Be sure to use it properly. /
- --------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+fortune | cowsay -f vader-koala
+ _____________________________________
+/ Things will be bright in P.M. A cop \
+\ will shine a light in your face.    /
+ -------------------------------------
+   \
+    \        .
+     .---.  //
+    Y|o o|Y//
+   /_(i=i)K/
+   ~()~*~()~
+    (_)-(_)
+
+     Darth
+     Vader
+     koala
 ```
 Find other animals at `/usr/share/cowsay/cows`
 ## Telnet StarWars
