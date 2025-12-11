@@ -7,7 +7,30 @@ sl
 ```sh
 fortune | Cowsay
 ```
+## Telnet StarWars
+```sh
+telnet towel.blinkenlights.nl
+```
+```sh
 
+
+
+
+
+
+             f r o m   a  h i d d e n   b a s e ,  h a v e  w o n
+
+             t h e i r   f i r s t  v i c t o r y   a g a i n s t
+
+             t h e   e v i l   G a l a c t i c   E m p i r e.
+
+
+             D u r i n g     t h e     b a t t l e ,    R e b e l
+
+             s p i e s  m a n a g e d  to  s t e a l  s e c r e t
+
+
+```
 ## Ascii Aquarium
 ```sh
 sudo apt install libcurses-perl
