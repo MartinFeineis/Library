@@ -5,8 +5,19 @@ sl
 ```
 ## Fortune and Cowsay
 ```sh
-fortune | Cowsay
+sudo apt-get install fortune cowsay
+➜ fortune | cowsay
+ ______________________________________
+/ You have an unusual equipment for    \
+\ success. Be sure to use it properly. /
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 ```
+Find other animals at `/usr/share/cowsay/cows`
 ## Telnet StarWars
 ```sh
 telnet towel.blinkenlights.nl
