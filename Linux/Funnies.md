@@ -67,7 +67,16 @@ sudo chmod 0755 /usr/local/bin/asciiquarium
 ```
 
 ## Funny manpages
+Basic version 
 ```sh
 sudo apt install funny-manpages
+```
+Advanced version
+```sh
+git clone git@github.com:ltworf/funny-manpages.git
+cd funny-manpages
+sudo make install
+# List the pages
+man -S 1fun,3fun,6fun,8fun -k .
 ```
 ## BSD Games
