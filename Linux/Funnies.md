@@ -29,23 +29,11 @@ Find other animals at `/usr/share/cowsay/cows`
 telnet towel.blinkenlights.nl
 ```
 ```sh
-
-
-
-
-
-
              f r o m   a  h i d d e n   b a s e ,  h a v e  w o n
-
              t h e i r   f i r s t  v i c t o r y   a g a i n s t
-
              t h e   e v i l   G a l a c t i c   E m p i r e.
-
-
              D u r i n g     t h e     b a t t l e ,    R e b e l
-
              s p i e s  m a n a g e d  to  s t e a l  s e c r e t
-
 
 ```
 ## Ascii Aquarium
@@ -84,15 +72,15 @@ man -S 1fun,3fun,6fun,8fun -k .
 
 ## Telnet
 Star Wars in Terminal
-```
+```sh
 telnet towel.blinkenlights.nl
 ```
 Playing chess
-```
+```sh
 telnet freechess.org
 ```
 other games
-```
+```sh
 telnet telehack.com
 Trying 2001:470:67:c0::1337...
 Connected to telehack.com.
@@ -123,7 +111,7 @@ Type NEWUSER to create an account. Press control-C to interrupt any command.
 
 ### Good Excuses
 Funny Excuses BoFH style
-```
+```sh
 telnet bofh.jeffballard.us 666
 Trying 216.165.179.62...
 Connected to jeffballard.us.
