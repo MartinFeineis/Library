@@ -9,9 +9,14 @@ differentiate between _build commands_ and _make syntax_
 <target>: <dependcies>
     <rule>
 ```
-e.g.
+e.g. Create the file/target `name.txt` write the date to it and any content from `ncont.txt`
 ```make
 name.txt: ncont.txt
     date >> name.txt
     cat ncont.txt >> name.txt
+```
+## Multiple targets
+Create multiple files from the same _rule/recipe_
+```make
+# TODO
 ```
