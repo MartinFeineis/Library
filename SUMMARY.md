@@ -13,6 +13,7 @@
     * [Hardware](Linux/Hardware.md)
     * [Mint](Linux/Linux-Mint-Tipps.md)
     * [Containers](Linux/Docker.md)
+    * [Make](Linux/Make.md)
     * [Funnies](Linux/Funnies.md)
 * [Android](Linux/Android.md)
 * [MacOSX](MacOSx/MacOSx.md)
