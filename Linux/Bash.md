@@ -103,7 +103,11 @@ sudo vbetool dpms off/on
 ```sh
 sudo apt-get install ruby2.3-dev
 sudo gem install colorls
+echo "alias colorls='$HOME/.gem/ruby/2.6.0/bin/colorls'" >> ~/.zshrc
+echo "alias la='lc -ah'" >> ~/.zshrc
+l -lS -r
 ```
+sort Files in reversed order by size, i.e. biggest files on bottome hence easy to see
 ### Install bat
 Bat is more eye-friendly cat alternative, on [Github](https://github.com/sharkdp/bat). 
 Replace the release number down there with the latest from the
