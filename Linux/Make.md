@@ -17,6 +17,16 @@ name.txt: ncont.txt
 ```
 ## Multiple targets
 Create multiple files from the same _rule/recipe_
-```make
-# TODO
+With this filesystem: 
+```sh
+ls
+1.be  2.be  3.be  Makefile  name.txt  ncont.txt
 ```
+And this rule
+```make
+*.be: ncont.txt
+    date >> $@
+    echo "Wildcarding" >> $@
+    cat ncont.txt >> $@
+```
+`*.be` will find all 3 files, but `$@` will only evaluate to the first target `1.be`
