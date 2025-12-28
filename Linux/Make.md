@@ -22,7 +22,7 @@ With this filesystem:
 ls
 1.be  2.be  3.be  Makefile  name.txt  ncont.txt
 ```
-And this rule
+And this rule [docs](https://www.gnu.org/software/make/manual/html_node/Static-Usage.html)
 ```make
 *.be: ncont.txt
     date >> $@
