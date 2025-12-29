@@ -54,6 +54,7 @@
 * [Nuxt & Vue](WebDev/NuxtVue.md)
 * [Javascript ES6](WebDev/ES6.md)
     * [Mermaid](WebDev/Mermaid.md)
+    * [Phaser](WebDev/Phaser.md)
 
 ## Books
 * [Kanban](Books/Kanban.md)
