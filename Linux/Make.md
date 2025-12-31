@@ -33,6 +33,7 @@ also [Pitfalls of Using Wildcards](https://www.gnu.org/software/make/manual/html
 `*.be` will find all 3 files,
 > [!Warning] 
 > `$@` will only evaluate to the first target `1.be`
+  
 {% hint style="info" %}
 Instead of `*` there is also `%` in make syntax
 {% endhint %} 
