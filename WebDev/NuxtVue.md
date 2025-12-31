@@ -80,7 +80,8 @@ export default defineEventHandler(async () => {
 [AI Links](https://www.reddit.com/r/OpenAI/comments/12jyes5/what_are_good_techniques_for_feeding_extremely/)
 [async/await](https://javascript.info/async-await)
 
-## [Vite](https://www.geeksforgeeks.org/javascript/getting-started-with-vite/)
+## Vite
 Vite is a build tool with an integrated dev server
+[geekinfo](https://www.geeksforgeeks.org/javascript/getting-started-with-vite/)
 [config options](https://vite.dev/config/)
 ## [Nitro](https://nuxt.com/docs/3.x/api/kit/nitro)
