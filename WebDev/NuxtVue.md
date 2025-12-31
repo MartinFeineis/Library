@@ -81,5 +81,6 @@ export default defineEventHandler(async () => {
 [async/await](https://javascript.info/async-await)
 
 ## [Vite](https://www.geeksforgeeks.org/javascript/getting-started-with-vite/)
-
+Vite is a build tool with an integrated dev server
+[config options](https://vite.dev/config/)
 ## [Nitro](https://nuxt.com/docs/3.x/api/kit/nitro)
