@@ -10,3 +10,4 @@ This page is mostly rendered in gitbooks.com but I prefer to use native markdown
 
 > [!TIP]
 > So I prefer markdown notice blocks instead of `{% hint .. %}` blocks
+> like the one above
