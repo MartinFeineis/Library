@@ -30,4 +30,7 @@ also [Pitfalls of Using Wildcards](https://www.gnu.org/software/make/manual/html
     echo "Wildcarding" >> $@
     cat ncont.txt >> $@
 ```
-`*.be` will find all 3 files, but `$@` will only evaluate to the first target `1.be`
+`*.be` will find all 3 files,
+> [!Warning] 
+> `$@` will only evaluate to the first target `1.be`
+
