@@ -32,3 +32,5 @@ flowchart TD
         D --> E[/"    Absences of Trust     "\]
 
 ```
+
+![svg Pyramid](5DysPyramid.svg)
