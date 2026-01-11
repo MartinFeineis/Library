@@ -45,6 +45,7 @@
 * [Golang](Golang/Golang.md)
 * [Data](Data/SQL.md)
     * [Postgres](Data/Postgres.md)
+    * [SQL](Data/SQL.md)
 
 
 ## WebDevelopment
