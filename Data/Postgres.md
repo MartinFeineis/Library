@@ -29,6 +29,9 @@ psql -h $POSTGRES_HOST -U $POSTGRES_USER -d $POSTGRES_DATABASE
 List all tables `\dt`
 List all [users](https://www.postgresql.org/docs/17/app-psql.html#APP-PSQL-META-COMMAND-DU) `\duS+`
 See info for table `\d tablename`
+List all databases `\l` or `list`
+Switch to database `\c <database>`
+
 
 ## Network access
 in `/etc/postgresql/14/main/postgresql.conf` add the * so postgres listens on all IPs.
@@ -39,9 +42,6 @@ and in `/etc/postgresql/14/main/pg_hba.conf` add this line add the permissions t
 ```bash
 host    all             all             0.0.0.0/0               md5
 ```
-
-
-
 ## Find all Users and there rights/roles
 ```sql
 SELECT u.usename AS "Role name",
