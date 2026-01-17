@@ -93,7 +93,16 @@ I re-installed Linux-Mint on a setup with existing LVM settings. I mounted a dat
 `lvdisplay` revealed the `$` __LV Path__ as `/dev/vg-01/data01`
 ```sh
 /dev/vg-01/data01       /data   ext4    defaults        0       0
+<nas_ip>:/volume1/<nas_folder> /mnt/<mount_dir> nfs  _netdev,nofail,x-systemd.automount,x-systemd.idle-timeout=600,timeo=50,retrans=2  0  0
 ```
+|option|description|
+|------|-----------|
+|\_netdev|   |
+|nofail|    |
+|x-systemd.idle-timeout=600|    |
+|timeo=50|    |
+|retrans=2|    |
+
 
 ## NFS Issues
 Make sure the `/etc/exports` file on the nfs server has the right ip addresses. They did not get updated when the ip address of the server changed due to a change of my ISP. The shared folder on the NasDrive needs to have nfs Permissions:
