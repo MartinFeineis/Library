@@ -95,6 +95,7 @@ I re-installed Linux-Mint on a setup with existing LVM settings. I mounted a dat
 /dev/vg-01/data01       /data   ext4    defaults        0       0
 <nas_ip>:/volume1/<nas_folder> /mnt/<mount_dir> nfs  _netdev,nofail,x-systemd.automount,x-systemd.idle-timeout=600,timeo=50,retrans=2  0  0
 ```
+see `man mount` for more settings
 |option|description|
 |------|-----------|
 |\_netdev|   |
