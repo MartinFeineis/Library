@@ -15,3 +15,7 @@ __p034__: Criminal characteristics:
 * coming from dysfunctional families
 * access to other criminals (friends, family) [crimes as behaviour is normalized]
 * they probably have low education
+
+__p035__: * nature vs. nurture
+* Many thieves see burglary as an exciting opportunity and not a carefully
+considered way of making money.
