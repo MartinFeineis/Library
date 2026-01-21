@@ -21,3 +21,16 @@ __p035__:
 impulsivity and low intelligence
 * Many thieves see burglary as an exciting opportunity and not a carefully
 considered way of making money.
+
+__p037__: Female offenders:
+* Commit less crimes (only 20% see above)
+* Court decisions tend to be more lenient towards women for reasons like:
+    * motherhood
+    * perception of less wickedness
+
+__p039__: Thinking about crime:
+* Denial: It didn't happen or not as being claimed.
+* Justification: Moral authority, need or entitlement to the crime.
+* Minimisation: It wasn't that bad.
+* Rationalisation: Shifting the blame to the victim (Opportunity makes thieves),
+"If they didn't want to get robbed they shouldn't have carried a wallet."
