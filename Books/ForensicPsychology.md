@@ -16,6 +16,7 @@ __p034__: Criminal characteristics:
 * access to other criminals (friends, family) [crimes as behaviour is normalized]
 * they probably have low education
 
-__p035__: * nature vs. nurture
+__p035__: * nature vs. nurture; some general personality traits - desire for excitement,
+impulsivity and low intelligence
 * Many thieves see burglary as an exciting opportunity and not a carefully
 considered way of making money.
