@@ -32,5 +32,17 @@ __p039__: Thinking about crime:
 * Denial: It didn't happen or not as being claimed.
 * Justification: Moral authority, need or entitlement to the crime.
 * Minimisation: It wasn't that bad.
-* Rationalisation: Shifting the blame to the victim (Opportunity makes thieves),
+* Rationalisation: Shifting the blame to the victim (Opportunity makes thieves, 
+Victim shaming/blaming),
 "If they didn't want to get robbed they shouldn't have carried a wallet."
+
+__p041__: Personality traits more common in criminals than non-criminals
+* External locus of control: The idea if wether one controls their own destiny
+ (internal locus) or fate (external locus) does. Criminals tend to the latter, 
+however research isn't cut-clear.
+* Lack of empathy: Some criminals don't have the ability to feel what others/their 
+victims are feeling.
+* Lack of self-control: Impulsivity or a reluctance to delay gratification.
+Some highly successful people are on the opposite spectrucm.
+* Search for excitement: Many criminals are sensation seekers, that enjoy the
+excitement of committing a crime.
