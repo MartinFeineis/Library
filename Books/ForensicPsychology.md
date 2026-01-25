@@ -46,3 +46,10 @@ victims are feeling.
 Some highly successful people are on the opposite spectrucm.
 * Search for excitement: Many criminals are sensation seekers, that enjoy the
 excitement of committing a crime.
+__p043__: Mental Disorders:
+* Sadism: origin [Marquis de Sade](https://en.wikipedia.org/wiki/Marquis_de_Sade)
+Causing suffering and humiliating the victim gives pleasuer to the sadist, they 
+are likely to be fascinated by weapons and violence.
+* Narcissism: A narcissist is wholly preoccupied with success, hypersensitive to
+criticism, self-important and feels entitled to admiration. They can get furious 
+when being ignored and their desires not met, in these cases they might attack.
