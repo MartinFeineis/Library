@@ -20,7 +20,7 @@ __Inline equation__
 [Euler's Identity](https://en.wikipedia.org/wiki/Euler%27s_identity): $$e^{ i \pi } + 1 = 0$$
 
 __Math block__
-Maxwell's Equations
+Maxwell's Equations\
 $$
 \nabla \cdot E = \frac{\rho}{\epsilon_0} \\
 \nabla \cdot B = 0 \\
