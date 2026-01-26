@@ -15,7 +15,7 @@ Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/bl
 ### Math Formulas
 __Inline equation__  
 
-$$e^{ i \pi } + 1 = 0$$
+[Euler's Identity](https://en.wikipedia.org/wiki/Euler%27s_identity): $$e^{ i \pi } + 1 = 0$$
 
 __Math block__
 
