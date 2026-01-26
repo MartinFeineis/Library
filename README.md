@@ -15,7 +15,7 @@ Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/bl
 ### Math Formulas
 __Inline equation__  
 
-$$e^{ i pi } + 1 = 0$$
+$$e^{ i \pi } + 1 = 0$$
 
 __Math block__
 
