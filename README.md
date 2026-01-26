@@ -5,9 +5,9 @@ Some collection of code and code snippets to look up quickly since I frequently 
 [flexible Notes](notes.md)
 
 {% hint style="warning" %}
-This page is mostly rendered in gitbooks.com but I prefer to use native markdown
+Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/blocks/hint#example-of-a-hint) to render blockquotes
 {% endhint %}
 
 > [!TIP]
-> So I prefer markdown notice blocks instead of `{% hint .. %}` blocks
-> like the one above
+> Markdown uses `>` indentations [see](https://www.markdownlang.com/basic/blockquotes.html#_3-tip-message)
+> :atm: [github](https://gist.github.com/rxaviers/7360908) markdown also support emojis :bicyclist:
