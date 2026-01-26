@@ -53,3 +53,6 @@ are likely to be fascinated by weapons and violence.
 * Narcissism: A narcissist is wholly preoccupied with success, hypersensitive to
 criticism, self-important and feels entitled to admiration. They can get furious 
 when being ignored and their desires not met, in these cases they might attack.
+* Borderline Personality Disorder: People with mood swings, difficulties forming 
+stable relastionships and getting intensly angry without reason.
+
