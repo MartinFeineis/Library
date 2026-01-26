@@ -22,5 +22,7 @@ __Inline equation__
 __Math block__
 Maxwell's Equations
 $$
-\nabla \cdot E = \rho/\epsilon_0
+\nabla \cdot E = \frac{\rho}{\epsilon_0}
+\nabla \cdot B = 0
+\nabla \times E = - =frac{1}{c} frac{\delta B}{\delta t}
 $$
