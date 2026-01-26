@@ -1,4 +1,4 @@
-#Jordan Peterson - 12 Rules for Life
+# Jordan Peterson - 12 Rules for Life
 #### An Antidote to Chaos
 
 ## Chapter 1
@@ -21,3 +21,9 @@ __p093__
 
 ## Chapter 7
 Kain and Abel: Kain makes bad half-hearted sacrifuces that get rejected. Similar if you do things only half-assed they do not work out.
+
+## Chapter 8
+__p205__: Paranoid people, are hyper-alert and hyper-focused. They are attending to non-verbal cues with an intentness never manifest
+during ordinary human interactions. They make mistakes in interpretation (that's the paranoia) but they are still almost uncanny in their
+ability to detect mixed motives, judgement and falsehood. You have to listen very carefully and tell the truth if you are going to get a paranoid
+person to open up to you.
