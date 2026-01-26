@@ -13,9 +13,14 @@ Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/bl
 > :atm: [github](https://gist.github.com/rxaviers/7360908) markdown also support emojis ✅
 
 ### Math Formulas
+Gitbook [Docs](https://gitbook.com/docs/creating-content/blocks/math-and-tex)
+with [KatTeX](https://katex.org/docs/supported.html) typesetting library 
 __Inline equation__  
 
 [Euler's Identity](https://en.wikipedia.org/wiki/Euler%27s_identity): $$e^{ i \pi } + 1 = 0$$
 
 __Math block__
-
+Maxwell's Equations
+$$
+\nabla \cdot E = \rho/\epsilon_0
+$$
