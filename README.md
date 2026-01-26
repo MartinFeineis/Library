@@ -13,7 +13,9 @@ Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/bl
 > :atm: [github](https://gist.github.com/rxaviers/7360908) markdown also support emojis ✅
 
 ### Math Formulas
-__Inline equation__
-$e^( i \pi ) + 1 = 0$
+__Inline equation__  
+
+$$e^{ i pi } + 1 = 0$$
+
 __Math block__
 
