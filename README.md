@@ -11,3 +11,5 @@ Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/bl
 > [!TIP]
 > Markdown uses `>` indentations [see](https://www.markdownlang.com/basic/blockquotes.html#_3-tip-message)  
 > :atm: [github](https://gist.github.com/rxaviers/7360908) markdown also support emojis ✅
+
+$e^(i\pi)+1=0
