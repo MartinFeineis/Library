@@ -24,5 +24,6 @@ Maxwell's Equations\
 $$
 \nabla \cdot E = \frac{\rho}{\epsilon_0} \\
 \nabla \cdot B = 0 \\
-\nabla \times E = - \frac{1}{c} \frac{\partial B}{\partial t}
+\nabla \times E = - \frac{1}{c} \frac{\partial B}{\partial t} \\
+\nable \times B = \mu_0 \bigl J + \epsilon_0 \frac{\partial E}{\partial t} \bigr 
 $$
