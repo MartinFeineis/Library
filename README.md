@@ -25,5 +25,5 @@ $$
 \nabla \cdot E = \frac{\rho}{\epsilon_0} \\
 \nabla \cdot B = 0 \\
 \nabla \times E = - \frac{1}{c} \frac{\partial B}{\partial t} \\
-\nable \times B = \mu_0 \big( J + \epsilon_0 \frac{\partial E}{\partial t} \big) 
+\nabla \times B = \mu_0 \big( J + \epsilon_0 \frac{\partial E}{\partial t} \big) 
 $$
