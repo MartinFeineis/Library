@@ -56,3 +56,12 @@ when being ignored and their desires not met, in these cases they might attack.
 * Borderline Personality Disorder: People with mood swings, difficulties forming 
 stable relastionships and getting intensly angry without reason.
 
+__p135__: 4 prevalent criminal narratives:
+* __Being on Adventure__: Crime is seen as exciting escape (escapism from boring 
+reality, and search for excitement). Spoils go to the victor, here the offender.
+* __Being on a heroic mission__: Avening insult or defending/restoring honour of self
+or others (see honour killings). Offender sees himself as justified hero.
+* __Being a tragic victim__: Offender feels to always draw the short stick and being 
+a misunderstood.
+* __Being a professional__: Usually older ones see crime as just what they do and might 
+develop some professionl pride (like robbing a bank with noone getting hurt)
