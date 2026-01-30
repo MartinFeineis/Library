@@ -66,6 +66,9 @@ a misunderstood.
 * __Being a professional__: Usually older ones see crime as just what they do and might 
 develop some professionl pride (like robbing a bank with noone getting hurt)
 
+__p141__: Working on violent crimes:
+* Expressive violence: an outburst of emotional feelings
+* Instrumental violence: Violence is being used as a means to an end.
 __p332__: B.F. Skinner - Stages in the  _wise parenting_ process:
 1. Building rapport and trust with the family by relating to theis daily concerns and experiences.
 2. Establishing goals of what the family wants to achieve (see "Lack of commitment issue in 5 dysfunctions of a Team)
