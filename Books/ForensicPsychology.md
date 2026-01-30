@@ -65,3 +65,9 @@ or others (see honour killings). Offender sees himself as justified hero.
 a misunderstood.
 * __Being a professional__: Usually older ones see crime as just what they do and might 
 develop some professionl pride (like robbing a bank with noone getting hurt)
+
+__p332__: B.F. Skinner - Stages in the  _wise parenting_ process:
+1. Building rapport and trust with the family by relating to theis daily concerns and experiences.
+2. Establishing goals of what the family wants to achieve (see "Lack of commitment issue in 5 dysfunctions of a Team)
+3. Reviewing any success in achieving initial changes, however small, so that the family begins to feel that the process is having some effect.
+4. Identify parenting skills that can be developed and tried out between sessions with the therapist.
