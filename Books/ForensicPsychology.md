@@ -74,3 +74,12 @@ __p332__: B.F. Skinner - Stages in the  _wise parenting_ process:
 2. Establishing goals of what the family wants to achieve (see "Lack of commitment issue in 5 dysfunctions of a Team)
 3. Reviewing any success in achieving initial changes, however small, so that the family begins to feel that the process is having some effect.
 4. Identify parenting skills that can be developed and tried out between sessions with the therapist.
+
+__p175__: Tony Blair (british PM) 'tough on crime and tough on the causes of crime'
+Succeeding only in displacing crime:
+* Moving area: crime spots are getting surveiled by CCTV cameras so different crime spots emerge.
+* changing timing: burglaries happen when security guards shift or are away.
+* changing operational procedures: wearing hoodies to prevent identification, car 
+thefts at gunpoint due to new key technologies.
+* changing nature or targets: terrorists attack civilians as politicians increase
+security
