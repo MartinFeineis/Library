@@ -82,4 +82,19 @@ Succeeding only in displacing crime:
 * changing operational procedures: wearing hoodies to prevent identification, car 
 thefts at gunpoint due to new key technologies.
 * changing nature or targets: terrorists attack civilians as politicians increase
-security
+securitye
+__p179__: Reducing crime rate by changing the law.
+* abolishing prohibition
+* legalising homosexuality 
+* legalising drugs
+The crime rate looks better now but alcoholism and drug abuse are still a problem. 
+
+__p182__: Strategies to negotiate with kidnappers:
+* Confirmation: Assuring the kidnapper has authority over the hostage and giving them room
+to manoeuvre "I know you can do it, I don't want you to make it worse."
+* Authorisation: Building rapport with the kidnapper against a higher power "I want to
+give you a car to get out, but the higher ups don't let me."
+* Complicating: Introducing circumstances the kidnapper might not have thought of hence limiting
+their assumptions on whats possible. 
+* Testing: Directly challenging the hostage-taker about what they are threatening. Stating
+they are not going to hame the hostage if there is a peaceful solution.

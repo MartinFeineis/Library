@@ -101,7 +101,7 @@ ppt:		outputs text in another antique form
 primes:		generate primes
 quiz:		random knowledge tests
 rain:		attempts to create a rain drop effect (best at 9600 baud)
-random:		random lines from a file or random numbers
+random:		In default setting takes stdin and repeats it with a probablity of 50%
 robots:		well... avoid the robots
 sail:		sail your ship into battle
 snake:		grab the cash and avoid the snake and exit
