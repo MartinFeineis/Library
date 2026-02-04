@@ -98,3 +98,11 @@ give you a car to get out, but the higher ups don't let me."
 their assumptions on whats possible. 
 * Testing: Directly challenging the hostage-taker about what they are threatening. Stating
 they are not going to hame the hostage if there is a peaceful solution.
+
+__p191__: Personality test:
+* Rohrschach inkblot: looking at ambigous images indicate aspects of subconsious mind.
+* Thematic Apperception Test (TAT): Stories about ambigous images are interpreted.
+* Szondi Test: Novel tes asking which face drawing is preferred, to indicate mental state.
+Objective Questionaire style tests:
+* Minnesota Multiphase Personality Inventory (MMPI): 600 Binary questions
+* Millon Clinical Multiaxial Inventory (MCMI): Assessment of mental illness.
