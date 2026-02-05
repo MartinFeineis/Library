@@ -123,5 +123,6 @@ __p199__: Personality Dimensions
 * Consientiousness
 * Extraversion
 * Neuroticism
-* Openenes
+* Openeness
 [see](https://www.outofservice.com/bigfive/)
+__p208__: Malingering, faking symptoms/illness physically or mentally
