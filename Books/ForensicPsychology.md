@@ -100,9 +100,28 @@ their assumptions on whats possible.
 they are not going to hame the hostage if there is a peaceful solution.
 
 __p191__: Personality test:
+Projective Procedures:
 * Rohrschach inkblot: looking at ambigous images indicate aspects of subconsious mind.
 * Thematic Apperception Test (TAT): Stories about ambigous images are interpreted.
 * Szondi Test: Novel tes asking which face drawing is preferred, to indicate mental state.
 Objective Questionaire style tests:
 * Minnesota Multiphase Personality Inventory (MMPI): 600 Binary questions
 * Millon Clinical Multiaxial Inventory (MCMI): Assessment of mental illness.
+* Personality Assessment Inventory (PAI): 344 Questions to assess problems for treament planning
+Measure of intellect/cognition:
+* Wechsler Adult Intelligence Scale (WAIS): Standard intelligence test
+* Trail Making Tests A and B: testing how quickly a person can do visual tasks
+* Luria-Nebraska Neurophysiological Battery: 269 items to measure brain functions.A
+
+__p198__: Thinking abilities:
+* Attention: Ability to focus on a specific task and readiness to be distracted.
+* Memory: Ability to remember short and long term.
+* Reasoning: Ability to draw logical conclusions from presented information.
+
+__p199__: Personality Dimensions
+* Agreeablness
+* Consientiousness
+* Extraversion
+* Neuroticism
+* Openenes
+[see](https://www.outofservice.com/bigfive/)
