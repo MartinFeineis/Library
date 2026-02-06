@@ -82,7 +82,8 @@ Succeeding only in displacing crime:
 * changing operational procedures: wearing hoodies to prevent identification, car 
 thefts at gunpoint due to new key technologies.
 * changing nature or targets: terrorists attack civilians as politicians increase
-securitye
+security
+
 __p179__: Reducing crime rate by changing the law.
 * abolishing prohibition
 * legalising homosexuality 
@@ -126,3 +127,11 @@ __p199__: Personality Dimensions
 * Openeness
 [see](https://www.outofservice.com/bigfive/)
 __p208__: Malingering, faking symptoms/illness physically or mentally
+__p211__: Multiphasic Sex Inventory, more info needed.
+__p213__: Some DSM (Diagnostic and Statistical Manual):
+* Paranoid: Seeing other people as demeaning, threatinig and untrustworthy.
+* Schizoid: Being indifferent to others, solitary and with limited emotional expression.
+* Borderline: Rapid mood changes, intense anger, fear abandonment.
+* Histrionic: often superficial but great excess of emotional reactions, attention seeking.
+* Narcissitic: Extremely self-important, feeling of entitlement to admiration, upset when criticised.
+* Antisocial: displaying behaviour disorders and irresponsibility, lack of remorse from 15 years old onward.
