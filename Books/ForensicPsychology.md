@@ -128,7 +128,10 @@ __p199__: Personality Dimensions
 [see](https://www.outofservice.com/bigfive/)
 __p208__: Malingering, faking symptoms/illness physically or mentally
 __p211__: Multiphasic Sex Inventory, more info needed.
-__p213__: Some DSM (Diagnostic and Statistical Manual):
+__p213__: 
+Psychopath are lucid and coherent without signs of learning disability, they can be superficially charming and intelligent 
+enough to be plausible on first acquaintance.
+Some DSM (Diagnostic and Statistical Manual):
 * Paranoid: Seeing other people as demeaning, threatinig and untrustworthy.
 * Schizoid: Being indifferent to others, solitary and with limited emotional expression.
 * Borderline: Rapid mood changes, intense anger, fear abandonment.
