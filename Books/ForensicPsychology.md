@@ -135,6 +135,19 @@ Some DSM (Diagnostic and Statistical Manual):
 * Narcissitic: Extremely self-important, feeling of entitlement to admiration, upset when criticised.
 * Antisocial: displaying behaviour disorders and irresponsibility, lack of remorse from 15 years old onward.
 
+__p215__: psychopathy checklist
+Movies that display psychopathy with some psychological insight: [The Cabinet of Dr Caligari](https://watch.plex.tv/movie/the-cabinet-of-dr-caligari-1920)
+[No Country for Old Men](https://watch.plex.tv/movie/no-country-for-old-men)
+* Type 1: superficially charming, pathological liars, callous and remorseless, e.g. Patricia Highsmith's fictional Tom Ripley
+* Type 2: antisocial tendencies, more obviously criminal with juvenile delinquencies, impulsive and irresponsible
+
+__p234__: Battered women syndrome
+* Development of ways of surviving (for example, through appeasement rather than escaping)
+* Low self-esteem
+* Depression
+* Self-blame (the victim mistakenly believes the abuse is her fault and that she can do something to stop it happening in the future)
+* A genuine fear for her life or her children's welfare
+
 __p332__: B.F. Skinner - Stages in the  _wise parenting_ process:
 1. Building rapport and trust with the family by relating to theis daily concerns and experiences.
 2. Establishing goals of what the family wants to achieve (see "Lack of commitment issue in 5 dysfunctions of a Team)
