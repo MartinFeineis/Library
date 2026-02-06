@@ -46,6 +46,7 @@ victims are feeling.
 Some highly successful people are on the opposite spectrucm.
 * Search for excitement: Many criminals are sensation seekers, that enjoy the
 excitement of committing a crime.
+
 __p043__: Mental Disorders:
 * Sadism: origin [Marquis de Sade](https://en.wikipedia.org/wiki/Marquis_de_Sade)
 Causing suffering and humiliating the victim gives pleasuer to the sadist, they 
@@ -69,11 +70,6 @@ develop some professionl pride (like robbing a bank with noone getting hurt)
 __p141__: Working on violent crimes:
 * Expressive violence: an outburst of emotional feelings
 * Instrumental violence: Violence is being used as a means to an end.
-__p332__: B.F. Skinner - Stages in the  _wise parenting_ process:
-1. Building rapport and trust with the family by relating to theis daily concerns and experiences.
-2. Establishing goals of what the family wants to achieve (see "Lack of commitment issue in 5 dysfunctions of a Team)
-3. Reviewing any success in achieving initial changes, however small, so that the family begins to feel that the process is having some effect.
-4. Identify parenting skills that can be developed and tried out between sessions with the therapist.
 
 __p175__: Tony Blair (british PM) 'tough on crime and tough on the causes of crime'
 Succeeding only in displacing crime:
@@ -126,10 +122,10 @@ __p199__: Personality Dimensions
 * Neuroticism
 * Openeness
 [see](https://www.outofservice.com/bigfive/)
-__p208__: Malingering, faking symptoms/illness physically or mentally
-__p211__: Multiphasic Sex Inventory, more info needed.
-__p213__: 
-Psychopath are lucid and coherent without signs of learning disability, they can be superficially charming and intelligent 
+
+__p208__: Malingering, faking symptoms/illness physically or mentally  
+__p211__: Multiphasic Sex Inventory, more info needed.  
+__p213__: Psychopath are lucid and coherent without signs of learning disability, they can be superficially charming and intelligent 
 enough to be plausible on first acquaintance.
 Some DSM (Diagnostic and Statistical Manual):
 * Paranoid: Seeing other people as demeaning, threatinig and untrustworthy.
@@ -138,3 +134,9 @@ Some DSM (Diagnostic and Statistical Manual):
 * Histrionic: often superficial but great excess of emotional reactions, attention seeking.
 * Narcissitic: Extremely self-important, feeling of entitlement to admiration, upset when criticised.
 * Antisocial: displaying behaviour disorders and irresponsibility, lack of remorse from 15 years old onward.
+
+__p332__: B.F. Skinner - Stages in the  _wise parenting_ process:
+1. Building rapport and trust with the family by relating to theis daily concerns and experiences.
+2. Establishing goals of what the family wants to achieve (see "Lack of commitment issue in 5 dysfunctions of a Team)
+3. Reviewing any success in achieving initial changes, however small, so that the family begins to feel that the process is having some effect.
+4. Identify parenting skills that can be developed and tried out between sessions with the therapist.
