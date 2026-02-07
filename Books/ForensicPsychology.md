@@ -140,6 +140,28 @@ Movies that display psychopathy with some psychological insight: [The Cabinet of
 [No Country for Old Men](https://watch.plex.tv/movie/no-country-for-old-men)
 * Type 1: superficially charming, pathological liars, callous and remorseless, e.g. Patricia Highsmith's fictional Tom Ripley
 * Type 2: antisocial tendencies, more obviously criminal with juvenile delinquencies, impulsive and irresponsible
+Selfish, callous psychopathy (Type 1):
+* Glibly, but superficially, charming
+* Grandiose feeling of self-importance
+* Pathological liar - lies even when no need exists
+* Manipulates others; cunning
+* Lacks remorse or any feelings of guilt
+* Doesn't really feel strongly about anything (see: Suzanne Grieger Langer on psychopaths)
+* Lacks empathy
+* Doesn't accept responsibility for own actions
+
+Deviant Psyochopath (Type2)
+* Easily bored, needs excitement (see: Suzanne Grieger Langer on psychopaths)
+* Feeds of other people
+* No realistic, long-term goals
+* Impulsive
+* Irresponsible
+* Lack of control over actions
+* Behavioural problems in childhood
+* Juvenile Delinquency
+* Different types of offending
+* Abuses any conditions set by the courts
+Both types also tend to promiscuous sexual behaviour and many short-term relationships
 
 __p234__: Battered women syndrome
 * Development of ways of surviving (for example, through appeasement rather than escaping)
@@ -148,6 +170,16 @@ __p234__: Battered women syndrome
 * Self-blame (the victim mistakenly believes the abuse is her fault and that she can do something to stop it happening in the future)
 * A genuine fear for her life or her children's welfare
 
+__p237__: Munchausen Syndrome (Münchhausen-Syndrom)
+Munchausen syndrom is where a person seeks medical treatment from self-inflicted or non-existent symptoms.
+Munchause syndrom by proxy is where a parent forces medical attention on her child, a form of child abuse.
+Typical characteristics:
+* Mother is highly involved with her child and father is emotionally distant.
+* Parent is emotionally empty, unable to feel for other people and lonely.
+* Parent experienced childhood emotional, physical or sexual abuse
+* Appears as an ideal, very concerned parent
+* Parent is over-protective and obsessed with child's illness.
+__p226__: Movie "The runaway Jury"  
 __p332__: B.F. Skinner - Stages in the  _wise parenting_ process:
 1. Building rapport and trust with the family by relating to theis daily concerns and experiences.
 2. Establishing goals of what the family wants to achieve (see "Lack of commitment issue in 5 dysfunctions of a Team)
