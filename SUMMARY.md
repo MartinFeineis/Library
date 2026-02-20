@@ -1,3 +1,5 @@
+[Notes](notes.md)
+
 ## Operating Systems
 
 * [Windows](Windows/Windows.md)

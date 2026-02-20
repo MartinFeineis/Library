@@ -87,7 +87,7 @@ factor:		factor a number
 fish:		go fish
 fortune:	displays a random silly message
 gomoku:		gomoku
-hack:		exploring the Dungeons of Doom
+_hack_:		exploring the Dungeons of Doom
 hangman:	guess the word before it is too late
 hunt:		hunt each other in a maze (multiplayer -- great)
 mille:		mille borne against the computer
