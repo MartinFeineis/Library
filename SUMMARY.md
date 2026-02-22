@@ -49,7 +49,7 @@
     * [Postgres](Data/Postgres.md)
     * [SQL](Data/SQL.md)
 * [AI](AI/AI.md)
-    * [Vibing](VibeCoding.md)
+    * [Vibing](AI/VibeCoding.md)
 
 ## WebDevelopment
 * [WebDev](WebDev/WebDev.md)
