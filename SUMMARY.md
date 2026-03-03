@@ -70,4 +70,4 @@
 * [Aldous Huxley - Brave New World](Books/BraveNewWorld.md)
 * [Hold on to your kids](Books/HoldOnToYourKids.md)
 
-[Notes](./notes.md)
+### [Notes](./notes.md)
