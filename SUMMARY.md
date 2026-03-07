@@ -19,6 +19,7 @@
 * [MacOSX](MacOSx/MacOSx.md)
 * [OSSetup](OSSetup/Custom.md)
     * [WinInstallers](OSSetup/WinInstalls.md)
+    * [Archive](OSSetup/Archive.md)
 * [Seurity](OSSetup/Security.md)
 
 ## Cloudproviders

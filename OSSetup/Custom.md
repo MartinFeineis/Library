@@ -1,27 +1,45 @@
-# This is how I setup my Work Environment
+# Linux OS Setup
+## ZSH
+Install, verify `zsh` location and change it to default shell
+```bash
+sudo apt-get install zsh
+whereis zsh
+chsh -s /usr/bin/zsh wolle
+```
+### Oh-my-zsh
+Documentation is [here](https://github.com/ohmyzsh/ohmyzsh) Install `Oh-my-zsh` first because it comes with its own `.zshrc` file
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+### Syntax highlighting
+More [here](https://github.com/zsh-users/zsh-syntax-highlighting)
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+### Spaceship prompt
+To make things look nice, more info [here](https://github.com/spaceship-prompt/spaceship-prompt)
+```bash
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+```
+### ZSH Completions
+more info [here](https://github.com/zsh-users/zsh-completions)
+```bash
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+```
+### ZSH autosuggestions
+See Documentation [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
 ## Python Setup
 ### Install pyenv
 ### update-alternatives
 
-## Install i3
-
-## Install Terminator
-
-## Install zsh
-### Install zsh Plugins
-#### Oh-my-zsh
-#### Spaceship Theme
-#### zsh-autosugest
-#### zshrc File
 add aliases to mount nfs fileshares
 
-## Install Colorls
-This how to install it on Linux Mint 21.1 Vera, with gem 3.3.5 and ruby 3.0.2p107
-```
-sudo apt-get install -y build-essential
-gem install --user-install colorls
-echo "$PATH=$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin/" >> ~/.zshrc
-```
 
 ## Install Nerdfonts
 check [here](https://www.nerdfonts.com/font-downloads) 
@@ -76,40 +94,6 @@ t(){for ((i=1; i<=100; i++ )) { (curl www.URL.com > /dev/null  ; echo $i );next}
 ```
 Only blows your system without putting real stress on a server, but might get you banned or blocked.
 
-# ZSH
-Install, verify `zsh` location and change it to default shell
-```bash
-sudo apt-get install zsh
-whereis zsh
-chsh -s /usr/bin/zsh wolle
-```
-## Oh-my-zsh
-Documentation is [here](https://github.com/ohmyzsh/ohmyzsh) Install `Oh-my-zsh` first because it comes with its own `.zshrc` file
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-### Syntax highlighting
-More [here](https://github.com/zsh-users/zsh-syntax-highlighting)
-```bash
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-
-### Spaceship prompt
-To make things look nice, more info [here](https://github.com/spaceship-prompt/spaceship-prompt)
-```bash
-git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-```
-### ZSH Completions
-more info [here](https://github.com/zsh-users/zsh-completions)
-```bash
-git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
-```
-### ZSH autosuggestions
-See Documentation [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
-```bash
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
 ## Colorls
 Install buildtools, buildessentials, ruby and then a too complicated bash expression that should work independent of ruby version (famous last words).
 ```bash
