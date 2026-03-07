@@ -34,12 +34,12 @@ See Documentation [here](https://github.com/zsh-users/zsh-autosuggestions/blob/m
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-## Python Setup
-### Install pyenv
-### update-alternatives
-
+## Network Drives 
 add aliases to mount nfs fileshares
-
+```
+nasghoul:/volume1/public  /mnt/pubnas  nfs  _netdev,nofail,x-systemd.automount,x-systemd.idle-timeout=600,timeo=50,retrans=2  0  0
+nasghoul:/volume1/work    /mnt/worknas nfs  _netdev,nofail,x-systemd.automount,x-systemd.idle-timeout=600,timeo=50,retrans=2  0  0
+```
 
 ## Install Nerdfonts
 check [here](https://www.nerdfonts.com/font-downloads) 
@@ -57,11 +57,12 @@ unzip awscliv2.zip
 sudo ./aws/install
 ```
 ## CommandLine Tools
-### Installing colorls
+### Install lsd-rs 
+[Github](https://github.com/lsd-rs/lsd)
 ```bash
-sudo apt-get install ruby2.3-dev
-sudo gem install colorls
+sudo apt install lsd
 ```
+
 ### Install bat
 Bat is more eye-friendly cat alternative, on [Github](https://github.com/sharkdp/bat). 
 Replace the release number down there with the latest from the
