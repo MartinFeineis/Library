@@ -50,6 +50,13 @@ unzip /tmp/UbuntuMono.zip -d ~/.local/share/fonts
 fc-cache -f -v
 ```
 
+## File display colors
+Vivid to update (LS_COLORS)[https://github.com/sharkdp/vivid]
+```
+wget "https://github.com/sharkdp/vivid/releases/download/v0.10.1/vivid_0.10.1_amd64.deb"
+sudo dpkg -i vivid_0.10.1_amd64.deb
+echo 'export LS_COLORS="$(vivid -m 8-bit generate ayu)"' >> ~/.zshrc
+```
 ## Install AWS-CLI
 ```bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -89,20 +96,7 @@ sudo apt install autojump
 echo "source /usr/share/autojump/autojump.sh" >> ~/.zshrc
 ```
 
-## Pseudo stresstest forkbomb
-```bash
-t(){for ((i=1; i<=100; i++ )) { (curl www.URL.com > /dev/null  ; echo $i );next} & ; t }
-```
-Only blows your system without putting real stress on a server, but might get you banned or blocked.
 
-## Colorls
-Install buildtools, buildessentials, ruby and then a too complicated bash expression that should work independent of ruby version (famous last words).
-```bash
-sudo apt-get install build-essential bison openssl libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev ncurses-dev automake libtool
-sudo apt install ruby ruby-dev gcc make
-gem install colorls --user-install
-alias colorls="`gem env | grep "USER INSTALLATION DIRECTORY" | awk '{ print $5 }'`/bin/colorls"
-```
 
 ### Auto Sugges
 
