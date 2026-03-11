@@ -1,6 +1,6 @@
 # Decommissioned Installer Notes
-
-## Install Colorls
+## Linux
+### Install Colorls
 This how to install it on Linux Mint 21.1 Vera, with gem 3.3.5 and ruby 3.0.2p107
 ```
 sudo apt-get install -y build-essential
@@ -8,11 +8,28 @@ gem install --user-install colorls
 echo "$PATH=$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin/" >> ~/.zshrc
 ```
 
-## Colorls
+### Colorls
 Install buildtools, buildessentials, ruby and then a too complicated bash expression that should work independent of ruby version (famous last words).
 ```bash
 sudo apt-get install build-essential bison openssl libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev ncurses-dev automake libtool
 sudo apt install ruby ruby-dev gcc make
 gem install colorls --user-install
 alias colorls="`gem env | grep "USER INSTALLATION DIRECTORY" | awk '{ print $5 }'`/bin/colorls"
+```
+## Windows
+### Install Virtualbox
+```powershell
+New-Item -ItemType directory -Path "~\Downloads\VirtualBox"
+Copy-Item -Path "~\Downloads\VirtualBox.exe" -Destination "~\Downloads\Virtualbox\current\virtualBox.exe" -Recurse -Force
+cd ~\AppData\Local\Temp\VirtualBox
+.\VirtualBox-5.2.14-r123301-MultiArch_amd64.msi
+```
+
+### Install .Net4.7.2
+```powershell
+$dotnetPath = "E:\Software\microsoft\.NET\dotnet472"
+New-Item -path dotnetPath -itemtype "directory"
+Invoke-WebRequest -Uri "https://download.microsoft.com/download/A/1/D/A1D07600-6915-4CB8-A931-9A980EF47BB7/NDP47-DevPack-KB3186612-ENU.exe" -OutFile dotnetPath\dotnet472.exe
+cd dotnetPath
+.\dotnet472.exe /q
 ```
