@@ -70,6 +70,14 @@ use rename for my kindle exports
 rename 's/[()]//g' *
 rename 's/ /_/g' * 
 ```
+rename all files so that _Extra_ gets removed and the _number_ after it gets prepended to _-other_ 
+```sh
+45# optiplex in Movies/T/Top Gun (1986)
+➜ rename 's/\ Extra\ (\d+)/ $1-other/g' * -n
+rename(Top Gun (1986) Extra 10.mkv, Top Gun (1986) 10-other.mkv)
+rename(Top Gun (1986) Extra 11.mkv, Top Gun (1986) 11-other.mkv)
+rename(Top Gun (1986) Extra 12.mkv, Top Gun (1986) 12-other.mkv)
+```
 ## du
 Getting disk usage with excluding one or more pathes  
 ```sh

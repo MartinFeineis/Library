@@ -4,7 +4,7 @@ Install, verify `zsh` location and change it to default shell
 ```bash
 sudo apt-get install zsh
 whereis zsh
-chsh -s /usr/bin/zsh wolle
+chsh -s /usr/bin/zsh ${whoami}
 ```
 ### Oh-my-zsh
 Documentation is [here](https://github.com/ohmyzsh/ohmyzsh) Install `Oh-my-zsh` first because it comes with its own `.zshrc` file
