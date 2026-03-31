@@ -61,6 +61,7 @@ for item in {1..10} ; do mkdir ${item}_stringname ; done
 for i in $(find . -iname "*.tf"); do file $i && grep $i -e "ecr" ; done
 ```
 ## rename
+`rename` uses Perl Regular Expression syntax [cheatsheet](https://perlmaven.com/regex-cheat-sheet)
 Remove `string` from the beginning of all files in the current directory using `rename`
 ```sh
 rename 's/string//;' 
@@ -70,7 +71,7 @@ use rename for my kindle exports
 rename 's/[()]//g' *
 rename 's/ /_/g' * 
 ```
-rename all files so that _Extra_ gets removed and the _number_ after it gets prepended to _-other_ 
+rename all files so that _Extra_ gets removed and the _number_ after it gets prepended to _-other_ see grouping and capturing
 ```sh
 45# optiplex in Movies/T/Top Gun (1986)
 ➜ rename 's/\ Extra\ (\d+)/ $1-other/g' * -n

@@ -6,10 +6,16 @@
 * `<pattern>` The pattern to search for  
 * `<replace>` what to replace the pattern with  
 Example comment lines 15 to 25 `:15,25s/^/#`  
+[Vim RexEx Engine](https://learnbyexample.github.io/vim_reference/Regular-Expressions.html)
 change US Date format to European format, and vice-versa
-```
-<range>s/\(\d\+\).\(\d\+\)./\2\/\1\//
+```vim
+" US (MM/DD/YYYY) → EU (DD.MM.YYYY)
+<range>s/\(\d\+\)\/\(\d\+\)\/\(\d\+\)/\2.\1.\3/
 <range>s/\(\d\+\)\/\(\d\+\)\//\2\.\1\./
+
+" EU (DD.MM.YYYY) → US (MM/DD/YYYY)
+<range>s/\(\d\+\)\.\(\d\+\)\.\(\d\+\)/\2\/\1\/\3/
+<range>s/\(\d\+\).\(\d\+\)./\2\/\1\//
 ```
 ## insert file at current position
 `:r <path/to/file>`
