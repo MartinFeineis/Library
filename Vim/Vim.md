@@ -6,6 +6,11 @@
 * `<pattern>` The pattern to search for  
 * `<replace>` what to replace the pattern with  
 Example comment lines 15 to 25 `:15,25s/^/#`  
+change US Date format to European format, and vice-versa
+```
+<range>s/\(\d\+\).\(\d\+\)./\2\/\1\//
+<range>s/\(\d\+\)\/\(\d\+\)\//\2\.\1\./
+```
 ## insert file at current position
 `:r <path/to/file>`
 insert lines _9_  _19_ from file `myfile`
@@ -22,17 +27,18 @@ usefule link [ranges](https://vim.fandom.com/wiki/ranges)
 `$` goes to end of line.  
 `0` goes to the beginning of line (`^` seems to do the same)
 
+## Visual Mode operations
+Remap visual mode to `\v` with `nnoremap <Leader>v <C-V>` in `.vimrc` to avoid conflict with Windows _Paste_ operation on 
+`Ctrl-v`
 ## Insert on multiple Lines
-Enter visual mode <Ctrl>-v,
 move to mark the needed lines (h,j,k,l)
-Hit <Shift>-I for insert mode,
-type text and hit <Esc>
+Hit `<Shift>-I` for insert mode,
+type text and hit `<Esc>`
 
 ## Increment numbers
-Enter visual mode <Ctrl>-v
 mark the numbers to be icremented (there need to be integers, it does not fill
 whitespace. Use multiline insert first if needed.)
-then type `g` and <Ctrl>-a
+then type `g` and `<Ctrl>-a`
 type `:h v_g` to see help entry
 
 ## regex
