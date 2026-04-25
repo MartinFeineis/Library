@@ -62,7 +62,7 @@ class person():
 ```
 and the output from interactive session is:
 ```python
-PS C:\Users\920280\OneDrive - Cognizant\Documents> python.exe -i person.py
+PS C:\Users\me\Documents> python.exe -i person.py
 >>> help(person)
 Help on class person in module __main__:
 
