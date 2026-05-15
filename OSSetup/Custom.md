@@ -65,6 +65,7 @@ sudo ./aws/install
 ```
 ## CommandLine Tools
 ### Install lsd-rs 
+:white_check_mark: Verified on Acer Extensa with AntiXLinux
 [Github](https://github.com/lsd-rs/lsd)
 ```bash
 sudo apt install lsd
