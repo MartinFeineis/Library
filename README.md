@@ -10,7 +10,7 @@ Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/bl
 
 > [!TIP]
 > Markdown uses `>` indentations [see](https://www.markdownlang.com/basic/blockquotes.html#_3-tip-message)  
-> :atm: [github](https://gist.github.com/rxaviers/7360908) markdown also support emojis ✅
+>  :articulated_lorry: [github](https://gist.github.com/rxaviers/7360908) markdown also support emojis ✅
 
 ### Math Formulas
 Gitbook [Docs](https://gitbook.com/docs/creating-content/blocks/math-and-tex)

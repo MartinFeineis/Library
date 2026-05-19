@@ -1,6 +1,7 @@
 # Linux OS Setup
 ## ZSH
 Install, verify `zsh` location and change it to default shell
+:white_check_mark: Verified on Acer Extensa with AntiXLinux
 ```bash
 sudo apt-get install zsh
 whereis zsh
@@ -53,9 +54,10 @@ fc-cache -f -v
 ## File display colors
 Vivid to update (LS_COLORS)[https://github.com/sharkdp/vivid]
 ```
-wget "https://github.com/sharkdp/vivid/releases/download/v0.10.1/vivid_0.10.1_amd64.deb"
+VIVID_VER="0.11.1"
+wget "https://github.com/sharkdp/vivid/releases/download/v${VIVID_VER}/vivid_${VIVID_VER}_amd64.deb"
 sudo dpkg -i vivid_0.10.1_amd64.deb
-echo 'export LS_COLORS="$(vivid -m 8-bit generate ayu)"' >> ~/.zshrc
+printf 'export LS_COLORS="$(vivid -m 8-bit generate ayu)"\n' >> ~/.zshenv
 ```
 ## Install AWS-CLI
 ```bash
