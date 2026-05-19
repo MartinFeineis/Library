@@ -56,7 +56,7 @@ Vivid to update (LS_COLORS)[https://github.com/sharkdp/vivid]
 ```
 VIVID_VER="0.11.1"
 wget "https://github.com/sharkdp/vivid/releases/download/v${VIVID_VER}/vivid_${VIVID_VER}_amd64.deb"
-sudo dpkg -i vivid_0.10.1_amd64.deb
+sudo dpkg -i vivid_${VIVID_VER}_amd64.deb
 printf 'export LS_COLORS="$(vivid -m 8-bit generate ayu)"\n' >> ~/.zshenv
 ```
 ## Install AWS-CLI
