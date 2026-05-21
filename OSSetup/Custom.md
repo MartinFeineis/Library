@@ -8,28 +8,32 @@ whereis zsh
 chsh -s /usr/bin/zsh ${whoami}
 ```
 ### Oh-my-zsh
-Documentation is [here](https://github.com/ohmyzsh/ohmyzsh) Install `Oh-my-zsh` first because it comes with its own `.zshrc` file
+Documentation is [here](https://github.com/ohmyzsh/ohmyzsh) Install `Oh-my-zsh`  before running zsh for the first time, because it comes with its own `.zshrc` file
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 ### Syntax highlighting
+:white_check_mark: Verified on Acer Extensa with AntiXLinux
 More [here](https://github.com/zsh-users/zsh-syntax-highlighting)
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
 ### Spaceship prompt
+:white_check_mark: Verified on Acer Extensa with AntiXLinux
 To make things look nice, more info [here](https://github.com/spaceship-prompt/spaceship-prompt)
 ```bash
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 ### ZSH Completions
+:white_check_mark: Verified on Acer Extensa with AntiXLinux
 more info [here](https://github.com/zsh-users/zsh-completions)
 ```bash
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 ```
 ### ZSH autosuggestions
+:white_check_mark: Verified on Acer Extensa with AntiXLinux
 See Documentation [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
