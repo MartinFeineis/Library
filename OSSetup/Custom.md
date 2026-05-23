@@ -54,6 +54,14 @@ curl https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/UbuntuMono
 unzip /tmp/UbuntuMono.zip -d ~/.local/share/fonts 
 fc-cache -f -v
 ```
+or like this
+```bash
+# Download the full UbuntuMono Nerd Font pack with all weights
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/UbuntuMono.zip
+[ ! -d "~/.local/share/fonts" ] && mkdir -p ~/.local/share/fonts
+unzip UbuntuMono.zip -d ~/.local/share/fonts/UbuntuMono/
+fc-cache -fv
+```
 
 ## File display colors
 Vivid to update (LS_COLORS)[https://github.com/sharkdp/vivid]
