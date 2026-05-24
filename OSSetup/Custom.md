@@ -48,19 +48,13 @@ nasghoul:/volume1/work    /mnt/worknas nfs  _netdev,nofail,x-systemd.automount,x
 
 ## Install Nerdfonts
 check [here](https://www.nerdfonts.com/font-downloads) 
+Install and clean up UbuntuMono Nerdfonts regular, bold, italic and bold-italic
 ```bash
-curl https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/UbuntuMono.zip -o /tmp/UbuntuMono.zip
-[ ! -d "~/.local/share/fonts" ] && mkdir -p ~/.local/share/fonts
-unzip /tmp/UbuntuMono.zip -d ~/.local/share/fonts 
-fc-cache -f -v
-```
-or like this
-```bash
-# Download the full UbuntuMono Nerd Font pack with all weights
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/UbuntuMono.zip
 [ ! -d "~/.local/share/fonts" ] && mkdir -p ~/.local/share/fonts
 unzip UbuntuMono.zip -d ~/.local/share/fonts/UbuntuMono/
 fc-cache -fv
+rm UbuntuMono.zip
 ```
 
 ## File display colors
