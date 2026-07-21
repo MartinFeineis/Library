@@ -1,21 +1,12 @@
 # Linux Mint
-## Sublime Text#
-add webupd8 repository
-```sudo add-apt-repository ppa:webupd8team/sublime-text-2```
-## update Linux Mint
+## Preferred Applications
+Change to use Apps for specific uses, instead of defaults.
+Terminal --> ghostty
+Web --> Brave
+Video --> VLC
 
-$ sudo apt-get update
-## Install sublime Text2
-$ sudo apt-get install sublime-text
-## run Sublime Text with
-$ subl
-
-#Mongo DB#
-## with aptitude installing
-$ aptitude search mongo
-## creating db folder and giving ownership to mongodo user
-$ sudo mkdir -p /data/db
-$ sudo chown mongodb /data/db
+## Scanner
+Download Epson Scanner driver and Epson Scan2 App [here](https://download-center.epson.com/download/?module_id=5ff13ac7-4fe4-4b61-9f8b-71e5e2a1c786%3A6.7.90.0&device_id=Perfection+V19&os=DEBX64&region=US&language=en)
 
 #Remmina RDP#
 ## install remmina and rdp-plugin
