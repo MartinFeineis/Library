@@ -27,3 +27,10 @@ $$
 \nabla \times E = - \frac{1}{c} \frac{\partial B}{\partial t} \\
 \nabla \times B = \mu_0 \big( J + \epsilon_0 \frac{\partial E}{\partial t} \big) 
 $$
+
+Info:
+commit ec118024ec0fbc47a7f7865ec69cb144534e8f1e (HEAD -> master, origin/master, origin/HEAD)
+Author: Martin Feineis
+Date:   Wed Jul 29 10:43:01 2026 -0400
+
+    fixed Readme Math Block 0
