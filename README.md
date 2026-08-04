@@ -28,9 +28,5 @@ $$
 \nabla \times B = \mu_0 \big( J + \epsilon_0 \frac{\partial E}{\partial t} \big) 
 $$
 
-Info:
-commit ec118024ec0fbc47a7f7865ec69cb144534e8f1e (HEAD -> master, origin/master, origin/HEAD)
-Author: Martin Feineis
-Date:   Wed Jul 29 10:43:01 2026 -0400
-
-    fixed Readme Math Block 0
+Seneca: "He who suffers before it is necessary suffers more than is necessary."
+[Epictetus](https://en.wikiquote.org/wiki/Epictetus): "For it is impossible for anyone to begin to learn that which he thinks he already knows."
