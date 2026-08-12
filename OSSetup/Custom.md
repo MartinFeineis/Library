@@ -58,13 +58,15 @@ rm UbuntuMono.zip
 ```
 
 ## File display colors
-Vivid to update (LS_COLORS)[https://github.com/sharkdp/vivid]
-```
+Vivid to update [LS_COLORS](https://github.com/sharkdp/vivid)
+```bash
 VIVID_VER="0.11.1"
 wget "https://github.com/sharkdp/vivid/releases/download/v${VIVID_VER}/vivid_${VIVID_VER}_amd64.deb"
 sudo dpkg -i vivid_${VIVID_VER}_amd64.deb
 printf 'export LS_COLORS="$(vivid -m 8-bit generate ayu)"\n' >> ~/.zshenv
 ```
+For availabel [colorschemes](https://github.com/sharkdp/vivid/tree/master/themes)
+Ansi [colorschemes](https://www.ditig.com/256-colors-cheat-sheet) to set variables for custom themes
 ## Install AWS-CLI
 ```bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
