@@ -8,6 +8,15 @@ Video --> VLC
 ## Scanner
 Download Epson Scanner driver and Epson Scan2 App [here](https://download-center.epson.com/download/?module_id=5ff13ac7-4fe4-4b61-9f8b-71e5e2a1c786%3A6.7.90.0&device_id=Perfection+V19&os=DEBX64&region=US&language=en)
 
+# Set background Image Slideshow
+
+```
+gsettings list-keys org.cinnamon.desktop.background.slideshow
+gsettings set org.cinnamon.desktop.background.slideshow image-source "directory://$HOME/Pictures/backgrounds_sys76"\n``
+gsettings set org.cinnamon.desktop.background.slideshow random-order true
+gsettings set org.cinnamon.desktop.background.slideshow delay 60
+```
+
 #Remmina RDP#
 ## install remmina and rdp-plugin
 $ sudo apt-get install remmina
