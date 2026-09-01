@@ -61,3 +61,16 @@ NerdTree alternative [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 
 ## Appearances
 WebDevIcons [nvim-web-icons](https://github.com/nvim-tree/nvim-web-devicons)
+
+---
+tags: [ wolle, mystuff, neovim, nvim ]
+---
+# Tree Viewer https://github.com/nvim-tree/nvim-tree.lua
+Open tree view: Ctrl-o
+See Keymappings, in tree pane: g?
+  Show dotfile: H
+  Show git ignored: I
+
+## Macros
+press q and the register to save the macro in
+then replay it buy tying the number of replays and @ wit the register
