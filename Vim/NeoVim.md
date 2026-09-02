@@ -1,4 +1,5 @@
 # NeoVim
+[Cheatsheet](https://ncs.dev/)
 ## Installation
 ```bash
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
@@ -62,9 +63,6 @@ NerdTree alternative [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 ## Appearances
 WebDevIcons [nvim-web-icons](https://github.com/nvim-tree/nvim-web-devicons)
 
----
-tags: [ wolle, mystuff, neovim, nvim ]
----
 # Tree Viewer https://github.com/nvim-tree/nvim-tree.lua
 Open tree view: Ctrl-o
 See Keymappings, in tree pane: g?
