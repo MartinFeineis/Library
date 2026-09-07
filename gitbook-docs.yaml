@@ -1,11 +1,11 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: My DevOps Career
+  title: NewLib
   structure:
     - type: space
       key: space-1
-      title: My DevOps Career
-      path: my-devops-career
+      title: NewLib
+      path: newlib
       default: true
       content:
-        directory: ./my-devops-career
+        directory: ./newlib
