@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: My DevOps Career
+  structure:
+    - type: space
+      key: space-1
+      title: My DevOps Career
+      path: my-devops-career
+      default: true
+      content:
+        directory: ./my-devops-career
