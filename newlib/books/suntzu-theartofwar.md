@@ -1,0 +1,48 @@
+# Szun Tzu - The Art of War
+## I - Laying Plans
+## II - Waging War
+## III - Attack by Stratagem
+## IV - Tactical Dispositions
+## V - Energy
+* 1 Sun Tzu said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers.
+* 8 There are not more than five primary colors (blue, yellow, red, white and black), yet in combination they can produce more hues than can ever been seen.
+* 13 The quality of a decision is like the well-timed swoop of a falcon which enables it to strike and destroy its victim.
+* 14 Therefore the good fighter will be terrible in his onset, and prompt in his decision.
+* 15 Energy may be likened to the bending of a crossbow; decision, to the releasing of a trigger.
+## VI - Weak Points and Strong
+* 2 Therefore the clever combatant imposes his will on the enemy, but does not allow the enemy's will to be imposed on him.
+* 6 An army may march great distances without distress, if it marches through country where the enemy is not.
+* 7 You can be sure of succeeding in your attacks if you only attack places which are undefended. You can ensure the safety of your defense if you only hold positions that cannot be attacked.
+* 17 For should the enemy strengthen his van, he will weaken his rear; should he stregthen his rear, he will weaken his van; should he strengthen his left, he will weaken his right; should he strengthen his right he will weaken his left. If he sends reinforcements everywhere, he will everywhere be weak.
+* 19 Knowing the place and the time of the coming battle, we may concentrate from the greatest distances in order to fight.
+## VII - Maneuvering
+* 15 In war, practice dissimulation, and you will succeed.
+* 36 When you surround an army, leave an outlet free. Do not press a desperate foe too hard. (See desperate situations)
+## VIII - Variation in Tactics
+* 12 There are five dangerous faults which may affect a general:
+    * (1) Recklessness, which leads to destruction;
+    * (2) Cowardic, which leads to capture;
+    * (3) a hasty temper, which can be provoked by insult;
+    * (4) a delicacy of honor which is sensitive to shame;
+    * (5) over-solicitude for his men, which can expose him to worry and trouble.
+## IX - The Army on the March
+* 36 Too frequent reward signify that the enemy is at the end of his resources; too many punishments betray a condition of dire distress.
+* 37 To begin by bluster, but afterwards to take fright at the enemy's numbers, shows a supreme lack of intelligence.
+* 43 Therefore soldiers must be treated in the first instance with humanity, but kept under control by means of iron discipline. This is a certain road to victory.
+## X - Terrain
+## XI - The Nine Situations
+* 10 Ground from which we can only be saved from destruction by fighting without delay, is desperate ground.
+* 24 Soldiers when in desperate straits lose the sense of fear. If there is no place of refuge, they will stand firm. If they are in hostile country, they will show a stubborn front. If there is no help for it, they will fight hard. [See  Francisco Pizarro](https://www.projekt-gutenberg.org/schurig/pizarro/chap06.html).
+* 25 Thus, without waiting to be marshaled, the soldiers will be constantly on the [qui vive](https://www.merriam-webster.com/dictionary/qui%20vive); without waiting to be asked, they will do your will; without restrictions, they will be faithful; without giving orders, they can be trusted.
+* 35 It is the business of a general to be quiet and thus ensure secrecy; upright and just, and thus maintain order.
+* 36 He must be able to mystify his officers and men by false reports and appearances, and thus keep them in total ignorance.
+* 43 When you leave your own country behind, and take your army across neighborhood territory, you find yourself on critical ground. When there are means of communication on all four sides, the ground is one of intersecting highways.
+* 44 When you penetrate deeply into a country, it is serious ground. When you penetrate but a little way, it is i[facile](https://www.dict.cc/?s=facile) ground.
+* 45 When you have the enemy's strongholds on your rear, and narrow passes in front, it is hemmed-in ground. When there is no place of refuge at all, it is desperate ground.
+* 56 Bestow rewards without regard to rule, issue orders without regard to previous arrangements; and you will be able to handle your whole army as though you had to do with a single man.
+* 57 Confront your soldiers with the deed itself; never let them know your design. When the outlook is bright, bring it before their eyes; but tell them nothing when the situation is gloomy.
+## XII - The Attack by Fire
+* 17 Move not unless you see an advantage; use not your troops unless there is something to be gained; fight not unless the position is critical.
+* 18 No ruler should put troops into the field merely to gratify his own _spleen_; no general should fight a battle simply out of _pique_.
+## XIII - The Use of Spies
+* 15 Spies cannot be usefully employed without a certain intuitive [sagacity](https://www.dict.cc/?s=sagacity).

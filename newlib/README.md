@@ -1,0 +1,27 @@
+# README
+
+Some collection of code and code snippets to look up quickly since I frequently use them [gitbook.io Link](https://martinfeineis.gitbook.io/newlib/)\
+[github Link](https://github.com/MartinFeineis/Library) [flexible Notes](https://github.com/MartinFeineis/Library/blob/master/notes.md)
+
+{% hint style="warning" %}
+Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/blocks/hint#example-of-a-hint) to render blockquotes
+{% endhint %}
+
+> \[!TIP] Markdown uses `>` indentations [see](https://www.markdownlang.com/basic/blockquotes.html#_3-tip-message)\
+> :articulated\_lorry: [github](https://gist.github.com/rxaviers/7360908) markdown also support emojis ✅
+
+### Math Formulas
+
+Gitbook [Docs](https://gitbook.com/docs/creating-content/blocks/math-and-tex) with [KatTeX](https://katex.org/docs/supported.html) typesetting library **Inline equation**
+
+[Euler's Identity](https://en.wikipedia.org/wiki/Euler's_identity): $$e^{ i \pi } + 1 = 0$$
+
+**Math block** Maxwell's Equations\\
+
+$$
+\nabla \cdot E = \frac{\rho}{\epsilon_0} \\
+\nabla \cdot B = 0 \\
+\nabla \times E = - \frac{1}{c} \frac{\partial B}{\partial t} \\
+\nabla \times B = \mu_0 \big( J + \epsilon_0 \frac{\partial E}{\partial t} \big) 
+      vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>", { desc = "Toggle file tree" })dd
+$$
