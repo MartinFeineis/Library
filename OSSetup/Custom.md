@@ -1,15 +1,13 @@
 # Linux OS Setup
-## ZSH
+## ZSH and Oh-my-zsh
+Documentation is [here](https://github.com/ohmyzsh/ohmyzsh) 
+`Oh-my-zsh` right after `zsh`-shell to generate `.zshrc`-file and avoid zsh init-prompt
 Install, verify `zsh` location and change it to default shell
 :white_check_mark: Verified on Acer Extensa with AntiXLinux
 ```bash
 sudo apt-get install zsh
 whereis zsh
 chsh -s /usr/bin/zsh ${whoami}
-```
-### Oh-my-zsh
-Documentation is [here](https://github.com/ohmyzsh/ohmyzsh) Install `Oh-my-zsh`  before running zsh for the first time, because it comes with its own `.zshrc` file
-```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 ### Syntax highlighting
