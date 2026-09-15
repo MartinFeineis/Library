@@ -4,8 +4,8 @@ site:
   structure:
     - type: space
       key: space-1
-      title: NewLib
-      path: newlib
+      title: MyCodeLib
+      path: .
       default: true
       content:
         directory: .
