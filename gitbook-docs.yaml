@@ -8,4 +8,4 @@ site:
       path: newlib
       default: true
       content:
-        directory: ./newlib
+        directory: .
