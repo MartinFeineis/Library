@@ -1,32 +1,13 @@
-# Script Library Repo
-Some collection of code and code snippets to look up quickly since I frequently use them
-[gitbook.io Link](https://martinfeineis.gitbook.io/newlib/)  
-[github Link](https://github.com/MartinFeineis/Library)
-[flexible Notes](notes.md)
+# Introduction
 
-{% hint style="warning" %}
-Gitbooks uses `{% hint %}` [blocks](https://gitbook.com/docs/creating-content/blocks/hint#example-of-a-hint) to render blockquotes
-{% endhint %}
+[gitbook Link](https://martinfeineis.gitbook.io/my-devops-career/) I want to create this repo/gitbook to describe my career to become a DevOps Engineer If you want to support me by signing up for a Linode Account use my referral code [Linode](https://www.linode.com/?r=b129a2c77de98452aa357c25d0ea2f78f7dcda4f)
 
-> [!TIP]
-> Markdown uses `>` indentations [see](https://www.markdownlang.com/basic/blockquotes.html#_3-tip-message)  
->  :articulated_lorry: [github](https://gist.github.com/rxaviers/7360908) markdown also support emojis ✅
+## Goals of this course
 
-### Math Formulas
-Gitbook [Docs](https://gitbook.com/docs/creating-content/blocks/math-and-tex)
-with [KatTeX](https://katex.org/docs/supported.html) typesetting library 
-__Inline equation__  
+The intention of this course is to get a high level understanding of the current practices in most modern IT Projects. This course should give a guidance how to focus your own learning and possible career pathes in the IT landscape. This course is not meant to teach you _everything_. This course is meant to guide you through your own learning path. You could ask know, why you need to be here in the first place? I want to help guide people on meaningful and successful learning pathes through IT. I tried to teach myself to get into IT and become a developer for 15 years. I read a lot of books, a lot of which I didn't understand at the time of reading.
 
-[Euler's Identity](https://en.wikipedia.org/wiki/Euler%27s_identity): $$e^{ i \pi } + 1 = 0$$
+We will cover how the internet works with IP Addresses and DNS resolution. We will learn basic 3-Tier Architecture, and understand Frontend, Backend and Data Layer concepts and Technologies.
 
-__Math block__
-Maxwell's Equations\
-$$
-\nabla \cdot E = \frac{\rho}{\epsilon_0} \\
-\nabla \cdot B = 0 \\
-\nabla \times E = - \frac{1}{c} \frac{\partial B}{\partial t} \\
-\nabla \times B = \mu_0 \big( J + \epsilon_0 \frac{\partial E}{\partial t} \big) 
-$$
+## ToDos
 
-Seneca: "He who suffers before it is necessary suffers more than is necessary."
-[Epictetus](https://en.wikiquote.org/wiki/Epictetus): "For it is impossible for anyone to begin to learn that which he thinks he already knows."
+Add a folder for the content from 404founders, that then gets rendered into html. A second microservices/cronjob will ensure the content is up to date will ensure.
